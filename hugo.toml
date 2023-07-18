@@ -45,8 +45,8 @@ title        = 'Bad Dev'
 
   [[menu.main]]
 
-    name    = 'Family'
-    pageRef = '/fam'
+    name    = 'Posts'
+    pageRef = '/posts'
     weight  = 20
 
   [[menu.main]]
