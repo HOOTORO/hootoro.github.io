@@ -1,21 +1,38 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# Test binary, built with `go test -c`
-*.test
+# Bower dependency directory (https://bower.io/)
+bower_components
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# Dependency directories
+node_modules
+npm-debug.log*
+yarn-error.log
+yarn.lock
+package-lock.json
 
-# Go workspace file
-go.work
+# dotenv environment variables file
+.env
+
+# Temporary lock file while building
+.hugo_build.lock
+
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# UI custom themes
+themes

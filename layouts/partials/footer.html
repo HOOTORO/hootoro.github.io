@@ -1,0 +1,11 @@
+{{ partial "meta.html" . }}
+
+{{ with .Params.footer }}
+<!-- No footer here! -->
+{{ else }}
+<footer>
+    <sub>
+        Made by {{ .Site.Params.GitHubUser }}/{{ .Site.Params.Creation }}
+    </sub>
+</footer>
+{{ end }}
