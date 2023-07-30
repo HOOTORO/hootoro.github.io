@@ -54,6 +54,11 @@ title        = 'Bad Dev'
     name    = '<|'
     pageRef = '/about'
     weight  = 90
+  [[menu.main]]
+
+    name    = 'Hookah'
+    pageRef = '/hook'
+    weight  = 120
 
 [caches]
 

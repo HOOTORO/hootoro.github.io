@@ -36,3 +36,6 @@ hugo.linux
 
 # UI custom themes
 themes
+
+# IDE
+.fleet

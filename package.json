@@ -1,0 +1,15 @@
+{
+    "name": "HOOTOROOT",
+    "version": "0.5",
+    "type": "module",
+    "keywords": [
+        "Bad Dev",
+        "Notes"
+    ],
+    "author": {
+        "name": "HOOTORO"
+    },
+    "scripts": {
+        "HUGO:srv.draft": "hugo server -D --disableFastRender --navigateToChanged"
+    }
+}
