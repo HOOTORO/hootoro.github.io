@@ -1,10 +1,8 @@
 ---
 permalink: /hook
 author: HOOTORO
-title: Tobacco review
+title: Hookah. Tobacco review
 ---
-
-# Hookah
 
 ## The Good
 

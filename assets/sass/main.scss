@@ -1,57 +1,57 @@
 @import url("https://fonts.cdnfonts.com/css/twilio-sans-mono");
 
 @mixin title-font {
-  font-family: "Jura", sans-serif !important;
-  font-weight: 400 !important;
-  letter-spacing: 0.5px !important;
-  text-rendering: optimizeLegibility;
+    font-family: "Jura", sans-serif !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.5px !important;
+    text-rendering: optimizeLegibility;
 }
 
 * {
-  font-family: "Twilio Sans Mono", sans-serif;
-  // background-color: #11011f;
-  background-color: #10011f;
+    font-family: "Twilio Sans Mono", sans-serif;
+    // background-color: #11011f;
+    background-color: #000011;
 
-  h1 {
-    @include title-font();
-    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-  }
+    h1 {
+        @include title-font();
+        text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    }
 
-  h2 {
-    @include title-font();
-    text-shadow: #fc0 1px 0 10px;
-  }
+    h2 {
+        @include title-font();
+        text-shadow: #fc0 1px 0 10px;
+    }
 }
 
 nav ul {
-  list-style: none;
-  padding: 3px 5px;
-  // background: #111;
+    list-style: none;
+    padding: 3px 5px;
+    // background: #111;
 
-  a {
-    color: #fff;
-    text-decoration: none;
+    a {
+        color: #fff;
+        text-decoration: none;
 
-    &:hover {
-      text-decoration: underline;
+        &:hover {
+            text-decoration: underline;
+        }
     }
-  }
 
-  li {
-    display: inline;
-  }
+    li {
+        display: inline;
+    }
 }
 
 footer {
-  border-radius: 5px;
-  position: fixed;
-  bottom: 4px;
-  right: 10px;
-  color: #bad000;
-  padding: 2px;
-  font-size: 0.9em;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 4px;
+    right: 10px;
+    color: #bad000;
+    padding: 2px;
+    font-size: 0.9em;
 
-  sub {
-    bottom: 0;
-  }
+    sub {
+        bottom: 0;
+    }
 }
