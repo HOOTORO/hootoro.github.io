@@ -6,8 +6,6 @@ title: Hookah. Tobacco review
 
 ## The Good
 
-<!-- /// tip | # _GOD_ TIER -->
-
 ### GOD TIER
 
 1. **DarkSide**:
@@ -51,8 +49,6 @@ title: Hookah. Tobacco review
 
 ### Feels good tier
 
-<!-- /// tip | # _Feels good_ tier -->
-
 1. **Black** **Burn**:
 
 - Malibu
@@ -82,8 +78,6 @@ title: Hookah. Tobacco review
 ## The Sour
 
 ### Sometimes tier
-
-<!-- /// info | # _Sometimes_ tier -->
 
 1. **BlackBurn**:
 
@@ -161,8 +155,6 @@ title: Hookah. Tobacco review
 
 ### meh tier
 
-<!-- /// warning |# _meh_ tier -->
-
 1. MustHave
 
 - Maple Pecan
@@ -225,3 +217,9 @@ title: Hookah. Tobacco review
 
 - Dragon Fruit
 
+#### Exotic tastes
+
+1. Spectrum
+
+- Chiken Ramen: "Smells like Doshirak, but taste different, don't like"
+- Beacon: "That's interesting one!"
