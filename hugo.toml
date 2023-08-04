@@ -1,5 +1,5 @@
 baseURL      = 'http://HOOTORO.github.io/'
-languageCode = 'en-us'
+languageCode = 'en'
 theme        = 'github.com/serkodev/holy'
 title        = 'Bad Dev'
 
@@ -17,13 +17,9 @@ title        = 'Bad Dev'
   AuthorName         = 'Mark'
   Creation           = '18.07.2023'
   GitHubUser         = 'HOOTORO'
-  ListOfFoo          = ['foo1', 'foo2']
   SidebarRecentLimit = 5
-  Subtitle           = 'Feed'
   email              = "example@hugo.ry"
   github             = "https://github.com/HOOTORO/"
-  logo               = "/images/catfam.png"
-  popup              = "hi"
 
 [permalinks]
   page  = "/:title/"
