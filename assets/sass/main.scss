@@ -1,3 +1,4 @@
+@import "colors";
 @import url("https://fonts.cdnfonts.com/css/twilio-sans-mono");
 
 @mixin title-font {
@@ -54,4 +55,47 @@ footer {
     sub {
         bottom: 0;
     }
+}
+
+
+table {
+    display: table;
+    overflow: hidden !important;
+    border-radius: 7px;
+    box-shadow: var(--md-shadow-z7);
+
+    tr:hover {
+        background-color: rgba(0, 0, 0, 0.08);
+    }
+
+    th {
+        color: var(--md-text-color);
+        text-transform: uppercase;
+        -webkit-text-stroke: thin #7dff00;
+        background-color: var(--md-default-bg-color--ultra-dark);
+        border-bottom: 1px solid var(--md-primary-fg-color) !important;
+    }
+
+    td {
+        background-color: var(--md-default-fg-color--lightest);
+        border-top: 1px solid var(--md-default-fg-color--lighter);
+    }
+
+    tr:nth-child(even) {
+        background-color: var(--md-default-bg-color--darker);
+    }
+
+    sup {
+        color: #bada55 !important;
+        font-size: 10px;
+    }
+}
+
+tbody td[colspan="2"] {
+    color: #ff00ff;
+    font-weight: 600;
+}
+
+em {
+    text-decoration: underline 1px #eba100;
 }

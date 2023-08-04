@@ -4,222 +4,142 @@ author: HOOTORO
 title: Hookah. Tobacco review
 ---
 
-## The Good
-
-### GOD TIER
-
-1. **DarkSide**:
-
-- Polar Cream
-- Bounty Hunter
-- Ice Granny (apple)
-
-2. **BlackBurn**:
-
-- Cheesecake
-- Guf
-- Chupa Graper
-- Creme Brulee
-
-3. **MustHave**:
-
-- Charlotte Pie
-- cheesecake
-
-4. **Spectrum**:
-
-- Honey
-
-5. **DailyHookah**
-
-- Бельгийские вафли
-
-6. **CHABACCO**:
-
-- Клюква
-
-7. **DEUS**:
-
-- DARKSIDE
-
-8. **DUFT**
-
-- Cheesecake
-- Pineapple (strong)
-
-### Feels good tier
-
-1. **Black** **Burn**:
-
-- Malibu
-- Melon Halls
-
-2. **DarkSide**:
-
-- Raf in the jungle
-- Killer milk
-- Pineapple Pulse (Core)
-- Fruity dust (Core) dragonfruit, a little icy, unexpectedly good.
-
-3. **Ветер Северный**
-
-- Свежая туса
-- Летняя туса
-- Финдеперцовый фейхоа
-
-4. **DUFT**™£
-
-- Wonka's (hazelnut+tiramisu+pistacho cream+sour peach+fried cashew)
-- Cucumber lemonade
-- Chai Latte
-- Barberry
-- Maracuja
-
-## The Sour
-
-### Sometimes tier
-
-1. **BlackBurn**:
-
-- Tic-Tav
-- Blackberry lemonade
-- Медовая дыня/Etalon Melon
-- Watermelon
-
-2. **MustHave**:
-
-- Caribbean run
-- Frosty
-- Cheesecake
-- Paradise
-- Pistachio cake
-
-3. **Spectrum**:
-
-- Barbaris
-
-4. **DEUS**:
-
-- Грантовый морс
-- Ягоды с ванилью
-- SKITTLES
-- Love is
-
-5. **Ветер Северный**
-
-- Кучарявый персик
-
-6. **Darkside**:
-
-- Honey Dust (core)
-- Glitchech Ice Tea (core)
-
-7. **Spectrum**
-
-- Vanilla Orange
-
-8. **DUFT**
-
-- pomelo (strong)
-- Papaya (strong)
-- Grape Fizz(strong)
-- Pome Granate (strong)
-
-<!-- /// example | # Acid ~~taste~~ tier -->
-
-### Acid taste tier
-
-1. **Ветер Севереный**
-
-- Лютая туса
-
-2. **BackBurn**
-
-- overdose
-
-3. **MustHave**
-
-- Lemon-lime
-
-4. **Duft**
-
-- Lime Lemon(strong) - TOP ACID TASTE
-
-### Chemistry tier
-
-1. **DUFT**
-
-- Heavy Melon(strong)
-
-## The Bad
-
-### meh tier
-
-1. MustHave
-
-- Maple Pecan
-- Grapefruit
-- Watermelon
-
-2. Duft
-
-- Dragon Fruit
-- Power Granate
-- Mango Lassi (strong)
-
-3. DEUS
-
-- Champaine
-
-4. Spectrum
-
-- Grape shake
-
-<!-- /// danger | # _Sh*t_ tier -->
-
-### Sh!tier
-
-1. **MustHave**
-
-- Holland Pie
-- Pearl Pool
-- Pinkman
-- rocketman (strawberry, грейпфрут, киви)
-- ruby grape
-
-2. **DarkSide**:
-
-- Desert Eagle
-- Space Leeches
-- Северный трип (базилик, клюква, малина)
-- Gonzo cake
-
-3. **BlackBurn**:
-
-- Marmalade Cola
-- Lemon Shock
-- Shock currant chock (кислая черная смородина)
-- Garnet (Терпкий гранат)
-- Miranda
-- Juicy Smoothie/Тропический смузи
-
-4. **DailyHookah**
-
-- Фейхоа
-- Маракуйя
-- Орех
-
-5. **Spectrum**
-
-- Greenwich (грейпфрут, личи)
-
-6. **DUFT**:
-
-- Dragon Fruit
-
-#### Exotic tastes
-
-1. Spectrum
-
-- Chiken Ramen: "Smells like Doshirak, but taste different, don't like"
-- Beacon: "That's interesting one!"
+## Rating
+
+| Grade     | Meaning                                         |
+|-----------|-------------------------------------------------|
+| GOD       | Favorite!                                       |
+| Good      | Like                                            |
+| Sometimes | average. can smoke sometimes                    |
+| Sour      | Acid tastes don't like in general but could mix |
+| Icy       | Tastes mentol in general                        |
+| Bad       | Just Awful                                      |
+| Exotic    | Extremely rare and unusual taste                |
+
+## DarkSide
+
+| Type              | Grade     | Comment                                                      |
+|-------------------|-----------|--------------------------------------------------------------|
+| Polar Cream       | GOD       | Perfect                                                      |
+| Bounty Hunter     | Good      | -                                                            |
+| Ice Granny        | Good      | Nice and fresh apple                                         |
+| Raf in the jungle | Good      | It's cofe time!                                              |
+| Killer milk       | Good      | Sweet                                                        |
+| Pineapple Pulse   | Good      | _core series_. Same as Granny                                |
+| Fruity dust       | Good      | _core series_. dragonfruit, a little icy, unexpectedly good. | 
+| Honey Dust        | Sometimes | _core series_. Weird                                         |
+| Glitchech Ice Tea | Sometimes | _core series_.  Weird too!                                   |
+| Desert Eagle      | Bad       | Don't like at all                                            |
+| Space Leeches     | Bad       | Don't like at all                                            |
+| North travel      | Bad       | базилик, клюква, малина                                      |
+| Gonzo cake        | Bad       | Don't like at all                                            |
+
+## BlackBurn
+
+| Type                | Grade     | Comment                 |
+|---------------------|-----------|-------------------------|
+| Cheesecake          | GOD       | Perfect                 |
+| Guf                 | Good      | Coffee time!            |
+| Chupa Graper        | Good      | juicy                   |
+| Creme Brulee        | Good      | chocolate icescream     |
+| Malibu              | Good      | Icy Coconout            |
+| Melon Halls         | Good      | Icy Melon               |
+| Tic-Tav             | Sometimes | -                       |
+| Blackberry lemonade | Sometimes | -                       |
+| Etalon Melon        | Sometimes | Медовая дыня            |
+| Watermelon          | Sometimes | -                       |
+| overdose            | Sometimes | -                       |
+| Marmalade Cola      | Bad       | Just awful              |
+| Lemon Shock         | Bad       | Just awful              |
+| Shock currant chock | Bad       | кислая черная смородина |
+| Garnet              | Bad       | Терпкий гранат          |
+| Miranda             | Bad       | Just awful              |
+| Juicy Smoothie      | Bad       | Тропический смузи       |
+
+## MustHave
+
+| Type           | Grade     | Comment                     |
+|----------------|-----------|-----------------------------|
+| Charlotte Pie  | GOD       | Perfect                     |
+| cheesecake     | Good      | Very                        |
+| Caribbean run  | Sometimes | avg                         |
+| Frosty         | Sometimes | avg                         |
+| Paradise       | Sometimes | avg                         |
+| Pistachio cake | Sometimes | avg                         |
+| Lemon-lime     | Sour      | meh                         |
+| Maple Pecan    | Bad       | awful                       | 
+| Grapefruit     | Bad       | awful                       | 
+| Watermelon     | Bad       | awful                       | 
+| Holland Pie    | Bad       | awful                       | 
+| Pearl Pool     | Bad       | awful                       | 
+| Pinkman        | Bad       | awful                       | 
+| rocketman      | Bad       | strawberry, грейпфрут, киви | 
+| ruby grape     | Bad       | awful                       | 
+
+## DUFT
+
+| Type              | Grade     | Comment                                                   |
+|-------------------|-----------|-----------------------------------------------------------|
+| Cheesecake        | GOD       | Perfect                                                   |
+| Pineapple         | GOD       | _strong series_   Perfect                                 |
+| Wonka's           | Good      | hazelnut,tiramisu,pistacho cream,sour peach,fried cashew) |
+| Cucumber lemonade | Good      | -                                                         |
+| Chai Latte        | Good      | -                                                         |
+| Barberry          | Good      | -                                                         |
+| Maracuja          | Good      | -                                                         |
+| pomelo            | Sometimes | _strong series_                                           |
+| Papaya            | Sometimes | _strong series_                                           |
+| Grape Fizz        | Sometimes | _strong series_                                           |
+| Pome Granate      | Sometimes | _strong series_                                           |
+| Lime Lemon        | Sour      | _strong series_ - TOP ACID TASTE                          |
+| Heavy Melon       | Chemistry | _strong series_                                           |
+| Dragon Fruit      | Bad       | awful                                                     |
+| Mango Lassi       | Bad       | _strong series_                                           |
+
+## Spectrum
+
+| Type           | Grade     | Comment                                                 |
+|----------------|-----------|---------------------------------------------------------|
+| Honey          | God       | -                                                       |
+| Barbaris       | Good      | -                                                       |
+| Vanilla Orange | Sometimes | -                                                       |
+| Grape shake    | Acid      | -                                                       |
+| Greenwich      | Bad       | грейпфрут, личи                                         | 
+| Chiken Ramen   | Exotic    | "Smells like Doshirak, but taste different, don't like" |
+| Beacon         | Exotic    | "That's interesting one!"                               |
+
+## DailyHookah
+
+| Type            | Grade | Comment         |
+|-----------------|-------|-----------------|
+| Belgian waffles | GOD   | Simply the best |
+| Feijoa          | Bad   | -               |
+| Maracuja        | Bad   | -               |
+| Nuts            | Bad   | -               |
+
+## DEUS:
+
+| Type            | Grade          | Comment                              |
+|-----------------|----------------|--------------------------------------|
+| DARKSIDE        | GOD            | Join the DARKSIDE, we have coookies! |
+| Granate juice   | Sometimes/Sour | -                                    | 
+| Vanilla Berries | Sometimes/Sour | -                                    |
+| SKITTLES        | Sometimes/Sour | -                                    |
+| Love is         | Sometimes/Sour | -                                    |
+| Champaine       | Bad            | -                                    |
+
+## Ветер Северный
+
+| Type          | Grade     | Comment |
+|---------------|-----------|---------|
+| Fresh Party   | Good      | -       |
+| Summer Party  | Good      | -       |
+| Pepper feijoa | Good      | -       |
+| Curly peach   | Sometimes | -       |
+| Mad Party     | Icy       | -       |
+
+## **CHABACCO**:
+
+| Type   | Grade | Comment |
+|--------|-------|---------|
+| Клюква | Good  | -       |
