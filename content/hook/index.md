@@ -3,6 +3,7 @@ permalink: /hook
 author: HOOTORO
 title: Hookah. Tobacco review
 footer: false
+include_toc: true
 ---
 
 ## Wishlist, to try
@@ -12,10 +13,9 @@ footer: false
 | 1 | Pistachio ice snow | ![sm][blackburn] | ![flavor sm][fresh] |
 | 2 | Coconout           |   ![sm][duft]    | ![flavor sm][sweet] |
 | 3 | Cheddar Cheese     |  ![sm][kraken]   | ![flavor sm][spicy] |
-| 4 | Tropic Love        |    ![sm][tea]    | ![flavor sm][sweet] |
 
 ```md
-from shisha-prem about DailyHookah:
+shisha-prem users recommendation DailyHookah:
 
 - молоко с мятой;
 - черника с выпечкой;
@@ -44,13 +44,13 @@ from shisha-prem about DailyHookah:
 
 |              Type | Grade     | Line   | Comment                                       |
 |------------------:|-----------|--------|:----------------------------------------------|
-|       Polar Cream | GOD       | -      | Perfect                                       |
+|       Polar Cream | GOD       | -      | Perfect!                                      |
 |     Bounty Hunter | Good      | -      | -                                             |
 |        Ice Granny | Good      | -      | Nice and fresh apple                          |
-| Raf in the jungle | Good      | -      | It's cofe time!                               |
+| Raf in the jungle | Good      | -      | It's coffee time!                             |
 |       Killer milk | Good      | -      | Sweet                                         |
 |   Pineapple Pulse | Good      | _core_ | Same as Granny                                |
-|       Fruity dust | Good      | _core_ | dragonfruit, a little icy, unexpectedly good. | 
+|       Fruity dust | Good      | _core_ | Dragonfruit, a little icy, unexpectedly good. | 
 |        Honey Dust | Sometimes | _core_ | Weird                                         |
 | Glitchech Ice Tea | Sometimes | _core_ | Weird too!                                    |
 |      Desert Eagle | Bad       | -      | Don't like at all                             |
@@ -60,27 +60,27 @@ from shisha-prem about DailyHookah:
 
 ## ![tobacco bb][blackburn]
 
-|                Type | Grade     | Comment                                                 |
-|--------------------:|-----------|---------------------------------------------------------|
-|          Cheesecake | GOD       | Perfect                                                 |
-|             Brownie | GOD       | Sweet chocolate                                         |
-|     Almond Icecream | GOD       | If you smell these almonds, man, I think you better run |
-|                 Guf | Good      | Coffee time!                                            |
-|        Chupa Graper | Good      | juicy                                                   |
-|        Creme Brulee | Good      | chocolate icescream                                     |
-|              Malibu | Good      | Icy Coconout                                            |
-|         Melon Halls | Good      | Icy Melon                                               |
-|             Tic-Tac | Sometimes | -                                                       |
-| Blackberry Lemonade | Sometimes | -                                                       |
-|        Etalon Melon | Sometimes | Медовая дыня                                            |
-|          Watermelon | Sometimes | -                                                       |
-|            Overdose | Sometimes | -                                                       |
-|      Marmalade Cola | Bad       | Just awful                                              |
-|         Lemon Shock | Bad       | Just awful                                              |
-| Shock currant chock | Bad       | кислая черная смородина                                 |
-|              Garnet | Bad       | Терпкий гранат                                          |
-|             Miranda | Bad       | Just awful                                              |
-|      Juicy Smoothie | Bad       | Тропический смузи                                       |
+|                Type | Grade     | Comment                                                       |
+|--------------------:|-----------|---------------------------------------------------------------|
+|          Cheesecake | GOD       | Perfect                                                       |
+|             Brownie | GOD       | Sweet chocolate                                               |
+|     Almond Icecream | GOD       | "And if you smell those almonds man, I think you better run." |
+|                 Guf | Good      | Coffee time!                                                  |
+|        Chupa Graper | Good      | juicy                                                         |
+|        Creme Brulee | Good      | chocolate icescream                                           |
+|              Malibu | Good      | Icy Coconout                                                  |
+|         Melon Halls | Good      | Icy Melon                                                     |
+|             Tic-Tac | Sometimes | -                                                             |
+| Blackberry Lemonade | Sometimes | -                                                             |
+|        Etalon Melon | Sometimes | Медовая дыня                                                  |
+|          Watermelon | Sometimes | -                                                             |
+|            Overdose | Sometimes | -                                                             |
+|      Marmalade Cola | Bad       | Just awful                                                    |
+|         Lemon Shock | Bad       | Just awful                                                    |
+| Shock currant chock | Bad       | кислая черная смородина                                       |
+|              Garnet | Bad       | Терпкий гранат                                                |
+|             Miranda | Bad       | Just awful                                                    |
+|      Juicy Smoothie | Bad       | Тропический смузи                                             |
 
 ## ![tobacco mh][musthave]
 
@@ -166,10 +166,11 @@ from shisha-prem about DailyHookah:
 
 ## ![tobacco chabacco][tea]
 
-|                       Type | Grade | Line   | Comment |
-|---------------------------:|-------|--------|---------|
-|                     Клюква | Good  | Medium | -       |
-| Incredible India Bubblegum | Icy   | Strong | -       |
+|                       Type | Grade | Line   | Comment             |
+|---------------------------:|-------|--------|---------------------|
+|                     Клюква | Good  | Medium | -                   |
+| Incredible India Bubblegum | Icy   | Strong | ![flavor sm][fresh] |
+|                Tropic Love | Good  | Medium | ![flavor sm][sweet] |
 
 [darkside]: https://darksidecorp.com/images/logo.svg
 
