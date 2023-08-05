@@ -9,9 +9,10 @@ footer: false
 
 | # | Flavor             |      Brand       |      Should be      |
 |--:|:-------------------|:----------------:|:-------------------:|
-| 1 | Brownie            | ![sm][blackburn] | ![flavor sm][sweet] |
-| 2 | Almond Ice Cream,  | ![sm][blackburn] | ![flavor sm][fresh] |
-| 3 | Pistachio ice snow | ![sm][blackburn] | ![flavor sm][fresh] |
+| 1 | Pistachio ice snow | ![sm][blackburn] | ![flavor sm][fresh] |
+| 2 | Coconout           |   ![sm][duft]    | ![flavor sm][sweet] |
+| 3 | Cheddar Cheese     |  ![sm][kraken]   | ![flavor sm][spicy] |
+| 4 | Tropic Love        |    ![sm][tea]    | ![flavor sm][sweet] |
 
 ```md
 from shisha-prem about DailyHookah:
@@ -59,25 +60,27 @@ from shisha-prem about DailyHookah:
 
 ## ![tobacco bb][blackburn]
 
-|                Type | Grade     | Comment                 |
-|--------------------:|-----------|-------------------------|
-|          Cheesecake | GOD       | Perfect                 |
-|                 Guf | Good      | Coffee time!            |
-|        Chupa Graper | Good      | juicy                   |
-|        Creme Brulee | Good      | chocolate icescream     |
-|              Malibu | Good      | Icy Coconout            |
-|         Melon Halls | Good      | Icy Melon               |
-|             Tic-Tac | Sometimes | -                       |
-| Blackberry Lemonade | Sometimes | -                       |
-|        Etalon Melon | Sometimes | Медовая дыня            |
-|          Watermelon | Sometimes | -                       |
-|            Overdose | Sometimes | -                       |
-|      Marmalade Cola | Bad       | Just awful              |
-|         Lemon Shock | Bad       | Just awful              |
-| Shock currant chock | Bad       | кислая черная смородина |
-|              Garnet | Bad       | Терпкий гранат          |
-|             Miranda | Bad       | Just awful              |
-|      Juicy Smoothie | Bad       | Тропический смузи       |
+|                Type | Grade     | Comment                                                 |
+|--------------------:|-----------|---------------------------------------------------------|
+|          Cheesecake | GOD       | Perfect                                                 |
+|             Brownie | GOD       | Sweet chocolate                                         |
+|     Almond Icecream | GOD       | If you smell these almonds, man, I think you better run |
+|                 Guf | Good      | Coffee time!                                            |
+|        Chupa Graper | Good      | juicy                                                   |
+|        Creme Brulee | Good      | chocolate icescream                                     |
+|              Malibu | Good      | Icy Coconout                                            |
+|         Melon Halls | Good      | Icy Melon                                               |
+|             Tic-Tac | Sometimes | -                                                       |
+| Blackberry Lemonade | Sometimes | -                                                       |
+|        Etalon Melon | Sometimes | Медовая дыня                                            |
+|          Watermelon | Sometimes | -                                                       |
+|            Overdose | Sometimes | -                                                       |
+|      Marmalade Cola | Bad       | Just awful                                              |
+|         Lemon Shock | Bad       | Just awful                                              |
+| Shock currant chock | Bad       | кислая черная смородина                                 |
+|              Garnet | Bad       | Терпкий гранат                                          |
+|             Miranda | Bad       | Just awful                                              |
+|      Juicy Smoothie | Bad       | Тропический смузи                                       |
 
 ## ![tobacco mh][musthave]
 
@@ -101,35 +104,35 @@ from shisha-prem about DailyHookah:
 
 ## ![tobacco d][duft]
 
-|              Type | Grade     | Line     | Comment                                                   |
-|------------------:|-----------|----------|-----------------------------------------------------------|
-|        Cheesecake | GOD       | -        | Perfect                                                   |
-|         Pineapple | GOD       | _strong_ | Perfect                                                   |
-|           Wonka's | Good      | -        | hazelnut,tiramisu,pistacho cream,sour peach,fried cashew) |
-| Cucumber lemonade | Good      | -        | -                                                         |
-|        Chai Latte | Good      | -        | -                                                         |
-|          Barberry | Good      | -        | -                                                         |
-|          Maracuja | Good      | -        | -                                                         |
-|            pomelo | Sometimes | _strong_ | _                                                         |
-|            Papaya | Sometimes | _strong_ |                                                           |
-|        Grape Fizz | Sometimes | _strong_ |                                                           |
-|      Pome Granate | Sometimes | _strong_ |                                                           |
-|        Lime Lemon | Sour      | _strong_ | - TOP ACID TASTE                                          |
-|       Heavy Melon | Chemistry | _strong_ |                                                           |
-|      Dragon Fruit | Bad       | -        | awful                                                     |
-|       Mango Lassi | Bad       | _strong_ |                                                           |
+|              Type | Grade     | Line     | Comment                                                  |
+|------------------:|-----------|----------|----------------------------------------------------------|
+|        Cheesecake | GOD       | -        | Perfect                                                  |
+|         Pineapple | GOD       | _strong_ | Perfect                                                  |
+|           Wonka's | Good      | -        | hazelnut,tiramisu,pistacho cream,sour peach,fried cashew |
+| Cucumber lemonade | Good      | -        | -                                                        |
+|        Chai Latte | Good      | -        | -                                                        |
+|          Barberry | Good      | -        | -                                                        |
+|          Maracuja | Good      | -        | -                                                        |
+|            pomelo | Sometimes | _strong_ | _                                                        |
+|            Papaya | Sometimes | _strong_ |                                                          |
+|        Grape Fizz | Sometimes | _strong_ |                                                          |
+|      Pome Granate | Sometimes | _strong_ |                                                          |
+|        Lime Lemon | Sour      | _strong_ | - TOP ACID TASTE                                         |
+|       Heavy Melon | Chemistry | _strong_ |                                                          |
+|      Dragon Fruit | Bad       | -        | awful                                                    |
+|       Mango Lassi | Bad       | _strong_ |                                                          |
 
 ## ![tobacco spectrum][spec]
 
-|           Type | Grade     | Comment                                                 |
-|---------------:|-----------|---------------------------------------------------------|
-|          Honey | God       | -                                                       |
-|       Barbaris | Good      | -                                                       |
-| Vanilla Orange | Sometimes | -                                                       |
-|    Grape shake | Acid      | -                                                       |
-|      Greenwich | Bad       | грейпфрут, личи                                         | 
-|   Chiken Ramen | Exotic    | "Smells like Doshirak, but taste different, don't like" |
-|         Beacon | Exotic    | "That's interesting one!"                               |
+|           Type | Grade     | Comment                                               |
+|---------------:|-----------|-------------------------------------------------------|
+|          Honey | God       | -                                                     |
+|       Barbaris | Good      | -                                                     |
+| Vanilla Orange | Sometimes | -                                                     |
+|    Grape shake | Acid      | -                                                     |
+|      Greenwich | Bad       | грейпфрут, личи                                       | 
+|   Chiken Ramen | Exotic    | Smells like Doshirak, but taste different, don't like |
+|         Beacon | Exotic    | That's interesting one!                               |
 
 ## ![tobacco][daily]
 
@@ -163,10 +166,10 @@ from shisha-prem about DailyHookah:
 
 ## ![tobacco chabacco][tea]
 
-|                       Type | Grade | Comment |
-|---------------------------:|-------|---------|
-|                     Клюква | Good  | -       |
-| Incredible India Bubblegum | Icy   | -       |
+|                       Type | Grade | Line   | Comment |
+|---------------------------:|-------|--------|---------|
+|                     Клюква | Good  | Medium | -       |
+| Incredible India Bubblegum | Icy   | Strong | -       |
 
 [darkside]: https://darksidecorp.com/images/logo.svg
 
@@ -194,3 +197,4 @@ from shisha-prem about DailyHookah:
 
 [sour]: https://burntobacco.com/wp-content/themes/burn/images/taste/sour.svg
 
+[kraken]: https://kraken-shop.ru/wp-content/uploads/2021/07/Kraken-header-fin.png
