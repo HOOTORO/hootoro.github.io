@@ -27,8 +27,6 @@ shisha-prem users recommendation DailyHookah:
 - леденцы с ментолом.
 ```
 
-wtf is **going** _here_
-
 ## Rating
 
 |         Grade | Meaning                             |
@@ -91,10 +89,10 @@ wtf is **going** _here_
 |---------------:|---------------|-----------------------------|
 |  Charlotte Pie | **GOD**       | Perfect                     |
 |     Cheesecake | **Good**      | Very                        |
-|  Caribbean run | **Sometimes** | avg                         |
-|         Frosty | **Sometimes** | avg                         |
-|       Paradise | **Sometimes** | avg                         |
-| Pistachio cake | **Sometimes** | avg                         |
+|  Caribbean run | **Sometimes** | average                     |
+|         Frosty | **Sometimes** | average                     |
+|       Paradise | **Sometimes** | average                     |
+| Pistachio cake | **Sometimes** | average                     |
 |     Lemon-lime | **Sour**      | meh                         |
 |    Maple Pecan | **Bad**       | awful                       | 
 |     Grapefruit | **Bad**       | awful                       | 
@@ -120,7 +118,7 @@ wtf is **going** _here_
 |            Papaya | **Sometimes** | _strong_ |                                                              |
 |        Grape Fizz | **Sometimes** | _strong_ |                                                              |
 |      Pome Granate | **Sometimes** | _strong_ |                                                              |
-|        Lime Lemon | **Sour**      | _strong_ | - TOP ACID TASTE                                             |
+|        Lime Lemon | **Sour**      | _strong_ | TOP ACID TASTE                                               |
 |       Heavy Melon | **Chemical**  | _strong_ |                                                              |
 |      Dragon Fruit | **Bad**       | -        | awful                                                        |
 |       Mango Lassi | **Bad**       | _strong_ |                                                              |
