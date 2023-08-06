@@ -8,11 +8,9 @@ include_toc: true
 
 ## Wishlist, to try
 
-| # | Flavor             |      Brand       |      Should be      |
-|--:|:-------------------|:----------------:|:-------------------:|
-| 1 | Pistachio ice snow | ![sm][blackburn] | ![flavor sm][fresh] |
-| 2 | Coconout           |   ![sm][duft]    | ![flavor sm][sweet] |
-| 3 | Cheddar Cheese     |  ![sm][kraken]   | ![flavor sm][spicy] |
+| # | Flavor         |     Brand     |      Should be      |
+|--:|:---------------|:-------------:|:-------------------:|
+| 1 | Cheddar Cheese | ![sm][kraken] | ![flavor sm][spicy] |
 
 ```md
 shisha-prem users recommendation DailyHookah:
@@ -41,6 +39,31 @@ shisha-prem users recommendation DailyHookah:
 |    **Exotic** | 🧐 Extremely rare and unusual taste |
 |      **Acid** | 😵‍💫 Too sour                      |
 
+## ![tobacco bb][blackburn]
+
+|                Type | Grade         | Comment                                                         |
+|--------------------:|---------------|-----------------------------------------------------------------|
+|     Almond Icecream | **GOD**       | _"And if you smell those almonds man, I think you better run."_ |
+|          Cheesecake | **GOD**       | Perfect!                                                        |
+|  Pistachio Ice Snow | **GOD**       | as Good as Polar Cream or even better                           |
+|             Brownie | **GOD**       | Sweet chocolate                                                 |
+|                 Guf | **Good**      | Coffee time!                                                    |
+|        Chupa Graper | **Good**      | juicy                                                           |
+|        Creme Brulee | **Good**      | chocolate icescream                                             |
+|              Malibu | **Good**      | **Icy** Coconout                                                |
+|         Melon Halls | **Good**      | **Icy** Melon                                                   |
+|             Tic-Tac | **Sometimes** | -                                                               |
+| Blackberry Lemonade | **Sometimes** | -                                                               |
+|        Etalon Melon | **Sometimes** | Медовая дыня                                                    |
+|          Watermelon | **Sometimes** | -                                                               |
+|            Overdose | **Sometimes** | -                                                               |
+|      Marmalade Cola | **Bad**       | Just awful                                                      |
+|         Lemon Shock | **Bad**       | Just awful                                                      |
+| Shock currant chock | **Bad**       | кислая черная смородина                                         |
+|              Garnet | **Bad**       | Терпкий гранат                                                  |
+|             Miranda | **Bad**       | Just awful                                                      |
+|      Juicy Smoothie | **Bad**       | Тропический смузи                                               |
+
 ## ![tobacco ds][darkside]
 
 |              Type | Grade         | Line   | Comment                                               |
@@ -58,30 +81,6 @@ shisha-prem users recommendation DailyHookah:
 |     Space Leeches | **Bad**       | -      | Don't like at all                                     |
 |      North travel | **Bad**       | -      | базилик, клюква, малина                               |
 |        Gonzo cake | **Bad**       | -      | Don't like at all                                     |
-
-## ![tobacco bb][blackburn]
-
-|                Type | Grade         | Comment                                                       |
-|--------------------:|---------------|---------------------------------------------------------------|
-|          Cheesecake | **GOD**       | Perfect                                                       |
-|             Brownie | **GOD**       | Sweet chocolate                                               |
-|     Almond Icecream | **GOD**       | "And if you smell those almonds man, I think you better run." |
-|                 Guf | **Good**      | Coffee time!                                                  |
-|        Chupa Graper | **Good**      | juicy                                                         |
-|        Creme Brulee | **Good**      | chocolate icescream                                           |
-|              Malibu | **Good**      | **Icy** Coconout                                              |
-|         Melon Halls | **Good**      | **Icy** Melon                                                 |
-|             Tic-Tac | **Sometimes** | -                                                             |
-| Blackberry Lemonade | **Sometimes** | -                                                             |
-|        Etalon Melon | **Sometimes** | Медовая дыня                                                  |
-|          Watermelon | **Sometimes** | -                                                             |
-|            Overdose | **Sometimes** | -                                                             |
-|      Marmalade Cola | **Bad**       | Just awful                                                    |
-|         Lemon Shock | **Bad**       | Just awful                                                    |
-| Shock currant chock | **Bad**       | кислая черная смородина                                       |
-|              Garnet | **Bad**       | Терпкий гранат                                                |
-|             Miranda | **Bad**       | Just awful                                                    |
-|      Juicy Smoothie | **Bad**       | Тропический смузи                                             |
 
 ## ![tobacco mh][musthave]
 
@@ -113,6 +112,7 @@ shisha-prem users recommendation DailyHookah:
 | Cucumber lemonade | **Good**      | -        | -                                                            |
 |        Chai Latte | **Good**      | -        | -                                                            |
 |          Barberry | **Good**      | -        | -                                                            |
+|          Coconout | **Good**      | _strong_ | -                                                            |
 |          Maracuja | **Good**      | -        | -                                                            |
 |            pomelo | **Sometimes** | _strong_ | _                                                            |
 |            Papaya | **Sometimes** | _strong_ |                                                              |
@@ -137,12 +137,12 @@ shisha-prem users recommendation DailyHookah:
 
 ## ![tobacco][daily]
 
-|            Type | Grade   | Comment         |
-|----------------:|---------|-----------------|
-| Belgian waffles | **GOD** | Simply the best |
-|          Feijoa | **Bad** | -               |
-|        Maracuja | **Bad** | -               |
-|            Nuts | **Bad** | -               |
+|            Type | Grade   | Comment                                                  |
+|----------------:|---------|----------------------------------------------------------|
+| Belgian waffles | **GOD** | Top. _Recommended mix_: Bounty Hunter/Duft Coconout ~50% |
+|          Feijoa | **Bad** | -                                                        |
+|        Maracuja | **Bad** | -                                                        |
+|            Nuts | **Bad** | -                                                        |
 
 ## ![tobacco d][deus]
 
@@ -169,9 +169,9 @@ shisha-prem users recommendation DailyHookah:
 
 |                       Type | Grade    | Line   | Comment             |
 |---------------------------:|----------|--------|---------------------|
+|                Tropic Love | **Good** | Medium | ![flavor sm][sweet] |
 |                     Клюква | **Good** | Medium | -                   |
 | Incredible India Bubblegum | **Icy**  | Strong | ![flavor sm][fresh] |
-|                Tropic Love | **Good** | Medium | ![flavor sm][sweet] |
 
 [darkside]: https://darksidecorp.com/images/logo.svg
 
