@@ -47,7 +47,8 @@ shisha-prem users recommendation DailyHookah:
 |          Cheesecake | **GOD**       | Perfect!                                                        |
 |  Pistachio Ice Snow | **GOD**       | as Good as Polar Cream or even better                           |
 |             Brownie | **GOD**       | Sweet chocolate                                                 |
-|                 Guf | **Good**      | Coffee time!                                                    |
+|        Famous Apple | **GOD**       | Famous for sure nuff said.                                      |
+|       Guf, Ice Baby | **Good**      | Juicy, close to **GOD** tier, better using _Phunnel_ bowl       |
 |        Chupa Graper | **Good**      | juicy                                                           |
 |        Creme Brulee | **Good**      | chocolate icescream                                             |
 |              Malibu | **Good**      | **Icy** Coconout                                                |
@@ -104,24 +105,25 @@ shisha-prem users recommendation DailyHookah:
 
 ## ![tobacco d][duft]
 
-|              Type | Grade         | Line     | Comment                                                      |
-|------------------:|---------------|----------|--------------------------------------------------------------|
-|        Cheesecake | **GOD**       | -        | Perfect                                                      |
-|         Pineapple | **GOD**       | _strong_ | Perfect                                                      |
-|           Wonka's | **Good**      | -        | hazelnut,tiramisu,pistacho cream,**Sour** peach,fried cashew |
-| Cucumber lemonade | **Good**      | -        | -                                                            |
-|        Chai Latte | **Good**      | -        | -                                                            |
-|          Barberry | **Good**      | -        | -                                                            |
-|          Coconout | **Good**      | _strong_ | -                                                            |
-|          Maracuja | **Good**      | -        | -                                                            |
-|            pomelo | **Sometimes** | _strong_ | _                                                            |
-|            Papaya | **Sometimes** | _strong_ |                                                              |
-|        Grape Fizz | **Sometimes** | _strong_ |                                                              |
-|      Pome Granate | **Sometimes** | _strong_ |                                                              |
-|        Lime Lemon | **Sour**      | _strong_ | TOP ACID TASTE                                               |
-|       Heavy Melon | **Chemical**  | _strong_ |                                                              |
-|      Dragon Fruit | **Bad**       | -        | awful                                                        |
-|       Mango Lassi | **Bad**       | _strong_ |                                                              |
+|              Type | Grade         | Line     | Comment                                                                             |
+|------------------:|---------------|----------|-------------------------------------------------------------------------------------|
+|        Cheesecake | **GOD**       | -        | Perfect                                                                             |
+|         Pineapple | **GOD**       | _strong_ | Perfect                                                                             |
+|         Gigagreen | **Good**      | _All-in_ | Rafiki, Tarhun, Coconout, Ginger Bread. Almost **GOD** tier. Better use Killer bowl |
+|           Wonka's | **Good**      | _All-in_ | hazelnut,tiramisu,pistacho cream,**Sour** peach,fried cashew                        |
+| Cucumber lemonade | **Good**      | -        | -                                                                                   |
+|        Chai Latte | **Good**      | -        | -                                                                                   |
+|          Barberry | **Good**      | _strong_ | Pretty good                                                                         |
+|          Coconout | **Good**      | _strong_ | Pretty good                                                                         |
+|          Maracuja | **Good**      | -        | -                                                                                   |
+|            Pomelo | **Sometimes** | _strong_ | _                                                                                   |
+|            Papaya | **Sometimes** | _strong_ |                                                                                     |
+|        Grape Fizz | **Sometimes** | _strong_ |                                                                                     |
+|      Pome Granate | **Sometimes** | _strong_ |                                                                                     |
+|        Lime Lemon | **Sour**      | _strong_ | TOP ACID TASTE                                                                      |
+|       Heavy Melon | **Chemical**  | _strong_ |                                                                                     |
+|      Dragon Fruit | **Bad**       | -        | awful                                                                               |
+|       Mango Lassi | **Bad**       | _strong_ |                                                                                     |
 
 ## ![tobacco spectrum][spec]
 
