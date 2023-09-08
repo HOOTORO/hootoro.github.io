@@ -39,6 +39,15 @@ shisha-prem users recommendation DailyHookah:
 |    **Exotic** | 🧐 Extremely rare and unusual taste |
 |      **Acid** | 😵‍💫 Too sour                      |
 
+## ![tobacco w][wto]
+
+|            Type | Grade   | Line              | Comment               |
+|----------------:|---------|-------------------|:----------------------|
+|      Strawberry | **GOD** | _NICARAGUA_       | Dat berry smell!      |
+| _C01_  Original | **GOD** | _CUBA_            | Tobbaco Taste         |
+|   _CB26_ Mojito | **GOD** | _CARRIBEAN BLEND_ | Perfect **Icy** Base! |
+|   _CB02_ Waffle | **GOD** | _CARRIBEAN BLEND_ | Sweet Desert Taste!   |
+
 ## ![tobacco bb][blackburn]
 
 |                Type | Grade         | Comment                                                         |
@@ -48,6 +57,7 @@ shisha-prem users recommendation DailyHookah:
 |  Pistachio Ice Snow | **GOD**       | as Good as Polar Cream or even better                           |
 |             Brownie | **GOD**       | Sweet chocolate                                                 |
 |        Famous Apple | **GOD**       | Famous for sure nuff said.                                      |
+|         Raspberries | **GOD**       | Sweet and tasty                                                 |
 |       Guf, Ice Baby | **Good**      | Juicy, close to **GOD** tier, better using _Phunnel_ bowl       |
 |        Chupa Graper | **Good**      | juicy                                                           |
 |        Creme Brulee | **Good**      | chocolate icescream                                             |
@@ -73,6 +83,7 @@ shisha-prem users recommendation DailyHookah:
 |     Bounty Hunter | **Good**      | -      | -                                                     |
 |        Ice Granny | **Good**      | -      | Nice and fresh apple                                  |
 | Raf in the jungle | **Good**      | -      | It's coffee time!                                     |
+|      Red Zeppelin | **Good**      | _core_ | Gooseberries. Good Fresh taste                        |
 |       Killer milk | **Good**      | -      | Sweet                                                 |
 |   Pineapple Pulse | **Good**      | _core_ | Same as Granny                                        |
 |       Fruity dust | **Good**      | _core_ | Dragonfruit, a little **Icy**, unexpectedly **Good**. | 
@@ -103,7 +114,7 @@ shisha-prem users recommendation DailyHookah:
 |      Rocketman | **Bad**       | strawberry, грейпфрут, киви | 
 |     Ruby grape | **Bad**       | awful                       | 
 
-## ![tobacco d][duft]
+## ![tobacco du][duft]
 
 |              Type | Grade         | Line     | Comment                                                                             |
 |------------------:|---------------|----------|-------------------------------------------------------------------------------------|
@@ -167,6 +178,12 @@ shisha-prem users recommendation DailyHookah:
 |   Curly peach | **Sometimes** | -       |
 |     Mad Party | **Icy**       | -       |
 
+## ![tobacco nas][nash]
+
+|     Type | Grade    | Line | Comment  |
+|---------:|----------|------|----------|
+| Golubika | **Good** | ~3~  | Not bad! |
+
 ## ![tobacco chabacco][tea]
 
 |                       Type | Grade    | Line   | Comment             |
@@ -175,13 +192,15 @@ shisha-prem users recommendation DailyHookah:
 |                     Клюква | **Good** | Medium | -                   |
 | Incredible India Bubblegum | **Icy**  | Strong | ![flavor sm][fresh] |
 
+<!--  logo links -->
+
 [darkside]: https://darksidecorp.com/images/logo.svg
 
 [blackburn]: https://burntobacco.com/wp-content/themes/burn/images/newbrands/black_burn.svg
 
 [musthave]: https://musthave.ru/wa-data/public/shop/themes/musthave/content/logo.svg
 
-[duft]: https://dufttobacco.store/local/templates/.default/components/bitrix/system.auth.authorize/.default/images/bg_icon.svg
+[duft]: https://s.rbk.ru/v1_companies_s3/resized/550xH/media/trademarks/03c1f1cd-1c34-4705-bd45-1c9d59d6d4aa.jpg
 
 [spec]: https://spectrum-tbc.ru/tpl/default/img/logo_color.svg
 
@@ -202,3 +221,8 @@ shisha-prem users recommendation DailyHookah:
 [sour]: https://burntobacco.com/wp-content/themes/burn/images/taste/sour.svg
 
 [kraken]: https://kraken-shop.ru/wp-content/uploads/2021/07/Kraken-header-fin.png
+
+[nash]: https://d-hydra.com/wp-content/uploads/2021/02/nash-logo.png
+
+[wto]: https://htreviews.org/uploads/objects/1/5edc9b6ac502cc0707c76688d70cc589a0ee8234.webp
+
