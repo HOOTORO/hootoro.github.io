@@ -8,9 +8,9 @@ include_toc: true
 
 ## Wishlist, to try
 
-| # | Flavor         |     Brand     |      Should be      |
-|--:|:---------------|:-------------:|:-------------------:|
-| 1 | Cheddar Cheese | ![sm][kraken] | ![flavor sm][spicy] |
+| # | Flavor       |    Brand    |      Should be      |
+|--:|:-------------|:-----------:|:-------------------:|
+| 1 | Fried Cashew | ![sm][duft] | ![flavor sm][spicy] |
 
 ```md
 shisha-prem users recommendation DailyHookah:
@@ -48,6 +48,12 @@ shisha-prem users recommendation DailyHookah:
 |   _CB26_ Mojito | **GOD** | _CARRIBEAN BLEND_ | Perfect **Icy** Base! |
 |   _CB02_ Waffle | **GOD** | _CARRIBEAN BLEND_ | Sweet Desert Taste!   |
 
+## ![tobacco kr][kraken]
+
+|           Type | Grade      | Line | Comment                                                                              |
+|---------------:|------------|------|:-------------------------------------------------------------------------------------|
+| Cheddar Cheese | **Exotic** | __   | Gastro. Should be blended. <br>Tried w/ BB Pistacho and it was **GOD** |
+
 ## ![tobacco bb][blackburn]
 
 |                Type | Grade         | Comment                                                         |
@@ -57,6 +63,7 @@ shisha-prem users recommendation DailyHookah:
 |  Pistachio Ice Snow | **GOD**       | as Good as Polar Cream or even better                           |
 |             Brownie | **GOD**       | Sweet chocolate                                                 |
 |        Famous Apple | **GOD**       | Famous for sure nuff said.                                      |
+|             After 8 | **GOD**       | choco-mint candys                                                |
 |         Raspberries | **GOD**       | Sweet and tasty                                                 |
 |       Guf, Ice Baby | **Good**      | Juicy, close to **GOD** tier, better using _Phunnel_ bowl       |
 |        Chupa Graper | **Good**      | juicy                                                           |
@@ -79,7 +86,7 @@ shisha-prem users recommendation DailyHookah:
 
 |              Type | Grade         | Line   | Comment                                               |
 |------------------:|---------------|--------|:------------------------------------------------------|
-|       Polar Cream | **GOD**       | -      | Perfect!                                              |
+|       Polar Cream | **GOD**       | _rare_      | Perfect!                                              |
 |     Bounty Hunter | **Good**      | -      | -                                                     |
 |        Ice Granny | **Good**      | -      | Nice and fresh apple                                  |
 | Raf in the jungle | **Good**      | -      | It's coffee time!                                     |
@@ -141,7 +148,7 @@ shisha-prem users recommendation DailyHookah:
 |           Type | Grade         | Comment                                               |
 |---------------:|---------------|-------------------------------------------------------|
 |          Honey | **GOD**       | -                                                     |
-|       Barbaris | **Good**      | -                                                     |
+|       Barbaris | **GOD**       | Polina likes!                                         |
 | Vanilla Orange | **Sometimes** | -                                                     |
 |    Grape shake | **Acid**      | -                                                     |
 |      Greenwich | **Bad**       | грейпфрут, личи                                       | 
@@ -186,11 +193,12 @@ shisha-prem users recommendation DailyHookah:
 
 ## ![tobacco chabacco][tea]
 
-|                       Type | Grade    | Line   | Comment             |
-|---------------------------:|----------|--------|---------------------|
-|                Tropic Love | **Good** | Medium | ![flavor sm][sweet] |
-|                     Клюква | **Good** | Medium | -                   |
-| Incredible India Bubblegum | **Icy**  | Strong | ![flavor sm][fresh] |
+|                       Type | Grade    | Line   | Comment                         |
+|---------------------------:|----------|--------|---------------------------------|
+|                Tropic Love | **Good** | Medium | ![flavor sm][sweet]             |
+|               Milk Cookies | **Good** | Medium | ![flavor sm][sweet] milky sweet |
+|                     Клюква | **Good** | Medium | -                               |
+| Incredible India Bubblegum | **Icy**  | Strong | ![flavor sm][fresh]             |
 
 <!--  logo links -->
 
