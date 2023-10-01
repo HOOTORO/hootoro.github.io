@@ -9,8 +9,9 @@
     text-rendering: optimizeLegibility;
 }
 
-body, nav {
-    //    background-color: #000011 !important;
+
+body,
+nav {
     font-family: "Twilio Sans Mono", sans-serif;
 }
 
@@ -27,23 +28,6 @@ body, nav {
     }
 }
 
-//nav ul {
-//    list-style: none;
-//    padding: 3px 5px;
-//    a {
-//        color: #fff;
-//        text-decoration: none;
-//
-//        &:hover {
-//            text-decoration: underline;
-//        }
-//    }
-//
-//    li {
-//        display: inline;
-//    }
-//}
-//
 footer {
     border-radius: 5px;
     position: fixed;
@@ -58,20 +42,23 @@ footer {
     }
 }
 
-//
-//
-//table {
-//    display: table;
-//    overflow: hidden !important;
-//    border-radius: 7px;
-//    box-shadow: var(--md-shadow-z7);
-//
-//
+
+
+table:not(:first-of-type) {
+    //    display: table;
+    //    overflow: hidden !important;
+    //    border-radius: 7px;
+    // width: 90% !important;
+    // box-shadow: var(--md-shadow-z7);
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgba(0, 255, 0, 0.05) 0%, rgba(208, 255, 0, 0.05) 42%, rgba(255, 230, 0, 0.1) 62%, rgba(255, 0, 0, 0.3) 100%);
+
+}
+
 tr:hover {
     background-color: rgba(0, 0, 33, 1);
 }
 
-//
 th {
     color: var(--md-text-color);
     text-transform: uppercase;
@@ -80,9 +67,7 @@ th {
     border-bottom: 1px solid var(--md-primary-fg-color) !important;
 }
 
-//
 td {
-    //    background-color: var(--md-default-fg-color--lightest);
     border-top: 1px solid var(--md-default-fg-color--lighter) !important;
     vertical-align: inherit !important;
     word-break: keep-all;
@@ -90,34 +75,26 @@ td {
 
 }
 
-//
-//    tr:nth-child(even) {
-//        background-color: var(--md-default-bg-color--darker);
-//    }
-//
-//    sup {
-//        color: #bada55 !important;
-//        font-size: 10px;
-//    }
-//}
-//
-//tbody td[colspan="2"] {
-//    color: #ff00ff;
-//    font-weight: 600;
-//}
-//
-//em {
-//    text-decoration: underline 1px #eba100;
-//}
+img[src$='#floatleft'] {
+    float: left;
+    right: 110px;
+    top: 4rem;
+    position: relative;
+}
+
+img[src$='#floatright'] {
+    float: right;
+}
 
 
-.tobacco, .sm {
+.sm {
     margin-right: auto;
     margin-left: auto;
 }
 
 .tobacco {
-    max-width: 200px;
+    max-width: 150px;
+    margin-left: 20px;
 }
 
 .sm {

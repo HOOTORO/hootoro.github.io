@@ -12,6 +12,11 @@
             {{- end -}}
         </div>
     </header>
+    {{ if .Params.toc }}
+    <aside>
+        {{ .TableOfContents }}
+    </aside>
+    {{ end }}
     {{- partial "prose.html" . -}}
 </article>
 {{ end }}

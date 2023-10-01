@@ -1,10 +1,16 @@
----
-title: Travel to Kiev
-date: 2023-08-06T23:04:30+03:00
-draft: true
----
++++
+draft = false
+categories = ['Travel', 'Longstory']
+date = '2023-08-06'
+description = 'spf13-vim is a cross platform distribution of vim plugins and resources for Vim.'
+slug = 'trvl-kiev'
+tags = ['adventure', 'happy end', 'spf13-vim', 'people']
+title = 'Travel to Kiev'
+toc = true
++++
 
-```
+
+```md
 Дело происходило в 2015г.
 
 Действующие лица:
@@ -273,7 +279,7 @@ FFFFFFFFFFFFFFFFUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
 В тот момент у меня только одна фраза в голове стояла  
 HOW DEEP THE FUCKING RABBIT HOLE GOES?
 
-## Часть 3, БРЯНСК La finale
+## Часть 3. БРЯНСК La finale
 
 Подхожу к проводнику и спрашиваю по какому маршруту идет их поезд, который едет в Киев, как и ожидалось не по тому, на
 котором нас высадили.  

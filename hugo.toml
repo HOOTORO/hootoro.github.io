@@ -2,166 +2,130 @@ baseURL      = 'http://HOOTORO.github.io/'
 languageCode = 'en'
 theme        = 'github.com/serkodev/holy'
 title        = 'Bad Dev'
-
-# fuji, m10c, anubis, terminalCV
-# almost: hugo-coder
-# up but don't work: hugo-blog-awesome
-# dont up hello-friend-ng
-
 [module]
-  [[module.imports]]
-    path = 'github.com/serkodev/holy'
-
-[params]
-
-  AuthorName         = 'Mark'
-  Creation           = '18.07.2023'
-  GitHubUser         = 'HOOTORO'
-  SidebarRecentLimit = 5
-  email              = "example@hugo.ry"
-  github             = "https://github.com/HOOTORO/"
-
+     [[module.imports]]
+          path = 'github.com/serkodev/holy'
 [permalinks]
-  page  = "/:title/"
-  posts = '/:year/:month/:title/'
-
+     page  = "/:title/"
+     posts = '/:year/:month/:title/'
 [frontmatter]
-  date        = ['date', 'lastmod', 'publishDate']
-  expiryDate  = ['expiryDate']
-  lastmod     = [':git', 'date', 'lastmod', 'publishDate']
-  publishDate = ['date', 'publishDate']
-
+     date        = [ 'date', 'lastmod', 'publishDate' ]
+     expiryDate  = [ 'expiryDate' ]
+     lastmod     = [ ':git', 'date', 'lastmod', 'publishDate' ]
+     publishDate = [ 'date', 'publishDate' ]
+[params]
+     AuthorName         = 'Mark'
+     Creation           = '18.07.2023'
+     GitHubUser         = 'HOOTORO'
+     SidebarRecentLimit = 5
+     email              = "example@hugo.ry"
+     github             = "https://github.com/HOOTORO/"
 [menu]
-
-  [[menu.main]]
-
-    name    = '/'
-    pageRef = '/'
-    weight  = 10
-
-  [[menu.main]]
-
-    name    = 'Posts'
-    pageRef = '/posts'
-    weight  = 20
-
-  [[menu.main]]
-
-    name    = '<|'
-    pageRef = '/about'
-    weight  = 90
-  [[menu.main]]
-
-    name    = 'Hookah'
-    pageRef = '/hook'
-    weight  = 120
-  [[menu.main]]
-
-    name    = 'Family'
-    pageRef = '/fam'
-    weight  = 120
-
-[caches]
-
-  [caches.assets]
-    dir    = ':resourceDir/_gen'
-    maxAge = -1
-  [caches.getcsv]
-    dir    = ':cacheDir/:project'
-    maxAge = -1
-  [caches.getjson]
-    dir    = ':cacheDir/:project'
-    maxAge = -1
-  [caches.getresource]
-    dir    = ':cacheDir/:project'
-    maxAge = -1
-  [caches.images]
-    dir    = ':resourceDir/_gen'
-    maxAge = -1
-  [caches.modules]
-    dir    = ':cacheDir/modules'
-    maxAge = -1
-
-[minify]
-  disableCSS   = false
-  disableHTML  = false
-  disableJS    = false
-  disableJSON  = false
-  disableSVG   = false
-  disableXML   = false
-  minifyOutput = false
-  [minify.tdewolff]
-    [minify.tdewolff.css]
-      keepCSS2  = true
-      precision = 2
-    [minify.tdewolff.html]
-      keepComments            = false
-      keepConditionalComments = true
-      keepDefaultAttrVals     = true
-      keepDocumentTags        = true
-      keepEndTags             = true
-      keepQuotes              = false
-      keepWhitespace          = false
-    [minify.tdewolff.js]
-      keepVarNames = false
-      precision    = 0
-    [minify.tdewolff.json]
-      keepNumbers = false
-      precision   = true
-    [minify.tdewolff.svg]
-      precision = 0
-    [minify.tdewolff.xml]
-      keepWhitespace = false
-
+     [[menu.main]]
+          name    = '/'
+          pageRef = '/'
+          weight  = 10
+     [[menu.main]]
+          name    = 'Posts'
+          pageRef = '/posts'
+          weight  = 20
+     [[menu.main]]
+          name    = 'Hookah'
+          pageRef = '/hook'
+          weight  = 80
+     [[menu.main]]
+          name    = '<|'
+          pageRef = '/about'
+          weight  = 90
+#  [[menu.main]]
+#       name    = 'Family'
+#       pageRef = '/fam'
+#       weight  = 120
 [markup]
-  defaultMarkdownHandler = 'goldmark'
-  [markup.asciidocExt]
-    backend              = 'html5'
-    extensions           = []
-    failureLevel         = 'fatal'
-    noHeaderOrFooter     = true
-    preserveTOC          = false
-    safeMode             = 'unsafe'
-    sectionNumbers       = false
-    trace                = false
-    verbose              = false
-    workingFolderCurrent = false
-    [markup.asciidocExt.attributes]
-[markup.goldmark]
-  [markup.goldmark.extensions]
-    definitionList  = true
-    footnote        = true
-    linkify         = true
-    linkifyProtocol = 'https'
-    strikethrough   = true
-    table           = true
-    taskList        = true
-    typographer     = true
-  [markup.goldmark.parser]
-    autoHeadingID     = true
-    autoHeadingIDType = 'github'
-    # wrapStandAloneImageWithinParagraph = true
-    [markup.goldmark.parser.attribute]
-      block = false
-      title = true
-[markup.goldmark.renderer]
-  hardWraps = false
-  unsafe    = false
-  xhtml     = false
-[markup.highlight]
-  anchorLineNos      = false
-  codeFences         = true
-  guessSyntax        = false
-  hl_Lines           = 1
-  lineAnchors        = ''
-  lineNoStart        = 1
-  lineNos            = false
-  lineNumbersInTable = true
-  noClasses          = true
-  noHl               = false
-  style              = 'monokai'
-  tabWidth           = 4
-[markup.tableOfContents]
-  endLevel   = 3
-  ordered    = false
-  startLevel = 2
+     defaultMarkdownHandler = 'goldmark'
+     [markup.tableOfContents]
+          endLevel   = 3
+          startLevel = 1
+     [markup.highlight]
+          anchorLineNos      = true
+          codeFences         = true
+          guessSyntax        = false
+          hl_Lines           = 1
+          lineAnchors        = '>'
+          lineNoStart        = 1
+          lineNos            = true
+          lineNumbersInTable = false
+          noClasses          = true
+          noHl               = true
+          style              = 'monokai'
+          tabWidth           = 4
+     [markup.goldmark]
+          [markup.goldmark.renderer]
+               hardWraps = false
+               unsafe    = false
+               xhtml     = false
+          [markup.goldmark.extensions]
+               definitionList  = true
+               footnote        = true
+               linkify         = true
+               linkifyProtocol = 'https'
+               strikethrough   = true
+               table           = true
+               taskList        = true
+               typographer     = true
+          [markup.goldmark.parser]
+               autoHeadingID     = true
+               autoHeadingIDType = 'github'
+               [markup.goldmark.parser.attribute]
+                    block = true
+                    title = true
+
+                    # [minify]
+                    #      disableCSS   = false
+                    #      disableHTML  = false
+                    #      disableJS    = false
+                    #      disableJSON  = false
+                    #      disableSVG   = false
+                    #      disableXML   = false
+                    #      minifyOutput = false
+                    #      [minify.tdewolff]
+                    #           [minify.tdewolff.css]
+                    #                keepCSS2  = true
+                    #                precision = 2
+                    #           [minify.tdewolff.html]
+                    #                keepComments            = false
+                    #                keepConditionalComments = true
+                    #                keepDefaultAttrVals     = true
+                    #                keepDocumentTags        = true
+                    #                keepEndTags             = true
+                    #                keepQuotes              = false
+                    #                keepWhitespace          = false
+                    #           [minify.tdewolff.js]
+                    #                keepVarNames = false
+                    #                precision    = 0
+                    #           [minify.tdewolff.json]
+                    #                keepNumbers = false
+                    #                precision   = true
+                    #           [minify.tdewolff.svg]
+                    #                precision = 0
+                    #           [minify.tdewolff.xml]
+                    #                keepWhitespace = false
+                    # [caches]
+                    #      [caches.assets]
+                    #           dir    = ':resourceDir/_gen'
+                    #           maxAge = -1
+                    #      [caches.getcsv]
+                    #           dir    = ':cacheDir/:project'
+                    #           maxAge = -1
+                    #      [caches.getjson]
+                    #           dir    = ':cacheDir/:project'
+                    #           maxAge = -1
+                    #      [caches.getresource]
+                    #           dir    = ':cacheDir/:project'
+                    #           maxAge = -1
+                    #      [caches.images]
+                    #           dir    = ':resourceDir/_gen'
+                    #           maxAge = -1
+                    #      [caches.modules]
+                    #           dir    = ':cacheDir/modules'
+                    #           maxAge = -1
