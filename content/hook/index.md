@@ -12,40 +12,40 @@ include_toc: true
 | ---: | -------------: | ------- | ----------- | :-------------------- |
 |    1 |     Strawberry | **GOD** | _NICARAGUA_ | Dat berry smell!      |
 |    1 |  Caramel Cream | **GOD** | _N18_       | Sweet Desert Taste!   |
-|    2 |       Original | **GOD** | _C01_       | Tobbaco Taste         |
+|    2 |       Original | **GOD** | _C01_       | Tobacco Taste         |
 |    3 |         Mojito | **GOD** | _CB26_      | Perfect **Icy** Base! |
 |    4 |         Waffle | **GOD** | _CB02_      | Sweet Desert Taste!   |
 |    4 | Maasdam Cheese | **GOD** | _T02_       | didn't try yet!       |
 
-[^w]: **N** - Nicaragua, **C** - Cuba, **CB** - Carribean Blend, **T** - Tanzania
+[^w]: **N** - Nicaragua, **C** - Cuba, **CB** - Caribbean Blend, **T** - Tanzania
 
 ### ![tobacco kr](logo/kraken-logo.png#floatleft)
 
-|    # |           Type | Grade      | Line | Comment                                                            |
-| ---: | -------------: | ---------- | ---- | :----------------------------------------------------------------- |
-|    1 | Cheddar Cheese | **Exotic** | ==   | Gastro. Should be blended. Tried w/ BB Pistacho and it was **GOD** |
-|    2 |     Pirate Rum | **Exotic** | ==   | Gastro. Should be blended.                                         |
-|    3 |      Raspberry | **Exotic** | ==   | didn't try yet!                                                    |
+|    # |           Type | Grade      | Line | Comment                                                             |
+| ---: | -------------: | ---------- | ---- | :------------------------------------------------------------------ |
+|    1 | Cheddar Cheese | **Exotic** | ==   | Gastro. Should be blended. Tried w/ BB Pistachio and it was **GOD** |
+|    2 |     Pirate Rum | **Exotic** | ==   | Gastro. Should be blended.                                          |
+|    3 |      Raspberry | **Exotic** | ==   | didn't try yet!                                                     |
 
 ### ![tobacco bb](logo/black_burn.svg#floatleft)
 
 |    # |                 Type | Grade        | Line | Comment                                                              |
 | ---: | -------------------: | ------------ | ---- | :------------------------------------------------------------------- |
-|    1 |      Almond Icecream | **GOD**      | ==   | _"And if you smell those almonds man, I think you better run."_      |
-|    2 | feat. JIGAN Relax On | **GOD**      | ==   | Banana Soufle. Perfect!                                              |
+|    1 |     Almond Ice cream | **GOD**      | ==   | _"And if you smell those almonds man, I think you better run."_      |
+|    2 | feat. JIGAN Relax On | **GOD**      | ==   | Banana Souffle. Perfect!                                             |
 |    3 | feat. JIGAN Chill On | **GOD**      | ==   | Tropic Juice. Perfect!                                               |
 |    4 |           Cheesecake | **GOD**      | ==   | Perfect!                                                             |
 |    5 |   Pistachio Ice Snow | **GOD**      | ==   | as Good as Polar Cream or even better                                |
 |    6 |              Brownie | **GOD**      | ==   | Sweet chocolate                                                      |
 |    7 |         Famous Apple | **GOD**      | ==   | Famous for sure nuff said.                                           |
-|    8 |              After 8 | **GOD**      | ==   | choco-mint candys                                                    |
+|    8 |              After 8 | **GOD**      | ==   | choco and mint candies                                               |
 |    9 |          Raspberries | **GOD**      | ==   | Sweet and tasty                                                      |
-|    9 |           Peachberry | **GOD**      | ==   | Peach and wild strawberry                                            |
+|    9 |          Peach berry | **GOD**      | ==   | Peach and wild strawberry                                            |
 |   10 |  feat. Guf, Ice Baby | **Good**     | ==   | Juicy, close to **GOD** tier, better using _Phunnel_ bowl            |
 |   11 |         Chupa Graper | **Good**     | ==   | juicy                                                                |
-|   12 |         Creme Brulee | **Good**     | ==   | chocolate icescream                                                  |
-|   12 |      Something Sweet | **Good**     | ==   | chocolate icescream                                                  |
-|   13 |               Malibu | **Good**     | ==   | **Icy** Coconout                                                     |
+|   12 |         Creme Brulee | **Good**     | ==   | chocolate ice cream                                                  |
+|   12 |      Something Sweet | **Good**     | ==   | chocolate ice cream                                                  |
+|   13 |               Malibu | **Good**     | ==   | **Icy** Coconut                                                      |
 |   14 |          Melon Halls | **Good**     | ==   | **Icy** Melon                                                        |
 |   14 |              Nutella | **Sometime** | ==   | -                                                                    |
 |   15 |              Tic-Tac | **Sometime** | ==   | -                                                                    |
@@ -63,22 +63,22 @@ include_toc: true
 
 ### ![tobacco ds](logo/darkside.png#floatleft)
 
-|    # |              Type | Grade        | Line   | Comment                                               |
-| ---: | ----------------: | ------------ | ------ | :---------------------------------------------------- |
-|    1 |       Polar Cream | **GOD**      | _rare_ | Perfect!                                              |
-|    2 |     Bounty Hunter | **Good**     | -      | -                                                     |
-|    3 |        Ice Granny | **Good**     | -      | Nice and fresh apple                                  |
-|    4 | Raf in the jungle | **Good**     | -      | It's coffee time!                                     |
-|    5 |      Red Zeppelin | **Good**     | _core_ | Gooseberries. Good Fresh taste                        |
-|    6 |       Killer milk | **Good**     | -      | Sweet                                                 |
-|    7 |   Pineapple Pulse | **Good**     | _core_ | Same as Granny                                        |
-|    8 |       Fruity dust | **Good**     | _core_ | Dragonfruit, a little **Icy**, unexpectedly **Good**. |
-|    9 |        Honey Dust | **Sometime** | _core_ | Weird                                                 |
-|   10 | Glitchech Ice Tea | **Sometime** | _core_ | Weird too!                                            |
-|   11 |      Desert Eagle | **Bad**      | -      | Don't like at all                                     |
-|   12 |     Space Leeches | **Bad**      | -      | Don't like at all                                     |
-|   13 |      North travel | **Bad**      | -      | базилик, клюква, малина                               |
-|   14 |        Gonzo cake | **Bad**      | -      | Don't like at all                                     |
+|    # |              Type | Grade        | Line   | Comment                                                |
+| ---: | ----------------: | ------------ | ------ | :----------------------------------------------------- |
+|    1 |       Polar Cream | **GOD**      | _rare_ | Perfect!                                               |
+|    2 |     Bounty Hunter | **Good**     | -      | -                                                      |
+|    3 |        Ice Granny | **Good**     | -      | Nice and fresh apple                                   |
+|    4 | Raf in the jungle | **Good**     | -      | It's coffee time!                                      |
+|    5 |      Red Zeppelin | **Good**     | _core_ | Gooseberries. Good Fresh taste                         |
+|    6 |       Killer milk | **Good**     | -      | Sweet                                                  |
+|    7 |   Pineapple Pulse | **Good**     | _core_ | Same as Granny                                         |
+|    8 |       Fruity dust | **Good**     | _core_ | Dragon fruit, a little **Icy**, unexpectedly **Good**. |
+|    9 |        Honey Dust | **Sometime** | _core_ | Weird                                                  |
+|   10 | Glitchech Ice Tea | **Sometime** | _core_ | Weird too!                                             |
+|   11 |      Desert Eagle | **Bad**      | -      | Don't like at all                                      |
+|   12 |     Space Leeches | **Bad**      | -      | Don't like at all                                      |
+|   13 |      North travel | **Bad**      | -      | базилик, клюква, малина                                |
+|   14 |        Gonzo cake | **Bad**      | -      | Don't like at all                                      |
 
 ### ![tobacco mh](logo/musthave.png#floatleft)
 
@@ -86,12 +86,13 @@ include_toc: true
 | ---: | -------------: | ------------ | ---- | :-------------------------- |
 |    1 |  Charlotte Pie | **GOD**      | ==   | Perfect                     |
 |    2 |     Cheesecake | **Good**     | ==   | Very                        |
+|    6 |    Milk Oolong | **Sometime** | ==   | average                     |
 |    3 |  Caribbean run | **Sometime** | ==   | average                     |
 |    4 |         Frosty | **Sometime** | ==   | average                     |
 |    5 |       Paradise | **Sometime** | ==   | average                     |
 |    6 | Pistachio cake | **Sometime** | ==   | average                     |
 |    6 |        Jumango | **Sometime** | ==   | average                     |
-|    6 |          Alova | **Sometime** | ==   | average                     |
+|    6 |          Alova | **Sometime** | ==   | average, aloe, pink guava   |
 |    7 |     Lemon-lime | **Sour**     | ==   | meh                         |
 |    8 |    Maple Pecan | **Bad**      | ==   | awful                       |
 |    9 |     Grapefruit | **Bad**      | ==   | awful                       |
@@ -104,27 +105,27 @@ include_toc: true
 
 ### ![tobacco du](logo/duft.png#floatleft)
 
-|    # |              Type | Grade        | Line     | Comment                                                                             |
-| ---: | ----------------: | ------------ | -------- | :---------------------------------------------------------------------------------- |
-|    1 |        Cheesecake | **GOD**      | -        | Perfect                                                                             |
-|    2 |         Pineapple | **GOD**      | _strong_ | Perfect                                                                             |
-|    2 |            Ginger | **GOD**      | -        | Flavored bread                                                                      |
-|    3 |         Gigagreen | **Good**     | _All-in_ | Rafiki, Tarhun, Coconout, Ginger Bread. Almost **GOD** tier. Better use Killer bowl |
-|    4 |           Wonka's | **Good**     | _All-in_ | hazelnut,tiramisu,pistacho cream,**Sour** peach,fried cashew                        |
-|    5 | Cucumber lemonade | **Good**     | -        | -                                                                                   |
-|    6 |        Chai Latte | **Good**     | -        | -                                                                                   |
-|    7 |          Barberry | **Good**     | _strong_ | Pretty good                                                                         |
-|    8 |          Coconout | **Good**     | _strong_ | Pretty good                                                                         |
-|    9 |          Maracuja | **Good**     | -        | -                                                                                   |
-|   10 |            Pomelo | **Sometime** | _strong_ | _                                                                                   |
-|   11 |            Papaya | **Sometime** | _strong_ |                                                                                     |
-|   12 |        Grape Fizz | **Sometime** | _strong_ |                                                                                     |
-|   13 |      Pome Granate | **Sometime** | _strong_ |                                                                                     |
-|   14 |        Lime Lemon | **Sour**     | _strong_ | TOP ACID TASTE                                                                      |
-|   15 |       Heavy Melon | **Chemical** | _strong_ |                                                                                     |
-|   15 |      Fried Cashew | **Bad**      | ~        | seems fried nuts not my type                                                        |
-|   16 |      Dragon Fruit | **Bad**      | -        | awful                                                                               |
-|   17 |       Mango Lassi | **Bad**      | _strong_ |                                                                                     |
+|    # |              Type | Grade        | Line     | Comment                                                                            |
+| ---: | ----------------: | ------------ | -------- | :--------------------------------------------------------------------------------- |
+|    1 |        Cheesecake | **GOD**      | -        | Perfect                                                                            |
+|    2 |         Pineapple | **GOD**      | _strong_ | Perfect                                                                            |
+|    2 |            Ginger | **GOD**      | -        | Flavored bread                                                                     |
+|    3 |         Gigagreen | **Good**     | _All-in_ | Rafiki, Tarhun, Coconut, Ginger Bread. Almost **GOD** tier. Better use Killer bowl |
+|    4 |           Wonka's | **Good**     | _All-in_ | hazelnut, tiramisu, pistachio cream,**Sour** peach,fried cashew                    |
+|    5 | Cucumber lemonade | **Good**     | -        | -                                                                                  |
+|    6 |        Chai Latte | **Good**     | -        | -                                                                                  |
+|    7 |          Barberry | **Good**     | _strong_ | Pretty good                                                                        |
+|    8 |           Coconut | **Good**     | _strong_ | Pretty good                                                                        |
+|    9 |          Maracuja | **Good**     | -        | -                                                                                  |
+|   10 |            Pomelo | **Sometime** | _strong_ | _                                                                                  |
+|   11 |            Papaya | **Sometime** | _strong_ |                                                                                    |
+|   12 |        Grape Fizz | **Sometime** | _strong_ |                                                                                    |
+|   13 |      Pome Granate | **Sometime** | _strong_ |                                                                                    |
+|   14 |        Lime Lemon | **Sour**     | _strong_ | TOP ACID TASTE                                                                     |
+|   15 |       Heavy Melon | **Chemical** | _strong_ |                                                                                    |
+|   15 |      Fried Cashew | **Bad**      | ~        | seems fried nuts not my type                                                       |
+|   16 |      Dragon Fruit | **Bad**      | -        | awful                                                                              |
+|   17 |       Mango Lassi | **Bad**      | _strong_ |                                                                                    |
 
 ### ![tobacco spectrum](logo/spec-logo.png#floatleft)
 
@@ -135,29 +136,29 @@ include_toc: true
 |    3 | Vanilla Orange | **Sometime** | ==   | -                                                     |
 |    4 |    Grape shake | **Acid**     | ==   | -                                                     |
 |    5 |      Greenwich | **Bad**      | ==   | грейпфрут, личи                                       |
-|    7 |   Chiken Ramen | **Exotic**   | ==   | Smells like Doshirak, but taste different, don't like |
+|    7 |  Chicken Ramen | **Exotic**   | ==   | Smells like Doshirak, but taste different, don't like |
 |    8 |         Beacon | **Exotic**   | ==   | That's interesting one!                               |
 
 ### ![tobacco](logo/daily-hookah.png#floatleft)
 
-|    # |            Type | Grade   | Comment                                                  |
-| ---: | --------------: | ------- | :------------------------------------------------------- |
-|    1 | Belgian waffles | **GOD** | Top. _Recommended mix_: Bounty Hunter/Duft Coconout ~50% |
-|    2 |          Feijoa | **Bad** | -                                                        |
-|    3 |        Maracuja | **Bad** | -                                                        |
-|    4 |            Nuts | **Bad** | -                                                        |
+|    # |            Type | Grade   | Comment                                                 |
+| ---: | --------------: | ------- | :------------------------------------------------------ |
+|    1 | Belgian waffles | **GOD** | Top. _Recommended mix_: Bounty Hunter/Duft Coconut ~50% |
+|    2 |          Feijoa | **Bad** | -                                                       |
+|    3 |        Maracuja | **Bad** | -                                                       |
+|    4 |            Nuts | **Bad** | -                                                       |
 
 ### ![tobacco d](logo/deus.png#floatleft)
 
-|    # |            Type | Grade                 | Line | Comment                              |
-| ---: | --------------: | --------------------- | ---- | :----------------------------------- |
-|    1 |        DARKSIDE | **GOD**               | ==   | Join the DARKSIDE, we have coookies! |
-|    1 |        Cigar II | **Good**              | ==   | Smells like good tobacco!            |
-|    2 |   Granate juice | **Sometime**/**Sour** | ==   | -                                    |
-|    3 | Vanilla Berries | **Sometime**/**Sour** | ==   | -                                    |
-|    4 |        SKITTLES | **Sometime**/**Sour** | ==   | -                                    |
-|    5 |         Love is | **Sometime**/**Sour** | ==   | -                                    |
-|    6 |       Champaine | **Bad**               | ==   | -                                    |
+|    # |            Type | Grade                 | Line | Comment                             |
+| ---: | --------------: | --------------------- | ---- | :---------------------------------- |
+|    1 |        DARKSIDE | **GOD**               | ==   | Join the DARKSIDE, we have cookies! |
+|    1 |        Cigar II | **Good**              | ==   | Smells like good tobacco!           |
+|    2 |   Granate juice | **Sometime**/**Sour** | ==   | -                                   |
+|    3 | Vanilla Berries | **Sometime**/**Sour** | ==   | -                                   |
+|    4 |        SKITTLES | **Sometime**/**Sour** | ==   | -                                   |
+|    5 |         Love is | **Sometime**/**Sour** | ==   | -                                   |
+|    6 |       Champagne | **Bad**               | ==   | -                                   |
 
 ### ![tobacco wind](logo/northwind.png#floatleft)
 
@@ -200,9 +201,12 @@ include_toc: true
 
 ### ![tobacco bang](logo/Banger.png#floatleft)
 
-|    # |     Type | Grade   | Line | Comment   |
-| ---: | -------: | ------- | ---- | :-------- |
-|    1 | Iron Bru | **Bad** | ~    | Just bad! |
+|    # |            Type | Grade       | Line | Comment             |
+| ---: | --------------: | ----------- | ---- | :------------------ |
+|    1 | Black and White | **Good**    | ~    | Oreo cakes          |
+|    2 |       Berry pie | **Good**    | ~    | Sweet raspberry pie |
+|    3 |      cola Bella | **Average** | ~    | Vanilla coke        |
+|    4 |        Iron Bru | **Bad**     | ~    | Just bad!           |
 
 ### Rating
 
@@ -212,7 +216,7 @@ include_toc: true
 |     **Good** | Choice to make.                  |
 | **Sometime** | Take a place, average.           |
 |     **Sour** | Taste, rarely desired.           |
-|      **Icy** | Fresh, mentol, etc.              |
+|      **Icy** | Fresh, menthol, etc.             |
 |      **Bad** | Experience                       |
 | **Chemical** | Class today! Don't miss          |
 |   **Exotic** | Extremely rare and unusual taste |
