@@ -38,6 +38,7 @@ include_toc: true
 |    5 |   Pistachio Ice Snow | **GOD**      | ==       | as Good as Polar Cream or even better                                |
 |    6 |              Brownie | **GOD**      | ==       | Sweet chocolate                                                      |
 |   25 |    Maraschino Cherry | **GOD**      | OVERDOSE | That's A good damn cherry!                                           |
+|   25 |              Waffles | **GOD**      | OVERDOSE | Отличный выбор любителям десертов                                    |
 |    7 |         Famous Apple | **GOD**      | ==       | Famous for sure nuff said.                                           |
 |    8 |              After 8 | **GOD**      | ==       | choco and mint candies                                               |
 |    9 |          Raspberries | **GOD**      | ==       | Sweet and tasty                                                      |
@@ -67,27 +68,36 @@ include_toc: true
 |   25 |         Fig Lemonade | **Sometime** | OVERDOSE | smells like bubblegum                                                |
 |   25 |      Strawberry Kiwi | **Sometime** | OVERDOSE | lightly sour,                                                        |
 |   25 |     Pineapple Chunks | **Good**     | OVERDOSE | good pineapple                                                       |
+|   25 |          Melon Berry | **Good**     | OVERDOSE | Приятная дыня                                                        |
 |   25 |       Blueberry 2022 | **Good**     | OVERDOSE | well, it's awkwardly similar to chupa grapper                        |
 |   25 |        Manila Malina | **Sometime** | OVERDOSE | tbh, pretty good                                                     |
 
 ### ![tobacco ds](logo/darkside.png#floatleft)
 
-|    # |              Type | Grade        | Line   | Comment                                                |
-| ---: | ----------------: | ------------ | ------ | :----------------------------------------------------- |
-|    1 |       Polar Cream | **GOD**      | _rare_ | Perfect!                                               |
-|    2 |     Bounty Hunter | **Good**     | -      | -                                                      |
-|    3 |        Ice Granny | **Good**     | -      | Nice and fresh apple                                   |
-|    4 | Raf in the jungle | **Good**     | -      | It's coffee time!                                      |
-|    5 |      Red Zeppelin | **Good**     | _core_ | Gooseberries. Good Fresh taste                         |
-|    6 |       Killer milk | **Good**     | -      | Sweet                                                  |
-|    7 |   Pineapple Pulse | **Good**     | _core_ | Same as Granny                                         |
-|    8 |       Fruity dust | **Good**     | _core_ | Dragon fruit, a little **Icy**, unexpectedly **Good**. |
-|    9 |        Honey Dust | **Sometime** | _core_ | Weird                                                  |
-|   10 | Glitchech Ice Tea | **Sometime** | _core_ | Weird too!                                             |
-|   11 |      Desert Eagle | **Bad**      | -      | Don't like at all                                      |
-|   12 |     Space Leeches | **Bad**      | -      | Don't like at all                                      |
-|   13 |      North travel | **Bad**      | -      | базилик, клюква, малина                                |
-|   14 |        Gonzo cake | **Bad**      | -      | Don't like at all                                      |
+|    # |              Type | Grade        | Line        | Comment                                                                                   |
+| ---: | ----------------: | ------------ | ----------- | :---------------------------------------------------------------------------------------- |
+|    1 |       Polar Cream | **GOD**      | _rare_      | Perfect!                                                                                  |
+|    2 |       Окский чилл | **GOD**      | _SHOT_      | Вишня, печеньки, крем                                                                     |
+|    2 |         Свободный | **Good**     | _SHOT_      | Вафли, земляника, дыня. Отличный ягодный десерт                                           |
+|    2 |   Карельский панч | **Good**     | _SHOT_      | Фруктовый микс                                                                            |
+|    2 |         Таманский | **Good**     | _SHOT_      | Банан, папайя, йогурт. Преобладает банановый аромат. Нежный вкус                          |
+|    2 |       Bana-Nascar | **Good**     | _XPERIENCE_ | Банан, клубника. Хорошее сочетание                                                        |
+|    2 |       Eazy Freezy | **Good**     | _XPERIENCE_ | Карамель, мята, мороженое. Приторно сладкий вкус с нотами свежести. Только для сладкоежек |
+|    2 |     Bounty Hunter | **Good**     | -           | -                                                                                         |
+|    3 |        Ice Granny | **Good**     | -           | Nice and fresh apple                                                                      |
+|    4 | Raf in the jungle | **Good**     | -           | It's coffee time!                                                                         |
+|    5 |      Red Zeppelin | **Good**     | _core_      | Gooseberries. Good Fresh taste                                                            |
+|    6 |       Killer milk | **Good**     | -           | Sweet                                                                                     |
+|    7 |   Pineapple Pulse | **Good**     | _core_      | Same as Granny                                                                            |
+|    8 |       Fruity dust | **Good**     | _core_      | Dragon fruit, a little **Icy**, unexpectedly **Good**.                                    |
+|    9 |        Honey Dust | **Sometime** | _core_      | Weird                                                                                     |
+|    2 |             Южный | **Sometime** | _SHOT_      | Груша, манго, мята. Свежие фрукты, на любителя                                            |
+|    2 |          Охотский | **Sometime** | _SHOT_      | Клюква, сорбет, арбуз. Не самый отвратный микс с арбузом                                  |
+|   10 | Glitchech Ice Tea | **Sometime** | _core_      | Weird too!                                                                                |
+|   11 |      Desert Eagle | **Bad**      | -           | Don't like at all                                                                         |
+|   12 |     Space Leeches | **Bad**      | -           | Don't like at all                                                                         |
+|   13 |      North travel | **Bad**      | -           | базилик, клюква, малина                                                                   |
+|   14 |        Gonzo cake | **Bad**      | -           | Don't like at all                                                                         |
 
 ### ![tobacco mh](logo/musthave.png#floatleft)
 
@@ -144,15 +154,17 @@ include_toc: true
 
 ### ![tobacco spectrum](logo/spec-logo.png#floatleft)
 
-|    # |           Type | Grade        | Line | Comment                                               |
-| ---: | -------------: | ------------ | ---- | :---------------------------------------------------- |
-|    1 |          Honey | **GOD**      | ==   | -                                                     |
-|    2 |       Barbaris | **GOD**      | ==   | Polina likes!                                         |
-|    3 | Vanilla Orange | **Sometime** | ==   | -                                                     |
-|    4 |    Grape shake | **Acid**     | ==   | -                                                     |
-|    5 |      Greenwich | **Bad**      | ==   | грейпфрут, личи                                       |
-|    7 |  Chicken Ramen | **Exotic**   | ==   | Smells like Doshirak, but taste different, don't like |
-|    8 |         Beacon | **Exotic**   | ==   | That's interesting one!                               |
+|    # |           Type | Grade        | Line | Comment                                                             |
+| ---: | -------------: | ------------ | ---- | :------------------------------------------------------------------ |
+|    1 |          Honey | **GOD**      | ==   | -                                                                   |
+|    1 |  Apple Strudel | **GOD**      | ==   | 2 вида, крепкий в черной банке и более легкий в белой. Оба шикарны. |
+|    1 | Pineapple Boom | **GOD**      | ==   | 2 вида, крепкий в черной банке и более легкий в белой. Оба шикарны. |
+|    2 |       Barbaris | **GOD**      | ==   | Polina likes!                                                       |
+|    3 | Vanilla Orange | **Sometime** | ==   | -                                                                   |
+|    4 |    Grape shake | **Acid**     | ==   | -                                                                   |
+|    5 |      Greenwich | **Bad**      | ==   | грейпфрут, личи                                                     |
+|    7 |  Chicken Ramen | **Exotic**   | ==   | Smells like Doshirak, but taste different, don't like               |
+|    8 |         Beacon | **Exotic**   | ==   | That's interesting one!                                             |
 
 ### ![tobacco](logo/daily-hookah.png#floatleft)
 
@@ -217,14 +229,16 @@ include_toc: true
 
 ### ![tobacco bang](logo/Banger.png#floatleft)
 
-|    # |            Type | Grade       | Line | Comment                                      |
-| ---: | --------------: | ----------- | ---- | :------------------------------------------- |
-|    1 | Black and White | **Good**    | ~    | Oreo cakes                                   |
-|    2 |       Berry pie | **Good**    | ~    | Sweet raspberry pie                          |
-|    3 |      Cola Bella | **Average** | ~    | Vanilla coke                                 |
-|    3 |          choker | **Average** | ~    | choco-mint. like BBs after8(which is better) |
-|    4 |        Iron Bru | **Bad**     | ~    | Just bad!                                    |
-|    4 |            Sexy | **Bad**     | ~    | Just bad!  grapefruit, raspberry, strawberry |
+|    # |            Type | Grade       | Line | Comment                                                                           |
+| ---: | --------------: | ----------- | ---- | :-------------------------------------------------------------------------------- |
+|    1 | Black and White | **Good**    | ~    | Oreo cakes                                                                        |
+|    2 |       Berry pie | **Good**    | ~    | Sweet raspberry pie                                                               |
+|    3 |      Cola Bella | **Average** | ~    | Vanilla coke                                                                      |
+|    3 |  Peach Maracuja | **Average** | ~    | Фруктовый на любителя                                                             |
+|    3 |          choker | **Average** | ~    | choco-mint. like BBs after8(which is better)                                      |
+|    4 |        Iron Bru | **Bad**     | ~    | Just bad!                                                                         |
+|    4 |            Sexy | **Bad**     | ~    | Just bad!  grapefruit, raspberry, strawberry                                      |
+|    4 |        Umbrella | **Bad**     | ~    | Вроде называется тропическая амбрелла, но аромат тропический фруктов не обнаружен |
 
 ### Rating
 
