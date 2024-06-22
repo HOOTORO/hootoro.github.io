@@ -14,9 +14,28 @@ keywords = [ "bot", "discord", "notification" ]
 slug = "yagpdb"
 +++
 
-## Code snippets
+## Yet Another Great Purpose Discord Bot
 
-### Cursed realm & Nightmare Corridor
+YAGPDB is great bot for sure. With a little knowledge of how templates work, You can do almost anything you ever want.
+
+### Settings
+
+![alt text](https://i.imgur.com/akCC3Xd.png)
+
+Create CC
+
+![alt text](https://i.imgur.com/6u23Dfo.png)
+
+1. Choose hourly interval
+2. Set the value of the trigger frequency during the 24h from midnight
+3. destination channel
+4. pick out unwanted intervals
+5. pick out unwanted days
+6. if this is still not enough, well you can add another layers of logic via code. Check snippets bellow
+
+### Code snippets
+
+#### Cursed realm & Nightmare Corridor
 
 ```go
 {{ $kappa := "https://i.imgur.com/skvKU4y.png" }}
@@ -44,7 +63,7 @@ sendMessageNoEscape nil (
 }}
 ```
 
-### POE Bet
+#### POE Bet
 
 ```go
 {{ $recipient := .Guild.GetRole 1112701089117122570 }}
@@ -68,7 +87,7 @@ sendMessageNoEscape nil (
 }}
 ```
 
-### Solo arena
+#### Solo arena
 
 ```go
 {{ $recipient := .Guild.GetRole 1112701089117122570 }}
@@ -96,7 +115,7 @@ sendMessageNoEscape nil (
 {{end}}
 ```
 
-### Treasure Scramble
+#### Treasure Scramble
 
 ```go
 {{ $recipient := .Guild.GetRole 1112701089117122570 }}
@@ -130,7 +149,7 @@ sendMessageNoEscape nil (
   }}
 ```
 
-### Misty Valley
+#### Misty Valley
 
 ```go
 {{ $recipient := .Guild.GetRole 1252251875110162523 }}
@@ -154,7 +173,7 @@ sendMessageNoEscape nil (
 {{end}}
 ```
 
-### Ghoulosh Gallery & DragonForge Trials
+#### Ghoulish Gallery & DragonForge Trials
 
 ```go
 {{ $recipient := .Guild.GetRole 1252986013937176648 }}
