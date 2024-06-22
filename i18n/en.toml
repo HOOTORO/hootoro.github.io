@@ -1,0 +1,18 @@
+## HOME ##
+
+home.home          = "Home"
+home.recent_posts  = "Recent Posts"
+home.see_all_posts = "See all posts"
+
+## SINGLE ##
+single.table_of_contents = "Table of Contents"
+
+## FOOTER ##
+footer.go_to_top = "Go to top"
+
+# footer.disclaimer = "Powered by Hugo blog is awesome</a>."
+
+## ERRORS ##
+errors.404 = "404 NOT FOUND"
+
+errors.404_description = "You just hit a route that doesn't exist."

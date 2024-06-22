@@ -1,0 +1,18 @@
+## HOME ##
+
+home.home         = "Домой"
+home.recent_posts = "Последние записи"
+
+home.see_all_posts = "Посмотреть все записи"
+## SINGLE ##
+
+single.table_of_contents = "Содержание"
+## FOOTER ##
+
+footer.go_to_top = "Перейти наверх"
+
+## ERRORS ##
+
+errors.404 = "Запись не найдена"
+
+errors.404_description = "Вы перешли по ссылке, которая не существует."

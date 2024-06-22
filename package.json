@@ -1,10 +1,11 @@
 {
-    "name": "HOOTOROOT",
+    "name": "HOOTORO",
     "version": "1.0.0",
     "type": "module",
     "keywords": [
         "Bad Dev",
-        "Notes"
+        "Blog",
+        "Guides"
     ],
     "author": {
         "name": "HOOTORO"

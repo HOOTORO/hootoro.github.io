@@ -1,7 +1,19 @@
 ---
-title: "Fear of the Patch"
+title: Fear of the Patch
 date: 2023-07-31T09:36:45+03:00
 draft: false
+tags:
+  - advice
+  - cognitive-bias
+  - people
+categories:
+  - it
+keywords:
+  - software
+  - upgrade
+  - problem
+slug: fear-patch
+type: post
 ---
 
 * * *

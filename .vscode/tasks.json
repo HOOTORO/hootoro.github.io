@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "HUGO:srv.draft",
+            "problemMatcher": [],
+            "label": "npm: HUGO:srv.draft",
+            "detail": "hugo server -D --disableFastRender --navigateToChanged"
+        }
+    ]
+}

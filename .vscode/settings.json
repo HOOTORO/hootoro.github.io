@@ -1,8 +1,10 @@
 {
     "cSpell.words": [
         "Alova",
+        "Bana",
         "Barbaris",
         "Basilik",
+        "bonche",
         "Brulee",
         "chabacco",
         "choco",
@@ -11,16 +13,19 @@
         "Doshirak",
         "Duft",
         "feijoa",
+        "Freezy",
         "Gastro",
         "Gigagreen",
         "Glitchech",
         "Golubika",
         "Granate",
         "Graper",
+        "grapper",
         "JIGAN",
         "Jumango",
         "Lassi",
         "Maasdam",
+        "Malina",
         "Maracuja",
         "Mojito",
         "Nutella",
@@ -32,6 +37,11 @@
         "Tarhun",
         "trof",
         "Wonka's",
-        "личи"
-    ]
+        "XPERIENCE",
+        "личи",
+        "сорбет"
+    ],
+    "cSpell.language": "en,ru,ru-RU,en-US,lorem,en-GB",
+    "[markdown]": {},
+    "frontMatter.dashboard.openOnStart": true
 }

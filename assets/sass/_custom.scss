@@ -1,0 +1,11 @@
+img.tobacco,
+.toc img {
+    max-width: 10em;
+}
+
+.toc ul li {
+    display: contents;
+}
+.wrapper {
+    max-width: -webkit-calc(960px - (30px * 2));
+}

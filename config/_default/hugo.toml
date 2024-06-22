@@ -1,0 +1,72 @@
+title                  = 'Bad Dev'
+baseURL                = 'https://HOOTORO.github.io/'
+languageCode           = 'en-us'
+enableEmoji            = true
+defaultContentLanguage = 'en'
+
+[module]
+    noProxy       = 'none'
+    noVendor      = ''
+    private       = '*.*'
+    proxy         = 'direct'
+    vendorClosest = false
+    workspace     = 'off'
+
+    [module.hugoVersion]
+        extended = true
+        min      = "0.127.0"
+    [[module.imports]]
+        path    = "github.com/hugo-sid/hugo-blog-awesome"
+        disable = false
+    [[module.imports]]
+        path    = 'github.com/serkodev/holy'
+        disable = true
+[permalinks]
+    [permalinks.page]
+        blog = '/blog/:slug/'
+        docs = '/docs/:slug/'
+        # page  = "/:title/"
+        # posts = '/:year/:month/:title/'
+        # [permalinks.section]
+        #     blog = '/blog/'
+        #     docs = '/docs/'
+
+[frontmatter]
+    date = [
+        'date',
+        'lastmod',
+        'publishDate',
+    ]
+    expiryDate = [
+        'expiryDate',
+    ]
+    lastmod = [
+        ':git',
+        'date',
+        'lastmod',
+        'publishDate',
+    ]
+    publishDate = [
+        'date',
+        'publishDate',
+    ]
+
+[menu]
+    [[menu.main]]
+        name    = 'Home'
+        pageRef = "/"
+        weight  = 10
+    [[menu.main]]
+        pre     = '<i class="fa-solid fa-code"></i>'
+        name    = 'Blog'
+        pageRef = '/blog'
+        weight  = 20
+    [[menu.main]]
+        pre     = '<i class="fa fa-heart"></i>'
+        name    = 'Doc'
+        pageRef = '/docs'
+        weight  = 80
+    [[menu.main]]
+        name    = '<'
+        pageRef = '/about'
+        weight  = 90

@@ -1,12 +1,15 @@
 +++
 draft = false
-categories = ['Travel', 'Longstory']
-date = '2023-08-06'
-description = 'spf13-vim is a cross platform distribution of vim plugins and resources for Vim.'
-slug = 'trvl-kiev'
-tags = ['adventure', 'happy end', 'spf13-vim', 'people']
-title = 'Travel to Kiev'
+categories = [ "travel", "longread" ]
+date = "2023-08-06"
+description = "a long, long time ago, in far, faraway country..."
+slug = "travel-kiev"
+tags = [ "adventure", "happy-end", "people", "travel" ]
+title = "Travel to Kiev"
 toc = true
+keywords = [ "story", "life" ]
+type = "post"
+author = "HOOTORO"
 +++
 
 
@@ -14,12 +17,12 @@ toc = true
 Дело происходило в 2015г.
 
 Действующие лица:
-Р - Рассказчик
-П - Пограничник
-Пр - Проводник
-К/О - Гражданка Казахстана/Оксана
-А - Гражданин Азербайджана/Азер
-Т - Гражданин Турции
+- Р - Рассказчик
+- П - Пограничник
+- Пр - Проводник
+- К/О - Гражданка Казахстана/Оксана
+- А - Гражданин Азербайджана/Азер
+- Т - Гражданин Турции
 Кассир - на вокзале Брянска
 ```
 

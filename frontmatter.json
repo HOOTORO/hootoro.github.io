@@ -1,0 +1,185 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "post",
+      "pageBundle": true,
+      "previewPath": "/blog",
+      "slugTemplate": "{{title}}",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Last modified date",
+          "name": "lastmod",
+          "type": "datetime",
+          "isModifiedDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "toc",
+          "name": "toc",
+          "type": "boolean"
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "choice",
+          "choices": [
+            "story"
+          ]
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "doc",
+      "pageBundle": true,
+      "previewPath": "/docs",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Last modified date",
+          "name": "lastmod",
+          "type": "datetime",
+          "isModifiedDate": true
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "tocOpen",
+          "name": "tocOpen",
+          "type": "boolean"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "choice",
+          "choices": [
+            "bot",
+            "discord",
+            "notification"
+          ]
+        }
+      ]
+    }
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "blog",
+      "path": "[[workspace]]/content/blog",
+      "filePrefix": "",
+      "contentTypes": [
+        "post"
+      ]
+    },
+    {
+      "title": "docs",
+      "path": "[[workspace]]/content/docs",
+      "filePrefix": "",
+      "contentTypes": [
+        "doc"
+      ]
+    }
+  ],
+  "frontMatter.framework.startCommand": "hugo server -D --navigateToChanged",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.preview.pathName": "",
+  "frontMatter.preview.trailingSlash": false,
+  "frontMatter.website.host": "https://hootoro.github.io/",
+  "frontMatter.git.enabled": true
+}

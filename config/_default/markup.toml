@@ -1,0 +1,42 @@
+defaultMarkdownHandler = 'goldmark'
+[tableOfContents]
+    endLevel   = 4
+    startLevel = 3
+    ordered    = false
+[highlight]
+    lineNos            = true
+    anchorLineNos      = true
+    codeFences         = true
+    guessSyntax        = false
+    lineAnchors        = '>'
+    lineNoStart        = 1
+    lineNumbersInTable = true
+    noClasses          = true
+    noHl               = true
+    style              = '>xcode'
+    tabWidth           = 4
+[goldmark]
+    [goldmark.renderer]
+        hardWraps = false
+        unsafe    = false
+        xhtml     = false
+    [goldmark.renderHooks]
+        [goldmark.renderHooks.image]
+            enableDefault = true
+        [goldmark.renderHooks.link]
+            enableDefault = true
+[goldmark.extensions]
+    definitionList  = true
+    footnote        = true
+    linkify         = true
+    linkifyProtocol = 'https'
+    strikethrough   = true
+    table           = true
+    taskList        = true
+    typographer     = true
+[goldmark.parser]
+    autoHeadingID     = true
+    autoHeadingIDType = 'github'
+    [goldmark.parser.attribute]
+        block = true
+        title = true
