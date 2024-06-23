@@ -1,1 +1,11 @@
-{}
+{
+    "users": {
+        "hootoro": {
+            "r": {
+                "hootoro.github.io": {
+                    "content": { "blog": { "fear-of-the-patch": {} } }
+                }
+            }
+        }
+    }
+}

@@ -1,185 +1,163 @@
 {
-  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
-  "frontMatter.taxonomy.contentTypes": [
-    {
-      "name": "post",
-      "pageBundle": true,
-      "previewPath": "/blog",
-      "slugTemplate": "{{title}}",
-      "fields": [
+    "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+    "frontMatter.taxonomy.fieldGroups": [
         {
-          "title": "Title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "Last modified date",
-          "name": "lastmod",
-          "type": "datetime",
-          "isModifiedDate": true
-        },
-        {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
-          "title": "author",
-          "name": "author",
-          "type": "string"
-        },
-        {
-          "title": "toc",
-          "name": "toc",
-          "type": "boolean"
-        },
-        {
-          "title": "keywords",
-          "name": "keywords",
-          "type": "choice",
-          "choices": [
-            "story"
-          ]
-        },
-        {
-          "title": "type",
-          "name": "type",
-          "type": "string"
+            "id": "GeneralFields",
+            "fields": [
+                {
+                    "title": "Title",
+                    "name": "title",
+                    "type": "string",
+                    "single": true
+                },
+                {
+                    "title": "Description",
+                    "name": "description",
+                    "type": "string",
+                    "default": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                },
+                {
+                    "title": "Author",
+                    "name": "author",
+                    "type": "string",
+                    "single": true,
+                    "default": "HOOTORO"
+                },
+                {
+                    "title": "Publishing date",
+                    "name": "date",
+                    "type": "datetime",
+                    "default": "{{now}}",
+                    "isPublishDate": true,
+                    "dateFormat": "yy-MM-dd"
+                },
+                {
+                    "title": "Last modified date",
+                    "name": "lastmod",
+                    "type": "datetime",
+                    "isModifiedDate": true,
+                    "dateFormat": "yy-MM-dd"
+                },
+                {
+                    "title": "Content preview",
+                    "name": "preview",
+                    "type": "image",
+                    "default": "logo.png"
+                },
+                {
+                    "title": "Type",
+                    "name": "type",
+                    "type": "choice",
+                    "choices": ["doc", "post"]
+                },
+                {
+                    "title": "Navigation weight",
+                    "name": "weight",
+                    "type": "number",
+                    "default": 3
+                },
+                {
+                    "title": "Is in draft",
+                    "name": "draft",
+                    "type": "draft",
+                    "default": true
+                },
+                {
+                    "title": "Tags",
+                    "name": "tags",
+                    "type": "tags"
+                },
+                {
+                    "title": "Categories",
+                    "name": "categories",
+                    "type": "categories"
+                },
+                {
+                    "title": "Slug",
+                    "name": "slug",
+                    "type": "slug",
+                    "editable": true,
+                    "default": "{{slug}}"
+                },
+                {
+                    "title": "toc",
+                    "name": "toc",
+                    "type": "boolean",
+                    "default": false
+                },
+                {
+                    "title": "tocOpen",
+                    "name": "tocOpen",
+                    "type": "boolean",
+                    "when": {
+                        "fieldRef": "toc",
+                        "operator": "eq",
+                        "value": true
+                    },
+                    "default": false
+                }
+            ]
         }
-      ]
-    },
-    {
-      "name": "doc",
-      "pageBundle": true,
-      "previewPath": "/docs",
-      "fields": [
+    ],
+    "frontMatter.taxonomy.contentTypes": [
         {
-          "title": "Title",
-          "name": "title",
-          "type": "string"
+            "name": "default",
+            "previewPath": null,
+            "pageBundle": false,
+            "fields": [
+                {
+                    "name": "Default fields",
+                    "type": "fieldCollection",
+                    "fieldGroup": "GeneralFields"
+                }
+            ]
         },
         {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
+            "name": "post",
+            "pageBundle": true,
+            "previewPath": "/blog",
+            "slugTemplate": "{{title}}",
+            "fields": [
+                {
+                    "name": "Default fields",
+                    "type": "fieldCollection",
+                    "fieldGroup": "GeneralFields"
+                }
+            ]
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "Last modified date",
-          "name": "lastmod",
-          "type": "datetime",
-          "isModifiedDate": true
-        },
-        {
-          "title": "author",
-          "name": "author",
-          "type": "string"
-        },
-        {
-          "title": "tocOpen",
-          "name": "tocOpen",
-          "type": "boolean"
-        },
-        {
-          "title": "type",
-          "name": "type",
-          "type": "string"
-        },
-        {
-          "title": "date",
-          "name": "date",
-          "type": "datetime"
-        },
-        {
-          "title": "keywords",
-          "name": "keywords",
-          "type": "choice",
-          "choices": [
-            "bot",
-            "discord",
-            "notification"
-          ]
+            "name": "doc",
+            "pageBundle": true,
+            "previewPath": "/docs",
+            "fields": [
+                {
+                    "name": "Default fields",
+                    "type": "fieldCollection",
+                    "fieldGroup": "GeneralFields"
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "frontMatter.content.pageFolders": [
-    {
-      "title": "blog",
-      "path": "[[workspace]]/content/blog",
-      "filePrefix": "",
-      "contentTypes": [
-        "post"
-      ]
-    },
-    {
-      "title": "docs",
-      "path": "[[workspace]]/content/docs",
-      "filePrefix": "",
-      "contentTypes": [
-        "doc"
-      ]
-    }
-  ],
-  "frontMatter.framework.startCommand": "hugo server -D --navigateToChanged",
-  "frontMatter.content.publicFolder": "static",
-  "frontMatter.framework.id": "hugo",
-  "frontMatter.preview.host": "http://localhost:1313",
-  "frontMatter.preview.pathName": "",
-  "frontMatter.preview.trailingSlash": false,
-  "frontMatter.website.host": "https://hootoro.github.io/",
-  "frontMatter.git.enabled": true
+    ],
+    "frontMatter.content.pageFolders": [
+        {
+            "title": "blog",
+            "path": "[[workspace]]/content/blog",
+            "filePrefix": "",
+            "contentTypes": ["post"]
+        },
+        {
+            "title": "docs",
+            "path": "[[workspace]]/content/docs",
+            "filePrefix": "",
+            "contentTypes": ["doc"]
+        }
+    ],
+    "frontMatter.framework.startCommand": "hugo server -D --navigateToChanged",
+    "frontMatter.content.publicFolder": "static",
+    "frontMatter.framework.id": "hugo",
+    "frontMatter.preview.host": "http://localhost:1313",
+    "frontMatter.preview.pathName": "",
+    "frontMatter.preview.trailingSlash": false,
+    "frontMatter.website.host": "https://hootoro.github.io/",
+    "frontMatter.git.enabled": true
 }

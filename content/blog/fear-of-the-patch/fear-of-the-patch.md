@@ -1,20 +1,23 @@
----
-title: Fear of the Patch
-date: 2023-07-31T09:36:45+03:00
-draft: false
-tags:
-  - advice
-  - cognitive-bias
-  - people
-categories:
-  - it
-keywords:
-  - software
-  - upgrade
-  - problem
-slug: fear-patch
-type: post
----
++++
+title = "Fear of the Patch"
+date = "2023-07-31T09:36:45+03:00"
+draft = false
+tags = [
+  "advice",
+  "cognitive-bias",
+  "occasion",
+  "people",
+  "reason",
+  "software",
+  "upgrade",
+  "fear"
+]
+categories = [ "it", "opinion", "longread" ]
+slug = "fear-patch"
+type = "post"
+preview = "8nm64g.jpg"
+toc = true
++++
 
 * * *
 
@@ -37,7 +40,7 @@ type: post
 На рассвете информационного века оно и не удивительно, новые непонятные технологии.  
 В настоящее же время… уже бабушки на бинансе торгуют
 
-![rofl](8nm64g.jpg)
+![rofl](https://i.imgur.com/dtDSfsR.png)
 
 Слышать, разной степени резкости, негативные мнения о вреде обновлений, в т.ч. от уже родившихся со смартфоном в руке,
 немного странно.  
@@ -125,7 +128,7 @@ _За исключением вредоносного ПО разве что_.
 
 ### Отказ от обновлений - саботаж против себя/своего девайса
 
-![never happen](HkFKrW8.png)
+![never happen](https://i.imgur.com/Q6KMSkt.png)
 
 Мнение о том что “_бывалые сис.админы_”” не обновляют ПО - **ошибочно**!
 

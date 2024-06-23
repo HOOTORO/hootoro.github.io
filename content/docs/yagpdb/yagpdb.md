@@ -2,16 +2,15 @@
 title = "How-to YAGPDB"
 description = "Setup amazing https://yagpdb.xyz/ bot to send interval based notification "
 date = "2024-06-22T03:35:55.923Z"
-preview = ""
+preview = "logo_y.png"
 draft = false
-tags = [ ]
+tags = [ "bot", "discord", "example", "notification", "code" ]
 categories = [ "documentation", "guide" ]
-permalink = "/yagpdb"
-layout = ""
 author = "HOOTORO"
 type = "doc"
-keywords = [ "bot", "discord", "notification" ]
 slug = "yagpdb"
+toc = true
+weight = 2
 +++
 
 ## Yet Another Great Purpose Discord Bot

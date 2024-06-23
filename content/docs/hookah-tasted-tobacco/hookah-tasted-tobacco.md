@@ -4,15 +4,19 @@ title = "Hookah. Tasted Tobacco!"
 draft = false
 tocOpen = true
 type = "doc"
-keywords = [ "life", "hobby" ]
 slug = "hookah-tasted-tobacco"
 description = "List of smoked hookah tobacco"
-tags = [ "cognitive-bias" ]
+tags = [ "cognitive-bias", "hobby", "passion", "people", "bad-habit" ]
 date = "2024-06-22T09:39:59.826Z"
+weight = 1
+toc = true
+categories = [ "review", "data" ]
+preview = "logo.jpg"
 +++
 
+### WTO
 
-### ![tobacco w](logo/wto.webp)
+![tobacco w](logo/wto.webp)
 
 |    # |           Type | Grade   | Line[^w]    | Comment               |
 | ---: | -------------: | ------- | ----------- | :-------------------- |
@@ -21,11 +25,13 @@ date = "2024-06-22T09:39:59.826Z"
 |    2 |       Original | **GOD** | _C01_       | Tobacco Taste         |
 |    3 |         Mojito | **GOD** | _CB26_      | Perfect **Icy** Base! |
 |    4 |         Waffle | **GOD** | _CB02_      | Sweet Desert Taste!   |
-|    4 | Maasdam Cheese | **GOD** | _T02_       | didn't try yet!       |
+|    4 | Maasdam Cheese | **meh** | _T02_       | didn't try yet!       |
 
 [^w]: **N** - Nicaragua, **C** - Cuba, **CB** - Caribbean Blend, **T** - Tanzania
 
-### ![tobacco kr](logo/kraken-logo.png)
+### Kraken
+
+![tobacco kr](logo/kraken.webp)
 
 |    # |           Type | Grade      | Line | Comment                                                             |
 | ---: | -------------: | ---------- | ---- | :------------------------------------------------------------------ |
@@ -33,7 +39,9 @@ date = "2024-06-22T09:39:59.826Z"
 |    2 |     Pirate Rum | **Exotic** | ==   | Gastro. Should be blended.                                          |
 |    3 |      Raspberry | **Exotic** | ==   | didn't try yet!                                                     |
 
-### ![tobacco bb](logo/black_burn.svg)
+### Black Burn
+
+![tobacco bb](logo/bb.webp)
 
 |    # |                 Type | Grade         | Line     | Comment                                                              |
 | ---: | -------------------: | ------------- | -------- | :------------------------------------------------------------------- |
@@ -80,7 +88,9 @@ date = "2024-06-22T09:39:59.826Z"
 |   24 |              Miranda | **Bad**       | ==       | Just awful                                                           |
 |   25 |       Juicy Smoothie | **Bad**       | ==       | Тропический смузи                                                    |
 
-### ![tobacco ds](logo/darkside.png)
+### Darkside
+
+![tobacco ds](logo/darkside.png)
 
 |    # |              Type | Grade         | Line        | Comment                                                                                   |
 | ---: | ----------------: | ------------- | ----------- | :---------------------------------------------------------------------------------------- |
@@ -109,7 +119,9 @@ date = "2024-06-22T09:39:59.826Z"
 |   13 |      North travel | **Bad**       | -           | базилик, клюква, малина                                                                   |
 |   14 |        Gonzo cake | **Bad**       | -           | Don't like at all                                                                         |
 
-### ![tobacco mh](logo/musthave.png)
+### MustHave
+
+![tobacco mh](logo/musthave.png)
 
 |    # |           Type | Grade         | Line | Comment                                                  |
 | ---: | -------------: | ------------- | ---- | :------------------------------------------------------- |
@@ -135,7 +147,9 @@ date = "2024-06-22T09:39:59.826Z"
 |   14 |      Rocketman | **Bad**       | ==   | strawberry, грейпфрут, киви                              |
 |   15 |     Ruby grape | **Bad**       | ==   | awful                                                    |
 
-### ![tobacco du](logo/duft.png)
+### Duft  
+
+![tobacco du](logo/duft.webp)
 
 |    # |              Type | Grade         | Line     | Comment                                                                            |
 | ---: | ----------------: | ------------- | -------- | :--------------------------------------------------------------------------------- |
@@ -162,7 +176,9 @@ date = "2024-06-22T09:39:59.826Z"
 |   16 |      Dragon Fruit | **Bad**       | -        | awful                                                                              |
 |   17 |       Mango Lassi | **Bad**       | _strong_ |                                                                                    |
 
-### ![tobacco spectrum](logo/spec-logo.png)
+### Spectrum
+
+![tobacco spectrum](logo/spec-logo.png)
 
 |    # |           Type | Grade         | Line    | Comment                                               |
 | ---: | -------------: | ------------- | ------- | :---------------------------------------------------- |
@@ -178,7 +194,9 @@ date = "2024-06-22T09:39:59.826Z"
 |    7 |  Chicken Ramen | **Exotic**    | ==      | Smells like Doshirak, but taste different, don't like |
 |    8 |         Beacon | **Exotic**    | ==      | That's interesting one!                               |
 
-### ![tobacco](logo/daily-hookah.png)
+### Daily Hookah
+
+![tobacco](logo/daily-hookah.png)
 
 |    # |            Type | Grade   | Comment                                                 |
 | ---: | --------------: | ------- | :------------------------------------------------------ |
@@ -187,7 +205,9 @@ date = "2024-06-22T09:39:59.826Z"
 |    3 |        Maracuja | **Bad** | -                                                       |
 |    4 |            Nuts | **Bad** | -                                                       |
 
-### ![tobacco d](logo/deus.png)
+### Deus
+
+![tobacco d](logo/deus.png)
 
 |    # |            Type | Grade                  | Line | Comment                             |
 | ---: | --------------: | ---------------------- | ---- | :---------------------------------- |
@@ -200,7 +220,9 @@ date = "2024-06-22T09:39:59.826Z"
 |    5 |         Love is | **Sometimes**/**Sour** | ==   | -                                   |
 |    6 |       Champagne | **Bad**                | ==   | -                                   |
 
-### ![tobacco wind](logo/northwind.png)
+### Северный ветер
+
+![tobacco wind](logo/nw.webp)
 
 |    # |             Type | Grade         | Line | Comment                               |
 | ---: | ---------------: | ------------- | ---- | :------------------------------------ |
@@ -212,13 +234,17 @@ date = "2024-06-22T09:39:59.826Z"
 |    4 |      Curly peach | **Sometimes** | ==   | -                                     |
 |    5 |        Mad Party | **Icy**       | ==   | -                                     |
 
-### ![tobacco scrown](logo/s-crown-logo.webp)
+### Sapphire crown
+
+![tobacco scrown](logo/s-crown.webp)
 
 |    # |             Type | Grade    | Line | Comment |
 | ---: | ---------------: | -------- | ---- | :------ |
 |    1 | Italian Tiramisu | **Good** | ~    | Desert! |
 
-### ![tobacco nas](logo/nash-logo.png)
+### Наш
+
+![tobacco nas](logo/nash-logo.webp)
 
 |    # |             Type | Grade    | Line | Comment         |
 | ---: | ---------------: | -------- | ---- | :-------------- |
@@ -226,7 +252,9 @@ date = "2024-06-22T09:39:59.826Z"
 |    2 | White Strawberry | **Good** | ~69~ | Not bad!        |
 |    3 |          Basilik | --       | ~    | didn't try yet! |
 
-### ![tobacco chabacco](logo/chabacco.png)
+### Chabacco
+
+![tobacco chabacco](logo/chabacco.png)
 
 |    # |                       Type | Grade    | Line   | Comment     |
 | ---: | -------------------------: | -------- | ------ | :---------- |
@@ -235,25 +263,33 @@ date = "2024-06-22T09:39:59.826Z"
 |    3 |                     Клюква | **Good** | Medium |             |
 |    4 | Incredible India Bubblegum | **Icy**  | Strong |             |
 
-### ![tobacco trof](logo/trof.png)
+### Trofimoff's
+
+![tobacco trof](logo/trof.webp)
 
 |    # |            Type | Grade         | Line | Comment           |
 | ---: | --------------: | ------------- | ---- | :---------------- |
 |    1 | Bailey's Terror | **Sometimes** | ~    | Strong one(10/10) |
 
-### ![tobacco satyr](logo/sat.png)
+### Satyr
+
+![tobacco satyr](logo/sat.webp)
 
 |    # |        Type | Grade         | Line | Comment                                |
 | ---: | ----------: | ------------- | ---- | :------------------------------------- |
 |    1 | Coco Jamboo | **Sometimes** | ~    | Рафаэлка. Не самый выразительный кокос |
 
-### ![tobacco bonche](logo/bonche_tobacco.webp)
+### Bonche
 
-|    # |   Type | Grade    | Line | Comment                           |
-| ---: | -----: | -------- | ---- | :-------------------------------- |
-|    1 | Cherry | **Good** | ~    | Strong one(10/10) and cвost a lot |
+![tobacco bonche](logo/bonche.webp)
 
-### ![tobacco bang](logo/Banger.png)
+|    # |   Type | Grade    | Line | Comment                          |
+| ---: | -----: | -------- | ---- | :------------------------------- |
+|    1 | Cherry | **Good** | ~    | Strong one(10/10) and cost a lot |
+
+### Banger
+
+![tobacco bang](logo/bang.webp)
 
 |    # |            Type | Grade         | Line | Comment                                                                          |
 | ---: | --------------: | ------------- | ---- | :------------------------------------------------------------------------------- |
@@ -293,7 +329,3 @@ shisha-prem users recommendation DailyHookah:
 - шоколад с мятой;
 - леденцы с ментолом.
 ```
-
-<!-- [fresh]: https://burntobacco.com/wp-content/themes/burn/images/taste/fresh.svg
-[spicy]: https://burntobacco.com/wp-content/themes/burn/images/taste/spicy.svg
-[sweet]: https://burntobacco.com/wp-content/themes/burn/images/taste/sweet.svg -->

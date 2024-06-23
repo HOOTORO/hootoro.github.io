@@ -1,1 +1,23 @@
-{"taxonomy":{"tags":["adventure","advice","cognitive-bias","happy-end","index","longread","people","travel"],"categories":["documentation","guide","it","longread","post","review","travel"]}}
+{
+    "taxonomy": {
+        "tags": [
+            "adventure",
+            "advice",
+            "cognitive-bias",
+            "happy-end",
+            "index",
+            "longread",
+            "people",
+            "travel"
+        ],
+        "categories": [
+            "documentation",
+            "guide",
+            "it",
+            "longread",
+            "post",
+            "review",
+            "travel"
+        ]
+    }
+}

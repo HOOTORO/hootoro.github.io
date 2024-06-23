@@ -3,8 +3,7 @@ defaultColor = "dark"      # set color mode: dark, light, auto
 # You can take a look at layouts/index.html for more information.
 description = "light and dark support each other"
 mainSections = [
-    'blog',
-    'docs',
+    'post',
 ]
 toc = true # set to false to disable table of contents 'globally'
 tocOpen = false # set to true to open table of contents by default
@@ -30,7 +29,7 @@ subtitle = 'The Best Bad on Earth'
     name               = 'HOOTORO'
     description        = 'A bad dev, ok friend, running fast, minimalistic, personal blog powered by Hugo Framework. For post boring stories and share ordinary thoughts based on personal experience. There is nothing interesting.'
     creation           = '18.07.2023'
-    SidebarRecentLimit = 3
+    SidebarRecentLimit = 5
 [contact]
     email = "marukubaka@gmail.com"
 # Allow to override webmanifest options
