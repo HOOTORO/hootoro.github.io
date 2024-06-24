@@ -37,94 +37,156 @@ Create CC
 #### Cursed realm & Nightmare Corridor
 
 ```go
+{{/* content vars */}}
+{{/* Footer icon */}}
 {{ $kappa := "https://i.imgur.com/skvKU4y.png" }}
-{{ $cur := toInt ( currentTime.UTC.Format "15") }}
-{{ $remaining := sub 12 $cur }}
-{{ $recipient := .Guild.GetRole 1112701089117122570 }}
-{{ $footerText := joinStr "🕑" $remaining "hour(s) left"}}
- 
+{{/* Body image */}}
+{{ $banner := "https://i.imgur.com/RLwzjMa.png" }}
+{{/* left side line */}}
+{{ $color := 13734373 }}
+{{/* RoleID/ChannelID/UserID */}}
+{{ $recipient := .Guild.GetRole 1145822210720792626 }}
+{{/* Description */}}
+{{ $event := "🏁 Результаты 🏁" }}
+{{/* end */}}
+
+{{ $currentHour := toInt (currentTime.UTC.Format "15") }}
+{{ $remaining := print (sub 12 $currentHour) "ч." }}
 {{ 
-sendMessageNoEscape nil ( 
-  complexMessage 
-  "content" ( mentionRoleID $recipient.ID )
-  "embed" (cembed
-           "author" (sdict )
-           "thumbnail" (sdict)
-           "title" ""
-           "color" 14445559
-           "description" "" 
-           "image" (sdict "url" "https://i.imgur.com/RLwzjMa.png")
-           "footer" (sdict  "text" $footerText "icon_url" $kappa)
-           "fields" (cslice)
-           "timestamp" currentTime  
-          ) 
-)
-}}
-```
-
-#### POE Bet
-
-```go
-{{ $recipient := .Guild.GetRole 1112701089117122570 }}
-{{ $kappa := "https://i.imgur.com/skvKU4y.png" }}
-{{ 
-sendMessageNoEscape nil ( 
-  complexMessage 
-  "content" ( mentionRoleID $recipient.ID )
-  "embed" (cembed
-           "author" (sdict)
-           "thumbnail" (sdict)
-           "title" ""
-           "color" 12245589
-           "description" "" 
-           "image" (sdict "url" "https://i.imgur.com/UEwyutf.png")
-           "footer" (sdict  "text" "✅common choices ❎" "icon_url" $kappa)
-           "fields" (cslice)
-           "timestamp" currentTime  
-          ) 
-)
-}}
-```
-
-#### Solo arena
-
-```go
-{{ $recipient := .Guild.GetRole 1112701089117122570 }}
-{{ $kappa := "https://i.imgur.com/skvKU4y.png" }}
-{{ $week := weekNumber currentTime }}
-{{ $isOddWeek := mod $week 2 }}
-{{ if gt $isOddWeek (toFloat 0) }}
-  {{ 
   sendMessageNoEscape nil ( 
     complexMessage 
     "content" ( mentionRoleID $recipient.ID )
     "embed" (cembed
              "author" (sdict)
-             "thumbnail" (sdict)
+             "thumbnail" (sdict )
              "title" ""
-             "color" 16764672
-             "description" "" 
-             "image" (sdict "url" "https://i.imgur.com/9RoHCq5.png")
-             "footer" (sdict  "text" "1️⃣🆚1️⃣ Season ends in ~7 Hours 🕗🔞📵" "icon_url" $kappa)
-             "fields" (cslice)
+             "color" $color
+             "description" ""
+             "image" (sdict "url" $banner)
+             "footer" (sdict  "text" "Lingua latina non penis canis est... GLHF! "  "icon_url" $kappa)
+             "fields" (cslice 
+                       (sdict "name" "🚨 Событие" "value" $event "inline" true )
+                       (sdict "name" "-->" "value" "⚠️" "inline" true )
+                       (sdict "name" "Осталось 🕙" "value" $remaining "inline" true )
+                      )
              "timestamp" currentTime  
             ) 
   )
   }}
+```
+
+#### POE Bet
+
+```go
+{{/* content vars */}}
+{{/* Footer icon */}}
+{{ $kappa := "https://i.imgur.com/skvKU4y.png" }}
+{{/* Body image */}}
+{{ $banner := "https://i.imgur.com/UEwyutf.png" }}
+{{/* left side line */}}
+{{ $color := 12245589 }}
+{{/* RoleID/ChannelID/UserID */}}
+{{ $recipient := .Guild.GetRole 1145877769360785508 }}
+{{/* Description */}}
+{{ $event := "POE Ставка💸" }}
+{{/* end */}}
+
+{{ $currentHour := toInt (currentTime.UTC.Format "15") }}
+{{ $remaining := print (sub 24 $currentHour) "ч." }}
+
+{{ 
+  sendMessageNoEscape nil ( 
+    complexMessage 
+    "content" ( mentionRoleID $recipient.ID )
+    "embed" (cembed
+             "author" (sdict)
+             "thumbnail" (sdict )
+             "title" ""
+             "color" $color
+             "description" ""
+             "image" (sdict "url" $banner)
+             "footer" (sdict  "text" "Lingua latina non penis canis est... GLHF! "  "icon_url" $kappa)
+             "fields" (cslice 
+                       (sdict "name" "🚨 Событие" "value" $event "inline" true )
+                       (sdict "name" "-->" "value" "⚠️" "inline" true )
+                       (sdict "name" "Осталось 🕙" "value" $remaining "inline" true )
+                      )
+             "timestamp" currentTime  
+            ) 
+  )
+  }}
+```
+
+#### Solo arena
+
+```go
+{{/* content vars */}}
+{{/* Footer icon */}}
+{{ $kappa := "https://i.imgur.com/skvKU4y.png" }}
+{{/* Body image */}}
+{{ $banner := "https://i.imgur.com/9RoHCq5.png" }}
+{{/* left side line */}}
+{{ $color := 16764672 }}
+{{/* RoleID/ChannelID/UserID */}}
+{{ $recipient := .Guild.GetRole 1252251522285174874 }}
+{{/* Description */}}
+{{ $event := "Конец сезона 1️⃣🆚1️⃣ " }}
+{{/* end */}}
+
+{{ $currentHour := toInt (currentTime.UTC.Format "15") }}
+{{ $remaining := print (sub 24 $currentHour) "ч." }}
+{{ $week := weekNumber currentTime }}
+{{ $isOddWeek := mod $week 2 }}
+{{ if gt $isOddWeek (toFloat 0) }}
+  {{ 
+    sendMessageNoEscape nil ( 
+      complexMessage 
+      "content" ( mentionRoleID $recipient.ID )
+      "embed" (cembed
+               "author" (sdict)
+               "thumbnail" (sdict )
+               "title" ""
+               "color" $color
+               "description" ""
+               "image" (sdict "url" $banner)
+               "footer" (sdict  "text" "Lingua latina non penis canis est... GLHF! "  "icon_url" $kappa)
+               "fields" (cslice 
+                         (sdict "name" "🚨 Событие" "value" $event "inline" true )
+                         (sdict "name" "-->" "value" "⚠️" "inline" true )
+                         (sdict "name" "Осталось 🕙" "value" $remaining "inline" true )
+                        )
+               "timestamp" currentTime  
+              ) 
+    )
+   }}
 {{end}}
 ```
 
 #### Treasure Scramble
 
 ```go
-{{ $recipient := .Guild.GetRole 1112701089117122570 }}
+{{/* content vars */}}
+{{/* Footer icon */}}
 {{ $kappa := "https://i.imgur.com/skvKU4y.png" }}
+{{/* Body image */}}
+{{ $banner := "https://i.imgur.com/s0v11M5.png" }}
+{{/* left side line */}}
+{{ $color := 16665999 }}
+{{/* RoleID/ChannelID/UserID */}}
+{{ $recipient := .Guild.GetRole 1252251641080578138 }}
+{{/* Description */}}
+{{ $event := "Призовой раунд!" }}
+{{/* end */}}
+ 
+{{ $currentHour := toInt (currentTime.UTC.Format "15") }}
 {{ $week := weekNumber currentTime  }}
 {{ $wd := currentTime.Weekday }}
-{{ $isOddWeek := mod $week 2 }}
-{{ $desc := "4️⃣ часа до старта расчетного раунда!" }} 
-{{ if and (gt $isOddWeek (toFloat 0)) (eq (toInt $wd) 3) }}
- {{ $desc = "💢Не забываем выбирать дорогу🌀 ставим пачки по необходимости❄️⛈️" }} 
+{{ $remaining := print (sub 13 $currentHour) "ч." }}
+{{ $isOddWeek := gt (mod $week 2) (toFloat 0) }}
+ 
+{{ if and $isOddWeek (eq (toInt $wd) 2) }}
+ {{ $footerText = "💢Выбор дороги🌀" }} 
+ {{ $remaining := print (sub 24 $currentHour) "ч." }}
 {{end}}
 {{ 
   sendMessageNoEscape nil ( 
@@ -134,13 +196,14 @@ sendMessageNoEscape nil (
              "author" (sdict)
              "thumbnail" (sdict )
              "title" ""
-             "color" 13734373
+             "color" $color
              "description" ""
-             "image" (sdict "url" "https://i.imgur.com/s0v11M5.png")
-             "footer" (sdict  "text" $desc  "icon_url" $kappa)
+             "image" (sdict "url" $banner)
+             "footer" (sdict  "text" "Lingua latina non penis canis est... GLHF! "  "icon_url" $kappa)
              "fields" (cslice 
-                       (sdict "name" "Week #" "value" (str $week) "inline" true )
-                       (sdict "name" "Day" "value" (str $wd) "inline" true )
+                       (sdict "name" "🚨 Событие" "value" $event "inline" true )
+                       (sdict "name" "-->" "value" "⚠️" "inline" true )
+                       (sdict "name" "Осталось 🕙" "value" $remaining "inline" true )
                       )
              "timestamp" currentTime  
             ) 
@@ -151,21 +214,33 @@ sendMessageNoEscape nil (
 #### Misty Valley
 
 ```go
-{{ $recipient := .Guild.GetRole 1252251875110162523 }}
+{{/* content vars */}}
+{{/* Footer icon */}}
 {{ $kappa := "https://i.imgur.com/skvKU4y.png" }}
+{{/* Body image */}}
+{{ $banner := "https://i.imgur.com/bQgRtwG.png" }}
+{{/* left side line */}}
+{{ $color := 12244432 }}
+{{/* RoleID/ChannelID/UserID */}}
+{{ $recipient := .Guild.GetRole 1252251875110162523 }}
+{{/* Description */}}
+{{ $event := "❗  ТУМАНКА 🅰️ЛЕРТ  ❗" }}
+{{/* end */}}
+ 
+
 {{ $d := currentTime.Day }}
 {{ if eq $d 11 }}
   {{ 
   sendMessageNoEscape nil ( 
     complexMessage 
-    "content" ( mentionRoleID $recipient.ID )
+    "content" ( mentionRoleID  $recipient.ID)
     "embed" (cembed
              "title" ""
-             "image" (sdict "url" "https://i.imgur.com/bQgRtwG.png")
+             "image" (sdict "url" $banner)
              "timestamp" currentTime  
-             "color" 12244432
+             "color" $color
              "fields" (cslice)           
-             "footer" (sdict  "text" "❗  ТУМАНКА АЛЕРТ  ❗" "icon_url" $kappa)
+             "footer" (sdict  "text" $event "icon_url" $kappa)
             ) 
   )
   }}
@@ -175,19 +250,37 @@ sendMessageNoEscape nil (
 #### Ghoulish Gallery & DragonForge Trials
 
 ```go
-{{ $recipient := .Guild.GetRole 1252986013937176648 }}
+{{/* content vars */}}
+{{/* Footer icon */}}
 {{ $kappa := "https://i.imgur.com/skvKU4y.png" }}
+{{/* Body image */}}
+{{ $banner := "https://i.imgur.com/OPjSkDm.png" }}
+{{/* left side line */}}
+{{ $color := 16711680 }}
+{{/* RoleID/ChannelID/UserID */}}
+{{ $recipient := .Guild.GetRole 1252251522285174874 }}
+{{/* Description */}}
+{{ $event := "❗ Последний день ❗" }}
+{{/* end */}}
+
+{{ $currentHour := toInt (currentTime.UTC.Format "15") }}
+{{ $remaining := print (sub 24 $currentHour) "ч." }}
+ 
 {{ 
   sendMessageNoEscape nil ( 
     complexMessage 
-    "content" ( mentionRoleID $recipient.ID )
+    "content" (mentionRoleID $recipient.ID )
     "embed" (cembed
              "title" ""
-             "image" (sdict "url" "https://i.imgur.com/OPjSkDm.png")
+             "image" (sdict "url" $banner)
              "timestamp" currentTime  
-             "color" 16711680
-             "fields" (cslice)           
-             "footer" (sdict  "text" "❗ resets today, so make sure to get it done  ❗" "icon_url" $kappa)
+             "color" $color
+             "footer" (sdict  "text" "Lingua latina non penis canis est... GLHF! "  "icon_url" $kappa)
+             "fields" (cslice 
+                       (sdict "name" "🚨 Событие" "value" $event "inline" true )
+                       (sdict "name" "-->" "value" "⚠️" "inline" true )
+                       (sdict "name" "Осталось 🕙" "value" $remaining "inline" true )
+                      )
             ) 
   )
   }}

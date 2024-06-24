@@ -1,3 +1,19 @@
 .wrapper {
     max-width: -webkit-calc(960px - (30px * 2));
 }
+.tobacco {
+    display: flex;
+}
+
+.tobatable {
+    border-radius: 20px;
+    background: linear-gradient(#00ccff0f, #eeff000c, #eb00000a);
+    // background: linear-gradient(#ee09a2, #dfd10d, #69c53e, #0bc4c4, #8100eb);
+    transition: background-color 7s;
+    overflow: hidden;
+}
+.tobatable tr:hover {
+    background: rgb(77, 9, 133);
+    text-decoration: underline solid rgba(0, 255, 255, 0.74) 2px;
+    text-underline-offset: 5px;
+}
