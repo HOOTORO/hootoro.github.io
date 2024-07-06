@@ -32,7 +32,6 @@ preview = "logo.jpg"
 |    💀 | Class today! Don't miss                  |              |
 |    💣 | Extremely rare and unusual taste         | 🧩 ❗        |
 |    👽 | Too sour                                 |              |
-
 { .tobatable }
 
 ### WTO
@@ -47,7 +46,6 @@ preview = "logo.jpg"
 |         Waffle | 👑💞   | _CB02_      | Sweet Desert Taste!                                                                                                                                                                    |
 |       Original | 🅰️✅   | _C01_       | Tobacco Taste                                                                                                                                                                          |
 | Maasdam Cheese | ❌     | _T02_       | Гастро? Слишком ядерно вонючий. Даже в малейших количествах перебивает все. Возможно не хватило опыта для хорошего микса. Хотя до этого был прекрасный опыт c Kraken - Cheddar Cheese. |
-
 { .tobatable }
 
 ### Kraken
@@ -59,7 +57,6 @@ preview = "logo.jpg"
 | Cheddar Cheese | 💣❗🧩 | ~    | Gastro. Should be blended. Tried w/ BB Pistachio and it was 👑 |
 |     Pirate Rum | 💣❗🧩 | ~    | Gastro. Should be blended.                                     |
 |      Raspberry | 🅱️ 👍  | ~    | Strong, flavourfull, better mix w/ something                   |
-
 { .tobatable }
 
 ### Black Burn
@@ -110,7 +107,6 @@ preview = "logo.jpg"
 |               Garnet | ❌    | ~        | Терпкий гранат                                                         |
 |              Miranda | ❌    | ~        | Just awful                                                             |
 |       Juicy Smoothie | ❌    | ~        | Тропический смузи                                                      |
-
 { .tobatable }
 
 ### Darkside
@@ -162,7 +158,6 @@ preview = "logo.jpg"
 |     Space Leeches | ❌    | ~           | Don't like at all                                                                         |
 |      North travel | ❌    | ~           | базилик, клюква, малина                                                                   |
 |        Gonzo cake | ❌    | ~           | Don't like at all                                                                         |
-
 { .tobatable }
 
 ### MustHave
@@ -192,7 +187,6 @@ preview = "logo.jpg"
 |        Pinkman | ❌    | ~    | awful                                                    |
 |      Rocketman | ❌    | ~    | strawberry, грейпфрут, киви                              |
 |     Ruby grape | ❌    | ~    | awful                                                    |
-
 { .tobatable }
 
 ### Duft
@@ -224,7 +218,6 @@ preview = "logo.jpg"
 |      Fried Cashew | ❌    | ~        | seems fried nuts not my type                                                  |
 |      Dragon Fruit | ❌    | ~        | awful                                                                         |
 |       Mango Lassi | ❌    | _strong_ |                                                                               |
-
 { .tobatable }
 
 ### Spectrum
@@ -244,7 +237,6 @@ preview = "logo.jpg"
 | Dezzert Cherry | ❌    | _White_ | synthetic                                             |
 |  Chicken Ramen | 💣    | ~       | Smells like Doshirak, but taste different, don't like |
 |         Beacon | 💣    | ~       | That's interesting one!                               |
-
 { .tobatable }
 
 ### Daily Hookah
@@ -257,7 +249,6 @@ preview = "logo.jpg"
 |          Feijoa | ❌    | -                                                       |
 |        Maracuja | ❌    | -                                                       |
 |            Nuts | ❌    | -                                                       |
-
 { .tobatable }
 
 ### Deus
@@ -276,7 +267,6 @@ preview = "logo.jpg"
 |           Guinness | ❌    | ~    | Аромат, безусловно, похож. Но курить такое оказалось сильно на любителя. |
 |          Champagne | ❌    | ~    | -                                                                        |
 | Palo Santo Kashmir | ❌    | ~    | Отдает розами не пойми с чем. Не рекомендую.                             |
-
 { .tobatable }
 
 ### Северный ветер
@@ -293,7 +283,6 @@ preview = "logo.jpg"
 | Кучерявый персик | 🅱️      | ~    | -                                                                                                       |
 |       Лютая туса | 🥶:💢🧊 | ~    | Слишком лютая                                                                                           |
 |   Алтайский сбор | ❌      | ~    | На вкус как бабушкино лекарство на травах, может наверное хорош в миксах, но сам по себе отвратный вкус |
-
 { .tobatable }
 
 ### Sapphire crown
@@ -303,27 +292,24 @@ preview = "logo.jpg"
 |             Type | Grade | Line | Comment |
 | ---------------: | ----- | ---- | ------- |
 | Italian Tiramisu | 🅰️    | ~    | Desert! |
-
 { .tobatable }
 
 ### AIRCRAFT
 
-![tobacco scrown](logo/aircraft.png)
+![tobacco air](logo/aircraft.png)
 
 |               Type | Grade | Line | Comment                                  |
 | -----------------: | ----- | ---- | ---------------------------------------- |
 | Polish rum biscuit | 🅰️    | ~    | Вкус насыщенный и крепкий. Можно в миксы |
-
 { .tobatable }
 
 ### MattPear
 
-![tobacco scrown](logo/mattpear.png)
+![tobacco mattpear](logo/mattpear.png)
 
 |       Type | Grade | Line | Comment                                                                  |
 | ---------: | ----- | ---- | ------------------------------------------------------------------------ |
 | Cherry Gum | 🅱️    | ~    | Обычно от такого сочетания ожидаешь яркого вкуса. Немного не дотягивает. |
-
 { .tobatable }
 
 ### Наш
@@ -335,7 +321,6 @@ preview = "logo.jpg"
 |         Golubika | 🅰️    | ~3~  | Not bad!                  |
 | White Strawberry | 🅱️    | ~69~ | Well that awkward!        |
 |          Basilik | ❌    | ~    | Не знаю, на что надеялся. |
-
 { .tobatable }
 
 ### Chabacco
@@ -350,7 +335,6 @@ preview = "logo.jpg"
 |           Чесночные гренки | 💣    | Gastro | Аромат добротных чесночных гренок. Запах настолько стойкий и въедчивый, что кальян придется мыть несколько раз. |
 | Incredible India Bubblegum | 🥶:💢 | Strong |                                                                                                                 |
 |                 Бамбл кофе | ❌    | Medium | 👎 Кофе оказался без молока, без сгущенки и без сахара.                                                         |
-
 { .tobatable }
 
 ### Trofimoff's
@@ -360,7 +344,6 @@ preview = "logo.jpg"
 |            Type | Grade | Line | Comment           |
 | --------------: | ----- | ---- | ----------------- |
 | Bailey's Terror | 🅱️    | ~    | Strong one(10/10) |
-
 { .tobatable }
 
 ### Satyr
@@ -372,7 +355,6 @@ preview = "logo.jpg"
 |        Type | Grade | Line | Comment                                |
 | ----------: | ----- | ---- | -------------------------------------- |
 | Coco Jamboo | 🅱️    | ~    | Рафаэлка. Не самый выразительный кокос |
-
 { .tobatable }
 
 ### Bonche
@@ -382,7 +364,6 @@ preview = "logo.jpg"
 |   Type | Grade | Line | Comment                          |
 | -----: | ----- | ---- | -------------------------------- |
 | Cherry | 🅰️    | ~    | Strong one(10/10) and cost a lot |
-
 { .tobatable }
 
 ### Banger
@@ -402,7 +383,6 @@ preview = "logo.jpg"
 |      Pinelychee | ❌    | ~    | Just bad! Ананас лично.                                                          |
 |       Holostyak | ❌    | ~    | Just bad! Тропический напиток с розой.                                           |
 |        Umbrella | ❌    | ~    | Вроде называется тропическая umbrella но аромат тропический фруктов не обнаружен |
-
 { .tobatable }
 
 ## Planned

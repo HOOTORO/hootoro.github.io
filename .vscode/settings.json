@@ -56,5 +56,9 @@
     ],
     "cSpell.language": "en,ru,ru-RU,en-US,lorem,en-GB",
     "[markdown]": {},
-    "frontMatter.dashboard.openOnStart": true
+    "frontMatter.dashboard.openOnStart": true,
+    "markdownlint.config": {
+        "MD055": false,
+        "MD056": false,
+    }
 }
