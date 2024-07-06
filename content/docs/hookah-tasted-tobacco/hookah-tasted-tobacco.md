@@ -16,8 +16,10 @@ preview = "logo.jpg"
 
 ### Disclaimer
 
+```md
 Все нижеизложенное является строго субъективным опытом и специфичным вкусом автора.  
 Который 50% сладкоежка, 30% фрукты/ягоды, 10% "холодка" и по 5% на гастро и кислинку. Надеюсь данный референс поможет с релевантностью. Критерии оценки весьма условные, Grade общее впечатление, Shades дрейф более/менее зашло относительно соседей.
+```
 
 #### Criteria
 
@@ -71,8 +73,8 @@ preview = "logo.jpg"
 |           Cheesecake | 👑    | ~        | Perfect!                                                               |
 |   Pistachio Ice Snow | 👑    | ~        | as Good as Polar Cream or even better                                  |
 |              Brownie | 👑    | ~        | Sweet chocolate                                                        |
-|    Maraschino Cherry | 👑    | OVERDOSE | That's A good damn cherry!                                             |
-|              Waffles | 👑    | OVERDOSE | Отличный выбор любителям десертов                                      |
+|    Maraschino Cherry | 👑    | _OVERDOSE_ | That's A good damn cherry!                                             |
+|              Waffles | 👑    | _OVERDOSE_ | Отличный выбор любителям десертов                                      |
 |         Famous Apple | 👑    | ~        | Famous for sure nuff said.                                             |
 |              After 8 | 👑    | ~        | choco and mint candies                                                 |
 |          Raspberries | 👑    | ~        | Sweet and tasty                                                        |
@@ -84,22 +86,22 @@ preview = "logo.jpg"
 |         Chupa Graper | 🅰️    | ~        | juicy                                                                  |
 |               Malibu | 🅰️    | ~        | **Icy** Coconut                                                        |
 |          Melon Halls | 🅰️    | ~        | **Icy** Melon                                                          |
-|     Pineapple Chunks | 🅰️    | OVERDOSE | good pineapple                                                         |
-|          Melon Berry | 🅰️    | OVERDOSE | Приятная дыня                                                          |
-|       Blueberry 2022 | 🅰️    | OVERDOSE | well, it's awkwardly similar to chupa grapper                          |
-|             OVERDOSE | 🅱️ 🍋 | OVERDOSE | Hard 10. Приятная кислинка, как мармеладные червячки. Хорошоя крепость |
-|        Manila Malina | 🅱️    | OVERDOSE | tbh, pretty good                                                       |
-|         Fig Lemonade | 🅱️    | OVERDOSE | smells like bubblegum                                                  |
-|      Strawberry Kiwi | 🅱️    | OVERDOSE | lightly sour,                                                          |
+|     Pineapple Chunks | 🅰️    | _OVERDOSE_ | good pineapple                                                         |
+|          Melon Berry | 🅰️    | _OVERDOSE_ | Приятная дыня                                                          |
+|       Blueberry 2022 | 🅰️    | _OVERDOSE_ | well, it's awkwardly similar to chupa grapper                          |
+|             OVERDOSE | 🅱️ 🍋 | _OVERDOSE_ | Hard 10. Приятная кислинка, как мармеладные червячки. Хорошоя крепость |
+|        Manila Malina | 🅱️    | _OVERDOSE_ | tbh, pretty good                                                       |
+|         Fig Lemonade | 🅱️    | _OVERDOSE_ | smells like bubblegum                                                  |
+|      Strawberry Kiwi | 🅱️    | _OVERDOSE_ | lightly sour,                                                          |
 |              Pudding | 🅱️    | ~        | sweet desert! almost good                                              |
 |      Something Berry | 🅱️    | ~        |                                                                        |
 |              Nutella | 🅱️    | ~        | -                                                                      |
 |              Tic-Tac | 🅱️    | ~        | -                                                                      |
 |  Blackberry Lemonade | 🅱️    | ~        | -                                                                      |
 |         Etalon Melon | 🅱️    | ~        | Honey melon                                                            |
-|           Watermelon | 🅱️    | OVERDOSE | Ни один арбузный табак не пришелся мне по вкусу. Хотя вроде арбузы ем. |
-|          Lotus Berry | ❌    | OVERDOSE | Much better than sandal, but a little strange aroma.                   |
-|               Sandal | ❌    | OVERDOSE | so bad, cannot finish dat round                                        |
+|           Watermelon | 🅱️    | _OVERDOSE_ | Ни один арбузный табак не пришелся мне по вкусу. Хотя вроде арбузы ем. |
+|          Lotus Berry | ❌    | _OVERDOSE_ | Much better than sandal, but a little strange aroma.                   |
+|               Sandal | ❌    | _OVERDOSE_ | so bad, cannot finish dat round                                        |
 |       Marmalade Cola | ❌    | ~        | Just awful                                                             |
 |              Sou-sep | ❌    | ~        | Green lemonade, strange taste. Should be like tarhun I think, but...   |
 |          Lemon Shock | ❌    | ~        | Just awful                                                             |
@@ -348,9 +350,9 @@ preview = "logo.jpg"
 
 ### Satyr
 
-Брал шайбу на пробу, по вкусу пока сложно сказать, но очень хочется отметить оригинальность самой шайбы. Отсутствует привычное сужение в районе резьбы. Это оказалось очень практично и удобно! Благодаря прямой стенке, табак легко вываливается одним движением руки, любой зубочисткой. Впервые такое вижу.
-
 ![tobacco satyr](logo/sat.webp)
+
+Брал шайбу на пробу, по вкусу пока сложно сказать, но очень хочется отметить оригинальность самой шайбы. Отсутствует привычное сужение в районе резьбы. Это оказалось очень практично и удобно! Благодаря прямой стенке, табак легко вываливается одним движением руки, любой зубочисткой. Впервые такое вижу.
 
 |        Type | Grade | Line | Comment                                |
 | ----------: | ----- | ---- | -------------------------------------- |
