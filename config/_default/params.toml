@@ -25,25 +25,25 @@ subtitle = 'The Best Bad on Earth'
 [author]
     avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
     # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-    intro              = 'LOCAL.EXP'
+    intro              = 'dev.local'
     name               = 'HOOTORO'
-    description        = 'A bad dev, ok friend, running fast, minimalistic, personal blog powered by Hugo Framework. For post boring stories and share ordinary thoughts based on personal experience. There is nothing interesting.'
+    description        = 'A bad dev, ok friend, running fast, minimalistic, personal blog powered by Hugo Framework. Boring stories, corny re-evaluation of personal experience. There is nothing interesting.'
     creation           = '18.07.2023'
     SidebarRecentLimit = 5
 [contact]
     email = "marukubaka@gmail.com"
 # Allow to override webmanifest options
 [webmanifest]
-    name             = "HOOT"   # will use "params.sitename" or "title" by default
-    short_name       = "sitename"   # same as name
+    name             = "dev.local.c"   # will use "params.sitename" or "title" by default
+    short_name       = "DLC"   # same as name
     start_url        = "/"          # will use homepage url by default
-    theme_color      = "#434648"    # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
+    theme_color      = "#171727"    # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
     background_color = "#fff"       # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
     display          = "standalone"
-    [[webmanifest.icons]]
-        src = '/icons/favicon.ico'
-        sizes = '256x256'
-        type = "image/png"
+[[webmanifest.icons]]
+    src = "/icons/favicon.ico"
+    sizes = "256x256"
+    type = "image/png"
 
 [browserconfig]
     TileColor = "#2d89ef" # default windows 10 blue tile color
