@@ -3,11 +3,11 @@ title: Just ONE second, m8!
 description: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
 author: HOOTORO
 date: 2024-07-21T11:04:55.031Z
-lastmod: 2024-07-21T11:05:18.077Z
+lastmod: 2024-07-21T11:12:15.629Z
 preview: logo.png
 type: post
 weight: 3
-draft: true
+draft: false
 tags: []
 categories: []
 slug: just-one-second
