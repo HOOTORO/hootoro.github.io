@@ -12,6 +12,7 @@ weight = 1
 toc = true
 categories = [ "review", "data" ]
 preview = "logo.jpg"
+lastmod = "24-07-21"
 +++
 
 ### Disclaimer
@@ -71,7 +72,7 @@ preview = "logo.jpg"
 |           Cheesecake | 👑     | ~        | Perfect!                                                               |
 |   Pistachio Ice Snow | 👑     | ~        | as Good as Polar Cream or even better                                  |
 |              Brownie | 👑     | ~        | Sweet chocolate                                                        |
-|    Maraschino Cherry | 👑     | OVERDOSE | That's A good damn cherry!                                             |
+|    Maraschino Cherry | 👑     | OVERDOSE | That's A good damn cherry!  She is queen!                              |
 |              Waffles | 👑     | OVERDOSE | Отличный выбор любителям десертов                                      |
 |         Famous Apple | 👑     | ~        | Famous for sure nuff said.                                             |
 |              After 8 | 👑     | ~        | choco and mint candies                                                 |
@@ -80,14 +81,15 @@ preview = "logo.jpg"
 |  feat. Guf, Ice Baby | 🅰️     | ~        | Juicy, close to 👑 tier, better using _Phunnel_ bowl                    |
 |         Creme Brulee | 🅰️     | ~        | chocolate ice cream                                                    |
 |          Irish cream | 🅰️     | ~        | baileys aroma                                                          |
+|     Pineapple Chunks | 🅰️     | OVERDOSE | good pineapple                                                         |
 |      Something Sweet | 🅰️     | ~        |                                                                        |
 |         Chupa Graper | 🅰️     | ~        | juicy                                                                  |
 |               Malibu | 🅰️     | ~        | **Icy** Coconut                                                        |
 |          Melon Halls | 🅰️     | ~        | **Icy** Melon                                                          |
-|     Pineapple Chunks | 🅰️     | OVERDOSE | good pineapple                                                         |
 |          Melon Berry | 🅰️     | OVERDOSE | Приятная дыня                                                          |
 |       Blueberry 2022 | 🅰️     | OVERDOSE | well, it's awkwardly similar to chupa grapper                          |
 |        Manila Malina | 🅱️     | OVERDOSE | tbh, pretty good                                                       |
+|        Currant Black | 🅱️     | OVERDOSE | good                                                                   |
 |         Fig Lemonade | 🅱️     | OVERDOSE | smells like bubblegum                                                  |
 |      Strawberry Kiwi | 🅱️     | OVERDOSE | lightly sour,                                                          |
 |              Pudding | 🅱️     | ~        | sweet desert! almost good                                              |
@@ -98,7 +100,7 @@ preview = "logo.jpg"
 |         Etalon Melon | 🅱️     | ~        | Honey melon                                                            |
 |           Watermelon | 🅱️     | OVERDOSE | Ни один арбузный табак не пришелся мне по вкусу. Хотя вроде арбузы ем. |
 |             Overdose | 🅱️     | ~        | -                                                                      |
-|          Lotus Berry | ❌     | OVERDOSE | Much better than sandal, but a little strange aroma.                   |
+|          Lotus Berry | ❌     | OVERDOSE | Much better than sandal, but a little strange aroma. Well smoked       |
 |               Sandal | ❌     | OVERDOSE | so bad, cannot finish dat round                                        |
 |       Marmalade Cola | ❌     | ~        | Just awful                                                             |
 |              Sou-sep | ❌     | ~        | Green lemonade, strange taste. Should be like tarhun I think, but...   |
@@ -138,11 +140,14 @@ preview = "logo.jpg"
 |         Свободный | 🅰️     | _SHOT_      | Вафли, земляника, дыня. Отличный ягодный десерт                                           |
 |        Карельский | 🅰️     | _SHOT_      | Черника, земляника, малина                                                                |
 |         Уральский | 🅰️     | _SHOT_      | Банан, ваниль, корица                                                                     |
+|     Dark Icecream | 🅰️     | _core_      | добротная мороженка                                                                       |
 |         Таманский | 🅰️     | _SHOT_      | Банан, папайя, йогурт. Преобладает банановый аромат. Нежный вкус                          |
 |       Bana-Nascar | 🅰️     | _XPERIENCE_ | Банан, клубника. Хорошее сочетание                                                        |
 |       Eazy Freezy | 🅰️     | _XPERIENCE_ | Карамель, мята, мороженое. Приторно сладкий вкус с нотами свежести. Только для сладкоежек |
 |     Bounty Hunter | 🅰️     | ~           | -                                                                                         |
+|      Battle Apple | 🅰️     | ~           | Яблоко, леденцы. От бабули не отличим особо                                               |
 |        Ice Granny | 🅰️     | ~           | Nice and fresh apple                                                                      |
+|       Code Cherry | 🅰️     | _core_      | overdose still better cherry!                                                             |
 | Raf in the jungle | 🅰️     | ~           | It's coffee time!                                                                         |
 |      Red Zeppelin | 🅰️     | _core_      | Gooseberries. Good Fresh taste                                                            |
 |       Killer milk | 🅰️     | ~           | Sweet                                                                                     |
@@ -260,7 +265,7 @@ preview = "logo.jpg"
 |           Cigar II | 🅰️     | ~    | Smells like good tobacco!                                                |
 |         Strawberry | 🅰️     | ~    | good straw and berry!                                                    |
 |      Granate juice | 🅱️🍋    | ~    | -                                                                        |
-|    Vanilla Berries | 🅱️🍋    | ~    | -                                                                        |
+|    Vanilla Berries | 🅱️🍋    | ~    | Nice sour!                                                               |
 |           SKITTLES | 🅱️🍋    | ~    | -                                                                        |
 |            Love is | 🅱️🍋    | ~    | -                                                                        |
 |           Guinness | ❌     | ~    | Аромат, безусловно, похож. Но курить такое оказалось сильно на любителя. |
@@ -345,6 +350,15 @@ preview = "logo.jpg"
 |   Type | Grade | Line | Comment                          |
 | -----: | ----- | ---- | -------------------------------- |
 | Cherry | 🅰️     | ~    | Strong one(10/10) and cost a lot |
+{ .tobatable }
+
+### Enigma
+
+![tobacco eni](logo/eni.webp)
+
+|     Type | Grade | Line | Comment                     |
+| -------: | ----- | ---- | --------------------------- |
+| Кидс Гам | 🅰️     | ~    | внезапно, не плохая жевачка |
 { .tobatable }
 
 ### Banger

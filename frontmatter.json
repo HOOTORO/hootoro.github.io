@@ -28,15 +28,15 @@
                     "name": "date",
                     "type": "datetime",
                     "default": "{{now}}",
-                    "isPublishDate": true,
-                    "dateFormat": "yy-MM-dd"
+                    "isPublishDate": true
+                    // "dateFormat": "yy-MM-dd"
                 },
                 {
                     "title": "Last modified date",
                     "name": "lastmod",
                     "type": "datetime",
-                    "isModifiedDate": true,
-                    "dateFormat": "yy-MM-dd"
+                    "isModifiedDate": true
+                    // "dateFormat": "yy-MM-dd"
                 },
                 {
                     "title": "Content preview",
