@@ -3,6 +3,7 @@ draft = false
 categories = [ "longread", "truestory" ]
 date = "2023-08-06"
 description = "a long, long time ago, in far, faraway country..."
+images = [ "site-feature-image.jpg" ]
 slug = "travel-kiev"
 tags = [ "adventure", "happy-end", "people", "travel" ]
 title = "Travel to Kiev"
@@ -11,6 +12,7 @@ keywords = [ "story", "life" ]
 type = "post"
 author = "HOOTORO"
 weight = 1
+lastmod = "2024-07-22T16:50:50.896Z"
 +++
 
 

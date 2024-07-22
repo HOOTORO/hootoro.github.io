@@ -3,7 +3,8 @@ baseURL                = 'https://HOOTORO.github.io/'
 languageCode           = 'en-us'
 enableEmoji            = true
 defaultContentLanguage = 'en'
-
+images = ['site-feature-image.jpg']
+# title = 'Is there a reason?'
 [module]
     noProxy       = 'none'
     noVendor      = ''
@@ -14,7 +15,7 @@ defaultContentLanguage = 'en'
 
     [module.hugoVersion]
         extended = true
-        min      = "0.127.0"
+        min      = "0.129.0"
     [[module.imports]]
         path    = "github.com/hugo-sid/hugo-blog-awesome"
         disable = false

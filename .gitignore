@@ -37,6 +37,7 @@ hugo.linux
 
 # UI custom themes
 themes
+layouts/**/*/.*.html
 
 # IDE
 .fleet

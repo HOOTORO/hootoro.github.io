@@ -6,7 +6,7 @@
             "script": "HUGO:srv.draft",
             "problemMatcher": [],
             "label": "npm: HUGO:srv.draft",
-            "detail": "hugo server -D --disableFastRender --navigateToChanged"
+            "detail": "hugo server -D"
         }
     ]
 }
