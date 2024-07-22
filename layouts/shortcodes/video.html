@@ -32,6 +32,7 @@
     {{ end }}
 
     {{ if $videos }}
+    <!--prettier-ignore-->
     <video {{ if eq (.Get "autoplay" ) "true" }}autoplay{{ end }} {{ if eq (.Get "controls" | default "true" ) "true"
         }}controls{{ end }} {{ with .Get "height" }}height="{{ . }}" {{ end }} {{ if eq (.Get "loop" ) "true" }}loop{{
         end }} {{ if eq (.Get "muted" ) "true" }}muted{{ end }} {{ with $poster }}poster="{{ .RelPermalink }}" {{ end }}
@@ -44,7 +45,6 @@
     {{ end }}
 
 
-    <!--prettier-ignore-->
     {{ if .Get "caption" }}
     <figcaption>{{ .Page.RenderString (.Get "caption") }}</figcaption>
 </figure>

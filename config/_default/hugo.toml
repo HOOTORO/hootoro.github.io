@@ -3,7 +3,7 @@ baseURL                = 'https://HOOTORO.github.io/'
 languageCode           = 'en-us'
 enableEmoji            = true
 defaultContentLanguage = 'en'
-images = ['site-feature-image.jpg']
+images = ['look.jpg']
 # title = 'Is there a reason?'
 [module]
     noProxy       = 'none'
