@@ -22,6 +22,7 @@ package-lock.json
 
 # Temporary lock file while building
 .hugo_build.lock
+.DS_Store
 
 # Generated files by hugo
 /public/

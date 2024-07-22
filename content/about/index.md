@@ -4,9 +4,9 @@ footer: true
 toc: false
 ---
 
-![d1](dark1.jpg)
+![d1](dark1.webp)
 
-![d2](darkdream.jpg)
+![d2](darkdream.webp)
 
 Trying Hugo  
 **HOOTORO**,  
