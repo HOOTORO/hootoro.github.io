@@ -63,5 +63,6 @@
     "markdownlint.config": {
         "MD055": false,
         "MD056": false,
-    }
+    },
+    "svg.preview.background": "editor"
 }
