@@ -3,7 +3,7 @@ title: Just ONE second, m8!
 description: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
 author: HOOTORO
 date: 2024-07-21T11:04:55.031Z
-lastmod: 2024-07-21T11:12:15.629Z
+lastmod: 2024-07-22T15:27:42.772Z
 preview: logo.png
 type: post
 weight: 3
@@ -34,7 +34,7 @@ toc: true
 
 > Knock knock
 
-{{< video src="./shortest/1.MP4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" >}}
+{{< video src="./shortest/low_1.MP4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" >}}
 
 Но среди них нашлись и забавные.  
 Вашему вниманию, подборка встратых, 10 секундных случайностей!
@@ -43,49 +43,49 @@ toc: true
 
 1. > Когда выражение лица говорит само за себя
 
-{{< video src="./shortest/2.mp4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" title="one second before" >}}
+{{< video src="./shortest/low_2.mp4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" title="one second before" >}}
 
 2. > party hard bibirevo style
 
-{{< video src="./shortest/3.mp4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" >}}
+{{< video src="./shortest/low_3.mp4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" >}}
 
 3. > Все никак не могу понять: кто и что выкрикивает
 
-{{< video src="./shortest/4.mp4" type="video/mp4" preload="auto" width="40%" autoplay="false" loop="true" muted="true" >}}
+{{< video src="./shortest/low_4.mp4" type="video/mp4" preload="auto" width="40%" autoplay="false" loop="true" muted="true" >}}
 
 4. > party hard Sanek style
 
-{{< video src="./shortest/5.mp4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" >}}
+{{< video src="./shortest/low_5.mp4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" >}}
 
 5. > Sanek x2
 
-{{< video src="./shortest/5a.MP4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" >}}
+{{< video src="./shortest/low_5a.MP4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" >}}
 
 6. > Кирпич всегда любил животных, в особенности способных съесть человека 😂
 
-{{< video src="./shortest/6.mp4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" >}}
+{{< video src="./shortest/low_6.mp4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" >}}
 
 7. > Они тоже наверняка способны
 
-{{< video src="./shortest/7.mp4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" >}}
+{{< video src="./shortest/low_7.mp4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" >}}
 
 8. > Целое предложение за секунду!
 
-{{< video src="./shortest/8.mp4" type="video/mp4" preload="auto" width="40%" autoplay="false" loop="true" muted="false" >}}
+{{< video src="./shortest/low_8.mp4" type="video/mp4" preload="auto" width="40%" autoplay="false" loop="true" muted="false" >}}
 
 9. > Или не пошло...
 
-{{< video src="./shortest/9.mp4" type="video/mp4" preload="auto" width="40%" autoplay="false" loop="true" muted="false" >}}
+{{< video src="./shortest/low_9.mp4" type="video/mp4" preload="auto" width="40%" autoplay="false" loop="true" muted="false" >}}
 
 10. > time-lapse например
 
-{{< video src="./shortest/10.mp4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" >}}
+{{< video src="./shortest/low_10.mp4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="true" >}}
 
 Бонус:
 
 > Оператор из меня, честно сказать, так себе.
 
-{{< video src="./shortest/11.mp4" type="video/mp4" preload="auto" width="40%" autoplay="false" loop="true" muted="false">}}
+{{< video src="./shortest/low_11.mp4" type="video/mp4" preload="auto" width="40%" autoplay="false" loop="true" muted="false">}}
 
 На этом у меня все.
 
@@ -93,4 +93,4 @@ toc: true
 
 В завершение цикла секундных видео, три секунды кажутся вечностью
 
-{{< video src="./shortest/3sec.mp4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="false">}}
+{{< video src="./shortest/low_3sec.mp4" type="video/mp4" preload="auto" width="80%" autoplay="false" loop="true" muted="false">}}
