@@ -1,7 +1,7 @@
 defaultMarkdownHandler = 'goldmark'
 [tableOfContents]
     endLevel   = 4
-    startLevel = 3
+    startLevel = 2
     ordered    = false
 [highlight]
     lineNos            = true
