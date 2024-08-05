@@ -13,6 +13,7 @@
         "Dezzert",
         "Doshirak",
         "Duft",
+        "feedly",
         "feijoa",
         "Freezy",
         "Gastro",
@@ -22,6 +23,7 @@
         "Granate",
         "Graper",
         "grapper",
+        "inoreader",
         "Jamboo",
         "JIGAN",
         "Jumango",
@@ -52,6 +54,7 @@
         "личи",
         "микса",
         "миксах",
+        "пропагандоны",
         "Рафаэлка",
         "Смолвиля",
         "сорбет",
@@ -62,7 +65,7 @@
     "frontMatter.dashboard.openOnStart": true,
     "markdownlint.config": {
         "MD055": false,
-        "MD056": false,
+        "MD056": false
     },
     "svg.preview.background": "editor"
 }

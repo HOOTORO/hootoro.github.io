@@ -1,5 +1,5 @@
-sitename     = "local.exp"
-defaultColor = "dark"      # set color mode: dark, light, auto
+sitename = "local.exp"
+defaultColor = "dark" # set color mode: dark, light, auto
 mainSections = [
     'post',
 ]
@@ -7,9 +7,12 @@ toc = true # set to false to disable table of contents 'globally'
 tocOpen = false # set to true to open table of contents by default
 goToTop = true # set to false to disable 'go to top' button
 additionalScripts = [
+    'js/copy-code-button.js',
     'js/custom.js',
 ]
-images = ['look.jpg']
+images = [
+    'look.jpg',
+]
 # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
 # Your custom scripts will be concatenated to one file `custom.js`.
 # When building for production it will be minified.
@@ -24,7 +27,7 @@ rssFeedDescription = "summary" # available options: 1) summary 2) full
 
 # You can take a look at layouts/index.html for more information.
 description = "light and dark support each other"
-subtitle = 'The Best Bad on Earth'
+subtitle    = 'The Best Bad on Earth'
 
 [taxonomies]
     series = 'series'
@@ -41,16 +44,16 @@ subtitle = 'The Best Bad on Earth'
     email = "marukubaka@gmail.com"
 # Allow to override webmanifest options
 [webmanifest]
-    name             = "dev.local.c"   # will use "params.sitename" or "title" by default
-    short_name       = "DLC"   # same as name
-    start_url        = "/"          # will use homepage url by default
-    theme_color      = "#171727"    # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
-    background_color = "#fff"       # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
+    name             = "dev.local.c" # will use "params.sitename" or "title" by default
+    short_name       = "DLC"         # same as name
+    start_url        = "/"           # will use homepage url by default
+    theme_color      = "#171727"     # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
+    background_color = "#fff"        # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
     display          = "standalone"
-[[webmanifest.icons]]
-    src = "/icons/favicon.ico"
-    sizes = "256x256"
-    type = "image/png"
+    [[webmanifest.icons]]
+        src   = "/icons/favicon.ico"
+        sizes = "256x256"
+        type  = "image/png"
 
 [browserconfig]
     TileColor = "#2d89ef" # default windows 10 blue tile color
@@ -68,4 +71,4 @@ subtitle = 'The Best Bad on Earth'
     url  = "https://www.last.fm/user/marukubaka"
 [[socialIcons]]
     name = "Rss"
-    url  = "index.xml"
+    url  = "/index.xml"

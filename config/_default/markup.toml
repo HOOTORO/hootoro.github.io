@@ -4,21 +4,21 @@ defaultMarkdownHandler = 'goldmark'
     startLevel = 2
     ordered    = false
 [highlight]
-    lineNos            = true
+    lineNos            = false
     anchorLineNos      = true
     codeFences         = true
     guessSyntax        = false
     lineAnchors        = '>'
     lineNoStart        = 1
     lineNumbersInTable = true
-    noClasses          = true
+    noClasses          = false
     noHl               = true
     style              = '>xcode'
     tabWidth           = 4
 [goldmark]
     [goldmark.renderer]
-        hardWraps = false
-        unsafe    = false
+        hardWraps = true
+        unsafe    = true
         xhtml     = false
     [goldmark.renderHooks]
         [goldmark.renderHooks.image]
@@ -34,6 +34,10 @@ defaultMarkdownHandler = 'goldmark'
     table           = true
     taskList        = true
     typographer     = true
+    fences          = true
+    [goldmark.extensions.emoji]
+        renderingMethod = 'Twemoji'
+        enable          = true
     [goldmark.extensions.extras]
         # [goldmark.extensions.extras.delete]
         #     enable = true
@@ -45,6 +49,8 @@ defaultMarkdownHandler = 'goldmark'
             enable = false
         [goldmark.extensions.extras.superscript]
             enable = false
+# [goldmark.extensions.fences]
+#     enable = true
 [goldmark.parser]
     autoHeadingID     = true
     autoHeadingIDType = 'github'

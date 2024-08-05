@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Bad Dev</title>
+        <link>https://hootoro.github.io/</link>
+        <description>Recent content on Bad Dev</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 21 Jul 2024 11:04:55 +0000</lastBuildDate>
+        <atom:link href="https://hootoro.github.io/index.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>Hookah. Tasted Tobacco!</title>
+            <link>https://hootoro.github.io/docs/hookah-tasted-tobacco/</link>
+            <pubDate>Sat, 22 Jun 2024 09:39:59 +0000</pubDate>
+            <guid>https://hootoro.github.io/docs/hookah-tasted-tobacco/</guid>
+            <description>Disclaimer 1 2 3 4 5 6 Все нижеизложенное является строго субъективным опытом и специфичным вкусом автора. Который 50% сладкоежка, 30% фрукты/ягоды, 10% &#34;холодка&#34; и по 5% на гастро и кислинку. Надеюсь данный референс поможет с релевантностью. Критерии оценки весьма условные: - Grade общее впечатление, - Shades дрейф более/менее зашло относительно соседей. Criteria Grade Meaning Shades ➕/➖ 👑 Like! 💯💞/🔥✅ 🅰️ Choice to make. 🥈/👍 🅱️ Take a place, average. 🥉 /👎 🍋 Taste, rarely desired.</description>
+        </item>
+        <item>
+            <title>Travel to Kiev</title>
+            <link>https://hootoro.github.io/blog/travel-kiev/</link>
+            <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
+            <guid>https://hootoro.github.io/blog/travel-kiev/</guid>
+            <description>1 2 3 4 5 6 7 8 9 10 Дело происходило в 2015г. Действующие лица: - Р - Рассказчик - П - Пограничник - Пр - Проводник - К/О - Гражданка Казахстана/Оксана - А - Гражданин Азербайджана/Азер - Т - Гражданин Турции Кассир - на вокзале Брянска Часть 1. Границы ключ На дворе стоял ноябрь. В то время майдан уже прошел, но заваруха с ДНР и ЛНР была в самом разгаре, а я обещался подруге из Киева приехать в гости, ну я решил взять отпуск и поехать, так как обстановка в Киеве была вроде спокойная.</description>
+        </item>
+    </channel>
+</rss>
