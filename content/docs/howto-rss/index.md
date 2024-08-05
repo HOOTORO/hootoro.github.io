@@ -3,17 +3,17 @@ title: "HOOTO: RSS"
 description: Стелим соломку, не то что бы заранее.
 author: HOOTORO
 date: 2024-08-02T22:29:46.374Z
-lastmod: 2024-08-05T03:45:43.988Z
+lastmod: 2024-08-05T03:49:48.516Z
 preview: jjj.svg
 type: doc
 weight: 3
-draft: true
+draft: false
 tags:
-    - advice
-    - people
-    - cognitive-bias
+  - advice
+  - people
+  - cognitive-bias
 categories:
-    - documentation
+  - documentation
 slug: hooto-rss
 toc: true
 tocOpen: true
