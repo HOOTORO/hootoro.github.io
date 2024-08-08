@@ -47,11 +47,12 @@ subtitle = 'The Best Bad on Earth'
     email = "marukubaka@gmail.com"
 # Allow to override webmanifest options
 [webmanifest]
-    name             = "dev.lcl"    # will use "params.sitename" or "title" by default
-    short_name       = "DLC"        # same as name
-    start_url        = "/"          # will use homepage url by default
-    theme_color      = "#171727"    # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
-    background_color = "#fff"       # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
+    name             = "dev.lcl"                                    # will use "params.sitename" or "title" by default
+    short_name       = "DLC"                                        # same as name
+    description      = "Не хороший разработчик пишет не только код"
+    start_url        = "/"                                          # will use homepage url by default
+    theme_color      = "#171727"                                    # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
+    background_color = "#fff"                                       # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
     display          = "standalone"
     [[webmanifest.icons]]
         src     = "icons/maskable_icon_x192.png"
