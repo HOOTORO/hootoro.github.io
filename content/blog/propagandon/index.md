@@ -3,7 +3,7 @@ title: Superstitious Cheburnet
 description: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
 author: HOOTORO
 date: 2024-08-04T23:08:27.926Z
-lastmod: 2024-08-08T14:14:34.704Z
+lastmod: 2024-08-08T14:15:12.806Z
 preview: logo.png
 type: post
 weight: 3
@@ -138,7 +138,7 @@ who will speak for you?
 <https://rtvi.com>
 <https://newizv.ru/>
 <https://news.ru/rss/> не работает в придачу
-<https://regnum.ru/> удален, но не удален. В коде страницы нашелся другой ![alt text](resources/image-6.png) 
+<https://regnum.ru/> удален, но не удален. В коде страницы нашелся другой ![alt text](resources/image-6.png)
 
 ### Кот писал код
 
