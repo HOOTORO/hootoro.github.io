@@ -6,7 +6,7 @@ enableGitInfo          = true
 enableRobotsTXT        = true
 defaultContentLanguage = 'en'
 cleanDestinationDir    = true
-# title = 'Is there a reason?'
+
 [module]
     noProxy       = 'none'
     noVendor      = ''
@@ -21,18 +21,10 @@ cleanDestinationDir    = true
     [[module.imports]]
         path    = "github.com/hugo-sid/hugo-blog-awesome"
         disable = false
-# [[module.imports]]
-#     path    = 'github.com/serkodev/holy'
-#     disable = false
 [permalinks]
     [permalinks.page]
         blog = '/blog/:slug/'
         docs = '/docs/:slug/'
-        # page  = "/:title/"
-        # posts = '/:year/:month/:title/'
-        # [permalinks.section]
-        #     blog = '/blog/'
-        #     docs = '/docs/'
 
 [frontmatter]
     date = [

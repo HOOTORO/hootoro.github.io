@@ -8,8 +8,8 @@
 
 <title itemprop="name">{{ .Title }} | {{ .Site.Title }}</title>
 {{/* Social cards */}}
-{{ template "_internal/schema.html" . }}
 {{ partial "opengraph.html" . }}
+{{ template "_internal/schema.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
 
 {{/* Define empty variable description */}}

@@ -1,9 +1,9 @@
 ---
-title: Superstitious Cheburnet
-description: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+title: Superstitious Chebunet
+description: Не хороший разработчик об ограничении Youtube
 author: HOOTORO
 date: 2024-08-04T23:08:27.926Z
-lastmod: 2024-08-08T14:15:12.806Z
+lastmod: 2024-08-08T14:24:21.482Z
 preview: logo.png
 type: post
 weight: 3
