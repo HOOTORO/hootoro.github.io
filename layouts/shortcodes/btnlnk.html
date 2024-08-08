@@ -1,10 +1,11 @@
-{{ $link := ref . .Params }}
-
-{{/* {{ printf "%s" $link }} */}}
-{{ range .Site.RegularPages.ByTitle }}
-    {{ if strings.Contains $link .RelPermalink }}
-        <button class="link-button">
-            <a href="{{ $link }}">{{ .RelPermalink }}</a>
-        </button>
+{{ if .IsNamedParams }}
+    {{ $link := .Get "rel" }}
+    {{ $desc := .Get "desc" }} {{/* {{ printf "%s" $link }} */}}
+    {{ range .Site.RegularPages.ByTitle }}
+        {{ if strings.Contains .RelPermalink $link }}
+            <button class="link-button">
+                <a href="{{ $link }}">{{ $desc }}</a>
+            </button>
+        {{ end }}
     {{ end }}
 {{ end }}

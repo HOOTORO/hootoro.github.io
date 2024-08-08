@@ -3,15 +3,19 @@ title: Superstitious Chebunet
 description: Не хороший разработчик об ограничении Youtube
 author: HOOTORO
 date: 2024-08-04T23:08:27.926Z
-lastmod: 2024-08-08T18:47:50.067Z
-preview: logo.png
+lastmod: 2024-08-08T22:39:50.603Z
+preview: cover-card.webp
 type: post
 weight: 3
 draft: false
-tags: []
-categories: []
+tags:
+    - longread
+    - people
+    - cognitive-bias
+categories:
+    - longread
 slug: chebustitutka
-toc: false
+toc: true
 songmeta:
     artist: Lumen
     title: Не простил
@@ -24,11 +28,10 @@ song: audio/unforgive.mp3
 >"_Никогда нельзя недооценивать предсказуемость тупизны_".  
 
 И вот, **it's happening**, третий день трубе плохо и не грузятся видео.
-<!--more-->
 
 ![alt text](https://i.imgur.com/C6CX2kL.gif)
 {{<admo question `Что именно случилось с Youtube?` >}}
-Стали на шаг ближе к чебурнету, в России начал работать DeepPacketInspector, подробнее [тут](https://ru.wikipedia.org/wiki/Deep_packet_inspection) или [(англ.) Great Firewall](https://en.wikipedia.org/wiki/Great_Firewall#Active_filtering)
+_Эта страна_ стала на шаг ближе к чебурнету, т.к весь траффик пропускается через [DeepPacketInspector](https://ru.wikipedia.org/wiki/Deep_packet_inspection), аналогично [Great Firewall (англ. вики)](https://en.wikipedia.org/wiki/Great_Firewall#Active_filtering)
 {{</admo>}}
 {{<admo success `Обход?`>}}
 Можно попробовать пару утилит, но гарантий никаких. На некоторых провайдерах может и не взлететь.
@@ -102,7 +105,7 @@ who will speak for you?
 Даже с холодной головой и полным сознанием что в объективности, пропагандонские высеры имеют гораздо больше общего с _яойными фанфиками[^yaoi]_, чем с журналистикой.
 Некоторые вещи сложно читать/лицезреть все же, просто мерзостно.
 
-На фоне этого вспомнил просто старую технологию RSS, которая позволят сколь угодно инфо-потоков с разнообразных сайтов, собрать в одном месте, для последующей реорганизации, фильтрации и пр. удобностей, про RSS написал отдельный пост, глянуть можно тыкнув кнопку {{< btnlnk "/docs/howto-rss" >}}. Там же можно найти файл пропагандоского ленты.
+На фоне этого вспомнил просто старую технологию RSS, которая позволяет собрать различные потоки информации, в одном месте, подробнее в {{< btnlnk rel="/docs/howto-rss" desc="RSS:HOW-TO" >}}. Там же можно найти файл пропагандоского ленты.
 Собрал если не все, то подавляющее большинство точно, а это набежавшее за пару дней.
 ![compare](https://i.imgur.com/43t08h3.png)
 

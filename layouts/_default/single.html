@@ -28,7 +28,12 @@
                                 </audio>
                             {{ end }}
                             {{ with $meta }}
-                                {{ printf "Audio: %s - %s" .artist .title }}
+                                <p>
+                                    Audio:
+                                    <code>
+                                        {{ printf "%s - %s" .artist .title }}
+                                    </code>
+                                </p>
                             {{ end }}
                         </div>
                     {{ end }}
@@ -40,5 +45,13 @@
             </article>
             {{- partial "comments.html" . -}}
         </main>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+
+        <script type="text/javascript">
+            const lightbox = GLightbox({ ...options });
+        </script>
     </div>
 {{ end }}

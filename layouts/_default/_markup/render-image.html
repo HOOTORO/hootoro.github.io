@@ -1,51 +1,31 @@
 {{ $ratio := 1 }}
-{{ $widthLim := 900 }}
-<p class="md__image">
-    {{ if hasPrefix .Destination "http" }}
-        {{ with resources.GetRemote ( .Destination ) }}
+{{ $widthLim := 1000 }}
+{{ $subtypes := slice "png" }}
+{{ $image := .Page.Resources.Get .Destination }}
+{{ if hasPrefix .Destination "http" }}
+    {{ $image = resources.GetRemote ( .Destination ) }}
+{{ end }}
+
+{{ with $image }}
+    {{ if in $subtypes .MediaType.SubType }}
+        <p class="md__image">
             {{ if gt .Width $widthLim }}
                 {{ $ratio = 2 }}
             {{ end }}
-            {{ if ne .MediaType.SubType "webp" }}
-                {{/* {{ printf "w:%d r:%d h:%d mod:%d\n" .Width $ratio .Height (div .Width $ratio) }}
-                */}}
-                {{ with .Resize (printf "%dx%d webp q90" (div .Width $ratio) (div .Height $ratio)) }}
-                    {{ with .Err }}
-                        {{ errorf "%s" . }}
-                    {{ else }}
-                        <img
-                            src="{{ .RelPermalink }}"
-                            width="{{ .Width }}"
-                            height="{{ .Height }}"
-                            alt="" />
-                    {{ end }}
+
+            {{ with .Resize (printf "%dx%d webp q90" (div .Width $ratio) (div .Height $ratio)) }}
+                {{ with .Err }}
+                    {{ errorf "%s" . }}
+                {{ else }}
+                    <img
+                        src="{{ .RelPermalink }}"
+                        width="{{ .Width }}"
+                        height="{{ .Height }}"
+                        alt="" />
                 {{ end }}
             {{ end }}
-
-        {{ else }}
-            {{ errorf "Unable to get remote resource %q" .Destination }}
-        {{ end }}
-    {{ else }}
-        {{ with .Page.Resources.Get .Destination }}
-            {{ if gt .Width $widthLim }}
-                {{ $ratio = 2 }}
-            {{ end }}
-            {{ if ne .MediaType.SubType "webp" }}
-                {{/* {{ printf "w:%d r:%d h:%d mod:%d\n" .Width $ratio .Height (mod .Width $ratio) }}
-
-                */}}
-                {{ with .Resize (printf "%dx%d webp q90" (div .Width $ratio) (div .Height $ratio)) }}
-                    {{ with .Err }}
-                        {{ errorf "%s" . }}
-                    {{ else }}
-                        <img
-                            src="{{ .RelPermalink }}"
-                            width="{{ .Width }}"
-                            height="{{ .Height }}"
-                            alt="" />
-                    {{ end }}
-                {{ end }}
-            {{ end }}
-        {{ end }}
+        </p>
     {{ end }}
-</p>
+{{ end }}
+
+{{/* {{ printf "%s" .MediaType.SubType }} */}}

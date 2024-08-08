@@ -1,3 +1,7 @@
-# hootoro.github.io
+# Page hootoro.github.io
 
-Root 
+Powered by [HUGO](https://gohugo.io/)
+
+## TO DO
+
+- image gallery

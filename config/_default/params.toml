@@ -19,7 +19,7 @@ additionalScripts = [
 # ! Twitter cards fallback
 description = "Не хороший разработчик пишет"
 images = [
-    'twitter-card.png',
+    'card.webp',
 ]
 
 dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
