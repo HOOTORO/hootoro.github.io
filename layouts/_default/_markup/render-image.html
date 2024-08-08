@@ -1,3 +1,34 @@
 <p class="md__image">
-    <img class="{{ .Text }}" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
+    {{ if hasPrefix .Destination "http" }}
+        {{ with resources.GetRemote ( .Destination ) }}
+            {{ if ne .MediaType.SubType "webp" }}
+                {{ with .Resize "800x webp q77" }}
+                    {{ with .Err }}
+                        {{ errorf "%s" . }}
+                    {{ else }}
+                        <img
+                            src="{{ .RelPermalink }}"
+                            width="{{ .Width }}"
+                            height="{{ .Height }}"
+                            alt="" />
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+
+        {{ else }}
+            {{ errorf "Unable to get remote resource %q" .Destination }}
+        {{ end }}
+    {{ else }}
+        {{ with .Page.Resources.Get .Destination }}
+            {{ if ne .MediaType.SubType "webp" }}
+                {{ with .Resize "800x webp q77" }}
+                    <img
+                        src="{{ .RelPermalink }}"
+                        width="{{ .Width }}"
+                        height="{{ .Height }}"
+                        alt="" />
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
 </p>

@@ -1,3 +1,7 @@
+@function get-tit-bg($clr) {
+    @return transparentize($clr, 0.85);
+}
+
 .wrapper {
     max-width: -webkit-calc(960px - (30px * 2));
 }
@@ -20,7 +24,7 @@
 
 .copy-code-button {
     color: #272822;
-    background-color: #FFF;
+    background-color: #fff;
     border-color: #272822;
     border: 2px solid;
     border-radius: 3px 3px 0px 0px;
@@ -29,7 +33,6 @@
     display: block;
     margin-left: auto;
     margin-right: 0;
-
     margin-bottom: -2px;
     padding: 3px 8px;
     font-size: 0.8em;
@@ -37,22 +40,163 @@
 
 .copy-code-button:hover {
     cursor: pointer;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
 }
 
 .copy-code-button:focus {
     /* Avoid an ugly focus outline on click in Chrome,
        but darken the button for accessibility.
        See https://stackoverflow.com/a/25298082/1481479 */
-    background-color: #E6E6E6;
+    background-color: #e6e6e6;
     outline: 0;
 }
 
 .copy-code-button:active {
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
 }
 
 .highlight pre {
     /* Avoid pushing up the copy buttons. */
     margin: 0;
+}
+
+.md__image img {
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px #1e02398a;
+}
+
+/* Light theme */
+$fg: #ffffff;
+
+$admons:
+    "note" #fbff00,
+    "info" rgb(88, 202, 255),
+    "warning" #ff8800,
+    "tip" #00b972,
+    "cog" #ff00bf,
+    "danger" #eb0000,
+    "new" #eeea12,
+    "question" #00ffdd,
+    "fail" #b90101,
+    "success" #66ff00,
+    "pump" #ff0000,
+    "bug" #ff00aa,
+    "quote" #696969;
+
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+    .admo {
+        --title-color: #{$fg};
+        --content-color: #{$fg};
+    }
+
+    @each $name, $clr in $admons {
+        .admo.#{$name} {
+            --icon-color: #{$clr};
+            --title-background-color: #{get-tit-bg($clr)};
+            --content-background-color: #00000042;
+        }
+    }
+}
+
+/* Content */
+.admo {
+    padding: 14px;
+    margin: 20px 0 ;
+    border-radius: 4px;
+    border: 1px solid var(--icon-color);
+    background: var(--content-background-color);
+    box-shadow: 2px 2px 4px 0px var(--icon-color);
+
+    p:not(p.admo-title) {
+    font-weight: lighter;
+
+    }
+}
+.admo p:last-child {
+    margin-bottom: 0;
+}
+
+/* Title */
+.admo-title {
+    margin: -18px -18px 18px;
+    padding: 8px 18px;
+    border-radius: 4px 4px 0 0;
+    font-weight: 400;
+    color: var(--title-color);
+    background: var(--title-background-color);
+}
+
+/* Icon */
+.icon-admo {
+    display: inline-flex;
+    margin: 5px 10px;
+}
+
+.icon-admo img,
+.icon-admo.baseline svg {
+    top: 0.325em;
+    position: relative;
+    height: 24px;
+    width: 24px;
+    fill: var(--icon-color);
+    scale: 1.2;
+}
+
+.admo.pump svg{
+    animation: heart 1000ms infinite;
+}
+.admo.new svg{
+    animation: pushup 1000ms infinite;
+}
+.admo.cog svg{
+    animation: spin 4s linear infinite;
+}
+
+@keyframes heart {
+  0%,
+  40%,
+  80%,
+  100% {
+    transform: scale(1);
+  }
+  20%,
+  60% {
+    transform: scale(1.15);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pushup {
+  40% {
+    transform: translateX(20);
+  }
+  80% {
+    transform: translateX(40);
+  }
+  100% {
+    transform: scale(1);
+  }
+  20%,
+  60% {
+    transform: scale(1.15);
+  }
+}
+
+.link-button {
+    padding: 2px;
+    background: linear-gradient(179deg, #ff840070, #79008d, #ffd4006e);
+    font-weight: 700;
+    font-family: monospace;
+    border-radius: 4px;
+    font-feature-settings: "liga" 1;
+    box-shadow: 0px 0px 5px 2px #00fff030;
 }

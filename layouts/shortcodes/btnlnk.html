@@ -1,0 +1,10 @@
+{{ $link := ref . .Params }}
+
+{{/* {{ printf "%s" $link }} */}}
+{{ range .Site.RegularPages.ByTitle }}
+    {{ if strings.Contains $link .RelPermalink }}
+        <button class="link-button">
+            <a href="{{ $link }}">{{ .RelPermalink }}</a>
+        </button>
+    {{ end }}
+{{ end }}

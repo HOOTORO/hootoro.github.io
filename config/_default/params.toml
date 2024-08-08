@@ -1,4 +1,4 @@
-sitename = "local.exp"
+sitename = "dev.lcl"
 defaultColor = "dark" # set color mode: dark, light, auto
 mainSections = [
     'post',
@@ -11,7 +11,7 @@ additionalScripts = [
     'js/custom.js',
 ]
 images = [
-    'look.jpg',
+    'look.svg',
 ]
 # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
 # Your custom scripts will be concatenated to one file `custom.js`.
@@ -33,9 +33,9 @@ subtitle    = 'The Best Bad on Earth'
     series = 'series'
 
 [author]
-    avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
+    avatar = "av.png" # put the file in assets folder; also ensure that image has same height and width
     # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-    intro              = 'dev.local'
+    intro              = 'dev.lcl'
     name               = 'HOOTORO'
     description        = 'A bad dev, ok friend, running fast, minimalistic, personal blog powered by Hugo Framework. Boring stories, corny re-evaluation of personal experience. There is nothing interesting.'
     creation           = '18.07.2023'
@@ -44,16 +44,22 @@ subtitle    = 'The Best Bad on Earth'
     email = "marukubaka@gmail.com"
 # Allow to override webmanifest options
 [webmanifest]
-    name             = "dev.local.c" # will use "params.sitename" or "title" by default
-    short_name       = "DLC"         # same as name
-    start_url        = "/"           # will use homepage url by default
-    theme_color      = "#171727"     # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
-    background_color = "#fff"        # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
+    name             = "dev.lcl"    # will use "params.sitename" or "title" by default
+    short_name       = "DLC"        # same as name
+    start_url        = "/"          # will use homepage url by default
+    theme_color      = "#171727"    # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
+    background_color = "#fff"       # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
     display          = "standalone"
     [[webmanifest.icons]]
-        src   = "/icons/favicon.ico"
-        sizes = "256x256"
-        type  = "image/png"
+        src     = "icons/maskable_icon_x192.png"
+        sizes   = "192x192"
+        type    = "image/png"
+        purpose = "maskable"
+    [[webmanifest.icons]]
+        src     = "icons/maskable_icon_x512.png"
+        sizes   = "512x512"
+        type    = "image/png"
+        purpose = "maskable"
 
 [browserconfig]
     TileColor = "#2d89ef" # default windows 10 blue tile color
