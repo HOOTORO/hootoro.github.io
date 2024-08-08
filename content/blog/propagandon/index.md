@@ -3,7 +3,7 @@ title: Superstitious Chebunet
 description: Не хороший разработчик об ограничении Youtube
 author: HOOTORO
 date: 2024-08-04T23:08:27.926Z
-lastmod: 2024-08-08T14:24:21.482Z
+lastmod: 2024-08-08T18:37:19.889Z
 preview: logo.png
 type: post
 weight: 3
@@ -12,6 +12,10 @@ tags: []
 categories: []
 slug: chebustitutka
 toc: false
+songmeta:
+    artist: lumen
+    title: Не простил
+song: audio/unforgive.mp3
 ---
 
 ## Прецедент

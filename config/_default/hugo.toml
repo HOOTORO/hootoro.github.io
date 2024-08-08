@@ -6,7 +6,8 @@ enableGitInfo          = true
 enableRobotsTXT        = true
 defaultContentLanguage = 'en'
 cleanDestinationDir    = true
-
+[minify]
+    minifyOutput = true
 [module]
     noProxy       = 'none'
     noVendor      = ''
@@ -48,7 +49,7 @@ cleanDestinationDir    = true
 
 [menu]
     [[menu.main]]
-        name    = 'Home'
+        name    = '<'
         pageRef = "/"
         weight  = 10
     [[menu.main]]
@@ -62,7 +63,7 @@ cleanDestinationDir    = true
         pageRef = '/docs'
         weight  = 80
     [[menu.main]]
-        name    = '<'
+        name    = '>'
         pageRef = '/about'
         weight  = 90
 [imaging]

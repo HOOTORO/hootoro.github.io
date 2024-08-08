@@ -1,8 +1,15 @@
+{{ $ratio := 1 }}
+{{ $widthLim := 900 }}
 <p class="md__image">
     {{ if hasPrefix .Destination "http" }}
         {{ with resources.GetRemote ( .Destination ) }}
+            {{ if gt .Width $widthLim }}
+                {{ $ratio = 2 }}
+            {{ end }}
             {{ if ne .MediaType.SubType "webp" }}
-                {{ with .Resize "800x webp q77" }}
+                {{/* {{ printf "w:%d r:%d h:%d mod:%d\n" .Width $ratio .Height (div .Width $ratio) }}
+                */}}
+                {{ with .Resize (printf "%dx%d webp q90" (div .Width $ratio) (div .Height $ratio)) }}
                     {{ with .Err }}
                         {{ errorf "%s" . }}
                     {{ else }}
@@ -20,13 +27,23 @@
         {{ end }}
     {{ else }}
         {{ with .Page.Resources.Get .Destination }}
+            {{ if gt .Width $widthLim }}
+                {{ $ratio = 2 }}
+            {{ end }}
             {{ if ne .MediaType.SubType "webp" }}
-                {{ with .Resize "800x webp q77" }}
-                    <img
-                        src="{{ .RelPermalink }}"
-                        width="{{ .Width }}"
-                        height="{{ .Height }}"
-                        alt="" />
+                {{/* {{ printf "w:%d r:%d h:%d mod:%d\n" .Width $ratio .Height (mod .Width $ratio) }}
+
+                */}}
+                {{ with .Resize (printf "%dx%d webp q90" (div .Width $ratio) (div .Height $ratio)) }}
+                    {{ with .Err }}
+                        {{ errorf "%s" . }}
+                    {{ else }}
+                        <img
+                            src="{{ .RelPermalink }}"
+                            width="{{ .Width }}"
+                            height="{{ .Height }}"
+                            alt="" />
+                    {{ end }}
                 {{ end }}
             {{ end }}
         {{ end }}
