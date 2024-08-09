@@ -1,5 +1,5 @@
 {
-    "name": "HOOTORO",
+    "name": "hootoro",
     "version": "1.0.0",
     "type": "module",
     "keywords": [
@@ -7,14 +7,15 @@
         "Blog",
         "Guides"
     ],
-    "author": {
-        "name": "HOOTORO"
-    },
+    "author": "HOOTORO",
     "scripts": {
         "HUGO:srv.draft": "hugo server -D --disableFastRender --navigateToChanged"
     },
     "devDependencies": {
         "prettier": "^3.3.3",
         "prettier-plugin-go-template": "^0.0.15"
-    }
+    },
+    "description": "Powered by [HUGO](https://gohugo.io/)",
+    "main": "index.js",
+    "license": "MIT"
 }

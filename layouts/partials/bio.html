@@ -1,0 +1,10 @@
+{{ $avatar_img := .Site.Params.author.avatar }}
+{{ $avatar_img_alt := .Site.Params.author.name }}
+<div class="author">
+    {{ with resources.Get $avatar_img }}
+    <img class="author-avatar" src="{{ .RelPermalink }}" alt="{{ $avatar_img_alt }}" width="{{ .Width }}"
+        height="{{ .Height }}" />
+    {{ end }}
+    <h2 class="author-name">{{ .Site.Params.author.intro }}</h2>
+    <p class="author-bio">{{ .Site.Params.author.description }}</p>
+</div>
