@@ -51,7 +51,13 @@
         <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 
         <script type="text/javascript">
-            const lightbox = GLightbox({ ...options });
+            const lightbox = GLightbox({     
+                touchNavigation: true,
+                loop: true,
+                openEffect: 'fade',
+                closeEffect: 'fade',
+
+            });
         </script>
     </div>
 {{ end }}

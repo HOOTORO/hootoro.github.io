@@ -11,6 +11,13 @@ additionalScripts = [
     'js/custom.js',
 ]
 
+prcSubTypes = [
+    'bmp',
+    'png',
+    'tiff',
+]
+resizeRatio = 2
+maxWidth = 1000
 # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
 # Your custom scripts will be concatenated to one file `custom.js`.
 # When building for production it will be minified.
