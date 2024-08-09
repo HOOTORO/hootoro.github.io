@@ -45,9 +45,10 @@ subtitle = 'The Best Bad on Earth'
 [author]
     avatar = "av.png" # put the file in assets folder; also ensure that image has same height and width
     # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-    intro              = 'dev.lcl'
-    name               = 'HOOTORO'
-    description        = 'A bad dev, ok friend, running fast, minimalistic, personal blog powered by Hugo Framework. Boring stories, corny re-evaluation of personal experience. There is nothing interesting.'
+    intro       = '#dev.home'
+    name        = 'HOOTORO'
+    description = 'bad dev is always typing...'
+    # description        = 'A bad dev, ok friend, running fast, minimalistic, personal blog powered by Hugo Framework. Boring stories, corny re-evaluation of personal experience. There is nothing interesting.'
     creation           = '18.07.2023'
     SidebarRecentLimit = 5
 [contact]
