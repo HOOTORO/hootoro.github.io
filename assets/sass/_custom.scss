@@ -121,19 +121,23 @@ $admons:
 
 /* Title */
 .admo-title {
+  list-style: none;
     margin: -18px -18px 18px;
     padding: 8px 18px;
     border-radius: 4px 4px 0 0;
     font-weight: 400;
     color: var(--title-color);
-    background: var(--title-background-color);
+    background: var(--title-background-color)
 }
+// .admo-title::marker {
 
+// }
 /* Icon */
 .icon-admo {
     display: inline-flex;
     margin: 5px 10px;
 }
+
 
 .icon-admo img,
 .icon-admo.baseline svg {

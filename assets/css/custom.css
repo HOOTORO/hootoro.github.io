@@ -1,0 +1,116 @@
+html {
+    font-size: 11pt;
+}
+
+div:has(> main) {
+    align-items: center;
+}
+.max-w-prose {
+    max-width: 80ch;
+}
+details {
+    margin-top: 10px;
+}
+.prelike {
+    color: white;
+    background: #443c35;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+article {
+    padding: 10px;
+    margin: 0;
+}
+details.admo .codelike {
+    margin-left: 10px;
+    padding: 5px 0;
+}
+
+.gallery-box {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.gallery-box img {
+    border-radius: 0.3rem;
+    box-shadow: 0 0 20px 0px #00deff59;
+}
+.gslide-desc {
+    color: black;
+}
+
+summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    /* also removes the list marker */
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+summary div {
+    display: inline-flex;
+    margin-left: 10px;
+    align-items: center;
+    max-width: 90%;
+    overflow-x: hidden;
+    text-wrap: pretty;
+}
+summary span {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+summary svg {
+    width: 24px;
+}
+summary::after {
+    content: "";
+    width: 18px;
+    height: 10px;
+    background: url("https://uploads.sitepoint.com/wp-content/uploads/2023/10/1697699669arrow.svg")
+        no-repeat;
+    background-size: cover;
+    margin-left: 0.75em;
+    transition: 0.2s;
+}
+
+details.admo[open] > summary::after {
+    transform: rotate(180deg);
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary {
+    background-color: #e792e7;
+    background-image: linear-gradient(90deg, #e792e7 0%, #6eb7f1 100%);
+    color: #30353b;
+    border-radius: 5px;
+}
+
+details.admo[open] summary {
+    border-radius: 5px 5px 0 0;
+}
+
+details.admo {
+    background: #2196f3;
+    border-radius: 5px;
+}
+details.admo::not(summary) > * {
+    margin: 0;
+    padding: 0 !important;
+}
+/* extra styles */
+
+body {
+    font-family: system-ui, sans-serif;
+}
+article > *:first-child {
+    margin: 0;
+}
+article > * + * {
+    margin: 0.75em 0 0 0;
+}

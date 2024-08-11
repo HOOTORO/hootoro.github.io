@@ -1,0 +1,53 @@
+{{- $src := .Get "src" -}}
+{{- $title := .Get "title" | default "image" -}}
+{{- $alt := .Get "alt" | default "artless" -}}
+{{ $filter := images.Process "fill 140x100 smart webp" }}
+{{ $pos := "bottom" }}
+
+{{- with .Parent -}}
+    {{ if strings.HasPrefix $src "http" }}
+        {{ with resources.GetRemote $src }}
+            {{ if gt .Height .Width }}
+                {{ $pos = "right" }}
+            {{ end }}
+            {{ with .Filter $filter }}
+                <a
+                    href="{{ $src }}"
+                    class="glightbox"
+                    data-gallery="gallery"
+                    data-title="{{ $title }}"
+                    data-description="{{ $alt }}"
+                    data-desc-position="{{ $pos }}">
+                    <img
+                        src="{{ .RelPermalink }}"
+                        alt="{{ $alt }}"
+                        width="{{ .Width }}"
+                        height="{{ .Height }}" />
+                </a>
+            {{ end }}
+        {{ end }}
+    {{ else }}
+        {{ with resources.Get $src }}
+            {{ with .Filter $filter }}
+                <a
+                    href="{{ $src }}"
+                    class="glight">
+                    <img
+                        src="{{ .RelPermalink }}"
+                        alt="{{ $alt }}"
+                        width="{{ .Width }}"
+                        height="{{ .Height }}" />
+                </a>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+
+{{- else -}}
+    <a
+        href="{{ $src }}"
+        class="glightbox">
+        <img
+            src="{{ $src }}"
+            alt="{{ $alt }}" />
+    </a>
+{{- end -}}

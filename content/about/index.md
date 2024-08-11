@@ -1,13 +1,21 @@
 ---
 title: About
-footer: true
+footer: false
 toc: false
+draft: false
+slug: "me"
+showDate: false
+preview: dre.webp 
+sharingLinks: false
+showEdit: false
+showCopyright: false
 ---
 
-![d1](dark1.webp)
+<!-- ![d1](../../assets/images/dark1.webp) -->
 
-![d2](darkdream.webp)
+<!-- ![I have a ...](dre.webp) -->
+{{< img src="dre.webp" >}}
 
-Trying Hugo  
+<!-- Trying Hugo  
 **HOOTORO**,  
-_The Bad Dev_
+_The Bad Dev_ -->

@@ -1,0 +1,16 @@
+noProxy       = 'none'
+noVendor      = ''
+private       = '*.*'
+proxy         = 'direct'
+vendorClosest = false
+workspace     = 'off'
+
+[hugoVersion]
+    extended = true
+    min      = "0.129.0"
+[[imports]]
+    path    = "github.com/hugo-sid/hugo-blog-awesome"
+    disable = true
+[[imports]]
+    path    = "github.com/jpanther/congo/v2"
+    disable = false

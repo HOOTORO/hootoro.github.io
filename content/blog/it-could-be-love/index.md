@@ -2,8 +2,8 @@
 title = "it could be love"
 description = "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 author = "HOOTORO"
-date = "24-06-23"
-lastmod = "24-06-23"
+date = "2024-06-23"
+lastmod = "2024-08-11"
 preview = "logo.png"
 type = "post"
 weight = 3

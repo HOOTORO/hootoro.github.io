@@ -1,0 +1,19 @@
+[[main]]
+    name    = '<'
+    pageRef = "/"
+    weight  = 10
+[[main]]
+    pre     = '<i class="fa-solid fa-code"></i>'
+    name    = 'Blog'
+    pageRef = '/blog'
+    weight  = 20
+[[main]]
+    pre     = '<i class="fa fa-heart"></i>'
+    name    = 'Doc'
+    pageRef = '/docs'
+    weight  = 30
+[[main]]
+    pre     = '<i class="fa fa-heart"></i>'
+    name    = "\\>"
+    pageRef = '/about'
+    weight  = 40

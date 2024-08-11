@@ -1,15 +1,13 @@
 defaultMarkdownHandler = 'goldmark'
 [tableOfContents]
-    endLevel   = 4
     startLevel = 2
-    ordered    = false
+    endLevel   = 4
 [highlight]
     noClasses = false
 [goldmark]
     [goldmark.renderer]
         hardWraps = true
         unsafe    = true
-        xhtml     = false
     [goldmark.renderHooks]
         [goldmark.renderHooks.image]
             enableDefault = true
@@ -27,10 +25,6 @@ defaultMarkdownHandler = 'goldmark'
             enable = true
         [goldmark.extensions.extras.mark]
             enable = true
-        [goldmark.extensions.extras.subscript]
-            enable = false
-        [goldmark.extensions.extras.superscript]
-            enable = false
 [goldmark.parser]
     autoHeadingID                      = true
     autoHeadingIDType                  = 'github'

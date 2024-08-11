@@ -39,6 +39,8 @@ hugo.linux
 themes
 layouts/**/*/.*.html
 layouts/**/*/.*.svg
+__*
 
 # IDE
 .fleet
+*.old

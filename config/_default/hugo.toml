@@ -1,27 +1,12 @@
-title                  = 'Bad Dev'
-baseURL                = 'https://HOOTORO.github.io/'
-languageCode           = 'en-us'
-enableEmoji            = true
-enableGitInfo          = true
-enableRobotsTXT        = true
-defaultContentLanguage = 'en'
-cleanDestinationDir    = true
+# title = 'Bad Dev'
+
+enableEmoji         = true
+enableGitInfo       = true
+cleanDestinationDir = true
+
 [minify]
     minifyOutput = true
-[module]
-    noProxy       = 'none'
-    noVendor      = ''
-    private       = '*.*'
-    proxy         = 'direct'
-    vendorClosest = false
-    workspace     = 'off'
 
-    [module.hugoVersion]
-        extended = true
-        min      = "0.129.0"
-    [[module.imports]]
-        path    = "github.com/hugo-sid/hugo-blog-awesome"
-        disable = false
 [permalinks]
     [permalinks.page]
         blog = '/blog/:slug/'
@@ -47,25 +32,6 @@ cleanDestinationDir    = true
         'publishDate',
     ]
 
-[menu]
-    [[menu.main]]
-        name    = '<'
-        pageRef = "/"
-        weight  = 10
-    [[menu.main]]
-        pre     = '<i class="fa-solid fa-code"></i>'
-        name    = 'Blog'
-        pageRef = '/blog'
-        weight  = 20
-    [[menu.main]]
-        pre     = '<i class="fa fa-heart"></i>'
-        name    = 'Doc'
-        pageRef = '/docs'
-        weight  = 80
-    [[menu.main]]
-        name    = '>'
-        pageRef = '/about'
-        weight  = 90
 [imaging]
     bgColor        = '#ffffff'
     hint           = 'photo'

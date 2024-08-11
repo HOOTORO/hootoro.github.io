@@ -1,0 +1,23 @@
+{{ if .IsNamedParams }}
+    {{- $t := .Get "title"| default "note" -}}
+    {{- $type := .Get "type" | default "note" -}}
+
+    {{- $raw := (markdownify .Inner | chomp) -}}
+    <details class="admo {{ $type }}">
+        <summary class="title">
+            <div>
+                {{ with resources.Get (printf "icons/admo/%s.svg" $type) }}
+                    {{ .Content |  safeHTML }}
+                {{ end }}
+                <span>{{ $t }}</span>
+            </div>
+        </summary>
+        <article>
+            <div class="prelike">
+                <div class="codelike">
+                    {{- $raw -}}
+                </div>
+            </div>
+        </article>
+    </details>
+{{ end }}

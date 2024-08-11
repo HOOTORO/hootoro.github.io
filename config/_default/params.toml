@@ -1,16 +1,22 @@
-sitename = "dev.lcl"
-defaultColor = "dark" # set color mode: dark, light, auto
-mainSections = [
-    'post',
-]
-toc = true # set to false to disable table of contents 'globally'
-tocOpen = false # set to true to open table of contents by default
-goToTop = true # set to false to disable 'go to top' button
-additionalScripts = [
-    'js/copy-code-button.js',
-    'js/custom.js',
-]
+##!HUGOAweesome
+### congo vars
 
+colorScheme          = "sapphire"
+defaultAppearance    = "dark"
+autoSwitchAppearance = false
+
+defaultThemeColor = "#111014"
+
+enableSearch           = true
+enableCodeCopy         = true
+enableImageLazyLoading = true
+enableQuicklink        = true
+enableImageWebp        = true
+
+# robots = ""
+fingerprintAlgorithm = "sha256"
+
+# custom 
 prcSubTypes = [
     'bmp',
     'png',
@@ -18,75 +24,65 @@ prcSubTypes = [
 ]
 resizeRatio = 2
 maxWidth = 1000
-# Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
-# Your custom scripts will be concatenated to one file `custom.js`.
-# When building for production it will be minified.
-# The file `custom.js` is loaded on each page (before body tag ends).
+[header]
+    layout   = "hybrid"
+    logo     = "favicon.ico"
+    logoDark = "favicon.ico"
+[homepage]
+    layout     = "profile"
+    showRecent = true
+[footer]
+    showCopyright          = true
+    showThemeAttribution   = true
+    showAppearanceSwitcher = true
+    showScrollToTop        = true
 
-# ! Twitter cards fallback
-description = "Не хороший разработчик пишет"
-images = [
-    'card.webp',
-]
+[article]
+    showDate            = true
+    showDateUpdated     = false
+    showAuthor          = true
+    showBreadcrumbs     = false
+    showDraftLabel      = true
+    showEdit            = true
+    editURL             = "https://github.com/HOOTORO/hootoro.github.io/"
+    editAppendPath      = true
+    showHeadingAnchors  = true
+    showPagination      = true
+    invertPagination    = false
+    showReadingTime     = true
+    showTableOfContents = true
+    showTaxonomies      = true
+    showWordCount       = true
+    showComments        = false
 
-dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
-# See https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for available date formats.
-rssFeedDescription = "summary" # available options: 1) summary 2) full
-# summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
-# full - includes full blog post in the RSS feed. Generated using Hugo .Content .
-# By default (or if nothing is specified), summary is used.
+    sharingLinks = [
+        "email",
+        "facebook",
+        "line",
+        "linkedin",
+        "mastodon",
+        "pinterest",
+        "reddit",
+        "telegram",
+        "threads",
+        "weibo",
+        "x-twitter",
+    ]
 
-# You can take a look at layouts/index.html for more information.
-subtitle = 'The Best Bad on Earth'
+[list]
+    showBreadcrumbs     = false
+    showSummary         = true
+    showTableOfContents = false
+    showTaxonomies      = false
+    groupByYear         = true
+    paginationWidth     = 2
 
-[taxonomies]
-    series = 'series'
+[sitemap]
+    excludedKinds = [
+        "taxonomy",
+        "term",
+    ]
 
-[author]
-    avatar = "av.png" # put the file in assets folder; also ensure that image has same height and width
-    # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-    intro       = '#dev.home'
-    name        = 'HOOTORO'
-    description = 'bad dev is always typing...'
-    # description        = 'A bad dev, ok friend, running fast, minimalistic, personal blog powered by Hugo Framework. Boring stories, corny re-evaluation of personal experience. There is nothing interesting.'
-    creation           = '18.07.2023'
-    SidebarRecentLimit = 5
-[contact]
-    email = "marukubaka@gmail.com"
-# Allow to override webmanifest options
-[webmanifest]
-    name             = "dev.lcl"                                    # will use "params.sitename" or "title" by default
-    short_name       = "DLC"                                        # same as name
-    description      = "Не хороший разработчик пишет не только код"
-    start_url        = "/"                                          # will use homepage url by default
-    theme_color      = "#171727"                                    # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
-    background_color = "#fff"                                       # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
-    display          = "standalone"
-    [[webmanifest.icons]]
-        src     = "icons/maskable_icon_x192.png"
-        sizes   = "192x192"
-        type    = "image/png"
-        purpose = "maskable"
-    [[webmanifest.icons]]
-        src     = "icons/maskable_icon_x512.png"
-        sizes   = "512x512"
-        type    = "image/png"
-        purpose = "maskable"
-
-[browserconfig]
-    TileColor = "#2d89ef" # default windows 10 blue tile color
-
-[[socialIcons]]
-    name = "github"
-    url  = "https://github.com/HOOTORO/"
-
-[[socialIcons]]
-    name = "discord"
-    url  = "https://discordid.netlify.app/?id=88370628763078656"
-
-[[socialIcons]]
-    name = "lastfm"
-    url  = "https://www.last.fm/user/marukubaka"
-[[socialIcons]]
-    name = "Rss"
-    url  = "/index.xml"
+[taxonomy]
+    showTermCount = true
+    series        = 'series'

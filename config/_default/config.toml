@@ -1,0 +1,13 @@
+baseURL                = 'https://HOOTORO.github.io/'
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+paginate        = 5
+summaryLength   = 0
+
+[outputs]
+    home = [
+        "HTML",
+        "JSON",
+        "RSS",
+    ]

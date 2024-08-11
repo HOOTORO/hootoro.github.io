@@ -1,9 +1,9 @@
 ---
 title: Pancrea
-date: 2023-08-11T17:48:52+03:00
+date: false
 draft: true
 slug: pancrea
-lastmod: 24-07-21
+lastmod: 2024-08-11
 ---
 
 На случай обнаружения этого поста человеком, лично не знакомого с автором.
