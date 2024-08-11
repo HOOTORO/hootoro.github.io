@@ -10,12 +10,15 @@ weight: 3
 draft: false
 tags:
     - analysis
+    - bad-habit
     - cognitive-bias
     - community
+    - freedom
+    - goverment
     - homeland
     - observation
     - people
-    - bad-habit
+    - fear
 categories:
     - post
 slug: terrorists-win
