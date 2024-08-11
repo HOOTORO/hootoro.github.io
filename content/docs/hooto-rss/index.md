@@ -2,8 +2,8 @@
 title: "HOO-TO: RSS"
 description: Стелим соломку, не то что бы заранее.
 author: HOOTORO
-date: 2024-08-02T22:29:46.374Z
-lastmod: 2024-08-11T13:51:40.261Z
+date: 2024-08-02
+lastmod: 2024-08-11T16:31:26.221Z
 preview: null
 type: doc
 weight: 3

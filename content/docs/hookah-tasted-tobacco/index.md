@@ -8,11 +8,10 @@ slug = "hookah-tasted-tobacco"
 description = "List of smoked hookah tobacco"
 tags = [ "cognitive-bias", "hobby", "passion", "people", "bad-habit" ]
 date = "2023-07-30"
-weight = 1
 toc = true
 categories = [ "review", "data" ]
 preview = "logo.jpg"
-lastmod = "2024-08-11T14:04:44.967Z"
+lastmod = "2024-08-10"
 +++
 
 {{< alert "admo/warning" >}}

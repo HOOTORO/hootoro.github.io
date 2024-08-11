@@ -11,8 +11,7 @@ toc = true
 keywords = [ "story", "life" ]
 type = "post"
 author = "HOOTORO"
-weight = 1
-lastmod = "2024-08-11T12:20:11.453Z"
+lastmod = "2024-08-10"
 +++
 
 

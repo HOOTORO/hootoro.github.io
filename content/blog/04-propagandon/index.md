@@ -6,8 +6,8 @@ date: 2024-08-04
 lastmod: 2024-08-11
 preview: cover-card.webp
 type: post
-weight: 3
 draft: false
+weight: 2
 tags:
     - cognitive-bias
     - people

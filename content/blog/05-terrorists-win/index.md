@@ -6,8 +6,8 @@ date: 2024-08-11
 lastmod: 2024-08-11
 preview: cover-ter.webp
 type: post
-weight: 3
 draft: false
+weight: 1
 tags:
     - analysis
     - bad-habit

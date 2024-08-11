@@ -10,7 +10,6 @@ author = "HOOTORO"
 type = "doc"
 slug = "yagpdb"
 toc = true
-weight = 2
 lastmod = "2024-08-11T14:01:55.696Z"
 +++
 

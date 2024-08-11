@@ -6,7 +6,6 @@ date = "2024-06-23"
 lastmod = "2024-08-11"
 preview = "logo.png"
 type = "post"
-weight = 3
 draft = true
 tags = [ ]
 categories = [ ]

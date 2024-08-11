@@ -74,5 +74,6 @@
         "MD056": false
     },
     "svg.preview.background": "transparent",
-    "frontMatter.content.fmHighlight": true
+    "frontMatter.content.fmHighlight": true,
+    "frontMatter.content.autoUpdateDate": true
 }
