@@ -1,7 +1,10 @@
-# Page hootoro.github.io
+# hootoro.github.io
 
-Powered by [HUGO](https://gohugo.io/)
+personal blog using Github Pages
+and powered by [HUGO](https://gohugo.io/)
 
 ## TO DO
 
-- image gallery
+- [x] image gallery
+- [ ] comments
+- [ ] media player

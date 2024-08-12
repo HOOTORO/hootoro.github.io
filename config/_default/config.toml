@@ -5,6 +5,8 @@ enableRobotsTXT = true
 paginate        = 5
 summaryLength   = 0
 
+googleAnalytics = "G-L9BMG9JD0J"
+
 [outputs]
     home = [
         "HTML",

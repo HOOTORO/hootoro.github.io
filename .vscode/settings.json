@@ -73,7 +73,7 @@
         "MD055": false,
         "MD056": false
     },
-    "svg.preview.background": "transparent",
+    "svg.preview.background": "editor",
     "frontMatter.content.fmHighlight": true,
     "frontMatter.content.autoUpdateDate": true
 }
