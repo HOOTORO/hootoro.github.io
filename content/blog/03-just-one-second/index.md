@@ -1,16 +1,16 @@
 ---
-title: Just ONE second, m8!
+title: One sec, m8!
 description: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
 author: HOOTORO
 date: 2024-07-21
-lastmod: 2024-08-11
+lastmod: 2024-08-12
 preview: logo.png
 type: post
 draft: false
-
-tags: []
-categories: []
-slug: just-one-second
+tags:
+  - observation
+categories: travel
+slug: sec-m8
 toc: true
 ---
 

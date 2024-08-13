@@ -1,17 +1,16 @@
 +++
 draft = false
-categories = [ "longread", "truestory" ]
+categories = "true-story"
 date = "2023-08-06"
 description = "a long, long time ago, in far, faraway country..."
-images = [ "site-feature-image.jpg" ]
-slug = "travel-kiev"
-tags = [ "adventure", "happy-end", "people", "travel" ]
+slug = "kiev-trip"
+tags = [ "adventure", "happy-end", "people", "travel", "longread" ]
 title = "Kiev Trip"
 toc = true
 keywords = [ "story", "life" ]
 type = "post"
 author = "HOOTORO"
-lastmod = "2024-08-10"
+lastmod = "2024-08-12"
 +++
 
 

@@ -3,17 +3,18 @@ title: Superstitious Chebunet aka Чёбыинет
 description: Не хороший разработчик пишет об анальном огороде россиян от youtube и дальнейших перспективах.
 author: HOOTORO
 date: 2024-08-04
-lastmod: 2024-08-11
+lastmod: 2024-08-12
 preview: cover-card.webp
 type: post
 draft: false
 weight: 2
 tags:
     - cognitive-bias
+    - freedom
     - people
+    - goverment
 categories:
-    - longread
-    - post
+    - opinion
 slug: superstitious-chebunet
 toc: true
 songmeta:

@@ -8,7 +8,7 @@
     pageRef = '/blog'
     weight  = 20
 [[main]]
-    pre     = '<i class="fa fa-heart"></i>'
+    pre     = "<i class='fa fa-road'></i>"
     name    = 'Doc'
     pageRef = '/docs'
     weight  = 30

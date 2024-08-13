@@ -1,1 +1,48 @@
-{"taxonomy":{"tags":["adventure","advice","analysis","bad-habit","bot","code","cognitive-bias","community","discord","example","fear","freedom","goverment","happy-end","hobby","homeland","index","notification","observation","occasion","passion","people","reason","software","travel","upgrade"],"categories":["data","documentation","guide","it","longread","opinion","post","review","travel","truestory"]}}
+{
+    "taxonomy": {
+        "tags": [
+            "adventure",
+            "advice",
+            "analysis",
+            "bad-decisions",
+            "bad-habit",
+            "bot",
+            "boy-meet-girl",
+            "code",
+            "cognitive-bias",
+            "community",
+            "discord",
+            "example",
+            "fear",
+            "freedom",
+            "government",
+            "happy-end",
+            "hobby",
+            "homeland",
+            "long-ago",
+            "longread",
+            "love",
+            "memories",
+            "notification",
+            "observation",
+            "occasion",
+            "passion",
+            "people",
+            "reason",
+            "school",
+            "shame",
+            "software",
+            "travel",
+            "upgrade"
+        ],
+        "categories": [
+            "data",
+            "guide",
+            "it",
+            "opinion",
+            "review",
+            "travel",
+            "true-story"
+        ]
+    }
+}

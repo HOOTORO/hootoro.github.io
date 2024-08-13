@@ -2,7 +2,7 @@
     "$schema": "https://frontmatter.codes/frontmatter.schema.json",
     "frontMatter.taxonomy.fieldGroups": [
         {
-            "id": "GeneralFields",
+            "id": "general",
             "fields": [
                 {
                     "title": "Title",
@@ -51,18 +51,6 @@
                     "choices": ["doc", "post"]
                 },
                 {
-                    "title": "Navigation weight",
-                    "name": "weight",
-                    "type": "number",
-                    "default": 3
-                },
-                {
-                    "title": "Is in draft",
-                    "name": "draft",
-                    "type": "draft",
-                    "default": true
-                },
-                {
                     "title": "Tags",
                     "name": "tags",
                     "type": "tags"
@@ -78,6 +66,17 @@
                     "type": "slug",
                     "editable": true,
                     "default": "{{slug}}"
+                },
+                {
+                    "title": "Navigation weight",
+                    "name": "weight",
+                    "type": "number"
+                },
+                {
+                    "title": "Is in draft",
+                    "name": "draft",
+                    "type": "draft",
+                    "default": true
                 },
                 {
                     "title": "toc",
@@ -106,104 +105,16 @@
             "pageBundle": false,
             "fields": [
                 {
-                    "title": "Title",
-                    "name": "title",
-                    "type": "string",
-                    "single": true
-                },
-                {
-                    "title": "Description",
-                    "name": "description",
-                    "type": "string",
-                    "default": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                },
-                {
-                    "title": "Author",
-                    "name": "author",
-                    "type": "string",
-                    "single": true,
-                    "default": "HOOTORO"
-                },
-                {
-                    "title": "Publishing date",
-                    "name": "date",
-                    "type": "datetime",
-                    "default": "{{now}}",
-                    "isPublishDate": true,
-                    "dateFormat": "yyyy-MM-dd"
-                },
-                {
-                    "title": "Last modified date",
-                    "name": "lastmod",
-                    "type": "datetime",
-                    "isModifiedDate": true,
-                    "dateFormat": "yyyy-MM-dd"
-                },
-                {
-                    "title": "Content preview",
-                    "name": "preview",
-                    "type": "image",
-                    "default": "logo.png"
-                },
-                {
-                    "title": "Type",
-                    "name": "type",
-                    "type": "choice",
-                    "choices": ["doc", "post"]
-                },
-                {
-                    "title": "Navigation weight",
-                    "name": "weight",
-                    "type": "number",
-                    "default": 3
-                },
-                {
-                    "title": "Is in draft",
-                    "name": "draft",
-                    "type": "draft",
-                    "default": true
-                },
-                {
-                    "title": "Tags",
-                    "name": "tags",
-                    "type": "tags"
-                },
-                {
-                    "title": "Categories",
-                    "name": "categories",
-                    "type": "categories"
-                },
-                {
-                    "title": "Slug",
-                    "name": "slug",
-                    "type": "slug",
-                    "editable": true,
-                    "default": "{{slug}}"
-                },
-                {
-                    "title": "toc",
-                    "name": "toc",
-                    "type": "boolean",
-                    "default": false
-                },
-                {
-                    "title": "tocOpen",
-                    "name": "tocOpen",
-                    "type": "boolean",
-                    "when": {
-                        "fieldRef": "toc",
-                        "operator": "eq",
-                        "value": true
-                    },
-                    "default": false
+                    "name": "default",
+                    "type": "fieldCollection",
+                    "fieldGroup": "general"
                 }
             ]
         },
         {
             "name": "post",
-            "pageBundle": true,
             "previewPath": "/blog",
-            "slugTemplate": "{{title}}",
+            "pageBundle": true,
             "fields": [
                 {
                     "title": "Title",
@@ -252,16 +163,11 @@
                     "choices": ["doc", "post"]
                 },
                 {
-                    "title": "Navigation weight",
-                    "name": "weight",
-                    "type": "number",
-                    "default": 3
-                },
-                {
-                    "title": "Is in draft",
-                    "name": "draft",
-                    "type": "draft",
-                    "default": true
+                    "title": "Categories",
+                    "name": "categories",
+                    "type": "categories",
+                    "taxonomyLimit": 1,
+                    "singleValueAsString": true
                 },
                 {
                     "title": "Tags",
@@ -269,16 +175,22 @@
                     "type": "tags"
                 },
                 {
-                    "title": "Categories",
-                    "name": "categories",
-                    "type": "categories"
-                },
-                {
                     "title": "Slug",
                     "name": "slug",
                     "type": "slug",
                     "editable": true,
                     "default": "{{slug}}"
+                },
+                {
+                    "title": "Navigation weight",
+                    "name": "weight",
+                    "type": "number"
+                },
+                {
+                    "title": "Is in draft",
+                    "name": "draft",
+                    "type": "draft",
+                    "default": true
                 },
                 {
                     "title": "toc",
@@ -296,6 +208,10 @@
                         "value": true
                     },
                     "default": false
+                },
+                {
+                    "name": "divider",
+                    "type": "divider"
                 },
                 {
                     "title": "songmeta",
@@ -305,26 +221,29 @@
                         {
                             "title": "artist",
                             "name": "artist",
-                            "type": "string"
+                            "type": "string",
+                            "single": true
                         },
                         {
                             "title": "title",
                             "name": "title",
-                            "type": "string"
+                            "type": "string",
+                            "single": true
                         }
                     ]
                 },
                 {
                     "title": "song",
                     "name": "song",
-                    "type": "string"
+                    "type": "string",
+                    "single": true
                 }
             ]
         },
         {
             "name": "doc",
-            "pageBundle": true,
             "previewPath": "/docs",
+            "pageBundle": true,
             "fields": [
                 {
                     "title": "Title",
@@ -351,14 +270,14 @@
                     "type": "datetime",
                     "default": "{{now}}",
                     "isPublishDate": true,
-
                     "dateFormat": "yyyy-MM-dd"
                 },
                 {
                     "title": "Last modified date",
                     "name": "lastmod",
                     "type": "datetime",
-                    "isModifiedDate": true
+                    "isModifiedDate": true,
+                    "dateFormat": "yyyy-MM-dd"
                 },
                 {
                     "title": "Content preview",
@@ -373,16 +292,11 @@
                     "choices": ["doc", "post"]
                 },
                 {
-                    "title": "Navigation weight",
-                    "name": "weight",
-                    "type": "number",
-                    "default": 3
-                },
-                {
-                    "title": "Is in draft",
-                    "name": "draft",
-                    "type": "draft",
-                    "default": true
+                    "title": "Categories",
+                    "name": "categories",
+                    "type": "categories",
+                    "taxonomyLimit": 1,
+                    "singleValueAsString": true
                 },
                 {
                     "title": "Tags",
@@ -390,16 +304,22 @@
                     "type": "tags"
                 },
                 {
-                    "title": "Categories",
-                    "name": "categories",
-                    "type": "categories"
-                },
-                {
                     "title": "Slug",
                     "name": "slug",
                     "type": "slug",
                     "editable": true,
                     "default": "{{slug}}"
+                },
+                {
+                    "title": "Navigation weight",
+                    "name": "weight",
+                    "type": "number"
+                },
+                {
+                    "title": "Is in draft",
+                    "name": "draft",
+                    "type": "draft",
+                    "default": true
                 },
                 {
                     "title": "toc",
@@ -417,6 +337,32 @@
                         "value": true
                     },
                     "default": false
+                },
+                {
+                    "name": "divider",
+                    "type": "divider"
+                },
+                {
+                    "title": "wiki",
+                    "name": "wiki",
+                    "type": "string",
+                    "single": true
+                },
+                {
+                    "title": "keywords",
+                    "name": "keywords",
+                    "type": "choice",
+                    "choices": [
+                        "data",
+                        "feed",
+                        "format",
+                        "rss",
+                        "scoop",
+                        "telegram",
+                        "term",
+                        "win",
+                        "winget"
+                    ]
                 }
             ]
         }
@@ -436,7 +382,7 @@
         }
     ],
     "frontMatter.framework.startCommand": "hugo server -D --navigateToChanged",
-    "frontMatter.content.publicFolder": "static",
+    "frontMatter.content.publicFolder": "assets",
     "frontMatter.framework.id": "hugo",
     "frontMatter.preview.host": "http://localhost:1313",
     "frontMatter.preview.pathName": "",

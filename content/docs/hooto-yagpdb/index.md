@@ -4,13 +4,20 @@ description = "Setup amazing https://yagpdb.xyz/ bot to send interval based noti
 date = "2024-06-22"
 preview = "logo_y.png"
 draft = false
-tags = [ "bot", "discord", "example", "notification", "code" ]
-categories = [ "documentation", "guide" ]
+tags = [
+  "bot",
+  "code",
+  "discord",
+  "example",
+  "notification",
+  "software"
+]
+categories = "guide"
 author = "HOOTORO"
 type = "doc"
 slug = "yagpdb"
 toc = true
-lastmod = "2024-08-11T14:01:55.696Z"
+lastmod = "2024-08-12"
 +++
 
 ## Yet Another Great Purpose Discord Bot

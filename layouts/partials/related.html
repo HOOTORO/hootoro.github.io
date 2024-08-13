@@ -1,0 +1,15 @@
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+    <h3 class="mt-6 ml-6">See Also</h3>
+    <ul class="flex flex-row flex-wrap justify-center">
+        {{ range . }}
+            <li>
+                <a
+                    class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+                    href="{{ .RelPermalink }}"
+                    >{{ .LinkTitle }}</a
+                >
+            </li>
+        {{ end }}
+    </ul>
+{{ end }}

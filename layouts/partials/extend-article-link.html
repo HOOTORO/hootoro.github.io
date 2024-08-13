@@ -1,0 +1,9 @@
+{{ if .Page.Params.lastmod }}
+    {{ $since := now.Sub (.Page.Params.lastmod | time ) }}
+    {{ $days := div $since.Hours 24 | int }}
+    {{ if le $days 2 }}
+        {{ partial "badge.html" "Updated recently!" }}
+    {{ else }}
+        {{ warnf "%-30s was modified [ %d days ago ]" .Page.Params.slug $days }}
+    {{ end }}
+{{ end }}
