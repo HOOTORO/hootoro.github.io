@@ -5,7 +5,7 @@ author: HOOTORO
 date: 2020-02-02
 lastmod: 2024-08-13
 type: post
-draft: true
+draft: false
 preview: cover.jpg
 tags:
     - bad-decisions
