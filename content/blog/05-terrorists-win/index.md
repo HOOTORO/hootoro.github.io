@@ -7,20 +7,19 @@ lastmod: 2024-08-11
 preview: cover-ter.webp
 type: post
 draft: false
-weight: 1
+weight: null
 tags:
     - analysis
     - bad-habit
     - cognitive-bias
     - community
     - freedom
-    - goverment
+    - government
     - homeland
     - observation
     - people
     - fear
-categories:
-    - post
+categories: common-sense
 slug: terrorists-win
 toc: false
 songmeta:

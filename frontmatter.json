@@ -14,7 +14,8 @@
                     "title": "Description",
                     "name": "description",
                     "type": "string",
-                    "default": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                    "default": "Не хороший разработчик пишет"
+                    // "default": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
                 },
                 {
                     "title": "Author",

@@ -76,5 +76,5 @@
     },
     "svg.preview.background": "editor",
     "frontMatter.content.fmHighlight": true,
-    "frontMatter.content.autoUpdateDate": true
+    "frontMatter.content.autoUpdateDate": false
 }

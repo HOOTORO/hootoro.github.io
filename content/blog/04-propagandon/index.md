@@ -7,7 +7,7 @@ lastmod: 2024-08-12
 preview: cover-card.webp
 type: post
 draft: false
-weight: 2
+weight: null
 tags:
     - cognitive-bias
     - freedom

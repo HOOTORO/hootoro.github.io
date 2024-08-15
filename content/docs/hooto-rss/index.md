@@ -4,9 +4,8 @@ description: Не хороший разработчик стелит солом�
 author: HOOTORO
 date: 2024-08-02
 lastmod: 2024-08-12
-preview: null
+preview: cover-card.webp
 type: doc
-weight: 3
 draft: false
 tags:
     - it
