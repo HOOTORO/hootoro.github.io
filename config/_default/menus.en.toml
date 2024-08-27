@@ -1,19 +1,66 @@
 [[main]]
     name    = '<'
-    pageRef = "/"
+    pageRef = '/'
     weight  = 10
 [[main]]
-    pre     = '<i class="fa-solid fa-code"></i>'
     name    = 'Blog'
     pageRef = '/blog'
     weight  = 20
+    [main.params]
+        icon = 'admo/abstract'
 [[main]]
-    pre     = "<i class='fa fa-road'></i>"
     name    = 'Doc'
     pageRef = '/docs'
     weight  = 30
+    [main.params]
+        icon = 'admo/cog'
 [[main]]
-    pre     = '<i class="fa fa-heart"></i>'
-    name    = "\\>"
+    name    = '\>'
     pageRef = '/about'
+    weight  = 50
+[[main]]
+    url    = 'https://github.com/HOOTORO/'
+    weight = 90
+    [main.params]
+        rel    = 'external'
+        target = "_blank"
+        icon   = 'github'
+
+[[footer]]
+    name    = "Tags"
+    pageRef = "tags"
+    weight  = 10
+
+[[footer]]
+    name    = 'Things'
+    pageRef = '/things'
     weight  = 40
+    [footer.params]
+        icon = 'admo/tip'
+        # [[footer]]
+        #     name    = 'Terms'
+        #     pageRef = 'terms'
+        #     weight  = 20
+        # [[footer]]
+        #     name    = "Privacy"
+        #     pageRef = "privacy"
+        #     weight  = 30
+        # [[main]]
+        #     parent  = 'These'
+        #     name    = 'Things'
+        #     weight  = 80
+        #     pageRef = 'things'
+        #     [main.params]
+        #         class = 'center'
+        # [[main]]
+        #     parent  = 'Env'
+        #     name    = 'These'
+        #     weight  = 90
+        #     pageRef = 'these'
+        #    pre    = '<i class="fa fa-heart"></i>'
+        #    pre     = "<i class='fa fa-road'></i>"
+        #    pre     = '<i class="fa fa-heart"></i>'
+        #    pre     = '<i class="fa-solid fa-code"></i>'
+        # -- Footer Menu --
+        # The footer menu is displayed at the bottom of the page, just before
+        # the copyright notice. Configure as per the main menu above.

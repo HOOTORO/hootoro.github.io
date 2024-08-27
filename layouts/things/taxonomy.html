@@ -1,0 +1,27 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    {{ warnf "%s " .Params }}
+    {{ if .Params.cover }}
+        {{ with resources.GetRemote .Params.cover }}
+            <img
+                src="{{ .Params.cover }}"
+                width="{{ .Width }}"
+                height="{{ .Height }}"
+                alt="portrait" />
+        {{ end }}
+    {{ end }}
+    {{ .Content }}
+    {{ range .Data.Terms.Alphabetical }}
+        <h2><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a></h2>
+        <p>Affiliation: {{ .Page.Params.Affiliation }}</p>
+        {{ with .Page.Resources.Get "portrait.jpg" }}
+            {{ with .Fill "100x100" }}
+                <img
+                    src="{{ .RelPermalink }}"
+                    width="{{ .Width }}"
+                    height="{{ .Height }}"
+                    alt="portrait" />
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}

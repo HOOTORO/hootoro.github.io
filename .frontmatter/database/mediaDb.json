@@ -1,1 +1,49 @@
-{"users":{"hootoro":{"r":{"hootoro.github.io":{"content":{"blog":{"fear-of-the-patch":{},"just-one-second":{},"propagandon":{"resources":{}}},"docs":{"howto-rss":{}},"about":{}},"static":{},"assets":{}}}}},"hootoro.github.io":{"themes":{"hugo-blog-awesome":{"layouts":{"partials":{"svgs":{}}}}},"assets":{"icons":{},"images":{}},"content":{"blog":{"04-propagandon":{"resources":{}}}}}}
+{
+    "hootoro.github.io": {
+        "assets": {
+            "icons": {
+                "emo": {}
+            },
+            "images": {}
+        },
+        "content": {
+            "blog": {
+                "04-propagandon": {
+                    "resources": {}
+                }
+            }
+        },
+        "themes": {
+            "hugo-blog-awesome": {
+                "layouts": {
+                    "partials": {
+                        "svgs": {}
+                    }
+                }
+            }
+        }
+    },
+    "users": {
+        "hootoro": {
+            "r": {
+                "hootoro.github.io": {
+                    "assets": {},
+                    "content": {
+                        "about": {},
+                        "blog": {
+                            "fear-of-the-patch": {},
+                            "just-one-second": {},
+                            "propagandon": {
+                                "resources": {}
+                            }
+                        },
+                        "docs": {
+                            "howto-rss": {}
+                        }
+                    },
+                    "static": {}
+                }
+            }
+        }
+    }
+}

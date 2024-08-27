@@ -3,7 +3,8 @@ defaultMarkdownHandler = 'goldmark'
     startLevel = 2
     endLevel   = 4
 [highlight]
-    noClasses = false
+    noClasses = true
+    style     = 'average'
 [goldmark]
     [goldmark.renderer]
         hardWraps = true
@@ -18,12 +19,14 @@ defaultMarkdownHandler = 'goldmark'
     footnote        = true
     linkify         = true
     linkifyProtocol = 'https'
-    strikethrough   = true
+    strikethrough   = false
     table           = true
     [goldmark.extensions.extras]
         [goldmark.extensions.extras.insert]
             enable = true
         [goldmark.extensions.extras.mark]
+            enable = true
+        [goldmark.extensions.extras.delete]
             enable = true
 [goldmark.parser]
     autoHeadingID                      = true

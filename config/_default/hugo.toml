@@ -3,14 +3,16 @@
 enableEmoji         = true
 enableGitInfo       = true
 cleanDestinationDir = true
+enableRobotsTXT     = true
 
 [minify]
     minifyOutput = true
 
 [permalinks]
     [permalinks.page]
-        blog = '/blog/:slug/'
-        docs = '/docs/:slug/'
+        blog   = '/blog/:slug/'
+        docs   = '/docs/:slug/'
+        things = '/things/:slug/'
 
 [frontmatter]
     date = [

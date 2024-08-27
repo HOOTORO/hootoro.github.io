@@ -2,15 +2,22 @@ html {
     font-size: 12pt;
 }
 
-div:has(> main) {
+blockquote > p {
+    font-size: 10pt;
+    font-weight: 400;
+}
+/* div:has(> main) {
     align-items: center;
-}
-.max-w-prose {
+} */
+
+/* .max-w-prose {
     max-width: 80ch;
-}
+} */
+
 details {
     margin-top: 10px;
 }
+
 .prelike {
     color: white;
     background: #443c35;
@@ -182,4 +189,15 @@ span.tooltip {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
+}
+
+.hui {
+    border: 1px solid yellow;
+    border-radius: 10px;
+    padding: 4px 0;
+    margin: 4px;
+}
+
+div:has(.hui) {
+    max-width: 75%;
 }

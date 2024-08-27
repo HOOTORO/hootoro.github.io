@@ -16,3 +16,9 @@ footer.go_to_top = "Go to top"
 errors.404 = "404 NOT FOUND"
 
 errors.404_description = "You just hit a route that doesn't exist."
+
+caution   = 'CAUTION ❗'
+important = 'IMPORTANT'
+note      = 'Note'
+tip       = 'Tip'
+warning   = 'WARNING'

@@ -3,23 +3,25 @@ languageName      = "English"
 languageDirection = "ltr"
 weight            = 1
 
-title     = "#dev.lc"
+title     = "#DEV.LC"
 copyright = "© 2024 HOOTORO, _right?_ :thinking_face:"
 
 [params]
+    subtitle    = "I'm only human"
     dateFormat  = "2 January 2006"
     description = "Не хороший разработчик пишет"
     creation    = '18.07.2023'
 
-    mainSections = [
-        "doc",
-        "post",
-    ]
+    # mainSections = [
+    #     "doc",
+    #     "post",
+    #     "thing",
+    # ]
     [params.author]
         name = "HOOTORO"
         image = "av.png"
         headline = "Bad Dev is always typing..."
-        bio = "Bad Dev"
+        bio = "A generally awesome human"
         links = [
             { dev = "https://dev.to/hootoro" },
             { discord = "https://discordid.netlify.app/?id=88370628763078656" },

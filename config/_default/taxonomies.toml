@@ -1,0 +1,9 @@
+# config/_default/taxonomies.toml
+
+category = 'categories'
+tag      = 'tags'
+topic    = 'topics'
+thing    = 'things'
+
+# series   = 'series'
+# genre    = 'genres'

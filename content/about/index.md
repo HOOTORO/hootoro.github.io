@@ -3,7 +3,7 @@ title: About
 footer: false
 toc: false
 draft: false
-slug: "me"
+slug: me
 showDate: false
 preview: dre.webp 
 sharingLinks: false

@@ -1,9 +1,8 @@
 baseURL                = 'https://HOOTORO.github.io/'
 defaultContentLanguage = "en"
 
-enableRobotsTXT = true
-paginate        = 5
-summaryLength   = 0
+paginate      = 10
+summaryLength = 10
 
 googleAnalytics = "G-L9BMG9JD0J"
 
@@ -12,4 +11,14 @@ googleAnalytics = "G-L9BMG9JD0J"
         "HTML",
         "JSON",
         "RSS",
+    ]
+    section = [
+        'html',
+        'rss',
+    ]
+    taxonomy = [
+        'html',
+    ]
+    term = [
+        'html',
     ]

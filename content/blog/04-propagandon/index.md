@@ -1,5 +1,5 @@
 ---
-title: Superstitious Chebunet aka Чёбыинет
+title: О чебурнете суверенном
 description: Не хороший разработчик пишет об анальном огороде россиян от youtube и дальнейших перспективах.
 author: HOOTORO
 date: 2024-08-04

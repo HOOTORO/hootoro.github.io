@@ -1,6 +1,6 @@
 ---
-title: One sec, m8!
-description: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+title: Одна с.
+description: Не хороший разработчик диву дается сколько может случиться за одну с.
 author: HOOTORO
 date: 2024-07-21
 lastmod: 2024-08-12

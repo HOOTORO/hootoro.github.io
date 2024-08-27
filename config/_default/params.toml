@@ -1,11 +1,12 @@
 ##!HUGOAweesome
 ### congo vars
 
-colorScheme          = "sapphire"
+colorScheme          = "avocado" # sapphire   ocean   congo   slate  cherry
 defaultAppearance    = "dark"
 autoSwitchAppearance = false
 
 defaultThemeColor = "#111014"
+# defaultThemeColor = "#FFFFFF"
 
 enableSearch           = true
 enableCodeCopy         = true
@@ -22,18 +23,20 @@ prcSubTypes = [
     'png',
     'tiff',
 ]
-resizeRatio = 2
-maxWidth = 1000
+# resizeRatio = 2
+# maxWidth = 1000
 # hours 168 = 7 days
 newLabelExpiredAfter = 168
 
 [header]
-    layout   = "hybrid"
-    logo     = "favicon.ico"
-    logoDark = "favicon.ico"
+    layout = "hybrid"
+    # logo      = "favicon.ico"
+    # logoDark  = "favicon.ico"
+    showTitle = true
 [homepage]
-    layout     = "profile"
-    showRecent = true
+    layout      = "profile" # profile   page
+    showRecent  = false
+    recentLimit = 3
 [footer]
     showCopyright          = true
     showThemeAttribution   = true
@@ -44,10 +47,10 @@ newLabelExpiredAfter = 168
     showDate            = true
     showDateUpdated     = false
     showAuthor          = true
-    showBreadcrumbs     = false
+    showBreadcrumbs     = true
     showDraftLabel      = true
     showEdit            = true
-    editURL             = "https://github.com/HOOTORO/hootoro.github.io/"
+    editURL             = "https://github.com/HOOTORO/hootoro.github.io/content"
     editAppendPath      = true
     showHeadingAnchors  = true
     showPagination      = true
@@ -73,19 +76,18 @@ newLabelExpiredAfter = 168
     ]
 
 [list]
-    showBreadcrumbs     = false
+    showBreadcrumbs     = true
     showSummary         = true
     showTableOfContents = false
     showTaxonomies      = false
     groupByYear         = true
     paginationWidth     = 2
 
-[sitemap]
-    excludedKinds = [
-        "taxonomy",
-        "term",
-    ]
+    # [sitemap]
+    # excludedKinds = [
+    #     "taxonomy",
+    #     "term",
+    # ]
 
 [taxonomy]
     showTermCount = true
-    series        = 'series'

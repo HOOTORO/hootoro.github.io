@@ -14,8 +14,7 @@
                     "title": "Description",
                     "name": "description",
                     "type": "string",
-                    "default": "Не хороший разработчик пишет"
-                    // "default": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                    "default": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
                 },
                 {
                     "title": "Author",
@@ -44,12 +43,6 @@
                     "name": "preview",
                     "type": "image",
                     "default": "logo.png"
-                },
-                {
-                    "title": "Type",
-                    "name": "type",
-                    "type": "choice",
-                    "choices": ["doc", "post"]
                 },
                 {
                     "title": "Tags",
@@ -127,7 +120,7 @@
                     "title": "Description",
                     "name": "description",
                     "type": "string",
-                    "default": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                    "default": "Не хороший разработчик пишет"
                 },
                 {
                     "title": "Author",
@@ -156,12 +149,6 @@
                     "name": "preview",
                     "type": "image",
                     "default": "logo.png"
-                },
-                {
-                    "title": "Type",
-                    "name": "type",
-                    "type": "choice",
-                    "choices": ["doc", "post"]
                 },
                 {
                     "title": "Categories",
@@ -213,31 +200,6 @@
                 {
                     "name": "divider",
                     "type": "divider"
-                },
-                {
-                    "title": "songmeta",
-                    "name": "songmeta",
-                    "type": "fields",
-                    "fields": [
-                        {
-                            "title": "artist",
-                            "name": "artist",
-                            "type": "string",
-                            "single": true
-                        },
-                        {
-                            "title": "title",
-                            "name": "title",
-                            "type": "string",
-                            "single": true
-                        }
-                    ]
-                },
-                {
-                    "title": "song",
-                    "name": "song",
-                    "type": "string",
-                    "single": true
                 }
             ]
         },
@@ -256,7 +218,7 @@
                     "title": "Description",
                     "name": "description",
                     "type": "string",
-                    "default": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                    "default": "Не хороший разработчик документирует..."
                 },
                 {
                     "title": "Author",
@@ -285,12 +247,6 @@
                     "name": "preview",
                     "type": "image",
                     "default": "logo.png"
-                },
-                {
-                    "title": "Type",
-                    "name": "type",
-                    "type": "choice",
-                    "choices": ["doc", "post"]
                 },
                 {
                     "title": "Categories",
@@ -348,22 +304,75 @@
                     "name": "wiki",
                     "type": "string",
                     "single": true
+                }
+            ]
+        },
+        {
+            "name": "thing",
+            "previewPath": "/things",
+            "pageBundle": true,
+            "fields": [
+                {
+                    "title": "Title",
+                    "name": "title",
+                    "type": "string",
+                    "single": true
                 },
                 {
-                    "title": "keywords",
-                    "name": "keywords",
-                    "type": "choice",
-                    "choices": [
-                        "data",
-                        "feed",
-                        "format",
-                        "rss",
-                        "scoop",
-                        "telegram",
-                        "term",
-                        "win",
-                        "winget"
-                    ]
+                    "title": "Description",
+                    "name": "description",
+                    "type": "string",
+                    "default": "Не хороший разработчик пользует..."
+                },
+                {
+                    "title": "coming out date",
+                    "name": "date",
+                    "type": "datetime",
+                    "default": "{{now}}",
+                    "isPublishDate": true,
+                    "dateFormat": "yyyy-MM-dd"
+                },
+                {
+                    "title": "Last modified date",
+                    "name": "lastmod",
+                    "type": "datetime",
+                    "isModifiedDate": true,
+                    "dateFormat": "yyyy-MM-dd"
+                },
+                {
+                    "title": "Content preview",
+                    "name": "cover",
+                    "type": "image",
+                    "isPreviewImage": true,
+                    "default": "logo.png"
+                },
+                {
+                    "title": "Categories",
+                    "name": "category",
+                    "type": "categories",
+                    "taxonomyLimit": 1,
+                    "singleValueAsString": true
+                },
+                {
+                    "title": "Tags",
+                    "name": "tag",
+                    "type": "tags"
+                },
+                {
+                    "name": "divider",
+                    "type": "divider"
+                },
+                {
+                    "title": "shop",
+                    "name": "shop",
+                    "type": "string",
+                    "single": true
+                },
+                {
+                    "title": "price",
+                    "name": "price",
+                    "type": "number",
+                    "single": true
                 }
             ]
         }
@@ -376,13 +385,19 @@
             "contentTypes": ["post"]
         },
         {
+            "title": "things",
+            "path": "[[workspace]]/content/things",
+            "filePrefix": "",
+            "contentTypes": ["thing"]
+        },
+        {
             "title": "docs",
             "path": "[[workspace]]/content/docs",
             "filePrefix": "",
             "contentTypes": ["doc"]
         }
     ],
-    "frontMatter.framework.startCommand": "hugo server -D --navigateToChanged",
+    "frontMatter.framework.startCommand": "hugo server -D --navigateToChanged --disableFastRender",
     "frontMatter.content.publicFolder": "assets",
     "frontMatter.framework.id": "hugo",
     "frontMatter.preview.host": "http://localhost:1313",

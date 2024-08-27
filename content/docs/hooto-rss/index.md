@@ -7,6 +7,7 @@ lastmod: 2024-08-12
 preview: cover-card.webp
 type: doc
 draft: false
+icon: "github"
 tags:
     - it
     - notification
