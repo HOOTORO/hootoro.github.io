@@ -5,14 +5,16 @@ draft = false
 tags = [
   "advice",
   "cognitive-bias",
+  "fear",
+  "it",
   "occasion",
   "people",
   "reason",
   "software",
   "upgrade",
-  "fear"
+  "longread"
 ]
-categories = [ "it", "opinion", "longread" ]
+categories = "statement"
 slug = "fear-patch"
 type = "post"
 preview = "8nm64g.jpg"

@@ -10,7 +10,6 @@ tag:
     - kitchen
 shop: https://www.ozon.ru/product/xiaomi-elektricheskiy-chaynik-mi-smart-thermostatic-kettle-2-pro-1-7l-mjjysh01ym-belyy-923381909
 price: 4583 ₽
-layout: taxonomy
 ---
 
 {{< katex >}}

@@ -11,7 +11,6 @@ tag:
     - clean
     - housework
 shop: gift, official https://www.mi.com/global/product/xiaomi-robot-vacuum-e5/
-layout: taxonomy
 ---
 
 {{< katex >}}

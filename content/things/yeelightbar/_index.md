@@ -11,7 +11,6 @@ tag:
 shop: https://www.ozon.ru/product/yeelight-umnyy-svetilnik-10-vt-263854766
 price: 5590 ₽
 cover: https://ir.ozone.ru/s3/multimedia-b/wc1000/6063578351.jpg
-layout: taxonomy
 ---
 
 {{< katex >}}

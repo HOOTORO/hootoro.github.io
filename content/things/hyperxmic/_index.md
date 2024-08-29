@@ -3,14 +3,13 @@ title: HyperX QuadCast Mic
 date: 2020-12-01
 type: thing
 category: pc
-cover: https://ir.ozone.ru/s3/multimedia-5/wc1000/6238883513.jpg
+cover: https://i.imgur.com/ARMOLjp.jpeg
 tag:
     - accessories
     - sound
     - mic
 shop: https://www.ozon.ru/product/hyperx-mikrofon-igrovoy-dlya-striminga-quadcast-chernyy-krasnyy-1129091478/
 price: 13990 ₽
-layout: taxonomy
 ---
 
 

@@ -10,7 +10,6 @@ tag:
 shop: https://www.ozon.ru/product/avtopoilka-dlya-zhivotnyh-xiaomi-smart-water-dispenser-white-xwwf01mg-417158956/?oos_search=false
 price: 3 380 ₽
 cover: https://ir.ozone.ru/s3/multimedia-h/wc1000/6168089741.jpg
-layout: taxonomy
 ---
 
 {{< katex >}}

@@ -9,7 +9,6 @@ tag:
     - accessories
 shop: https://www.ozon.ru/product/playstation-geympad-5-dualsense-wireless-controller-bluetooth-goluboy-475124799/
 price: 6 950 ₽
-layout: taxonomy
 ---
 
 {{< katex >}}

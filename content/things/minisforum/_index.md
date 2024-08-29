@@ -10,7 +10,6 @@ tag:
 shop: https://www.ozon.ru/my/orderdetails/?order=48054263-0073
 price: 77676₽
 cover: https://avatars.dzeninfra.ru/get-zen_doc/1879615/pub_64f73d59a35e890be44986c1_64f73d60a35e890be44988dc/scale_1200
-layout: taxonomy
 ---
 {{< katex >}}
 

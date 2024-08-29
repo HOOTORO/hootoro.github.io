@@ -340,11 +340,11 @@
                     "dateFormat": "yyyy-MM-dd"
                 },
                 {
-                    "title": "Content preview",
+                    "title": "Preview",
                     "name": "cover",
                     "type": "image",
                     "isPreviewImage": true,
-                    "default": "logo.png"
+                    "default": "cover.png"
                 },
                 {
                     "title": "Categories",

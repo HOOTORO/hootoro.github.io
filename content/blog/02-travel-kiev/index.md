@@ -11,6 +11,7 @@ keywords = [ "story", "life" ]
 type = "post"
 author = "HOOTORO"
 lastmod = "2024-08-12"
+preview = "https://media.licdn.com/dms/image/C5612AQEzHH0ffMxtgw/article-inline_image-shrink_1000_1488/0/1634984942216?e=1729123200&v=beta&t=6dOta7LXc_svl9z1UJlzGtdpoEv_r3d0Nx8bGxJ4fl0"
 +++
 
 
