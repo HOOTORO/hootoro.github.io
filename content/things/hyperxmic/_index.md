@@ -9,7 +9,7 @@ tag:
     - sound
     - mic
 shop: https://www.ozon.ru/product/hyperx-mikrofon-igrovoy-dlya-striminga-quadcast-chernyy-krasnyy-1129091478/
-price: 13 990 ₽
+price: 13990 ₽
 layout: taxonomy
 ---
 

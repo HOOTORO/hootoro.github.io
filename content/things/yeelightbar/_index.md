@@ -4,7 +4,7 @@ date: 2022-10-12
 type: thing
 category: light
 tag:
-  - MIhome
+  - MiHome
   - WorkArea
   - pc
   - accessories

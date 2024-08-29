@@ -4,7 +4,7 @@ date: 2022-08-28
 type: thing
 category: pet
 tag:
-    - mihome
+    - MiHome
     - supply
     - kitchen
 shop: https://www.ozon.ru/product/avtopoilka-dlya-zhivotnyh-xiaomi-smart-water-dispenser-white-xwwf01mg-417158956/?oos_search=false

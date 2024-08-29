@@ -1,5 +1,5 @@
 ---
-title: PS5 gamepad DualSense
+title: Gamepad PS5 DualSense
 date: 2024-01-01
 cover: https://ir.ozone.ru/s3/multimedia-h/wc1000/6243573749.jpg
 type: thing

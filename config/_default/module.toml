@@ -8,9 +8,9 @@ workspace     = 'off'
 [hugoVersion]
     extended = true
     min      = "0.130.0"
-[[imports]]
-    path    = "github.com/hugo-sid/hugo-blog-awesome"
-    disable = true
+# [[imports]]
+#     path    = "github.com/hugo-sid/hugo-blog-awesome"
+#     disable = true
 [[imports]]
     path    = "github.com/jpanther/congo/v2"
     disable = false

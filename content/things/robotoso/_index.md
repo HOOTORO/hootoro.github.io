@@ -6,7 +6,7 @@ type: thing
 category: robot
 cover: https://i02.appmifile.com/504_operator_sg/27/02/2024/7b40866578d5effc5da46a3622b86843.jpg
 tag:
-    - MIhome
+    - MiHome
     - automation
     - clean
     - housework

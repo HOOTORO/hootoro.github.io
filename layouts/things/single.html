@@ -1,13 +1,12 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
-    {{ warnf "%s " .Page.Params }}
-    {{ if .Page.Params.cover }}
-        {{ with resources.GetRemote .Page.Params.cover }}
+    {{ if .Params.cover }}
+        {{ with resources.GetRemote .Params.cover }}
             <img
-                src="{{ .Page.Params.cover }}"
+                src="{{ $.Page.Params.cover }}"
                 width="{{ .Width }}"
                 height="{{ .Height }}"
-                alt="portrait" />
+                alt="Cover" />
         {{ end }}
     {{ end }}
     {{ .Content }}

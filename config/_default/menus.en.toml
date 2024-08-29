@@ -29,18 +29,18 @@
 [[footer]]
     name    = "Tags"
     pageRef = "tags"
-    weight  = 10
-
+    weight  = 30
+[[footer]]
+    name    = 'Categories'
+    pageRef = 'categories'
+    weight  = 20
 [[footer]]
     name    = 'Things'
-    pageRef = '/things'
-    weight  = 40
+    pageRef = 'things'
+    weight  = 10
     [footer.params]
         icon = 'admo/tip'
-        # [[footer]]
-        #     name    = 'Terms'
-        #     pageRef = 'terms'
-        #     weight  = 20
+
         # [[footer]]
         #     name    = "Privacy"
         #     pageRef = "privacy"

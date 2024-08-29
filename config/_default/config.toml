@@ -2,15 +2,81 @@ baseURL                = 'https://HOOTORO.github.io/'
 defaultContentLanguage = "en"
 
 paginate      = 10
-summaryLength = 10
+summaryLength = 25
 
 googleAnalytics = "G-L9BMG9JD0J"
+# title = 'Bad Dev'
+
+enableEmoji         = true
+enableGitInfo       = true
+cleanDestinationDir = true
+enableRobotsTXT     = true
+
+[minify]
+    minifyOutput = true
+
+[permalinks]
+    [permalinks.page]
+        blog   = '/blog/:slug/'
+        docs   = '/docs/:slug/'
+        things = '/things/:slug/'
+
+[frontmatter]
+    date = [
+        'date',
+        'publishDate',
+    ]
+    expiryDate = [
+        'expiryDate',
+    ]
+    lastmod = [
+        ':git',
+        'lastmod',
+        'publishDate',
+    ]
+    publishDate = [
+        'date',
+        'publishDate',
+    ]
+
+[imaging]
+    bgColor        = '#ffffff'
+    hint           = 'photo'
+    quality        = 85
+    resampleFilter = "Lanczos"
+
+[related]
+    includeNewer = true
+    threshold    = 80
+    toLower      = false
+    [[related.indices]]
+        applyFilter          = false
+        cardinalityThreshold = 0
+        name                 = 'keywords'
+        pattern              = ''
+        toLower              = false
+        type                 = 'basic'
+        weight               = 100
+    [[related.indices]]
+        applyFilter          = false
+        cardinalityThreshold = 0
+        name                 = 'tags'
+        pattern              = ''
+        toLower              = false
+        type                 = 'basic'
+        weight               = 80
 
 [outputs]
     home = [
-        "HTML",
-        "JSON",
-        "RSS",
+        "html",
+        "json",
+        "rss",
+    ]
+    page = [
+        'html',
+    ]
+    rss = [
+        'rss',
     ]
     section = [
         'html',
@@ -18,7 +84,9 @@ googleAnalytics = "G-L9BMG9JD0J"
     ]
     taxonomy = [
         'html',
+        'rss',
     ]
     term = [
         'html',
+        'rss',
     ]

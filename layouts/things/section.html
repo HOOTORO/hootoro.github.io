@@ -28,22 +28,12 @@
     </section>
     {{ if .Data.Pages }}
         <div class="flex flex-wrap">
-            {{ if $.Params.groupByYear | default ($.Site.Params.list.groupByYear | default true) }}
-                {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
-                    {{ range .Pages }}
-                        {{ partial "article-link.html" . }}
-                    {{ end }}
-                {{ end }}
-            {{ else }}
-                {{ range (.Paginate .Pages).Pages }}
-                    {{/* {{ warnf "%s" . }} */}}
-                    <span class="hui">
-                        {{ partial "badge.html" .Params.category }}
-                        {{ partial "article-link.html" . }}
-                    </span>
-                {{ end }}
+            {{ range (.Paginate .Pages).Pages }}
+                <span class="thing-card">
+                    {{ partial "badge.html" .Params.category }}
+                    {{ partial "article-link.html" . }}
+                </span>
             {{ end }}
         </div>
-        {{ partial "pagination.html" . }}
     {{ end }}
 {{ end }}

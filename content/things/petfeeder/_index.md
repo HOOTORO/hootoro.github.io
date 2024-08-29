@@ -4,7 +4,7 @@ date: 2022-11-13
 type: thing
 category: pet
 tag:
-    - mihome
+    - MiHome
     - kitchen
 shop: https://www.ozon.ru/product/umnaya-avtomaticheskaya-kormushka-dlya-zhivotnyh-xiaomi-mijia-smart-pet-feeder-xwpf01mg-3-6l-504001676/
 price: 6 732 ₽
