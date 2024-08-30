@@ -18,6 +18,7 @@ categories = "statement"
 slug = "fear-patch"
 type = "post"
 preview = "8nm64g.jpg"
+thumbnail = "8nm64g.jpg"
 toc = true
 lastmod = "2024-08-11T14:06:02.040Z"
 +++

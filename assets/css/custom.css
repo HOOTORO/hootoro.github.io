@@ -3,8 +3,13 @@ html {
 }
 
 blockquote > p {
-    font-size: 10pt;
+    font-size: 11pt;
     font-weight: 400;
+    margin-left: 10px;
+}
+blockquote > cite {
+    font-size: 10pt;
+    font-style: normal;
 }
 /* div:has(> main) {
     align-items: center;
@@ -16,21 +21,6 @@ blockquote > p {
 
 details {
     margin-top: 10px;
-}
-
-.prelike {
-    color: white;
-    background: #443c35;
-    border-radius: 5px;
-    margin: 0 5px;
-}
-article {
-    padding: 10px;
-    margin: 0;
-}
-details.admo .codelike {
-    margin-left: 10px;
-    padding: 5px 0;
 }
 
 .gallery-box {
@@ -113,12 +103,6 @@ details.admo::not(summary) > * {
 
 body {
     font-family: system-ui, sans-serif;
-}
-article > *:first-child {
-    margin: 0;
-}
-article > * + * {
-    margin: 0.75em 0 0 0;
 }
 
 .upd {

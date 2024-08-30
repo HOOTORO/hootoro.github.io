@@ -2,10 +2,8 @@
 title: Things
 description: Handy stuff
 layout: section
-xml: true
 # menu: footer
 # icon: admo/tip
-draft: false
 slug: things
 cascade:
     showWordCount: false
@@ -14,7 +12,7 @@ cascade:
     groupByYear: false
     showSummary: false
     showDate: true
-
+    sharingLinks: false
 ---
 
 Часть техники Xiaomi продаваемой в РФ может иметь региональную блокировку т.е. для использования в приложении MiHome в нем требуется сменить регион на Китай.

@@ -4,17 +4,16 @@ description: Не хороший разработчик пишет об анал
 author: HOOTORO
 date: 2024-08-04
 lastmod: 2024-08-12
-preview: cover-card.webp
+preview: cover.png
+thumbnail: cover.png
 type: post
 draft: false
-weight: null
 tags:
     - cognitive-bias
     - freedom
     - people
     - goverment
-categories:
-    - opinion
+categories: statement
 slug: superstitious-chebunet
 toc: true
 songmeta:
@@ -35,10 +34,15 @@ keywords:
     - свобода
 ---
 
+{{< lead >}}
+> _Никогда нельзя недооценивать предсказуемость тупизны_.  
+{cite="https://www.imdb.com/title/tt0208092/" origin="Bullet-Tooth Tony, Snatch"}
+{{< /lead >}}
+...
+
 ## Прецедент
 
 Не хотелось верить, что необразованным додикам хватит невежества полезть на youtube. Но пожалуй, это мои любимые грабли  
->_Никогда нельзя недооценивать предсказуемость тупизны_.  
 
 И вот, **это случилось**, третий день _youtube_ страдает и не грузятся видео.
 
@@ -128,7 +132,7 @@ who will speak for you?
 Даже с холодной головой и полным сознанием что в объективности, высеры [пропагандона](https://neolurk.org/wiki/%D0%9F%D1%80%D0%BE%D0%BF%D0%B0%D0%B3%D0%B0%D0%BD%D0%B4%D0%BE%D0%BD%D1%8B) имеют гораздо больше общего с _яойными фанфиками[^yaoi]_, чем с журналистикой.
 Некоторые вещи сложно читать/лицезреть все же, просто мерзостно.
 
-На фоне этого вспомнил просто старую технологию RSS, которая позволяет собрать различные потоки информации, в одном месте, подробнее про технологию  {{< button href="/docs/howto-rss" target="_self" >}}RSS:HOW-TO{{< /button >}}
+На фоне этого вспомнил просто старую технологию RSS, которая позволяет собрать различные потоки информации, в одном месте, [подробнее про технологию]({{< ref "docs/hooto-rss">}})
 Там же можно найти RSS файл.
 Собрал если не все, то подавляющее большинство точно, а это набежавшее за пару дней.
 ![Gandons vs News](https://i.imgur.com/43t08h3.png)

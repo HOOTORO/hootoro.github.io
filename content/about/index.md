@@ -12,9 +12,9 @@ showCopyright: false
 ---
 
 <!-- ![d1](../../assets/images/dark1.webp) -->
-
 <!-- ![I have a ...](dre.webp) -->
 {{< img src="dre.webp" >}}
+{{< profile align="center" >}}
 
 <!-- Trying Hugo  
 **HOOTORO**,  

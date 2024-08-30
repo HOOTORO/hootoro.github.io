@@ -1,7 +1,7 @@
 ##!HUGOAweesome
 ### congo vars
 
-colorScheme          = "avocado" # sapphire   ocean   congo   slate  cherry
+colorScheme          = "congo" # sapphire   ocean   congo   slate  cherry  avocado
 defaultAppearance    = "dark"
 autoSwitchAppearance = false
 
@@ -24,16 +24,19 @@ prcSubTypes = [
 
 # hours 168 = 7 days
 newLabelExpiredAfter = 168
-
+mainSections = [
+    "doc",
+    "post",
+]
 [header]
-    layout = "hybrid"
-    # logo      = "favicon.ico"
-    # logoDark  = "favicon.ico"
+    layout    = "hybrid"
+    logo      = "images/main-logo.png"
+    logoDark  = "images/second-logo.png"
     showTitle = true
 [homepage]
     layout      = "profile" # profile   page
-    showRecent  = false
-    recentLimit = 3
+    showRecent  = true
+    recentLimit = 5
 [footer]
     showCopyright          = true
     showThemeAttribution   = true
@@ -41,21 +44,21 @@ newLabelExpiredAfter = 168
     showScrollToTop        = true
 
 [article]
-    showDate            = true
+    showDate            = false
     showDateUpdated     = false
-    showAuthor          = true
+    showAuthor          = false
     showBreadcrumbs     = true
     showDraftLabel      = true
     showEdit            = true
-    editURL             = "https://github.com/HOOTORO/hootoro.github.io"
+    editURL             = "https://github.com/HOOTORO/hootoro.github.io/tree/main/content"
     editAppendPath      = true
     showHeadingAnchors  = true
     showPagination      = true
     invertPagination    = false
-    showReadingTime     = true
-    showTableOfContents = true
-    showTaxonomies      = true
-    showWordCount       = true
+    showReadingTime     = false
+    showTableOfContents = false
+    showTaxonomies      = false
+    showWordCount       = false
     showComments        = false
 
     sharingLinks = [
@@ -78,7 +81,7 @@ newLabelExpiredAfter = 168
     showTableOfContents = false
     showTaxonomies      = false
     groupByYear         = true
-    paginationWidth     = 2
+    paginationWidth     = 1
 
     # [sitemap]
     # excludedKinds = [

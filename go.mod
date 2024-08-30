@@ -6,6 +6,6 @@ toolchain go1.22.4
 
 require (
 	github.com/hugo-sid/hugo-blog-awesome v1.14.0 // indirect
-	github.com/jpanther/congo/v2 v2.8.2 // indirect
+	github.com/jpanther/congo/v2 v2.9.0 // indirect
 	github.com/serkodev/holy v0.0.0-20230619092132-813c12d1d9ad // indirect
 )

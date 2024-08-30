@@ -2,5 +2,5 @@
 
 category = 'categories'
 tag      = 'tags'
-topic    = 'topics'
-thing    = 'things'
+# topic    = 'topics'
+thing = 'things'

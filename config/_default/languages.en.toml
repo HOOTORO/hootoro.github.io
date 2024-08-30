@@ -9,24 +9,20 @@ copyright = "© 2024 HOOTORO, _right?_ :thinking_face:"
 [params]
     subtitle    = "I'm only human"
     dateFormat  = "2 January 2006"
-    description = "Не хороший разработчик пишет"
+    description = "Bad dev is typing..."
     creation    = '18.07.2023'
 
-    # mainSections = [
-    #     "doc",
-    #     "post",
-    #     "thing",
-    # ]
     [params.author]
         name = "HOOTORO"
         image = "av.png"
         headline = "Bad Dev is always typing..."
-        bio = "A generally awesome human"
+        bio = "A not generally awesome human"
         links = [
             { dev = "https://dev.to/hootoro" },
             { discord = "https://discordid.netlify.app/?id=88370628763078656" },
             { github = "https://github.com/HOOTORO/" },
             { reddit = "https://www.reddit.com/u/HOOTORO/" },
+            { rss = "/index.xml" },
             { telegram = "https://t.me/HOOTORO" },
             { twitch = "https://www.twitch.tv/hootoro" },
             { youtube = "https://www.youtube.com/@HOOTORO" },

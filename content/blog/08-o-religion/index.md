@@ -5,10 +5,10 @@ author: HOOTORO
 date: 2024-08-23
 lastmod: 2024-08-23
 preview: cover.png
+thumbnail: cover.png
 categories: statement
 tags:
     - analysis
-    - freedom
     - history
     - longread
     - faith
@@ -19,7 +19,7 @@ fmContentType: post
 ---
 
 {{< lead >}}
-The path of the righteous man is beset on all sides
+The path of the righteous man is beset on all sides...
 By the inequities of the selfish and the tyranny of evil men.
 Blessed is he who, in the name of charity and good will,
 Shepherds the weak through the valley of the darkness.

@@ -4,7 +4,8 @@ description: Не хороший разработчик диву дается с
 author: HOOTORO
 date: 2024-07-21
 lastmod: 2024-08-12
-preview: https://thumbs.dreamstime.com/b/one-second-vector-icon-time-left-symbol-isolated-stopwatch-black-sign-eps-217801249.jpg
+preview: covers.png
+thumbnail: covers.png
 type: post
 draft: false
 tags:

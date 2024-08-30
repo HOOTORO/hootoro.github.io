@@ -16,3 +16,12 @@ footer.go_to_top = "Перейти наверх"
 errors.404 = "Запись не найдена"
 
 errors.404_description = "Вы перешли по ссылке, которая не существует."
+
+caution    = 'ВНИМАНИЕ ❗'
+important  = 'ВАЖНО'
+note       = 'Заметка'
+tip        = 'Совет'
+warning    = 'ОСТОРОЖНО'
+disclaimer = 'DISCLAIMER'
+
+shortcode.recent_articles = 'Свежие'

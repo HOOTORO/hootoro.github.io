@@ -15,6 +15,12 @@
     [main.params]
         icon = 'admo/cog'
 [[main]]
+    name    = 'Hooketize'
+    pageRef = '/hooketize'
+    weight  = 40
+    [main.params]
+        icon = 'admo/new'
+[[main]]
     name    = '\>'
     pageRef = '/about'
     weight  = 50

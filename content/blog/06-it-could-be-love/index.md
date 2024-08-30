@@ -7,6 +7,7 @@ lastmod: 2024-08-13
 type: post
 draft: false
 preview: cover.jpg
+thumbnail: cover.jpg
 tags:
     - bad-decisions
     - boy-meet-girl

@@ -3,7 +3,8 @@
     "important" ":information_source:"
     "note" ":information_source:"
     "tip" ":bulb:"
-    "warning" ":information_source:"
+    "warning" ":warning:"
+    "disclaimer" ":warning:"
 }}
 
 {{ if eq .Type "alert" }}
@@ -15,7 +16,17 @@
         {{ .Text | safeHTML }}
     </blockquote>
 {{ else }}
-    <blockquote>
-        {{ .Text | safeHTML }}
-    </blockquote>
+    <figure>
+        <blockquote {{ with .Attributes.cite }}cite="{{ . }}"{{ end }}>
+            {{ .Text | safeHTML }}
+            {{ with .Attributes.origin }}
+                — <cite>{{ . | safeHTML }}</cite>
+            {{ end }}
+        </blockquote>
+        {{ with .Attributes.caption }}
+            <figcaption class="blockquote-caption">
+                {{ . | safeHTML }}
+            </figcaption>
+        {{ end }}
+    </figure>
 {{ end }}

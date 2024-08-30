@@ -1,18 +1,19 @@
-+++
-draft = false
-categories = "true-story"
-date = "2023-08-06"
-description = "a long, long time ago, in far, faraway country..."
-slug = "kiev-trip"
-tags = [ "adventure", "happy-end", "people", "travel", "longread" ]
-title = "Kiev Trip"
-toc = true
-keywords = [ "story", "life" ]
-type = "post"
-author = "HOOTORO"
-lastmod = "2024-08-12"
-preview = "https://media.licdn.com/dms/image/C5612AQEzHH0ffMxtgw/article-inline_image-shrink_1000_1488/0/1634984942216?e=1729123200&v=beta&t=6dOta7LXc_svl9z1UJlzGtdpoEv_r3d0Nx8bGxJ4fl0"
-+++
+---
+draft : false
+categories : true-story
+date : 2023-08-06
+description : a long, long time ago, in far, faraway country...
+slug : kiev-tongue
+tags : [ adventure, happy-end, people, travel, longread ]
+title : A clever tongue...they say...
+toc : true
+keywords : [ story, life ]
+type : post
+author : HOOTORO
+lastmod : 2024-08-12
+preview : cover.png
+thumbnail : cover.png
+---
 
 
 {{< alert "admo/info" >}}

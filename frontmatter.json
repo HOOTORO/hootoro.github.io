@@ -58,8 +58,7 @@
                     "title": "Slug",
                     "name": "slug",
                     "type": "slug",
-                    "editable": true,
-                    "default": "{{slug}}"
+                    "editable": true
                 },
                 {
                     "title": "Navigation weight",
@@ -69,14 +68,12 @@
                 {
                     "title": "Is in draft",
                     "name": "draft",
-                    "type": "draft",
-                    "default": true
+                    "type": "draft"
                 },
                 {
                     "title": "toc",
                     "name": "toc",
-                    "type": "boolean",
-                    "default": false
+                    "type": "boolean"
                 },
                 {
                     "title": "tocOpen",
@@ -86,8 +83,7 @@
                         "fieldRef": "toc",
                         "operator": "eq",
                         "value": true
-                    },
-                    "default": false
+                    }
                 }
             ]
         }
