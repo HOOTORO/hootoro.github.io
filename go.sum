@@ -1,8 +1,16 @@
+github.com/hbstack/theme v0.4.0 h1:mFZZ38RWbKWhXl2lvWNvobwV4TpUsJJsH+W4taaAdv0=
+github.com/hbstack/theme v0.4.0/go.mod h1:7YvjBzeZ+9DYFpjBCi251sHmurKMITJ1YESE2nYD0+o=
 github.com/hugo-sid/hugo-blog-awesome v1.14.0 h1:eIY5RpsYOSw91riB4YHzmrkIRPSozNQ/MlbigLXXpJE=
 github.com/hugo-sid/hugo-blog-awesome v1.14.0/go.mod h1:3XVERF66wgQpTsruOajS5Swr+uvyTzov1acafNaqm1E=
+github.com/hugomods/bootstrap v0.22.3 h1:q/lqm4rx0TefUALFFD54j19y7uu3toqYCOAWStebkYw=
+github.com/hugomods/bootstrap v0.22.3/go.mod h1:OpcaTH8dMsWqCeSSJ8IGqjEvK2zghLm8wD8ka3d33jc=
+github.com/hugomods/icons v0.6.4 h1:SeDMpN2kjc8mbuXfi8zED4IN5IGZmqJdmmUQr9tIpxw=
+github.com/hugomods/icons v0.6.4/go.mod h1:cIkSvK6W0q6N4U6n9KGz+QfRWQXAW0INd+1P31gPNGg=
 github.com/jpanther/congo/v2 v2.8.2 h1:UNg7225ZqLSt9zu0xBOh5iM9TXnuNG1Ta9eSsioHTEE=
 github.com/jpanther/congo/v2 v2.8.2/go.mod h1:1S7DRoO1ZYS4YUdFd1LjTkdyjQwsjFWd8TqSfz3Jd+M=
 github.com/jpanther/congo/v2 v2.9.0 h1:mq1U8Zqw/F+9dk+AgH7W6Wl2M4LLiRP4v/BCTx4c01Y=
 github.com/jpanther/congo/v2 v2.9.0/go.mod h1:1S7DRoO1ZYS4YUdFd1LjTkdyjQwsjFWd8TqSfz3Jd+M=
 github.com/serkodev/holy v0.0.0-20230619092132-813c12d1d9ad h1:CSy82lEdJqrMhZMC6daO8AWvB+ltIcbttR3/bGeN6aM=
 github.com/serkodev/holy v0.0.0-20230619092132-813c12d1d9ad/go.mod h1:DkatpwWKNZ8djg808hh7hGEPvQKmKaYGXPWQeWcqCfE=
+github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
+github.com/twbs/icons v1.11.3/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=

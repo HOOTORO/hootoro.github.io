@@ -5,8 +5,9 @@
     "tip" ":bulb:"
     "warning" ":warning:"
     "disclaimer" ":warning:"
+    "info" ":note:"
 }}
-
+{{ warnf "%s | %s | %s" .Page.Title .Type .AlertType }}
 {{ if eq .Type "alert" }}
     <blockquote class="alert alert-{{ .AlertType }}">
         <p class="alert-heading">

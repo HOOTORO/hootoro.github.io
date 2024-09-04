@@ -3,10 +3,9 @@ title: Yeelight Screen Light Bar
 date: 2022-10-12
 things: light
 category: smart
-tag:
+tags:
   - MiHome
-  - WorkArea
-  - pc
+  - workspace
   - accessories
 shop: https://www.ozon.ru/product/yeelight-umnyy-svetilnik-10-vt-263854766
 price: 5590 ₽

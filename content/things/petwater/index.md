@@ -1,12 +1,13 @@
 ---
 title: Mijia Smart Pet Water Dispenser
 date: 2022-08-28
-things: pets
+things: pet's
 category: smart
-tag:
+tags:
     - MiHome
     - supply
     - kitchen
+    - xiaomi
 shop: https://www.ozon.ru/product/avtopoilka-dlya-zhivotnyh-xiaomi-smart-water-dispenser-white-xwwf01mg-417158956/?oos_search=false
 price: 3 380 ₽
 cover: https://ir.ozone.ru/s3/multimedia-h/wc1000/6168089741.jpg

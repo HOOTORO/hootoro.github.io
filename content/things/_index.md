@@ -2,8 +2,6 @@
 title: Things
 description: Handy stuff
 layout: section
-# menu: footer
-# icon: admo/tip
 slug: things
 cascade:
     showWordCount: false
@@ -13,7 +11,14 @@ cascade:
     showSummary: false
     showDate: true
     sharingLinks: false
+    showTaxonomies: true
+    showEdit: false
 ---
+{{< lead >}}
+Everyday Machinery & Equipment
+My somewhat technically complex/sometimesmart/notsodumb devices used and proficient with
+{{< /lead >}}
 
-Часть техники Xiaomi продаваемой в РФ может иметь региональную блокировку т.е. для использования в приложении MiHome в нем требуется сменить регион на Китай.
-В 90% случаев лечится [модом MiHome от vevs.me](https://www.vevs.me/)
+> [!TIP]
+> Часть техники Xiaomi продаваемой в РФ может иметь региональную блокировку т.е. для использования в приложении MiHome в нем требуется сменить регион на Китай.
+> В 90% случаев лечится [модом MiHome от vevs.me](https://www.vevs.me/)

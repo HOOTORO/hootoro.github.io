@@ -17,7 +17,6 @@ tags:
     - shame
     - government
 categories: common-sense
-toc: true
 keywords:
     - государство
     - долг

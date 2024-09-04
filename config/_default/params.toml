@@ -91,3 +91,11 @@ mainSections = [
 
 [taxonomy]
     showTermCount = true
+
+[hb]
+    color           = 'light'
+    css_bundle_name = 'hb'
+    debug           = false
+    full_width      = false
+    js_bundle_name  = 'hb'
+    logo            = 'images/logo.png'

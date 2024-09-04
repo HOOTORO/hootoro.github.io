@@ -23,5 +23,6 @@ note       = 'Note'
 tip        = 'Tip'
 warning    = 'WARNING'
 disclaimer = 'DISCLAIMER'
+info       = 'Information'
 
 shortcode.recent_articles = 'Recent'

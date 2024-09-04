@@ -1,7 +1,6 @@
 ---
 title: About
 footer: false
-toc: false
 draft: false
 slug: me
 showDate: false
@@ -11,10 +10,14 @@ showEdit: false
 showCopyright: false
 ---
 
-<!-- ![d1](../../assets/images/dark1.webp) -->
-<!-- ![I have a ...](dre.webp) -->
+be mind, respect
+
+1. https://dontasktoask.com/
+2. https://nohello.net/en/
+3. https://xyproblem.info/
+
 {{< img src="dre.webp" >}}
-{{< profile align="center" >}}
+<!-- sc profile align="center"  -->
 
 <!-- Trying Hugo  
 **HOOTORO**,  

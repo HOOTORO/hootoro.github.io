@@ -3,11 +3,12 @@ title: Documentation
 cascade:
     showDate: true
     showSummary: true
-    showWordCount: true 
+    showWordCount: true
     showReadingTime: true
     showAuthor: false
     invertPagination: true
     groupByYear: false
+    showTableOfContents: true
 slug: docs
 ---
 

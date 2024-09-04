@@ -1,3 +1,9 @@
 ---
-title: r-index
+title: main
+footer: false
+showDate: false
+sharingLinks: false
+showEdit: false
+showCopyright: false
 ---
+

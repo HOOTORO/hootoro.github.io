@@ -4,6 +4,7 @@ description: Не хороший разработчик пишет о верои
 author: HOOTORO
 date: 2024-08-23
 lastmod: 2024-08-23
+type: post
 preview: cover.png
 thumbnail: cover.png
 categories: statement
@@ -14,8 +15,8 @@ tags:
     - faith
 slug: religion
 draft: false
-toc: true
 fmContentType: post
+weight: 1
 ---
 
 {{< lead >}}

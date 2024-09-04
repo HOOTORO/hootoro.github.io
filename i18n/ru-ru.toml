@@ -23,5 +23,6 @@ note       = 'Заметка'
 tip        = 'Совет'
 warning    = 'ОСТОРОЖНО'
 disclaimer = 'DISCLAIMER'
+info       = 'Информация'
 
 shortcode.recent_articles = 'Свежие'
