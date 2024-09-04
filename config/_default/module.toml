@@ -15,5 +15,5 @@ workspace     = 'off'
     path    = "github.com/jpanther/congo/v2"
     disable = false
 [[imports]]
-    disable = false
+    disable = true
     path    = "github.com/hugomods/bootstrap"

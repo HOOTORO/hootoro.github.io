@@ -25,7 +25,7 @@
     --hb-gray-900: #212529;
     --hb-primary: #ff4088;
     --hb-secondary: #6c757d;
-    --hb-success: #198754;
+    --hb-success: #198754bd;
     --hb-info: #0dcaf0;
     --hb-warning: #ffc107;
     --hb-danger: #dc3545;
@@ -101,7 +101,7 @@
     --hb-border-style: solid;
     --hb-border-color: #dee2e6;
     --hb-border-color-translucent: rgba(0, 0, 0, 0.175);
-    --hb-border-radius: 0.375rem;
+    --hb-border-radius: 0.75rem;
     --hb-border-radius-sm: 0.25rem;
     --hb-border-radius-lg: 0.5rem;
     --hb-border-radius-xl: 1rem;
@@ -142,23 +142,26 @@
     --hb-success-text-emphasis: #75b798;
     --hb-info-text-emphasis: #6edff6;
     --hb-warning-text-emphasis: #ffda6a;
-    --hb-danger-text-emphasis: #ea868f;
+    --hb-question-text-emphasis: #ffd968;
+    --hb-danger-text-emphasis: #e6b8bc;
     --hb-light-text-emphasis: #f8f9fa;
     --hb-dark-text-emphasis: #dee2e6;
     --hb-primary-bg-subtle: #330d1b;
     --hb-secondary-bg-subtle: #161719;
-    --hb-success-bg-subtle: #051b11;
-    --hb-info-bg-subtle: #032830;
+    --hb-success-bg-subtle: #0935212d;
+    --hb-info-bg-subtle: #03283069;
     --hb-warning-bg-subtle: #332701;
-    --hb-danger-bg-subtle: #2c0b0e;
+    --hb-question-bg-subtle: #5f501f69;
+    --hb-danger-bg-subtle: #66031869;
     --hb-light-bg-subtle: #343a40;
     --hb-dark-bg-subtle: #1a1d20;
     --hb-primary-border-subtle: #992652;
     --hb-secondary-border-subtle: #41464b;
-    --hb-success-border-subtle: #0f5132;
+    --hb-success-border-subtle: #10693f;
     --hb-info-border-subtle: #087990;
     --hb-warning-border-subtle: #997404;
-    --hb-danger-border-subtle: #842029;
+    --hb-question-border-subtle: #99740469;
+    --hb-danger-border-subtle: #ad1e2a;
     --hb-light-border-subtle: #495057;
     --hb-dark-border-subtle: #343a40;
     --hb-heading-color: inherit;
@@ -181,10 +184,11 @@ html {
     font-size: 12pt;
 }
 
-blockquote > p {
+blockquote.alert > p:not(.alert-heading) {
     font-size: 11pt;
     font-weight: 400;
-    margin-left: 10px;
+    margin-left: 2rem;
+    margin-right: 1rem;
 }
 blockquote > cite {
     font-size: 10pt;
@@ -194,8 +198,7 @@ blockquote.alert > p::before,
 blockquote.alert > p::after {
     content: none !important;
 }
-.alert-heading {
-}
+
 /* div:has(> main) {
     align-items: center;
 } */
@@ -207,7 +210,10 @@ blockquote.alert > p::after {
 details {
     margin-top: 10px;
 }
-
+.glightbox,
+.glightbox img {
+    border-radius: 0.5rem;
+}
 .gallery-box {
     display: inline-flex;
     justify-content: space-evenly;
@@ -265,6 +271,7 @@ details {
     outline: 1px dashed black;
     outline-offset: -5px;
 }
+
 summary {
     list-style: none;
     display: flex;
@@ -417,8 +424,8 @@ span.tooltip {
 
 .alert {
     --hb-alert-bg: transparent;
-    --hb-alert-padding-x: 1rem;
-    --hb-alert-padding-y: 1rem;
+    --hb-alert-padding-x: 2rem;
+    --hb-alert-padding-y: 0.5rem;
     --hb-alert-margin-bottom: 1rem;
     --hb-alert-color: inherit;
     --hb-alert-border-color: transparent;
@@ -426,22 +433,25 @@ span.tooltip {
     --hb-alert-border-radius: var(--hb-border-radius);
     --hb-alert-link-color: inherit;
     position: relative;
-    padding: var(--hb-alert-padding-y) var(--hb-alert-padding-x);
     margin-bottom: var(--hb-alert-margin-bottom);
     color: var(--hb-alert-color);
     background-color: var(--hb-alert-bg);
     border: var(--hb-alert-border);
     border-radius: var(--hb-alert-border-radius);
+    padding-inline-start: 0;
+    overflow: hidden;
+    box-shadow: 3px 3px 20px 0px var(--hb-alert-border-color);
 }
 
 .alert-heading {
     color: inherit;
+    font-style: normal;
     display: flex;
-    /* text-transform: uppercase; */
-    /* font-size: large; */
     font-weight: 700;
-    /* letter-spacing: 5px; */
+    margin: 0;
+    padding: var(--hb-alert-padding-y) var(--hb-alert-padding-x);
     align-items: center;
+    background-color: #00000069;
 }
 
 .alert-link {
@@ -484,6 +494,13 @@ span.tooltip {
     --hb-alert-link-color: var(--hb-warning-text-emphasis);
 }
 
+.alert-question {
+    --hb-alert-color: var(--hb-question-text-emphasis);
+    --hb-alert-bg: var(--hb-question-bg-subtle);
+    --hb-alert-border-color: var(--hb-question-border-subtle);
+    --hb-alert-link-color: var(--hb-question-text-emphasis);
+}
+
 .alert-danger {
     --hb-alert-color: var(--hb-danger-text-emphasis);
     --hb-alert-bg: var(--hb-danger-bg-subtle);
@@ -503,101 +520,4 @@ span.tooltip {
     --hb-alert-bg: var(--hb-dark-bg-subtle);
     --hb-alert-border-color: var(--hb-dark-border-subtle);
     --hb-alert-link-color: var(--hb-dark-text-emphasis);
-}
-
-* {
-    box-sizing: border-box;
-}
-
-/* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-    background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {
-        opacity: 0.4;
-    }
-    to {
-        opacity: 1;
-    }
 }
