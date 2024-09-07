@@ -9,14 +9,15 @@
     "success" ":ballot_box_with_check:"
     "danger" ":zap:"
     "question" ":question:"
+    "cite" "⟪…⟫"
 }}
 
 {{ if eq .Type "alert" }}
     <blockquote class="alert alert-{{ .AlertType }}">
         <p class="alert-heading ml-2">
             {{ transform.Emojify (index $emojis .AlertType) }}
-            {{ if ne .AlertTitle "<br>" }}
-                {{ .AlertTitle }}
+            {{ with .AlertTitle }}
+                {{ . }}
             {{ else }}
                 {{ or (i18n .AlertType) (title .AlertType) }}
             {{ end }}

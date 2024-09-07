@@ -47,6 +47,7 @@
     --hb-danger-text-emphasis: #58151c;
     --hb-light-text-emphasis: #495057;
     --hb-dark-text-emphasis: #495057;
+    --hb-quote-text-emphasis: #495057;
     --hb-primary-bg-subtle: #ffd9e7;
     --hb-secondary-bg-subtle: #e2e3e5;
     --hb-success-bg-subtle: #d1e7dd;
@@ -55,6 +56,7 @@
     --hb-danger-bg-subtle: #f8d7da;
     --hb-light-bg-subtle: #fcfcfd;
     --hb-dark-bg-subtle: #ced4da;
+    --hb-quote-bg-subtle: #ced4da;
     --hb-primary-border-subtle: #ffb3cf;
     --hb-secondary-border-subtle: #c4c8cb;
     --hb-success-border-subtle: #a3cfbb;
@@ -63,6 +65,7 @@
     --hb-danger-border-subtle: #f1aeb5;
     --hb-light-border-subtle: #e9ecef;
     --hb-dark-border-subtle: #adb5bd;
+    --hb-quote-border-subtle: #adb5bd;
     --hb-white-rgb: 255, 255, 255;
     --hb-black-rgb: 0, 0, 0;
     --hb-font-sans-serif: Montserrat, Protest Guerrilla, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
@@ -146,6 +149,7 @@
     --hb-danger-text-emphasis: #e6b8bc;
     --hb-light-text-emphasis: #f8f9fa;
     --hb-dark-text-emphasis: #dee2e6;
+    --hb-quote-text-emphasis: #dee2e6;
     --hb-primary-bg-subtle: #330d1b;
     --hb-secondary-bg-subtle: #161719;
     --hb-success-bg-subtle: #0935212d;
@@ -155,6 +159,7 @@
     --hb-danger-bg-subtle: #66031869;
     --hb-light-bg-subtle: #343a40;
     --hb-dark-bg-subtle: #1a1d20;
+    --hb-quote-bg-subtle: #1a1d20;
     --hb-primary-border-subtle: #992652;
     --hb-secondary-border-subtle: #41464b;
     --hb-success-border-subtle: #10693f;
@@ -164,6 +169,7 @@
     --hb-danger-border-subtle: #ad1e2a;
     --hb-light-border-subtle: #495057;
     --hb-dark-border-subtle: #343a40;
+    --hb-quote-border-subtle: #343a40;
     --hb-heading-color: inherit;
     --hb-link-color: #ff8cb8;
     --hb-link-hover-color: #ffa3c6;
@@ -184,7 +190,8 @@ html {
     font-size: 12pt;
 }
 
-blockquote.alert > p:not(.alert-heading) {
+blockquote.alert > p:not(.alert-heading),
+blockquote.alert > ul {
     font-size: 11pt;
     font-weight: 400;
     margin-left: 2rem;
@@ -198,7 +205,12 @@ blockquote.alert > p::before,
 blockquote.alert > p::after {
     content: none !important;
 }
-
+article > section dl > dt {
+    text-shadow:
+        0px 0px 2px yellow,
+        0 0 0.5em red,
+        0 0 0.2em orange;
+}
 /* div:has(> main) {
     align-items: center;
 } */
@@ -520,4 +532,10 @@ span.tooltip {
     --hb-alert-bg: var(--hb-dark-bg-subtle);
     --hb-alert-border-color: var(--hb-dark-border-subtle);
     --hb-alert-link-color: var(--hb-dark-text-emphasis);
+}
+.alert-quote {
+    --hb-alert-color: var(--hb-quote-text-emphasis);
+    --hb-alert-bg: var(--hb-quote-bg-subtle);
+    --hb-alert-border-color: var(--hb-quote-border-subtle);
+    --hb-alert-link-color: var(--hb-quote-text-emphasis);
 }
