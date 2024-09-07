@@ -1,13 +1,13 @@
 {{ with .Page.Params.date }}
     {{ $publDuration := now.Sub (. | time) }}
     {{ $d := div ($publDuration.Hours | int) 24 }}
-    {{ $text := "posted $dd ago" }}
+    {{ $text := "added $dd days ago" }}
     {{ if le ($publDuration.Hours | int) $.Site.Params.newLabelExpiredAfter }}
         <span class="icon new">
             {{ partial "icon.html" "admo/new" }}
-        </span>
-        <span class="tooltip">
-            {{ replace $text "$dd" $d }}
+            <span class="tooltip">
+                {{ replace $text "$dd" $d }}
+            </span>
         </span>
     {{ else if $.Page.Params.lastmod }}
         {{ $since := now.Sub ($.Page.Params.lastmod | time ) }}

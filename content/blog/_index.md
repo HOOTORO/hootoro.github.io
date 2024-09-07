@@ -9,7 +9,7 @@ cascade:
     invertPagination: true
     showReadingTime: true
     groupByYear: true
-    showTaxonomies: false
+    showTaxonomies: true
     showTableOfContents: true
 ---
 

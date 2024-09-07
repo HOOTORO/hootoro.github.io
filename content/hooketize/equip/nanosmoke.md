@@ -1,14 +1,16 @@
 ---
 title: Nanosmoke Cube
-thumbnail: https://nanosmoke.ru/wp-content/uploads/2023/05/cube_2-scaled.jpg
+preview: cover.png
+thumbnail: cover.png
 ---
+
 ## Review
 
 last addition
 
 {{< figure
-    src="https://nanosmoke.ru/wp-content/uploads/2023/05/cube_2-scaled.jpg"
+    src="https://optim.tildacdn.com/stor6633-3231-4564-a165-663033386130/-/format/webp/10420036.jpg"
     title="Nanosmoke Cube"
-    link="https://nanosmoke.ru/kalyany-nanosmoke/nanosmoke-cube-v-komplekte"
+    link="https://nanosmoke.ru/tproduct/791941152-371286236322-cube"
     target="_blank"
     width=300 >}}

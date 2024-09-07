@@ -1,7 +1,6 @@
 baseURL                = 'https://HOOTORO.github.io/'
 defaultContentLanguage = "en"
 
-paginate      = 7
 summaryLength = 0 # first sentence
 
 googleAnalytics = "G-L9BMG9JD0J"
@@ -12,6 +11,8 @@ enableGitInfo       = true
 cleanDestinationDir = true
 enableRobotsTXT     = true
 
+[pagination]
+    pagerSize = 7
 [minify]
     minifyOutput = true
 

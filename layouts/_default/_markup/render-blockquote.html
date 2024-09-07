@@ -10,7 +10,7 @@
     "danger" ":zap:"
     "question" ":question:"
 }}
-{{ warnf "%s | %s | %s | %s" .Page.Title .Type .AlertType .AlertTitle }}
+
 {{ if eq .Type "alert" }}
     <blockquote class="alert alert-{{ .AlertType }}">
         <p class="alert-heading ml-2">
