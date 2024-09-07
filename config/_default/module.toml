@@ -7,7 +7,7 @@ workspace     = 'off'
 
 [hugoVersion]
     extended = true
-    min      = "0.134.0"
+    min      = "0.134.1"
 # [[imports]]
 #     path    = "github.com/hugo-sid/hugo-blog-awesome"
 #     disable = true
