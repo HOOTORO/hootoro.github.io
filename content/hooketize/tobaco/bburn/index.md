@@ -77,6 +77,7 @@ thumbnail: bb.png
 |             OVERDOSE | 🅱️ 🍋   | _OVERDOSE_ | Hard 10. Приятная кислинка, как мармеладные червячки. Хорошоя крепость |
 |        Manila Malina | 🅱️     | _OVERDOSE_ | tbh, pretty good                                                       |
 |         Fig Lemonade | 🅱️     | _OVERDOSE_ | smells like bubblegum                                                  |
+|           Fruittella | 🅱️     | _OVERDOSE_ | smells like bubblegum                                                  |
 |      Strawberry Kiwi | 🅱️     | _OVERDOSE_ | lightly sour,                                                          |
 |              Pudding | 🅱️     | ~          | sweet desert! almost good                                              |
 |      Something Berry | 🅱️     | ~          |                                                                        |

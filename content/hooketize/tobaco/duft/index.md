@@ -22,6 +22,7 @@ thumbnail: duft.png
 |           Coconut | 🅰️     | _strong_ | Pretty good                                                                  |
 |           Coconut | 🅰️     | ~        | general good too!                                                            |
 |          Maracuja | 🅰️     | ~        | -                                                                            |
+|            Cherry | 🅱️     | _strong_ | \_                                                                           |
 |            Pomelo | 🅱️     | _strong_ | \_                                                                           |
 |            Papaya | 🅱️     | _strong_ |                                                                              |
 |        Grape Fizz | 🅱️     | _strong_ |                                                                              |

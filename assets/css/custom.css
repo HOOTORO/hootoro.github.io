@@ -145,7 +145,7 @@
     --hb-success-text-emphasis: #75b798;
     --hb-info-text-emphasis: #6edff6;
     --hb-warning-text-emphasis: #ffda6a;
-    --hb-question-text-emphasis: #ffd968;
+    --hb-question-text-emphasis: #d6c590;
     --hb-danger-text-emphasis: #e6b8bc;
     --hb-light-text-emphasis: #f8f9fa;
     --hb-dark-text-emphasis: #dee2e6;
@@ -155,7 +155,7 @@
     --hb-success-bg-subtle: #0935212d;
     --hb-info-bg-subtle: #03283069;
     --hb-warning-bg-subtle: #332701;
-    --hb-question-bg-subtle: #5f501f69;
+    --hb-question-bg-subtle: #00000000;
     --hb-danger-bg-subtle: #66031869;
     --hb-light-bg-subtle: #343a40;
     --hb-dark-bg-subtle: #1a1d20;
@@ -165,7 +165,7 @@
     --hb-success-border-subtle: #10693f;
     --hb-info-border-subtle: #087990;
     --hb-warning-border-subtle: #997404;
-    --hb-question-border-subtle: #99740469;
+    --hb-question-border-subtle: #559b052f;
     --hb-danger-border-subtle: #ad1e2a;
     --hb-light-border-subtle: #495057;
     --hb-dark-border-subtle: #343a40;

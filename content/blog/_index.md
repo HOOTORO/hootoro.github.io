@@ -11,6 +11,8 @@ cascade:
     groupByYear: true
     showTaxonomies: true
     showTableOfContents: true
+    params:
+        banner: images/look.jpg
 ---
 
 {{< lead >}}

@@ -13,6 +13,7 @@ thumbnail: bang.png
 |       Berry pie | 🅰️     | ~    | Sweet raspberry pie                                                              |
 |  Passion citrus | 🅱️     | ~    | not that bad                                                                     |
 |      Cola Bella | 🅱️👎    | ~    | Vanilla coke                                                                     |
+|      Strawberry | 🅱️👎    | ~    | Клубничка                                                                        |
 |  Peach Maracuja | 🅱️👎    | ~    | Фруктовый на любителя                                                            |
 |          Choker | 🅱️👎    | ~    | choco-mint. like BBs after8(which is better)                                     |
 |        Iron Bru | ❌     | ~    | Just bad!                                                                        |
