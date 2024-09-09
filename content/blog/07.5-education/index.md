@@ -1,9 +1,9 @@
 ---
 title: Фантастическое образование
 description: Не хороший разработчик пишет не интересную теорию о состоянии образовательной системы.
-author: Hootoro
+author: HOOTORO
 type: post
-draft: true
+draft: false
 slug: educacuda
 date: 2024-09-09
 preview: cover.jpg
