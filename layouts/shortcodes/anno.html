@@ -1,0 +1,12 @@
+{{ $text := .Get 0 }}
+
+<span class="annotation">
+    {{ with $text }}
+        <span class="doten">{{ . }}</span>
+    {{ else }}
+        {{ partial "icon.html" "admo/info2" }}
+    {{ end }}
+    <span class="tooltip2">
+        {{ markdownify .Inner }}
+    </span>
+</span>

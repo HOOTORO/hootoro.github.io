@@ -2,12 +2,14 @@
 title: Posts
 slug: blog
 cascade:
+    type: post
+    author: HOOTORO
     showDate: true
     showAuthor: true
     showSummary: true
-    showWordCount: true
+    showWordCount: false
     invertPagination: true
-    showReadingTime: true
+    showReadingTime: false
     groupByYear: true
     showTaxonomies: true
     showTableOfContents: true

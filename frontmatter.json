@@ -1,410 +1,412 @@
 {
-  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
-  "frontMatter.taxonomy.fieldGroups": [
-    {
-      "id": "general",
-      "fields": [
+    "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+    "frontMatter.taxonomy.fieldGroups": [
         {
-          "title": "Title",
-          "name": "title",
-          "type": "string",
-          "single": true
-        },
-        {
-          "title": "Description",
-          "name": "description",
-          "type": "string",
-          "default": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-        },
-        {
-          "title": "Author",
-          "name": "author",
-          "type": "string",
-          "single": true,
-          "default": "HOOTORO"
-        },
-        {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true,
-          "dateFormat": "yyyy-MM-dd"
-        },
-        {
-          "title": "Last modified date",
-          "name": "lastmod",
-          "type": "datetime",
-          "isModifiedDate": true,
-          "dateFormat": "yyyy-MM-dd"
-        },
-        {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image",
-          "default": "logo.png"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
-          "title": "Slug",
-          "name": "slug",
-          "type": "slug",
-          "editable": true
-        },
-        {
-          "title": "Navigation weight",
-          "name": "weight",
-          "type": "number"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "toc",
-          "name": "toc",
-          "type": "boolean"
-        },
-        {
-          "title": "tocOpen",
-          "name": "tocOpen",
-          "type": "boolean",
-          "when": {
-            "fieldRef": "toc",
-            "operator": "eq",
-            "value": true
-          }
+            "id": "general",
+            "fields": [
+                {
+                    "title": "Title",
+                    "name": "title",
+                    "type": "string",
+                    "single": true
+                },
+                {
+                    "title": "Description",
+                    "name": "description",
+                    "type": "string",
+                    "default": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                },
+                {
+                    "title": "Author",
+                    "name": "author",
+                    "type": "string",
+                    "single": true,
+                    "default": "HOOTORO"
+                },
+                {
+                    "title": "Publishing date",
+                    "name": "date",
+                    "type": "datetime",
+                    "default": "{{now}}",
+                    "isPublishDate": true,
+                    "dateFormat": "yyyy-MM-dd"
+                },
+                {
+                    "title": "Last modified date",
+                    "name": "lastmod",
+                    "type": "datetime",
+                    "isModifiedDate": true,
+                    "dateFormat": "yyyy-MM-dd"
+                },
+                {
+                    "title": "Content preview",
+                    "name": "preview",
+                    "type": "image",
+                    "default": "logo.png"
+                },
+                {
+                    "title": "Tags",
+                    "name": "tags",
+                    "type": "tags"
+                },
+                {
+                    "title": "Categories",
+                    "name": "categories",
+                    "type": "categories"
+                },
+                {
+                    "title": "Slug",
+                    "name": "slug",
+                    "type": "slug",
+                    "editable": true
+                },
+                {
+                    "title": "Navigation weight",
+                    "name": "weight",
+                    "type": "number"
+                },
+                {
+                    "title": "Is in draft",
+                    "name": "draft",
+                    "type": "draft"
+                },
+                {
+                    "title": "toc",
+                    "name": "toc",
+                    "type": "boolean"
+                },
+                {
+                    "title": "tocOpen",
+                    "name": "tocOpen",
+                    "type": "boolean",
+                    "when": {
+                        "fieldRef": "toc",
+                        "operator": "eq",
+                        "value": true
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "frontMatter.taxonomy.contentTypes": [
-    {
-      "name": "default",
-      "previewPath": null,
-      "pageBundle": false,
-      "fields": [
+    ],
+    "frontMatter.taxonomy.contentTypes": [
         {
-          "name": "default",
-          "type": "fieldCollection",
-          "fieldGroup": "general"
+            "name": "default",
+            "previewPath": null,
+            "pageBundle": false,
+            "fields": [
+                {
+                    "name": "default",
+                    "type": "fieldCollection",
+                    "fieldGroup": "general"
+                }
+            ]
+        },
+        {
+            "name": "post",
+            "previewPath": "/blog",
+            "pageBundle": true,
+            "fields": [
+                {
+                    "title": "Title",
+                    "name": "title",
+                    "type": "string",
+                    "single": true
+                },
+                {
+                    "title": "Description",
+                    "name": "description",
+                    "type": "string"
+                },
+                {
+                    "title": "Summary",
+                    "name": "summary",
+                    "type": "string",
+                    "default": "Не хороший разработчик пишет"
+                },
+                {
+                    "title": "Author",
+                    "name": "author",
+                    "type": "string",
+                    "single": true
+                },
+                {
+                    "title": "Publishing date",
+                    "name": "date",
+                    "type": "datetime",
+                    "default": "{{now}}",
+                    "isPublishDate": true,
+                    "dateFormat": "yyyy-MM-dd"
+                },
+                {
+                    "title": "Last modified date",
+                    "name": "lastmod",
+                    "type": "datetime",
+                    "isModifiedDate": true,
+                    "dateFormat": "yyyy-MM-dd"
+                },
+                {
+                    "title": "Content preview",
+                    "name": "preview",
+                    "type": "image",
+                    "default": "logo.png"
+                },
+                {
+                    "title": "Thumbnail",
+                    "name": "thumbnail",
+                    "type": "image",
+                    "default": "cover.png"
+                },
+                {
+                    "title": "Categories",
+                    "name": "categories",
+                    "type": "categories",
+                    "taxonomyLimit": 1,
+                    "singleValueAsString": true
+                },
+                {
+                    "title": "Tags",
+                    "name": "tags",
+                    "type": "tags"
+                },
+                {
+                    "title": "Slug",
+                    "name": "slug",
+                    "type": "slug",
+                    "editable": true,
+                    "default": "{{slug}}"
+                },
+                {
+                    "title": "Navigation weight",
+                    "name": "weight",
+                    "type": "number"
+                },
+                {
+                    "title": "Is in draft",
+                    "name": "draft",
+                    "type": "draft",
+                    "default": true
+                },
+                {
+                    "title": "toc",
+                    "name": "toc",
+                    "type": "boolean"
+                },
+                {
+                    "title": "tocOpen",
+                    "name": "tocOpen",
+                    "type": "boolean",
+                    "when": {
+                        "fieldRef": "toc",
+                        "operator": "eq",
+                        "value": true
+                    }
+                },
+                {
+                    "name": "divider",
+                    "type": "divider"
+                }
+            ]
+        },
+        {
+            "name": "doc",
+            "previewPath": "/docs",
+            "pageBundle": true,
+            "fields": [
+                {
+                    "title": "Title",
+                    "name": "title",
+                    "type": "string",
+                    "single": true
+                },
+                {
+                    "title": "Description",
+                    "name": "description",
+                    "type": "string",
+                    "default": "Не хороший разработчик документирует..."
+                },
+                {
+                    "title": "Author",
+                    "name": "author",
+                    "type": "string",
+                    "single": true,
+                    "default": "HOOTORO"
+                },
+                {
+                    "title": "Publishing date",
+                    "name": "date",
+                    "type": "datetime",
+                    "default": "{{now}}",
+                    "isPublishDate": true,
+                    "dateFormat": "yyyy-MM-dd"
+                },
+                {
+                    "title": "Last modified date",
+                    "name": "lastmod",
+                    "type": "datetime",
+                    "isModifiedDate": true,
+                    "dateFormat": "yyyy-MM-dd"
+                },
+                {
+                    "title": "Content preview",
+                    "name": "preview",
+                    "type": "image",
+                    "default": "logo.png"
+                },
+                {
+                    "title": "Categories",
+                    "name": "categories",
+                    "type": "categories",
+                    "taxonomyLimit": 1,
+                    "singleValueAsString": true
+                },
+                {
+                    "title": "Tags",
+                    "name": "tags",
+                    "type": "tags"
+                },
+                {
+                    "title": "Slug",
+                    "name": "slug",
+                    "type": "slug",
+                    "editable": true,
+                    "default": "{{slug}}"
+                },
+                {
+                    "title": "Navigation weight",
+                    "name": "weight",
+                    "type": "number"
+                },
+                {
+                    "title": "Is in draft",
+                    "name": "draft",
+                    "type": "draft",
+                    "default": true
+                },
+                {
+                    "title": "toc",
+                    "name": "toc",
+                    "type": "boolean",
+                    "default": false
+                },
+                {
+                    "title": "tocOpen",
+                    "name": "tocOpen",
+                    "type": "boolean",
+                    "when": {
+                        "fieldRef": "toc",
+                        "operator": "eq",
+                        "value": true
+                    },
+                    "default": false
+                },
+                {
+                    "name": "divider",
+                    "type": "divider"
+                },
+                {
+                    "title": "wiki",
+                    "name": "wiki",
+                    "type": "string",
+                    "single": true
+                }
+            ]
+        },
+        {
+            "name": "thing",
+            "previewPath": "/things",
+            "pageBundle": true,
+            "fields": [
+                {
+                    "title": "Title",
+                    "name": "title",
+                    "type": "string",
+                    "single": true
+                },
+                {
+                    "title": "Description",
+                    "name": "description",
+                    "type": "string",
+                    "default": "Не хороший разработчик пользует..."
+                },
+                {
+                    "title": "coming out date",
+                    "name": "date",
+                    "type": "datetime",
+                    "default": "{{now}}",
+                    "isPublishDate": true,
+                    "dateFormat": "yyyy-MM-dd"
+                },
+                {
+                    "title": "Last modified date",
+                    "name": "lastmod",
+                    "type": "datetime",
+                    "isModifiedDate": true,
+                    "dateFormat": "yyyy-MM-dd"
+                },
+                {
+                    "title": "Preview",
+                    "name": "cover",
+                    "type": "image",
+                    "isPreviewImage": true,
+                    "default": "cover.png"
+                },
+                {
+                    "title": "Categories",
+                    "name": "category",
+                    "type": "categories",
+                    "taxonomyLimit": 1,
+                    "singleValueAsString": true
+                },
+                {
+                    "title": "Tags",
+                    "name": "tag",
+                    "type": "tags"
+                },
+                {
+                    "name": "divider",
+                    "type": "divider"
+                },
+                {
+                    "title": "shop",
+                    "name": "shop",
+                    "type": "string",
+                    "single": true
+                },
+                {
+                    "title": "price",
+                    "name": "price",
+                    "type": "number",
+                    "single": true
+                }
+            ]
         }
-      ]
-    },
-    {
-      "name": "post",
-      "previewPath": "/blog",
-      "pageBundle": true,
-      "fields": [
+    ],
+    "frontMatter.content.pageFolders": [
         {
-          "title": "Title",
-          "name": "title",
-          "type": "string",
-          "single": true
+            "title": "blog",
+            "path": "[[workspace]]/content/blog",
+            "filePrefix": "",
+            "contentTypes": ["post"]
         },
         {
-          "title": "Description",
-          "name": "description",
-          "type": "string",
-          "default": "Не хороший разработчик пишет"
+            "title": "things",
+            "path": "[[workspace]]/content/things",
+            "filePrefix": "",
+            "contentTypes": ["thing"]
         },
         {
-          "title": "Author",
-          "name": "author",
-          "type": "string",
-          "single": true,
-          "default": "HOOTORO"
-        },
-        {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true,
-          "dateFormat": "yyyy-MM-dd"
-        },
-        {
-          "title": "Last modified date",
-          "name": "lastmod",
-          "type": "datetime",
-          "isModifiedDate": true,
-          "dateFormat": "yyyy-MM-dd"
-        },
-        {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image",
-          "default": "logo.png"
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories",
-          "taxonomyLimit": 1,
-          "singleValueAsString": true
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "Slug",
-          "name": "slug",
-          "type": "slug",
-          "editable": true,
-          "default": "{{slug}}"
-        },
-        {
-          "title": "Navigation weight",
-          "name": "weight",
-          "type": "number"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft",
-          "default": true
-        },
-        {
-          "title": "toc",
-          "name": "toc",
-          "type": "boolean",
-          "default": false
-        },
-        {
-          "title": "tocOpen",
-          "name": "tocOpen",
-          "type": "boolean",
-          "when": {
-            "fieldRef": "toc",
-            "operator": "eq",
-            "value": true
-          },
-          "default": false
-        },
-        {
-          "name": "divider",
-          "type": "divider"
+            "title": "docs",
+            "path": "[[workspace]]/content/docs",
+            "filePrefix": "",
+            "contentTypes": ["doc"]
         }
-      ]
-    },
-    {
-      "name": "doc",
-      "previewPath": "/docs",
-      "pageBundle": true,
-      "fields": [
-        {
-          "title": "Title",
-          "name": "title",
-          "type": "string",
-          "single": true
-        },
-        {
-          "title": "Description",
-          "name": "description",
-          "type": "string",
-          "default": "Не хороший разработчик документирует..."
-        },
-        {
-          "title": "Author",
-          "name": "author",
-          "type": "string",
-          "single": true,
-          "default": "HOOTORO"
-        },
-        {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true,
-          "dateFormat": "yyyy-MM-dd"
-        },
-        {
-          "title": "Last modified date",
-          "name": "lastmod",
-          "type": "datetime",
-          "isModifiedDate": true,
-          "dateFormat": "yyyy-MM-dd"
-        },
-        {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image",
-          "default": "logo.png"
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories",
-          "taxonomyLimit": 1,
-          "singleValueAsString": true
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "Slug",
-          "name": "slug",
-          "type": "slug",
-          "editable": true,
-          "default": "{{slug}}"
-        },
-        {
-          "title": "Navigation weight",
-          "name": "weight",
-          "type": "number"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft",
-          "default": true
-        },
-        {
-          "title": "toc",
-          "name": "toc",
-          "type": "boolean",
-          "default": false
-        },
-        {
-          "title": "tocOpen",
-          "name": "tocOpen",
-          "type": "boolean",
-          "when": {
-            "fieldRef": "toc",
-            "operator": "eq",
-            "value": true
-          },
-          "default": false
-        },
-        {
-          "name": "divider",
-          "type": "divider"
-        },
-        {
-          "title": "wiki",
-          "name": "wiki",
-          "type": "string",
-          "single": true
-        }
-      ]
-    },
-    {
-      "name": "thing",
-      "previewPath": "/things",
-      "pageBundle": true,
-      "fields": [
-        {
-          "title": "Title",
-          "name": "title",
-          "type": "string",
-          "single": true
-        },
-        {
-          "title": "Description",
-          "name": "description",
-          "type": "string",
-          "default": "Не хороший разработчик пользует..."
-        },
-        {
-          "title": "coming out date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true,
-          "dateFormat": "yyyy-MM-dd"
-        },
-        {
-          "title": "Last modified date",
-          "name": "lastmod",
-          "type": "datetime",
-          "isModifiedDate": true,
-          "dateFormat": "yyyy-MM-dd"
-        },
-        {
-          "title": "Preview",
-          "name": "cover",
-          "type": "image",
-          "isPreviewImage": true,
-          "default": "cover.png"
-        },
-        {
-          "title": "Categories",
-          "name": "category",
-          "type": "categories",
-          "taxonomyLimit": 1,
-          "singleValueAsString": true
-        },
-        {
-          "title": "Tags",
-          "name": "tag",
-          "type": "tags"
-        },
-        {
-          "name": "divider",
-          "type": "divider"
-        },
-        {
-          "title": "shop",
-          "name": "shop",
-          "type": "string",
-          "single": true
-        },
-        {
-          "title": "price",
-          "name": "price",
-          "type": "number",
-          "single": true
-        }
-      ]
-    }
-  ],
-  "frontMatter.content.pageFolders": [
-    {
-      "title": "blog",
-      "path": "[[workspace]]/content/blog",
-      "filePrefix": "",
-      "contentTypes": [
-        "post"
-      ]
-    },
-    {
-      "title": "things",
-      "path": "[[workspace]]/content/things",
-      "filePrefix": "",
-      "contentTypes": [
-        "thing"
-      ]
-    },
-    {
-      "title": "docs",
-      "path": "[[workspace]]/content/docs",
-      "filePrefix": "",
-      "contentTypes": [
-        "doc"
-      ]
-    }
-  ],
-  "frontMatter.framework.startCommand": "hugo server -D --navigateToChanged --disableFastRender --printPathWarnings",
-  "frontMatter.content.publicFolder": "assets",
-  "frontMatter.framework.id": "hugo",
-  "frontMatter.preview.host": "http://localhost:1313",
-  "frontMatter.preview.pathName": "",
-  "frontMatter.preview.trailingSlash": false,
-  "frontMatter.website.host": "https://hootoro.github.io/",
-  "frontMatter.git.enabled": true
+    ],
+    "frontMatter.framework.startCommand": "hugo server -D --navigateToChanged --disableFastRender --printPathWarnings",
+    "frontMatter.content.publicFolder": "assets",
+    "frontMatter.framework.id": "hugo",
+    "frontMatter.preview.host": "http://localhost:1313",
+    "frontMatter.preview.pathName": "",
+    "frontMatter.preview.trailingSlash": false,
+    "frontMatter.website.host": "https://hootoro.github.io/",
+    "frontMatter.git.enabled": true
 }

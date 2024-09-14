@@ -1,12 +1,10 @@
 ---
 title: О долге
-description: Не хороший разработчик пишет про долговые обязательства
-author: HOOTORO
+summary: Не хороший разработчик пишет про долговые обязательства.
 date: 2024-08-15
 lastmod: 2024-08-15
 preview: cover-rodina.webp
 thumbnail: cover-rodina.webp
-type: post
 draft: false
 tags:
     - advice

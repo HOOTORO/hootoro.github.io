@@ -1,8 +1,6 @@
 ---
-type: post
 title: Не спрашивайте, чтобы спросить, сразу спросите.
-description: Не хороший разработчик переводит
-author: HOOTORO
+summary: Не хороший разработчик переводит.
 date: 2024-09-02
 lastmod: 2024-09-02
 preview: cover.png
@@ -18,9 +16,6 @@ tags:
     - people
 slug: askmotherfucker
 draft: false
-divider: ""
-fmContentType: post
-weight: 1
 ---
 
 ### Foreword

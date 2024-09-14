@@ -55,10 +55,10 @@ mainSections = [
     showHeadingAnchors  = true
     showPagination      = true
     invertPagination    = false
-    showReadingTime     = false
+    showReadingTime     = true
+    showWordCount       = false
     showTableOfContents = false
     showTaxonomies      = false
-    showWordCount       = false
     showComments        = false
 
     sharingLinks = [
@@ -91,11 +91,3 @@ mainSections = [
 
 [taxonomy]
     showTermCount = true
-
-[hb]
-    color           = 'light'
-    css_bundle_name = 'hb'
-    debug           = false
-    full_width      = false
-    js_bundle_name  = 'hb'
-    logo            = 'images/logo.png'

@@ -4,11 +4,7 @@
             "files": ["*.html"],
             "options": {
                 "parser": "go-template",
-                "plugins": ["prettier-plugin-go-template"],
-                "goTemplateBracketSpacing": true,
-                "bracketSameLine": true,
-                "quoteProps": "consistent",
-                "singleAttributePerLine": true
+                "plugins": ["prettier-plugin-go-template"]
             }
         },
         {

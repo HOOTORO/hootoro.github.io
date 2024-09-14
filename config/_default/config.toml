@@ -1,7 +1,7 @@
 baseURL                = 'https://HOOTORO.github.io/'
 defaultContentLanguage = "en"
 
-summaryLength = 0 # first sentence
+summaryLength = 7 # first sentence
 
 googleAnalytics = "G-L9BMG9JD0J"
 # title = 'Bad Dev'

@@ -3,18 +3,11 @@
 ```md
 [b]inb4...[/b]listed terminology
 [table]
-    [tr]
-        [th][b]acronym[/b][/th][th][b]mean[/b][/th]
-    [/tr]
-    [tr]
-        [td][i]pov[/i][/td][td]point of view[/td]
-    [/tr]
-    [tr]
-        [td][i]hc[/i][/td][td]hardcore[/td]
-    [/tr]
-    [tr]
-        [td][i]obv[/i][/td][td]obvious(ly)[/td]
-    [/tr]
+    [tr][th]acronym[/th][th]mean[/th][/tr]
+    [tr][td][i]GR[/i][/td][td]Ghostrunner[/td][/tr] 
+    [tr][td][i]pov[/i][/td][td]point of view[/td][/tr]
+    [tr][td][i]hc[/i][/td][td]hardcore[/td][/tr]
+    [tr][td][i]obv[/i][/td][td]obvious(ly)[/td][/tr]
 [/table]
 
 Complexity usually refers to 
@@ -254,3 +247,118 @@ And would gladly play those games that I don't know.
 [h2]Now you know that [b]BM[/b] was made by the beloved children of humanity[/h2]
 If you into HL, there is no chance you can dislike BM.
 ```
+
+## Ghostrunner
+
+[h4][b]inb4...[/b]listed terminology[/h4]
+[table]
+    [tr][th]acronym[/th][th]mean[/th][/tr]
+    [tr][td][i]GR[/i][/td][td]Ghostrunner[/td][/tr] 
+    [tr][td][i]pov[/i][/td][td]point of view[/td][/tr]
+    [tr][td][i]hc[/i][/td][td]hardcore[/td][/tr]
+    [tr][td][i]obv[/i][/td][td]obvious(ly)[/td][/tr]
+[/table]
+[hr][/hr]
+First ver. of the review, after 71h playtime and getting all the achievements.  
+[quote=HOOTORO]
+Best Action Game for sure!
+At first was expecting, it would be some kind of slasher, in reality get Dark Souls in cyberpunk setting.
+And I like it a lot!
+[/quote]
+[hr][/hr]
+Second ver. since 333h playtime. Discovered speedrun technique and gorgeous [url=https://www.speedrun.com/ghostrunner]speedrun(dot)com[/url]
+[h2]💓[b]:Liked:[/b]💓[/h2]
+[list]
+    [*] [b][i]Story[/i][/b] ⚓|📜 Despite well-worn, well-aged and well-known plot, tends to be cringe, mostly when done by low qualified,unmotivated or inexperienced employees, in case GR, whole tale well-done and feels like fine aged wine.
+    [*] [b][i]Design[/i][/b] 🎬|🎥 Cyberpunk as it should. Perfect example of it's genre.
+    [*] [b][i]Sound[/i][/b] 🎶|🎹 Perfectly fits. Combined with the above, it makes the game aesthetically pleasing.
+    [*] [b][i]Complexity[/i][/b] 💢|*️⃣ As you might guess, challenging. Required non-trivial action skills. Simplifying, If [url=https://en.wikipedia.org/wiki/Strafing_(video_games)#Bunny_hopping]BHOP[/url] meaningless for you, well that's a sign to consider.
+    [*] [b][i]Performance[/i][/b] 🖥️|📊 Good, even [u]under mid-tier PC[/u] of mine, have ~160 fps, on lowest video configuration. [spoiler]See youtube link below[/spoiler]
+    [*] [b][i]Costing[/i][/b] 💸|💰 Seems honest to me, game totally worth it, obv if into hc games.
+    [*] [b][i]Game featured[/i][/b] | Mechanics for the speedrun technique are pretty simple yet powerful enough changing game vibe completely. 
+    [*] [b][i]Game featured[/i][/b] | Unique ability modification system. [spoiler]aka [i]Tetris menu[/i][/spoiler]. From a casual PoV, at first it may seem insignificant. But when/if mastery reaches the millisecond level play, some of even start to look a little overpowered...
+[/list]
+[h3]*️⃣[b]Learn-mastery axis[/b][/h3]
+[table]
+    [tr][th]To[/th][th]Easy[/th][th]Hard[/th][/tr]
+    [tr][th]Learn[/th][td][spoiler]✅[/spoiler][/td][td]☑️[/td][/tr]
+    [tr][th]Master[/th][td][spoiler]✅[/spoiler][/td][td]☑️[/td][/tr]
+[/table]
+[h2]💢[b]:Disliked:[/b]💢[/h2]
+
+As of now, from my pov GR have no major downsides at all.
+
+[list]
+    [*] [i]minor[/i] | Some levels has glitches which may leads to [url=https://docs.google.com/spreadsheets/d/1jWBOuxSY-zlBgzhkYnsVYtNJFscbObve67g9Xy_biV0/edit?gid=1083807781#gid=1083807781]out-of-bounds[/url]
+    [*] [i]minor[/i] | Known rare cases of [url=https://www.speedrun.com/ghostrunner/forums/qrpgz]crashes[/url], but didn't happen on my experience.
+[/list]
+
+[h3]This is what 333 ghostrun hours looks like[/h3]
+
+https://www.youtube.com/watch?v=Ux5RsRjWDyU
+
+Also worth mention, never quite understand whines about FPS locked ported console games. Since didn't see much difference between 60 and 100 or more FPS, till comes GR. This literally first game where feel that difference and is really [u]crucial matter[/u]
+
+[hr][/hr]
+
+[h2]OVERALL IMPRESSION[/h2]
+
+[quote=GR_steamstore_states]
+Ghostrunner is a [u]hardcore[/u] FPP slasher packed with lightning-fast action, set in a grim, cyberpunk megastructure
+[/quote]
+
+Commonly such descriptions is done by publishers and contains various marketing gimmicks, to increase sales. So description relevancy to actual game content lost it lead role. As last games FromSomeoncegamedevnow3Ddesignstudio as example.
+Surprisingly rare case for official description when every single word fits into the description with utmost precision.
+But the very best experience game could give is beyond casual FPS skillset, tho Bhop mastery sufficient.
+If you get here, 90% sure the reason is ton of magnificent gifs with brutal npc elimination by ninja swiftly traversing longass gaps.
+
+Must say first and most [u]crucial[/u] thing to understand about game:
+Despite it has [i]casual[/i] and [b]hardcore[/b] mode...
+[code]casual ≠ easy[/code]
+So even casual one is still very challenging and require non-trivial skills in order gameplay became satisfying and enjoyable.
+Due to game's [u]fast-paced nature[/u] itself which initially set difficulty [i]beyond[/i] casual level on it's own.
+Gameplay in general dominated by principle: "if you stop, you're probably dead", but usually, to die, it is enough to be not fast enough.
+No surprises this doesn't suits everyone by far.
+[b]Strongly recommended to take that into consideration, before spend $[/b].
+
+On the other hand, improving your skills brings with it a next level of joy. [u]Therefore very satisfying[/u].
+GR is a perfect example of what hardcore games should be. Even for the developers of GR.
+Meanwhile, the original game, worthy of epithets like legendary, phenomenal, brilliant work of Art and no less, no discuss.
+Sequel introduced a brand-new "Tetris" mechanic that allows to create incredibly powerful builds.
+It's may be fun, but with "deflect technique" expanded to "blocking ability" on top of that, it actually lowers the "skill issue" dramatically, making the sequel more casual.
+Therefore lost all aesthetical appealing.
+
+Before updating the review, I looked at other reviews on the game store page.
+I suspect that many may disagree with these epithets or can/want to argue. But this is quite natural and there is no room for debate.
+Seen some folks was disappointed there is no way to save mid level, admit it may seems reasonable, trust me, that's until traversing from start of whatever given map to whatever you wish on average ~1-2 min. Inbounds.
+[spoiler] i.e. through intended route, without any abuses, using game featured mechanics in designed way [/spoiler]
+In that precious moment also should come realisation that "save mid-level" neverever was an option, likely even joke-wise
+So let's be honest, original GR was build by dedicated tryhards for tryhards and that's awesome!
+
+But who is tryhards from economy pov?
+Assuming Gaussian distribution suits(it is), most likely ~5% of the gamedev market, implied tryhards as values in two or more standard deviations. Therefore, originally the expected profit correspond product whom target audience is approx. 5%.
+In fact, devs done a great, almost impossible job to made learning-mastery process least painful as possible, while maintain important hc concepts.
+More importantly devs built a high-quality product easy exceeds the expected ~5%. So naturally when casual masses became stakeholder, in order to kept and grow customers base GR2 answer it casuality request.
+
+If you ever ask yourself why most difficult games, literally had hard as it's core, looks like indie-games or so, well reasons is here. In general people don't likes complex stuff, always at your service Captain Obvious.
+But no matter what, famous gamedev studios always have at least one signature title, you know, like  
+[list]
+    [*] Valve - HL series
+    [*] Blizzard - classic trio WC, D, SC
+    [*] Square Enix - FF series
+    [*] e.t.c.
+[/list]
+In case of One More Level, original GR is
+
+Dunno why, came up to mind, if someone ask to describe game via song lyrics, it would be this line by [url=https://en.wikipedia.org/wiki/Yasiin_Bey]Mos Def[/url]
+
+[quote=song_by_Mos_Def]
+This is business, no faces just lines and statistics
+From your phone, your zip code, to SSI digits
+The system break man, child and women into figures
+Two columns for who is and who ain't niggas
+Numbers is hard and real and they never have feelings
+But you push too hard, even numbers got limits
+Why did one straw break the camel's back? Here's the secret
+The million other straws underneath it, it's all mathematics
+[/quote]

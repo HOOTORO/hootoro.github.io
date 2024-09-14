@@ -1,7 +1,9 @@
 <a
     href="{{ .Destination | safeURL }}"
     {{- with .Title }}title="{{ . }}"{{ end -}}
-    target="_blank"
-    rel="noopener">
+    {{- if hasPrefix .Destination "http" }}
+        target="_blank" rel="noopener"
+    {{ end -}}
+>
     {{- with .Text | safeHTML }}{{ . }}{{ end -}}
 </a>

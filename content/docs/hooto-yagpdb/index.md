@@ -1,23 +1,23 @@
 ---
-title : "HOO-TO: YAGPDB"
-description : Setup amazing https://yagpdb.xyz/ bot to send interval based notification 
-date : 2024-06-22
-preview : cover-logo_y.png
-thumbnail : cover-logo_y.png
-draft : false
-tags : 
+title: "HOO-TO: YAGPDB"
+summary: Setup amazing https://yagpdb.xyz/ bot to send interval based notification 
+date: 2024-06-22
+preview: cover-logo_y.png
+thumbnail: cover-logo_y.png
+draft: false
+tags: 
   - bot
   - code
   - discord
   - example
   - notification
   - software
-categories : guide
-author : HOOTORO
-type : doc
-slug : yagpdb
-toc : true
-lastmod : 2024-08-12
+categories: guide
+author: HOOTORO
+type: doc
+slug: yagpdb
+toc: true
+lastmod: 2024-08-12
 ---
 
 ## Yet Another Great Purpose Discord Bot

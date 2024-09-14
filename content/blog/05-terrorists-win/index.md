@@ -1,14 +1,11 @@
 ---
 title: О заблуждениях
-description: Не хороший разработчик пишет о неуместной, излишней и опасной любви к стереотипам...
-author: HOOTORO
+summary: Не хороший разработчик пишет о неуместной, излишней и опасной любви к стереотипам...
 date: 2024-08-11
 lastmod: 2024-08-11
 thumbnail: cover-ter.webp
 preview: cover-ter.webp
-type: post
 draft: false
-weight: null
 tags:
     - analysis
     - bad-habit
@@ -22,7 +19,6 @@ tags:
     - fear
 categories: common-sense
 slug: terrorists-win
-toc: false
 songmeta:
     artist: ""
     title: null

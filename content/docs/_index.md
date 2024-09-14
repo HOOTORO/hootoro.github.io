@@ -1,6 +1,7 @@
 ---
 title: Documentation
 cascade:
+    type: doc
     showDate: true
     showSummary: true
     showWordCount: true
