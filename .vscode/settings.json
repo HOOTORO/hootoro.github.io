@@ -78,6 +78,7 @@
         "скипай",
         "Смолвиля",
         "сорбет",
+        "Спиздил",
         "Средакционные",
         "туса",
         "Урию",
@@ -96,5 +97,5 @@
     },
     "svg.preview.background": "editor",
     "frontMatter.content.fmHighlight": true,
-    "frontMatter.content.autoUpdateDate": false
+    "frontMatter.content.autoUpdateDate": true
 }

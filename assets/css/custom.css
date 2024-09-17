@@ -1,44 +1,5 @@
 :root,
 [data-default-appearance="light"] {
-    --hb-blue: #0d6efd;
-    --hb-indigo: #6610f2;
-    --hb-purple: #6f42c1;
-    --hb-pink: #d63384;
-    --hb-red: #dc3545;
-    --hb-orange: #fd7e14;
-    --hb-yellow: #ffc107;
-    --hb-green: #198754;
-    --hb-teal: #20c997;
-    --hb-cyan: #0dcaf0;
-    --hb-black: #000;
-    --hb-white: #fff;
-    --hb-gray: #6c757d;
-    --hb-gray-dark: #343a40;
-    --hb-gray-100: #f8f9fa;
-    --hb-gray-200: #e9ecef;
-    --hb-gray-300: #dee2e6;
-    --hb-gray-400: #ced4da;
-    --hb-gray-500: #adb5bd;
-    --hb-gray-600: #6c757d;
-    --hb-gray-700: #495057;
-    --hb-gray-800: #343a40;
-    --hb-gray-900: #212529;
-    --hb-primary: #ff4088;
-    --hb-secondary: #6c757d;
-    --hb-success: #198754bd;
-    --hb-info: #0dcaf0;
-    --hb-warning: #ffc107;
-    --hb-danger: #dc3545;
-    --hb-light: #f8f9fa;
-    --hb-dark: #212529;
-    --hb-primary-rgb: 255, 64, 136;
-    --hb-secondary-rgb: 108, 117, 125;
-    --hb-success-rgb: 25, 135, 84;
-    --hb-info-rgb: 13, 202, 240;
-    --hb-warning-rgb: 255, 193, 7;
-    --hb-danger-rgb: 220, 53, 69;
-    --hb-light-rgb: 248, 249, 250;
-    --hb-dark-rgb: 33, 37, 41;
     --hb-primary-text-emphasis: #661a36;
     --hb-secondary-text-emphasis: #2b2f32;
     --hb-success-text-emphasis: #0a3622;
@@ -48,6 +9,7 @@
     --hb-light-text-emphasis: #495057;
     --hb-dark-text-emphasis: #495057;
     --hb-quote-text-emphasis: #495057;
+
     --hb-primary-bg-subtle: #ffd9e7;
     --hb-secondary-bg-subtle: #e2e3e5;
     --hb-success-bg-subtle: #d1e7dd;
@@ -57,6 +19,7 @@
     --hb-light-bg-subtle: #fcfcfd;
     --hb-dark-bg-subtle: #ced4da;
     --hb-quote-bg-subtle: #ced4da;
+
     --hb-primary-border-subtle: #ffb3cf;
     --hb-secondary-border-subtle: #c4c8cb;
     --hb-success-border-subtle: #a3cfbb;
@@ -66,8 +29,7 @@
     --hb-light-border-subtle: #e9ecef;
     --hb-dark-border-subtle: #adb5bd;
     --hb-quote-border-subtle: #adb5bd;
-    --hb-white-rgb: 255, 255, 255;
-    --hb-black-rgb: 0, 0, 0;
+
     --hb-font-sans-serif: Montserrat, Protest Guerrilla, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
         "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
@@ -77,69 +39,17 @@
     --hb-body-font-size: 1rem;
     --hb-body-font-weight: 400;
     --hb-body-line-height: 1.5;
-    --hb-body-color: #212529;
-    --hb-body-color-rgb: 33, 37, 41;
-    --hb-body-bg: #fff;
-    --hb-body-bg-rgb: 255, 255, 255;
-    --hb-emphasis-color: #000;
-    --hb-emphasis-color-rgb: 0, 0, 0;
-    --hb-secondary-color: rgba(33, 37, 41, 0.75);
-    --hb-secondary-color-rgb: 33, 37, 41;
-    --hb-secondary-bg: #e9ecef;
-    --hb-secondary-bg-rgb: 233, 236, 239;
-    --hb-tertiary-color: rgba(33, 37, 41, 0.5);
-    --hb-tertiary-color-rgb: 33, 37, 41;
-    --hb-tertiary-bg: #f8f9fa;
-    --hb-tertiary-bg-rgb: 248, 249, 250;
-    --hb-heading-color: inherit;
-    --hb-link-color: #ff4088;
-    --hb-link-color-rgb: 255, 64, 136;
-    --hb-link-decoration: underline;
-    --hb-link-hover-color: #cc336d;
-    --hb-link-hover-color-rgb: 204, 51, 109;
-    --hb-code-color: #d63384;
-    --hb-highlight-color: #212529;
-    --hb-highlight-bg: #fff3cd;
-    --hb-border-width: 1px;
-    --hb-border-style: solid;
-    --hb-border-color: #dee2e6;
-    --hb-border-color-translucent: rgba(0, 0, 0, 0.175);
-    --hb-border-radius: 0.75rem;
-    --hb-border-radius-sm: 0.25rem;
-    --hb-border-radius-lg: 0.5rem;
-    --hb-border-radius-xl: 1rem;
-    --hb-border-radius-xxl: 2rem;
-    --hb-border-radius-2xl: var(--hb-border-radius-xxl);
-    --hb-border-radius-pill: 50rem;
+
+    --hb-border-radius: 10px;
+
     --hb-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     --hb-box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
     --hb-box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
     --hb-box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);
-    --hb-focus-ring-width: 0.25rem;
-    --hb-focus-ring-opacity: 0.25;
-    --hb-focus-ring-color: rgba(255, 64, 136, 0.25);
-    --hb-form-valid-color: #198754;
-    --hb-form-valid-border-color: #198754;
-    --hb-form-invalid-color: #dc3545;
-    --hb-form-invalid-border-color: #dc3545;
 }
 
 [data-default-appearance="dark"] {
     color-scheme: dark;
-    --hb-body-color: #dee2e6;
-    --hb-body-color-rgb: 222, 226, 230;
-    --hb-body-bg: #212529;
-    --hb-body-bg-rgb: 33, 37, 41;
-    --hb-emphasis-color: #fff;
-    --hb-emphasis-color-rgb: 255, 255, 255;
-    --hb-secondary-color: rgba(222, 226, 230, 0.75);
-    --hb-secondary-color-rgb: 222, 226, 230;
-    --hb-secondary-bg: #343a40;
-    --hb-secondary-bg-rgb: 52, 58, 64;
-    --hb-tertiary-color: rgba(222, 226, 230, 0.5);
-    --hb-tertiary-color-rgb: 222, 226, 230;
-    --hb-tertiary-bg: #2b3035;
-    --hb-tertiary-bg-rgb: 43, 48, 53;
     --hb-primary-text-emphasis: #ff8cb8;
     --hb-secondary-text-emphasis: #a7acb1;
     --hb-success-text-emphasis: #75b798;
@@ -150,6 +60,8 @@
     --hb-light-text-emphasis: #f8f9fa;
     --hb-dark-text-emphasis: #dee2e6;
     --hb-quote-text-emphasis: #dee2e6;
+    --hb-cite-text-emphasis: #dee2e6;
+
     --hb-primary-bg-subtle: #330d1b;
     --hb-secondary-bg-subtle: #161719;
     --hb-success-bg-subtle: #0935212d;
@@ -160,6 +72,8 @@
     --hb-light-bg-subtle: #343a40;
     --hb-dark-bg-subtle: #1a1d20;
     --hb-quote-bg-subtle: #1a1d20;
+    --hb-cite-bg-subtle: #363d425d;
+
     --hb-primary-border-subtle: #992652;
     --hb-secondary-border-subtle: #41464b;
     --hb-success-border-subtle: #10693f;
@@ -170,20 +84,7 @@
     --hb-light-border-subtle: #495057;
     --hb-dark-border-subtle: #343a40;
     --hb-quote-border-subtle: #343a40;
-    --hb-heading-color: inherit;
-    --hb-link-color: #ff8cb8;
-    --hb-link-hover-color: #ffa3c6;
-    --hb-link-color-rgb: 255, 140, 184;
-    --hb-link-hover-color-rgb: 255, 163, 198;
-    --hb-code-color: #e685b5;
-    --hb-highlight-color: #dee2e6;
-    --hb-highlight-bg: #664d03;
-    --hb-border-color: #495057;
-    --hb-border-color-translucent: rgba(255, 255, 255, 0.15);
-    --hb-form-valid-color: #75b798;
-    --hb-form-valid-border-color: #75b798;
-    --hb-form-invalid-color: #ea868f;
-    --hb-form-invalid-border-color: #ea868f;
+    --hb-cite-border-subtle: #4e515e;
 }
 
 html {
@@ -207,13 +108,6 @@ blockquote.alert > p::after {
 article > section dl > dt {
     text-shadow: 1px 0px 10px #ff00d7;
 }
-/* div:has(> main) {
-    align-items: center;
-} */
-
-/* .max-w-prose {
-    max-width: 80ch;
-} */
 
 details {
     margin-top: 10px;
@@ -355,7 +249,6 @@ body {
 }
 
 span.tooltip {
-    /* display: none; */
     visibility: hidden;
     opacity: 0;
     transition:
@@ -363,7 +256,6 @@ span.tooltip {
         opacity 0.5s ease;
 }
 span.icon:hover + span.tooltip {
-    /* display: block; */
     visibility: visible;
     opacity: 1;
     z-index: 1;
@@ -413,7 +305,6 @@ span.tooltip {
 .annotation:hover:has(.tooltip2) .tooltip2 {
     visibility: visible;
     opacity: 1;
-    z-index: 100;
 }
 .tooltip2 {
     color: #000;
@@ -424,7 +315,8 @@ span.tooltip {
     min-width: max-content;
     padding: 0 4px;
     border-radius: 0.3rem;
-    transition: all 500ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+    z-index: 1;
 }
 
 @keyframes vibrate {
@@ -470,9 +362,6 @@ span.tooltip {
     max-width: 40%;
 }
 
-/* div:has(.thing-card) {
-} */
-
 .alert {
     --hb-alert-bg: transparent;
     --hb-alert-padding-x: 2rem;
@@ -490,8 +379,9 @@ span.tooltip {
     border: var(--hb-alert-border);
     border-radius: var(--hb-alert-border-radius);
     padding-inline-start: 0;
-    overflow: hidden;
     box-shadow: 3px 3px 20px 0px var(--hb-alert-border-color);
+
+    padding-bottom: 10px;
 }
 
 .alert-heading {
@@ -502,7 +392,9 @@ span.tooltip {
     margin: 0;
     padding: var(--hb-alert-padding-y) var(--hb-alert-padding-x);
     align-items: center;
-    background-color: #00000069;
+    background-color: #0000009d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .alert-link {
@@ -577,4 +469,10 @@ span.tooltip {
     --hb-alert-bg: var(--hb-quote-bg-subtle);
     --hb-alert-border-color: var(--hb-quote-border-subtle);
     --hb-alert-link-color: var(--hb-quote-text-emphasis);
+}
+.alert-cite {
+    --hb-alert-color: var(--hb-cite-text-emphasis);
+    --hb-alert-bg: var(--hb-cite-bg-subtle);
+    --hb-alert-border-color: var(--hb-cite-border-subtle);
+    --hb-alert-link-color: var(--hb-cite-text-emphasis);
 }
