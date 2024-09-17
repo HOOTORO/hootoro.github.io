@@ -19,8 +19,6 @@ slug: liepedia
 draft: false
 ---
 
-
-
 > [!danger] DISCLAIMER
 >
 > TL;DR
