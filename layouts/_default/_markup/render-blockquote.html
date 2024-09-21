@@ -29,7 +29,7 @@
         <blockquote {{ with .Attributes.cite }}cite="{{ . }}"{{ end }}>
             {{ .Text | safeHTML }}
             {{ with .Attributes.origin }}
-                — <cite>{{ . | safeHTML }}</cite>
+                — <cite>{{ . | safeHTML | markdownify }}</cite>
             {{ end }}
         </blockquote>
         {{ with .Attributes.caption }}
