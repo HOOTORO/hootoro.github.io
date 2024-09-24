@@ -1,6 +1,6 @@
 <span class="annotation">
     {{ with .Get 0 }}
-        <span class="doten">{{ . }}</span>
+        <span class="doten">{{ markdownify . }}</span>
     {{ end }}
     {{ with .Get 1 }}
         <span class="tooltip2">
@@ -8,3 +8,4 @@
         </span>
     {{ end }}
 </span>
+&#32

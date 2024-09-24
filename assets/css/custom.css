@@ -61,6 +61,7 @@
     --hb-dark-text-emphasis: #dee2e6;
     --hb-quote-text-emphasis: #dee2e6;
     --hb-cite-text-emphasis: #dee2e6;
+    --hb-theory-text-emphasis: #ececec;
 
     --hb-primary-bg-subtle: #330d1b;
     --hb-secondary-bg-subtle: #161719;
@@ -73,6 +74,7 @@
     --hb-dark-bg-subtle: #1a1d20;
     --hb-quote-bg-subtle: #1a1d20;
     --hb-cite-bg-subtle: #363d425d;
+    --hb-theory-bg-subtle: #3c155cc4;
 
     --hb-primary-border-subtle: #992652;
     --hb-secondary-border-subtle: #41464b;
@@ -85,6 +87,7 @@
     --hb-dark-border-subtle: #343a40;
     --hb-quote-border-subtle: #343a40;
     --hb-cite-border-subtle: #4e515e;
+    --hb-theory-border-subtle: #4f698b;
 }
 
 html {
@@ -475,4 +478,10 @@ span.tooltip {
     --hb-alert-bg: var(--hb-cite-bg-subtle);
     --hb-alert-border-color: var(--hb-cite-border-subtle);
     --hb-alert-link-color: var(--hb-cite-text-emphasis);
+}
+.alert-theory {
+    --hb-alert-color: var(--hb-theory-text-emphasis);
+    --hb-alert-bg: var(--hb-theory-bg-subtle);
+    --hb-alert-border-color: var(--hb-theory-border-subtle);
+    --hb-alert-link-color: var(--hb-theory-text-emphasis);
 }

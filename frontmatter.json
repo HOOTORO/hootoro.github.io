@@ -11,8 +11,8 @@
                     "single": true
                 },
                 {
-                    "title": "Description",
-                    "name": "description",
+                    "title": "Summary",
+                    "name": "Summary",
                     "type": "string",
                     "default": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
                 },
@@ -200,10 +200,6 @@
                         "operator": "eq",
                         "value": true
                     }
-                },
-                {
-                    "name": "divider",
-                    "type": "divider"
                 }
             ]
         },
