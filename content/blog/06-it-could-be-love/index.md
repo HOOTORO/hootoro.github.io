@@ -1,9 +1,9 @@
 ---
-title: O, Could this be love?
-description: Не хороший разработчик пишет не хорошую, не приятную и некогда забытую историю автобиографии
+title: What is Love?
+summary: Не хороший разработчик пишет не хорошую, не приятную и некогда забытую историю автобиографии
 author: HOOTORO
 date: 2020-02-02
-lastmod: 2024-08-13
+lastmod: 2024-09-26
 type: post
 draft: false
 preview: cover.jpg

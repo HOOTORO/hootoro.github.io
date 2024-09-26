@@ -1,3 +1,4 @@
+{{ $idea := partial "icon" "idea" }}
 {{ $emojis := dict
     "caution" ":exclamation:"
     "important" ":information_source:"
@@ -10,9 +11,8 @@
     "danger" ":zap:"
     "question" ":question:"
     "cite" "⟪…⟫"
-    "theory" ":thinking::thought_balloon:"
+    "theory" $idea
 }}
-
 {{ if eq .Type "alert" }}
     <blockquote class="alert alert-{{ .AlertType }}">
         <p class="alert-heading ml-2">

@@ -13,10 +13,24 @@
   {{- end -}}
 {{- end -}}
 {{- $attributes := merge .Attributes (dict "alt" .Text "src" $src "title" (.Title | transform.HTMLEscape)) -}}
-<img class="glightbox"
+<!-- img class="glightbox"
   {{- range $k, $v := $attributes -}}
     {{- if $v -}}
       {{- printf " %s=%q" $k $v | safeHTMLAttr -}}
     {{- end -}}
-  {{- end -}}>
+  {{- end -}}-->
 {{- /**/ -}}
+
+{{- if .IsBlock -}}
+  <figure>
+    <img src="{{ .Destination | safeURL }}"
+      {{- with .Text }} alt="{{ . }}"{{ end -}}
+    >
+    {{- with .Title }}<figcaption>{{ . }}</figcaption>{{ end -}}
+  </figure>
+{{- else -}}
+  <img class="glightbox" src="{{ .Destination | safeURL }}"
+    {{- with .Text }} alt="{{ . }}" data-title="{{ . }}" {{ end -}}
+    {{- with .Title }} title="{{ . }}" data-description="{{ . }}"{{ end -}}
+  >
+{{- end -}}

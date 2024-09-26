@@ -5,7 +5,7 @@ thumbnail: bb.png
 ---
 {{< katex >}}
 
-{{< figure src="logo/bb.webp" >}}
+{{< figure src="bb.webp" >}}
 
 |                 Type | Grade | Line       | Comment                                                                |
 | -------------------: | ----- | ---------- | ---------------------------------------------------------------------- |

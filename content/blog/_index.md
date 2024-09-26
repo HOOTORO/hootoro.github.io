@@ -7,14 +7,16 @@ cascade:
     showDate: true
     showAuthor: true
     showSummary: true
-    showWordCount: false
+    showWordCount: true
     invertPagination: true
-    showReadingTime: false
+    showReadingTime: true
     groupByYear: true
-    showTaxonomies: true
+    showTaxonomies: false
     showTableOfContents: true
     params:
         banner: images/look.jpg
+lastmod: 2024-09-26
+draft: true
 ---
 
 {{< lead >}}

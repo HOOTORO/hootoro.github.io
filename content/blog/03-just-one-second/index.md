@@ -1,15 +1,15 @@
 ---
 title: Одна с.
-description: Не хороший разработчик диву дается сколько может случиться за одну с.
+summary: Не хороший разработчик пишет и диву дается сколько может случиться за одну с.
 author: HOOTORO
 date: 2024-07-21
-lastmod: 2024-08-12
+lastmod: 2024-09-26
 preview: covers.png
 thumbnail: covers.png
 type: post
 draft: false
 tags:
-  - observation
+    - observation
 categories: travel
 slug: sec-m8
 toc: true

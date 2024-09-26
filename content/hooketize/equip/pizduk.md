@@ -1,6 +1,7 @@
 ---
 title: Pizduk Pro
 thumbnail: https://smokyland.shop/image/cache/catalog/Kalyany/Pizduk/pizduk-pro/IMG_3442-800x800.jpg
+preview: https://smokyland.shop/image/cache/catalog/Kalyany/Pizduk/pizduk-pro/IMG_3442-800x800.jpg
 ---
 {{< figure
     src="https://smokyland.shop/image/cache/catalog/Kalyany/Pizduk/pizduk-pro/IMG_3442-800x800.jpg"

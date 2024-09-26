@@ -1,18 +1,25 @@
 ---
-draft : false
-categories : true-story
-date : 2023-08-06
-description : a long, long time ago, in far, faraway country...
-slug : kiev-tongue
-tags : [ adventure, happy-end, people, travel, longread ]
-title : A clever tongue...they say...
-toc : true
-keywords : [ story, life ]
-type : post
-author : HOOTORO
-lastmod : 2024-08-12
-preview : cover.png
-thumbnail : cover.png
+draft: false
+categories: true-story
+date: 2023-08-06
+summary: A long, long time ago, in far, faraway country... Bad Dev made a bad decision
+tags:
+    - adventure
+    - happy-end
+    - people
+    - travel
+    - longread
+title: Язык до Киева доведет, да?
+toc: true
+keywords:
+    - story
+    - life
+type: post
+author: HOOTORO
+lastmod: 2024-09-26
+preview: cover.png
+thumbnail: cover.png
+slug: kiev
 ---
 
 

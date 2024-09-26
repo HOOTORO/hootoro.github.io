@@ -1,25 +1,26 @@
 ---
-title : Fear of the Patch
-date : 2023-07-31
-draft : false
-tags : 
-  - advice
-  - cognitive-bias
-  - fear
-  - it
-  - occasion
-  - people
-  - reason
-  - software
-  - upgrade
-  - longread
-categories : statement
-slug : fear-patch
-type : post
-preview : 8nm64g.jpg
-thumbnail : 8nm64g.jpg
-toc : true
-lastmod : 2024-08-11
+title: Fear of the Patch
+date: 2023-07-31
+draft: false
+tags:
+    - advice
+    - cognitive-bias
+    - fear
+    - it
+    - occasion
+    - people
+    - reason
+    - software
+    - upgrade
+    - longread
+categories: statement
+slug: fear-patch
+type: post
+preview: 8nm64g.jpg
+thumbnail: 8nm64g.jpg
+toc: true
+lastmod: 2024-09-26
+summary: Не хороший разработчик пишет о пользе обновлений
 ---
 
 * * *

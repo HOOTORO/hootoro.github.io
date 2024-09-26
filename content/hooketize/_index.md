@@ -21,6 +21,7 @@ cascade:
     showBreadcrumbs: true
     sharingLinks: false
     showEdit: false
+    showReadingTime: false
 
 ---
 
@@ -56,3 +57,5 @@ cascade:
 { .tobatable }
 
 ***
+
+## Контент

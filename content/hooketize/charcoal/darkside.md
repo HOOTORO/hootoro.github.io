@@ -1,10 +1,11 @@
 ---
 title: DARKSIDE CHARCOAL
+summary: worst charcoal ever
 description: Кокосовый уголь для кальяна
 date: 2024-08-30
 thumbnail: cover.png
 ---
-{{< figure src="https://image.kazanexpress.ru/cn2c8aivn02qe71avri0/t_product_high.jpg" title="Darkside. Worst one. stinks, rapid burnout, low heat" >}}
+![Darkside]
 
 {{< katex >}}
 
@@ -27,3 +28,5 @@ thumbnail: cover.png
 | ...                       |                                        вонюч |
 | ...                       |               стлевает чуть медленнее бумаги |
 | ...                       | где остальные в 3 куба справляются, этот в 4 |
+
+[Darkside]: https://thumb.tildacdn.com/tild6535-6330-4331-a539-653736383430/-/resize/288x/-/format/webp/Layer_1_6_.png "Worst one. stinks, rapid burnout, low heat"

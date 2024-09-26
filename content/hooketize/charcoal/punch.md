@@ -2,9 +2,10 @@
 title: Punch
 date: 2024-08-30
 thumbnail: cover.png
+summary: didn't remember tier
 ---
+![punch]
 
-{{< figure src="https://kazan.pitersmoke.ru/wa-data/public/shop/products/35/68/16835/images/25872/25872.970.jpg" title="Mediocre, took 1 time, smelly a lil bit" >}}
 {{< katex >}}
 
 ## Review
@@ -14,3 +15,5 @@ thumbnail: cover.png
 | ==Pros \\(\checkmark\\)== | \\(\colorbox{red}{Cons $\chi$}\\) |
 | :------------------------ | --------------------------------: |
 |                           |                               ... |
+
+[punch]: https://vape.market/wp-content/uploads/2022/06/Ugol-Crown-Punch-25mm72sht.jpg "Mediocre, took 1 time, smelly a lil bit"

@@ -1,8 +1,8 @@
 ---
 title: Лжепедия ru.ruwiki.ru
-summary: Не хороший разработчик испытывает не самое приятное чувство за других.
+summary: Не хороший разработчик пишет об амбициозном клоне википедии.
 date: 2024-09-11
-lastmod: 2024-09-17
+lastmod: 2024-09-26
 preview: cover.png
 thumbnail: cover.png
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Cocoloco
+summary: best charcoal
 date: 2024-08-30
 thumbnail: cover.png
 ---
