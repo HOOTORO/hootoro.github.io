@@ -25,7 +25,9 @@
                 {{ or (i18n .AlertType) (title .AlertType) }}
             {{ end }}
         </p>
-        {{ .Text | safeHTML }}
+        {{ with .Text }}
+            {{ . | safeHTML }}
+        {{ end }}
     </blockquote>
 {{ else }}
     <figure class="ml-2 ps-5">
