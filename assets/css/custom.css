@@ -99,7 +99,7 @@
     padding-inline-start: 0;
     box-shadow: 0 0 12px 2px var(--hb-alert-border-color);
     padding-bottom: 10px;
-    overflow: hidden;
+    font-weight: initial;
 }
 
 .alert-heading {
@@ -108,6 +108,7 @@
     margin: 0;
     padding: var(--hb-alert-padding-y) var(--hb-alert-padding-x);
     background-color: #000000da;
+    border-radius: var(--hb-alert-border-radius) var(--hb-alert-border-radius) 0 0;
 }
 
 .alert-link {
