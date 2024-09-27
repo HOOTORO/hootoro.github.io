@@ -31,6 +31,5 @@
 {{- else -}}
   <img class="glightbox" src="{{ .Destination | safeURL }}"
     {{- with .Text }} alt="{{ . }}" data-title="{{ . }}" {{ end -}}
-    {{- with .Title }} title="{{ . }}" data-description="{{ . }}"{{ end -}}
-  >
+    {{- with .Title }} title="{{ . }}" data-description="{{ . }}"{{ end -}}/>
 {{- end -}}
