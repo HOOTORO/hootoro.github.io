@@ -7,21 +7,21 @@ thumbnail: cover-ter.webp
 preview: cover-ter.webp
 draft: false
 tags:
-    - analysis
-    - bad-habit
-    - cognitive-bias
-    - community
-    - freedom
-    - government
-    - homeland
-    - observation
-    - people
-    - fear
+  - analysis
+  - bad-habit
+  - cognitive-bias
+  - community
+  - fear
+  - freedom
+  - gov
+  - homeland
+  - observation
+  - people
 categories: common-sense
 slug: terrorists-win
 songmeta:
-    artist: ""
-    title: null
+  artist: ""
+  title: null
 ---
 
 {{< lead >}}

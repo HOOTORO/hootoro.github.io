@@ -7,19 +7,19 @@ lastmod: 2024-09-26
 preview: cover.png
 thumbnail: cover.png
 categories:
-    - statement
+  - statement
 tags:
-    - corruption
-    - crime
-    - disinformation
-    - evidence
-    - fss
-    - government
-    - leak
-    - navalny
-    - observation
-    - opposition
-    - pol
+  - corruption
+  - crime
+  - disinformation
+  - evidence
+  - fss
+  - gov
+  - leak
+  - navalny
+  - observation
+  - opposition
+  - pol
 slug: fsbk
 draft: false
 toc: true

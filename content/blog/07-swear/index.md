@@ -7,18 +7,18 @@ preview: cover-rodina.webp
 thumbnail: cover-rodina.webp
 draft: false
 tags:
-    - advice
-    - cognitive-bias
-    - example
-    - homeland
-    - observation
-    - shame
-    - government
+  - advice
+  - cognitive-bias
+  - example
+  - gov
+  - homeland
+  - observation
+  - shame
 categories: common-sense
 keywords:
-    - государство
-    - долг
-    - родина
+  - государство
+  - долг
+  - родина
 slug: o-dolge
 ---
 

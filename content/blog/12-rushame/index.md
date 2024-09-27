@@ -6,15 +6,15 @@ lastmod: 2024-09-26
 preview: cover.png
 thumbnail: cover.png
 categories:
-    - review
+  - review
 tags:
-    - analysis
-    - community
-    - government
-    - observation
-    - shame
-    - software
-    - censorship
+  - analysis
+  - censorship
+  - community
+  - gov
+  - observation
+  - shame
+  - software
 slug: liepedia
 draft: false
 ---

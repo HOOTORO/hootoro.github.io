@@ -31,7 +31,6 @@
         rel    = 'external'
         target = "_blank"
         icon   = 'github'
-
 [[footer]]
     name    = "Tags"
     pageRef = "tags"
@@ -51,13 +50,6 @@
         #     name    = "Privacy"
         #     pageRef = "privacy"
         #     weight  = 30
-        # [[main]]
-        #     parent  = 'These'
-        #     name    = 'Things'
-        #     weight  = 80
-        #     pageRef = 'things'
-        #     [main.params]
-        #         class = 'center'
         # [[main]]
         #     parent  = 'Env'
         #     name    = 'These'

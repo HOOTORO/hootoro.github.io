@@ -15,8 +15,7 @@ cascade:
     showTableOfContents: true
     params:
         banner: images/look.jpg
-lastmod: 2024-09-26
-draft: true
+lastmod: 2024-09-27
 ---
 
 {{< lead >}}

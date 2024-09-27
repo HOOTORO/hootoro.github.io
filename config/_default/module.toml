@@ -8,12 +8,6 @@ workspace     = 'off'
 [hugoVersion]
     extended = true
     min      = "0.134.*"
-# [[imports]]
-#     path    = "github.com/hugo-sid/hugo-blog-awesome"
-#     disable = true
 [[imports]]
     path    = "github.com/jpanther/congo/v2"
     disable = false
-[[imports]]
-    path    = "github.com/hugomods/bootstrap"
-    disable = true

@@ -7,28 +7,28 @@ preview: cover.png
 thumbnail: cover.png
 draft: false
 tags:
-    - cognitive-bias
-    - freedom
-    - people
-    - government
+  - cognitive-bias
+  - freedom
+  - gov
+  - people
 categories: statement
 slug: cheburnet
 songmeta:
-    artist: Lumen
-    title: Не простил
+  artist: Lumen
+  title: Не простил
 song: audio/unforgive.mp3
 keywords:
-    - rss
-    - youtube
-    - движение
-    - новости
-    - общество
-    - организация
-    - последствия
-    - права
-    - пропаганда
-    - риск
-    - свобода
+  - rss
+  - youtube
+  - движение
+  - новости
+  - общество
+  - организация
+  - последствия
+  - права
+  - пропаганда
+  - риск
+  - свобода
 ---
 
 {{< lead >}}
