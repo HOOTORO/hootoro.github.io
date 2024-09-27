@@ -1,4 +1,5 @@
 {{ $idea := partial "icon" "idea" }}
+{{ $new := partial "icon" "admo/new" }}
 {{ $emojis := dict
     "caution" ":exclamation:"
     "important" ":information_source:"
@@ -12,6 +13,7 @@
     "question" ":question:"
     "cite" "⟪…⟫"
     "theory" $idea
+    "new" $new
 }}
 {{ if eq .Type "alert" }}
     <blockquote class="alert alert-{{ .AlertType }}">

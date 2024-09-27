@@ -3,15 +3,17 @@ title: Xiaomi Smart Kettle 2 pro
 date: 2024-01-19
 things: teakettle
 cover: https://ir.ozone.ru/s3/multimedia-d/wc1000/6613895209.jpg
-category: smart
+categories: device
 tags:
     - MiHome
     - kettle
     - kitchen
     - tea
     - boiler
+    - smart
 shop: https://www.ozon.ru/product/xiaomi-elektricheskiy-chaynik-mi-smart-thermostatic-kettle-2-pro-1-7l-mjjysh01ym-belyy-923381909
 price: 4583 ₽
+lastmod: 2024-09-27
 ---
 
 {{< katex >}}

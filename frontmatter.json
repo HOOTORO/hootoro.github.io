@@ -32,17 +32,17 @@
           "dateFormat": "yyyy-MM-dd"
         },
         {
-          "title": "Last modified date",
+          "title": "Modified date",
           "name": "lastmod",
           "type": "datetime",
           "isModifiedDate": true,
           "dateFormat": "yyyy-MM-dd"
         },
         {
-          "title": "Content preview",
+          "title": "Preview",
           "name": "preview",
           "type": "image",
-          "default": "logo.png"
+          "default": "cover.png"
         },
         {
           "title": "Tags",
@@ -95,9 +95,85 @@
       "pageBundle": false,
       "fields": [
         {
-          "name": "default",
-          "type": "fieldCollection",
-          "fieldGroup": "general"
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Summary",
+          "name": "Summary",
+          "type": "string",
+          "default": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        },
+        {
+          "title": "Author",
+          "name": "author",
+          "type": "string",
+          "single": true,
+          "default": "HOOTORO"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true,
+          "dateFormat": "yyyy-MM-dd"
+        },
+        {
+          "title": "Modified date",
+          "name": "lastmod",
+          "type": "datetime",
+          "isModifiedDate": true,
+          "dateFormat": "yyyy-MM-dd"
+        },
+        {
+          "title": "Preview",
+          "name": "preview",
+          "type": "image",
+          "default": "cover.png"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "Slug",
+          "name": "slug",
+          "type": "slug",
+          "editable": true
+        },
+        {
+          "title": "Navigation weight",
+          "name": "weight",
+          "type": "number"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "toc",
+          "name": "toc",
+          "type": "boolean"
+        },
+        {
+          "title": "tocOpen",
+          "name": "tocOpen",
+          "type": "boolean",
+          "when": {
+            "fieldRef": "toc",
+            "operator": "eq",
+            "value": true
+          }
         }
       ]
     },
@@ -138,7 +214,7 @@
           "dateFormat": "yyyy-MM-dd"
         },
         {
-          "title": "Last modified date",
+          "title": "Modified date",
           "name": "lastmod",
           "type": "datetime",
           "isModifiedDate": true,
@@ -174,11 +250,6 @@
           "type": "slug",
           "editable": true,
           "default": "{{slug}}"
-        },
-        {
-          "title": "Navigation weight",
-          "name": "weight",
-          "type": "number"
         },
         {
           "title": "Is in draft",
@@ -246,7 +317,7 @@
           "title": "Content preview",
           "name": "preview",
           "type": "image",
-          "default": "logo.png"
+          "default": "cover.png"
         },
         {
           "title": "Categories",
@@ -294,10 +365,6 @@
             "value": true
           },
           "default": false
-        },
-        {
-          "name": "divider",
-          "type": "divider"
         },
         {
           "title": "wiki",
@@ -403,7 +470,7 @@
       ]
     }
   ],
-  "frontMatter.framework.startCommand": "hugo server -D --navigateToChanged --disableFastRender --printPathWarnings",
+  "frontMatter.framework.startCommand": "hugo server -D --navigateToChanged",
   "frontMatter.content.publicFolder": "assets",
   "frontMatter.framework.id": "hugo",
   "frontMatter.preview.host": "http://localhost:1313",

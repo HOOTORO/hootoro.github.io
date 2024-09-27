@@ -2,7 +2,7 @@
 title: Razer Basilisk Ultimate & Mouse Dock
 date: 2023-04-17
 things: mouse
-category: device
+categories: device
 tags:
     - pc
     - accessories
@@ -12,7 +12,7 @@ shop: https://www.ozon.ru/product/razer-igrovaya-mysh-besprovodnaya-basilisk-ult
 price: 8 363 ₽
 cover: https://ir.ozone.ru/s3/multimedia-9/wc1000/6153033921.jpg
 color: black
-lastmod: 2024-09-21
+lastmod: 2024-09-27
 ---
 
 {{< katex >}}

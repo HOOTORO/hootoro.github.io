@@ -1,12 +1,13 @@
-##!HUGOAweesome
-### congo vars
+#* HUGO congo theme *#
+#*      vars        *#
 
-colorScheme          = "congo" # sapphire   ocean   congo   slate  cherry  avocado
-defaultAppearance    = "dark"
-autoSwitchAppearance = false
+#! sapphire   ocean   congo   slate  cherry  avocado
 
+colorScheme       = "ocean"
+defaultAppearance = "dark"
 defaultThemeColor = "#111014"
 
+autoSwitchAppearance   = false
 enableSearch           = true
 enableCodeCopy         = true
 enableImageLazyLoading = true
@@ -15,15 +16,15 @@ enableImageWebp        = true
 
 fingerprintAlgorithm = "sha256"
 
-# custom 
+#! custom 
 prcSubTypes = [
     'bmp',
     'png',
     'tiff',
 ]
-
-# hours 168 = 7 days
+#! hours 168 = 7 days
 newLabelExpiredAfter = 168
+
 mainSections = [
     "doc",
     "post",
@@ -34,7 +35,7 @@ mainSections = [
     logoDark  = "images/second-logo.png"
     showTitle = true
 [homepage]
-    layout      = "profile" # profile   page
+    layout      = "profile" #! profile page
     showRecent  = true
     recentLimit = 5
 [footer]
@@ -44,22 +45,22 @@ mainSections = [
     showScrollToTop        = true
 
 [article]
-    showDate            = false
-    showDateUpdated     = false
-    showAuthor          = false
+    showHeadingAnchors  = true
     showBreadcrumbs     = true
     showDraftLabel      = true
     showEdit            = true
-    editURL             = "https://github.com/HOOTORO/hootoro.github.io/tree/main/content"
-    editAppendPath      = true
-    showHeadingAnchors  = true
     showPagination      = true
-    invertPagination    = false
     showReadingTime     = true
+    editAppendPath      = true
+    editURL             = "https://github.com/HOOTORO/hootoro.github.io/tree/main/content"
+    invertPagination    = false
     showWordCount       = false
     showTableOfContents = false
-    showTaxonomies      = false
     showComments        = false
+    showTaxonomies      = false
+    showDate            = false
+    showDateUpdated     = false
+    showAuthor          = false
 
     sharingLinks = [
         "email",
@@ -78,16 +79,16 @@ mainSections = [
 [list]
     showBreadcrumbs     = true
     showSummary         = true
+    groupByYear         = true
     showTableOfContents = false
     showTaxonomies      = false
-    groupByYear         = true
     paginationWidth     = 1
 
-    # [sitemap]
-    # excludedKinds = [
-    #     "taxonomy",
-    #     "term",
-    # ]
+[sitemap]
+    excludedKinds = [
+        "taxonomy",
+        "term",
+    ]
 
 [taxonomy]
     showTermCount = true

@@ -6,11 +6,10 @@ things: robot
 category: smart
 cover: https://i02.appmifile.com/504_operator_sg/27/02/2024/7b40866578d5effc5da46a3622b86843.jpg
 tags:
-    - MiHome
-    - automation
-    - clean
-    - housework
-    - vacuum
+  - MiHome
+  - automation
+  - housework
+  - vacuum
 shop: gift, official https://www.mi.com/global/product/xiaomi-robot-vacuum-e5/
 ---
 

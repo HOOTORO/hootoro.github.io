@@ -1,15 +1,13 @@
 baseURL                = 'https://nogoodev.ru/'
 defaultContentLanguage = "en"
 
-summaryLength = 7 # first sentence
-
 googleAnalytics = "G-L9BMG9JD0J"
-# title = 'Bad Dev'
 
 enableEmoji         = true
 enableGitInfo       = true
 cleanDestinationDir = true
 enableRobotsTXT     = true
+summaryLength       = 0
 
 [pagination]
     pagerSize = 7

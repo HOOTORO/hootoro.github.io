@@ -3,7 +3,7 @@ title: "HOO-TO: RSS"
 summary: Не хороший разработчик ~~стелит солому~~, рассказывает как собрать ленту новостей в одном месте.
 author: HOOTORO
 date: 2024-08-02
-lastmod: 2024-09-21
+lastmod: 2024-09-27
 preview: cover.jpg
 thumbnail: cover.jpg
 draft: false
@@ -227,12 +227,12 @@ Achievement Unlocked
 </rss>
 ```
 
-### feed
+### Feed
 
 Не только одних гандонов.
 Куда дотянулся, собрал и оппозиционные, разумеется отдельно от рупора.
 
 {{< button href="#button" target="_self" download="rss_news_feeds.opml" >}}download rss_news_feeds.opml{{< /button >}}
 
-[^scoop]: [scoop.sh](https://scoop.sh/) - упрощенный менеджер пакетов для Windows, облегчает установку программ из консоли.
+[^scoop]: <https://scoop.sh> - упрощенный менеджер пакетов для Windows, облегчает установку программ из консоли.
 [^cmd]: Попасть в консоль можно при помощи комбинации <kbd>Win</kbd> + <kbd>X</kbd> и выбрать опцию `Терминал`

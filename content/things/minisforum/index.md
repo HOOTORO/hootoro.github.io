@@ -1,8 +1,8 @@
 ---
 title: MINISFORUM Neptune  HX77G
 date: 2023-09-21
-things: pc 
-category: device
+things: pc
+categories: device
 tags:
     - mini
     - windows
@@ -11,6 +11,7 @@ tags:
 shop: https://www.ozon.ru/my/orderdetails/?order=48054263-0073
 price: 77676₽
 cover: https://avatars.dzeninfra.ru/get-zen_doc/1879615/pub_64f73d59a35e890be44986c1_64f73d60a35e890be44988dc/scale_1200
+lastmod: 2024-09-27
 ---
 {{< katex >}}
 
