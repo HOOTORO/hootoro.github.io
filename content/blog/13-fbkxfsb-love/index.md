@@ -1,7 +1,6 @@
 ---
 title: ⫻ ФБК ⨉ ФСБ ≈ ⅟π
 summary: Не хороший разработчик пишет о последнем расследовании ФБК.
-author: HOOTORO
 date: 2024-09-24
 lastmod: 2024-09-29
 preview: cover.png
