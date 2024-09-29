@@ -1,19 +1,22 @@
-{{ $idea := partial "icon" "idea" }}
-{{ $new := partial "icon" "admo/new" }}
 {{ $emojis := dict
-    "caution" ":exclamation:"
-    "important" ":information_source:"
-    "note" ":information_source:"
-    "tip" ":bulb:"
-    "warning" ":warning:"
-    "disclaimer" ":warning:"
-    "info" ":information_source:"
-    "success" ":ballot_box_with_check:"
-    "danger" ":zap:"
-    "question" ":question:"
-    "cite" "⟪…⟫"
-    "theory" $idea
-    "new" $new
+    "caution" (partial "icon" "admo/exc")
+    "important" (partial "icon" "admo/exc")
+    "note" (partial "icon" "admo/info")
+    "tip" (partial "icon" "admo/tip")
+    "warning" (partial "icon" "admo/warning")
+    "disclaimer" (partial "icon" "admo/warning")
+    "info" (partial "icon" "admo/info")
+    "success" (partial "icon" "admo/success")
+    "danger" (partial "icon" "admo/danger")
+    "question" (partial "icon" "admo/question")
+    "cite" (partial "icon" "admo/quote")
+    "theory" (partial "icon" "idea")
+    "new" (partial "icon" "admo/new")
+    "conf" (partial "icon" "admo/cog")
+    "fail" (partial "icon" "admo/fail")
+    "abs" (partial "icon" "admo/abstract")
+    "legend" (partial "icon" "admo/abstract")
+    "like" (partial "icon" "admo/pump")
 }}
 {{ if eq .Type "alert" }}
     <blockquote class="alert alert-{{ .AlertType }}">

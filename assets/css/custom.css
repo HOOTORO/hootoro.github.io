@@ -1,39 +1,31 @@
 :root,
 [data-default-appearance="light"] {
     --hb-primary-text-emphasis: #661a36;
-    --hb-secondary-text-emphasis: #2b2f32;
+    --hb-legend-text-emphasis: #2b2f32;
     --hb-success-text-emphasis: #0a3622;
     --hb-info-text-emphasis: #055160;
     --hb-warning-text-emphasis: #664d03;
     --hb-danger-text-emphasis: #58151c;
-    --hb-light-text-emphasis: #495057;
-    --hb-dark-text-emphasis: #495057;
     --hb-quote-text-emphasis: #495057;
 
     --hb-primary-bg: #ffd9e7;
-    --hb-secondary-bg: #e2e3e5;
+    --hb-legend-bg: #e2e3e5;
     --hb-success-bg: #d1e7dd;
     --hb-info-bg: #cff4fc;
     --hb-warning-bg: #fff3cd;
     --hb-danger-bg: #f8d7da;
-    --hb-light-bg: #fcfcfd;
-    --hb-dark-bg: #ced4da;
     --hb-quote-bg: #ced4da;
 
     --hb-primary-border: #ffb3cf;
-    --hb-secondary-border: #c4c8cb;
+    --hb-legend-border: #c4c8cb;
     --hb-success-border: #a3cfbb;
     --hb-info-border: #9eeaf9;
     --hb-warning-border: #ffe69c;
     --hb-danger-border: #f1aeb5;
-    --hb-light-border: #e9ecef;
-    --hb-dark-border: #adb5bd;
     --hb-quote-border: #adb5bd;
 
-    --hb-font-sans-serif: Montserrat, Protest Guerrilla, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
-        "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-        "Noto Color Emoji";
-    --hb-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --hb-font-sans-serif: Montserrat, Protest Guerrilla, system-ui, -apple-system, Roboto, "Liberation Sans";
+    --hb-font-monospace: SFMono-Regular, Menlo, "Liberation Mono", "Courier New", monospace;
     --hb-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     --hb-body-font-family: var(--hb-font-sans-serif);
     --hb-body-font-size: 1rem;
@@ -51,31 +43,27 @@
 [data-default-appearance="dark"] {
     color-scheme: dark;
     --hb-primary-text-emphasis: #a82356e3;
-    --hb-secondary-text-emphasis: #a7acb1;
+    --hb-legend-text-emphasis: #a7acb1;
     --hb-success-text-emphasis: #75b798;
     --hb-info-text-emphasis: #6edff6;
     --hb-warning-text-emphasis: #ffda6a;
     --hb-new-text-emphasis: #cabe54;
     --hb-question-text-emphasis: #d6c590;
     --hb-danger-text-emphasis: #e6b8bc;
-    --hb-light-text-emphasis: #f8f9fa;
-    --hb-dark-text-emphasis: #dee2e6;
     --hb-quote-text-emphasis: #dee2e6;
     --hb-cite-text-emphasis: #dee2e6;
     --hb-theory-text-emphasis: #ececec;
 
     --hb-primary-border: #992652;
-    --hb-secondary-border: #41464b;
+    --hb-legend-border: #41464b;
     --hb-success-border: #10693f;
     --hb-info-border: #087990;
     --hb-warning-border: #997404;
     --hb-new-border: #ffee00;
-    --hb-question-border: #559b052f;
+    --hb-question-border: #559b05;
     --hb-danger-border: #ad1e2a;
-    --hb-light-border: #495057;
-    --hb-dark-border: #343a40;
-    --hb-quote-border: #343a40;
-    --hb-cite-border: #4e515e;
+    --hb-quote-border: #565a5e;
+    --hb-cite-border: #747477;
     --hb-theory-border: #4f698b;
 }
 
@@ -87,7 +75,7 @@
     --hb-alert-color: inherit;
     --hb-alert-link-color: inherit;
     --hb-alert-border-color: transparent;
-
+    --hb-alert-head-border-width: 3rem;
     --hb-alert-border: var(--hb-border-width) solid var(--hb-alert-border-color);
     --hb-alert-border-radius: var(--hb-border-radius);
     position: relative;
@@ -97,7 +85,7 @@
     border: var(--hb-alert-border);
     border-radius: var(--hb-alert-border-radius);
     padding-inline-start: 0;
-    box-shadow: 0 0 12px 2px var(--hb-alert-border-color);
+    box-shadow: 0 0 15px 0px var(--hb-alert-border-color);
     padding-bottom: 10px;
     font-weight: initial;
 }
@@ -108,7 +96,8 @@
     margin: 0;
     padding: var(--hb-alert-padding-y) var(--hb-alert-padding-x);
     background-color: #000000da;
-    border-radius: var(--hb-alert-border-radius) var(--hb-alert-border-radius) 0 0;
+    border-left: var(--hb-alert-head-border-width) ridge var(--hb-alert-border-color);
+    border-right: var(--hb-alert-head-border-width) groove var(--hb-alert-border-color);
 }
 
 .alert-link {
@@ -120,12 +109,6 @@
     --hb-alert-color: var(--hb-primary-text-emphasis);
     --hb-alert-border-color: var(--hb-primary-border);
     --hb-alert-link-color: var(--hb-primary-text-emphasis);
-}
-
-.alert-secondary {
-    --hb-alert-color: var(--hb-secondary-text-emphasis);
-    --hb-alert-border-color: var(--hb-secondary-border);
-    --hb-alert-link-color: var(--hb-secondary-text-emphasis);
 }
 
 .alert-success {
@@ -158,16 +141,10 @@
     --hb-alert-link-color: var(--hb-danger-text-emphasis);
 }
 
-.alert-light {
-    --hb-alert-color: var(--hb-light-text-emphasis);
-    --hb-alert-border-color: var(--hb-light-border);
-    --hb-alert-link-color: var(--hb-light-text-emphasis);
-}
-
-.alert-dark {
-    --hb-alert-color: var(--hb-dark-text-emphasis);
-    --hb-alert-border-color: var(--hb-dark-border);
-    --hb-alert-link-color: var(--hb-dark-text-emphasis);
+.alert-legend {
+    --hb-alert-color: var(--hb-legend-text-emphasis);
+    --hb-alert-border-color: var(--hb-legend-border);
+    --hb-alert-link-color: var(--hb-legend-text-emphasis);
 }
 .alert-quote {
     --hb-alert-color: var(--hb-quote-text-emphasis);
@@ -216,7 +193,7 @@ article > section dl > dt {
 
 .glightbox,
 .glightbox img {
-    border-radius: var(--hb-alert-border-radius);
+    border-radius: var(--hb-border-radius);
 }
 .gallery-box {
     display: inline-flex;
@@ -224,7 +201,7 @@ article > section dl > dt {
     flex-wrap: wrap;
 }
 .gallery-box img {
-    border-radius: var(--hb-alert-border-radius);
+    border-radius: var(--hb-border-radius);
     box-shadow: 0 0 20px 0 #00deff59;
 }
 
@@ -233,12 +210,10 @@ table > thead {
 }
 tbody > tr:nth-child(even) {
     background-color: #58585858;
-    border-bottom: 1px solid #088791b2;
 }
-
 tr {
-    border-radius: var(--hb-alert-border-radius);
-    overflow: hidden;
+    border-bottom: 1px solid #088791b2;
+    border-radius: var(--hb-border-radius);
 }
 
 summary {
@@ -251,7 +226,7 @@ summary {
     font-weight: bold;
     background-color: #e792e7;
     background-image: linear-gradient(90deg, #e792e7 0%, #6eb7f1 100%);
-    border-radius: var(--hb-alert-border-radius);
+    border-radius: var(--hb-border-radius);
 }
 summary div {
     display: inline-flex;
@@ -279,25 +254,23 @@ summary::after {
     margin-left: 0.75em;
     transition: 0.2s;
 }
-
-details {
-    margin-top: 10px;
-}
-details.admo[open] > summary::after {
-    transform: rotate(180deg);
-}
-
 summary::-webkit-details-marker {
     display: none;
 }
 
-details.admo[open] summary {
-    border-radius: var(--hb-alert-border-radius) var(--hb-alert-border-radius) 0 0;
+details {
+    margin-top: 10px;
+    overflow: hidden;
 }
-
+details.admo[open] > summary::after {
+    transform: rotate(180deg);
+}
+details.admo[open] summary {
+    border-radius: var(--hb-border-radius) var(--hb-border-radius) 0 0;
+}
 details.admo {
     background: #2196f3;
-    border-radius: var(--hb-alert-border-radius);
+    border-radius: var(--hb-border-radius);
 }
 details.admo::not(summary) > * {
     margin: 0;
@@ -313,57 +286,15 @@ details.admo::not(summary) > * {
     color: coral;
     border-color: coral;
 }
-.doten {
-    margin-top: 0;
-    margin-bottom: 0;
-    text-decoration-style: dashed;
-    text-decoration-color: #00ffff88;
-    text-decoration-line: underline;
-    font-style: italic;
-}
-
-.annotation {
-    display: inline-block;
-    position: relative;
-    font-style: normal;
-    font-weight: 400;
-    outline: none;
-    text-align: initial;
-    white-space: normal;
-}
-
-.annotation:hover:has(.tooltip2) .tooltip2 {
-    visibility: visible;
-    opacity: 1;
-}
-
-.tooltip2 {
-    visibility: hidden;
-    opacity: 0;
-    transition:
-        visibility 0s,
-        opacity 0.5s ease;
-}
-.tooltip2 {
-    color: #010101;
-    background-color: #ffc400;
-    font-size: x-small;
-    position: absolute;
-    bottom: 30px;
-    min-width: max-content;
-    padding: 0 4px;
-    border-radius: var(--hb-alert-border-radius);
-    transition: all 1000ms ease-in-out;
-    z-index: 1;
-}
 
 .thing-card {
     border: 1px solid yellow;
-    border-radius: var(--hb-alert-border-radius);
+    border-radius: var(--hb-border-radius);
     padding: 4px 0;
     margin: 4px;
     max-width: 40%;
 }
+
 .gslide-desc {
     color: black;
 }

@@ -1,16 +1,20 @@
 ---
-author : HOOTORO
 title : Hooka
-draft : false
-tocOpen : true
+author : HOOTORO
 description : List of smoked hookah tobacco
-tags : [ cognitive-bias, hobby, passion, people, bad-habit ]
-date : 2023-07-30
-toc : true
 categories : review
+tags : 
+    - cognitive-bias
+    - hobby
+    - passion
+    - people
+    - bad-habit
+date : 2023-07-30
+lastmod : 2024-08-10
+toc : true
+tocOpen : true
 preview : cover-logo.jpg
 thumbnail : logo2.jpg
-lastmod : 2024-08-10
 slug: hooketize
 cascade:
     showDate: false
@@ -22,6 +26,7 @@ cascade:
     sharingLinks: false
     showEdit: false
     showReadingTime: false
+    showPagination: false
 
 ---
 

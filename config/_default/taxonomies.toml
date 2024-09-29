@@ -2,5 +2,6 @@
 
 category = 'categories'
 tag      = 'tags'
+tobacco  = 'tobaccos'
 # topic    = 'topics'
-thing = 'things'
+device = 'things'

@@ -54,13 +54,13 @@ mainSections = [
     editAppendPath      = true
     editURL             = "https://github.com/HOOTORO/hootoro.github.io/tree/main/content"
     invertPagination    = false
-    showWordCount       = false
+    showWordCount       = true
     showTableOfContents = false
     showComments        = false
-    showTaxonomies      = false
-    showDate            = false
+    showTaxonomies      = true
+    showDate            = true
     showDateUpdated     = false
-    showAuthor          = false
+    showAuthor          = true
 
     sharingLinks = [
         "email",

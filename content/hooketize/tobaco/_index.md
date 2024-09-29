@@ -1,10 +1,10 @@
 ---
 title: Tasted Tobacco!
 thumbnail: cover.jpg
-toc: true
 weight: 1
 summary: Almost every flavor I've ever tried
 showSummary: true
+showPagination: false
 cascade:
     showSummary: false
 ---

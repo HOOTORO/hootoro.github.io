@@ -25,12 +25,14 @@
     pageRef = '/about'
     weight  = 50
 [[main]]
+    name   = "GitHub"
     url    = 'https://github.com/HOOTORO/'
     weight = 90
     [main.params]
-        rel    = 'external'
-        target = "_blank"
-        icon   = 'github'
+        showName = false
+        rel      = 'external'
+        target   = "_blank"
+        icon     = 'github'
 [[footer]]
     name    = "Tags"
     pageRef = "tags"

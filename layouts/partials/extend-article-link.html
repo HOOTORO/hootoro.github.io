@@ -4,8 +4,8 @@
     {{ $text := "added $dd days ago" }}
     {{ if le ($publDuration.Hours | int) $.Site.Params.newLabelExpiredAfter }}
         <span class="icon new annotation">
-            {{ partial "icon.html" "admo/new" }}
-            <span class="tooltip2">
+            {{ partial "icon" "admo/new" }}
+            <span class="tooltip">
                 {{ replace $text "$dd" $d }}
             </span>
         </span>
