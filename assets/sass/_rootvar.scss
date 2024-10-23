@@ -1,0 +1,69 @@
+:root,
+[data-default-appearance="light"] {
+    --hb-primary-text-emphasis: #661a36;
+    --hb-legend-text-emphasis: #2b2f32;
+    --hb-success-text-emphasis: #0a3622;
+    --hb-info-text-emphasis: #055160;
+    --hb-warning-text-emphasis: #664d03;
+    --hb-danger-text-emphasis: #58151c;
+    --hb-quote-text-emphasis: #495057;
+
+    --hb-primary-bg: #ffd9e7;
+    --hb-legend-bg: #e2e3e5;
+    --hb-success-bg: #d1e7dd;
+    --hb-info-bg: #cff4fc;
+    --hb-warning-bg: #fff3cd;
+    --hb-danger-bg: #f8d7da;
+    --hb-quote-bg: #ced4da;
+
+    --hb-primary-border: #ffb3cf;
+    --hb-legend-border: #c4c8cb;
+    --hb-success-border: #a3cfbb;
+    --hb-info-border: #9eeaf9;
+    --hb-warning-border: #ffe69c;
+    --hb-danger-border: #f1aeb5;
+    --hb-quote-border: #adb5bd;
+
+    --hb-font-sans-serif: Montserrat, Protest Guerrilla, system-ui, -apple-system, Roboto, "Liberation Sans";
+    --hb-font-monospace: SFMono-Regular, Menlo, "Liberation Mono", "Courier New", monospace;
+    --hb-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --hb-body-font-family: var(--hb-font-sans-serif);
+    --hb-body-font-size: 1rem;
+    --hb-body-font-weight: 400;
+    --hb-body-line-height: 1.5;
+
+    --hb-border-radius: 0.4rem;
+    --hb-border-width: 2px;
+    --hb-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    --hb-box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    --hb-box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    --hb-box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+    --stripe-color: #edaada;
+}
+
+[data-default-appearance="dark"] {
+    color-scheme: dark;
+    --hb-primary-text-emphasis: #a82356e3;
+    --hb-legend-text-emphasis: #a7acb1;
+    --hb-success-text-emphasis: #75b798;
+    --hb-info-text-emphasis: #6edff6;
+    --hb-warning-text-emphasis: #ffda6a;
+    --hb-new-text-emphasis: #cabe54;
+    --hb-question-text-emphasis: #d6c590;
+    --hb-danger-text-emphasis: #e6b8bc;
+    --hb-quote-text-emphasis: #dee2e6;
+    --hb-cite-text-emphasis: #dee2e6;
+    --hb-theory-text-emphasis: #ececec;
+
+    --hb-primary-border: #992652;
+    --hb-legend-border: #41464b;
+    --hb-success-border: #10693f;
+    --hb-info-border: #087990;
+    --hb-warning-border: #997404;
+    --hb-new-border: #ffee00;
+    --hb-question-border: #559b05;
+    --hb-danger-border: #ad1e2a;
+    --hb-quote-border: #565a5e;
+    --hb-cite-border: #747477;
+    --hb-theory-border: #4f698b;
+}
