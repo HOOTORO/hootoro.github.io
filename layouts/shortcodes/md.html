@@ -1,0 +1,6 @@
+{{ with .Page.Resources.Get (.Get 0) }}
+{{/*  {{ warnf "0: %s" .  }}  */}}
+<pre class="embed-md">
+    {{ .RawContent }}
+</pre>
+{{ end }}

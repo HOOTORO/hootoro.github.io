@@ -148,67 +148,6 @@ tr {
     border-radius: var(--hb-border-radius);
 }
 
-summary {
-    display: flex;
-    color: #30353b;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    font-weight: bold;
-    background-color: #e792e7;
-    background-image: linear-gradient(90deg, #e792e7 0%, #6eb7f1 100%);
-    border-radius: var(--hb-border-radius);
-}
-summary div {
-    display: inline-flex;
-    margin-left: 10px;
-    align-items: center;
-    max-width: 90%;
-    overflow-x: hidden;
-    text-wrap: pretty;
-}
-summary span {
-    width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-summary svg {
-    width: 24px;
-}
-summary::after {
-    content: "";
-    width: 18px;
-    height: 10px;
-    background: url("https://uploads.sitepoint.com/wp-content/uploads/2023/10/1697699669arrow.svg") no-repeat;
-    background-size: cover;
-    margin-left: 0.75em;
-    transition: 0.2s;
-}
-summary::-webkit-details-marker {
-    display: none;
-}
-
-details {
-    margin-top: 10px;
-    overflow: hidden;
-}
-details.admo[open] > summary::after {
-    transform: rotate(180deg);
-}
-details.admo[open] summary {
-    border-radius: var(--hb-border-radius) var(--hb-border-radius) 0 0;
-}
-details.admo {
-    background: #2196f3;
-    border-radius: var(--hb-border-radius);
-}
-details.admo::not(summary) > * {
-    margin: 0;
-    padding: 0 !important;
-}
-
 /* extra styles */
 
 .new {

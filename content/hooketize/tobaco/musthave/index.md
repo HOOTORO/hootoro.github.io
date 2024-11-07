@@ -19,14 +19,14 @@ thumbnail: musthave.png
 | Pistachio cake | 🅱️     | ~    | average                                                  |
 |        Jumango | 🅱️     | ~    | average                                                  |
 |          Alova | 🅱️     | ~    | average, aloe, pink guava                                |
-|     Lemon-lime | 🍋     | ~    | meh                                                      |
+|     Lemon-lime | 🍋     | ~    | meh+                                                     |
 |      Nord star | 🍋     | ~    | It should be cherry, but meh. BB:O cherry way better     |
 |    Maple Pecan | ❌     | ~    | awful                                                    |
-|     Grapefruit | ❌     | ~    | awful                                                    |
+|     Grapefruit | ❌     | ~    | awful+                                                   |
 |     Watermelon | ❌     | ~    | awful                                                    |
 |    Holland Pie | ❌     | ~    | awful                                                    |
 |     Pearl Pool | ❌     | ~    | awful                                                    |
-|        Pinkman | ❌     | ~    | awful                                                    |
+|        Pinkman | ❌     | ~    | awful  +                                                 |
 |      Rocketman | ❌     | ~    | strawberry, грейпфрут, киви                              |
 |     Ruby grape | ❌     | ~    | awful                                                    |
 { .tobatable }

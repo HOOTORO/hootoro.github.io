@@ -1,9 +1,8 @@
 // $alerts
 
 blockquote.alert > *:not(.alert-heading) {
+    margin: 0.7em 1em;
     font-size: 11pt;
-    margin-left: 2rem;
-    margin-right: 1rem;
 }
 blockquote.alert > p {
     &::before,
@@ -11,7 +10,7 @@ blockquote.alert > p {
         content: none !important;
     }
 }
-
+ 
 .alert {
     --hb-alert-bg: #ffffff0e;
     --hb-alert-padding-x: 2rem;
@@ -30,8 +29,7 @@ blockquote.alert > p {
     border: var(--hb-alert-border);
     border-radius: var(--hb-alert-border-radius);
     padding-inline-start: 0;
-    box-shadow: 0 0 15px 0px var(--hb-alert-border-color);
-    padding-bottom: 10px;
+    box-shadow: 0 0 0.4em 0 var(--hb-alert-border-color);
     font-weight: initial;
 }
 
@@ -110,4 +108,9 @@ blockquote.alert > p {
     --hb-alert-color: var(--hb-new-text-emphasis);
     --hb-alert-border-color: var(--hb-new-border);
     --hb-alert-link-color: var(--hb-new-text-emphasis);
+}
+.alert-like {
+    --hb-alert-color: var(--hb-primary-text-emphasis);
+    --hb-alert-border-color: var(--hb-primary-border);
+    --hb-alert-link-color: var(--hb-primary-text-emphasis);
 }

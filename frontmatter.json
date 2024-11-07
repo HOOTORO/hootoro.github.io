@@ -12,7 +12,7 @@
         },
         {
           "title": "Summary",
-          "name": "Summary",
+          "name": "summary",
           "type": "string",
           "default": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
         },
@@ -102,7 +102,7 @@
         },
         {
           "title": "Summary",
-          "name": "Summary",
+          "name": "summary",
           "type": "string",
           "default": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
         },
@@ -470,7 +470,7 @@
       ]
     }
   ],
-  "frontMatter.framework.startCommand": "hugo server -D --navigateToChanged",
+  "frontMatter.framework.startCommand": "hugo server -DFN",
   "frontMatter.content.publicFolder": "assets",
   "frontMatter.framework.id": "hugo",
   "frontMatter.preview.host": "http://localhost:1313",

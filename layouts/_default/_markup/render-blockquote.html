@@ -34,7 +34,7 @@
         {{ end }}
     </blockquote>
 {{ else }}
-    <figure class="ml-2 ps-5">
+    <figure class="cite">
         <blockquote {{ with .Attributes.cite }}cite="{{ . }}"{{ end }}>
             {{ .Text | safeHTML }}
             {{ with .Attributes.origin }}

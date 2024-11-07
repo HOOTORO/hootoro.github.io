@@ -1,12 +1,15 @@
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
     <audio
+        class="blo"
         controls
-        preload="{{ .Get "preload" | default "metadata" }}">
+        preload="{{ .Get "preload" | default "metadata" }}"
+        controlslist="nodownload noplaybackrate foobar"
+        >
         {{ with .Get "src" }}
             <source
-                src="{{ .  | relURL }}"
+                src="{{ . }}"
                 type="audio/mpeg" />
         {{ end }}
-        {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
     </audio>
+    {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 </figure>

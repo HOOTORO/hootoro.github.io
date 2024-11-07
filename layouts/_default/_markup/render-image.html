@@ -23,8 +23,9 @@
 
 {{- if .IsBlock -}}
   <figure>
-    <img src="{{ .Destination | safeURL }}"
+    <img class="blo" src="{{ .Destination | safeURL }}"
       {{- with .Text }} alt="{{ . }}"{{ end -}}
+
     >
     {{- with .Title }}<figcaption>{{ . }}</figcaption>{{ end -}}
   </figure>

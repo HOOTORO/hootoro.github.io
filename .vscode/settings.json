@@ -1,4 +1,7 @@
 {
+    "[markdown]": {},
+    "commentTranslate.source": "Google",
+    "cSpell.language": "en,ru,ru-RU,en-US,lorem,en-GB",
     "cSpell.words": [
         "Alova",
         "Bana",
@@ -115,16 +118,11 @@
         "ютаб",
         "ярковыраженым"
     ],
-    "cSpell.language": "en,ru,ru-RU,en-US,lorem,en-GB",
-    "[markdown]": {},
+    "frontMatter.content.autoUpdateDate": true,
     "frontMatter.dashboard.openOnStart": true,
     "markdownlint.config": {
         "MD055": false,
         "MD056": false
     },
-    "svg.preview.background": "dark-transparent",
-    "frontMatter.content.fmHighlight": true,
-    "frontMatter.content.autoUpdateDate": true,
-    "frontMatter.framework.startCommand": "hugo server -D --navigateToChanged",
-    "commentTranslate.source": "Google"
+    "svg.preview.background": "dark-transparent"
 }

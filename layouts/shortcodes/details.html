@@ -1,23 +1,46 @@
+{{ $emojis := dict
+    "caution" (partial "icon" "admo/exc")
+    "important" (partial "icon" "admo/exc")
+    "note" (partial "icon" "admo/info")
+    "tip" (partial "icon" "admo/tip")
+    "warning" (partial "icon" "admo/warning")
+    "disclaimer" (partial "icon" "admo/warning")
+    "info" (partial "icon" "admo/info")
+    "success" (partial "icon" "admo/success")
+    "danger" (partial "icon" "admo/danger")
+    "question" (partial "icon" "admo/question")
+    "cite" (partial "icon" "admo/quote")
+    "theory" (partial "icon" "idea")
+    "new" (partial "icon" "admo/new")
+    "conf" (partial "icon" "admo/cog")
+    "fail" (partial "icon" "admo/fail")
+    "abs" (partial "icon" "admo/abstract")
+    "legend" (partial "icon" "admo/abstract")
+    "like" (partial "icon" "admo/pump")
+    "joke" ":grin:"
+}}
+
+{{ $sources := dict
+    "tg" (partial "icon" "logo/tlg")
+    "vk" (partial "icon" "logo/vk")
+    "g" (partial "icon" "logo/gmail")
+    "dis" (partial "icon" "logo/discord")
+}}
+
 {{ if .IsNamedParams }}
     {{- $t := .Get "title"| default "note" -}}
     {{- $type := .Get "type" | default "note" -}}
+    {{- $srcType := .Get "src" | default "origin" -}}
 
     {{- $raw := (markdownify .Inner | chomp) -}}
-    <details class="admo {{ $type }}">
+    <details class="{{ $type }} g-border">
         <summary class="title">
-            <div>
-                {{ with resources.Get (printf "icons/admo/%s.svg" $type) }}
-                    {{ .Content |  safeHTML }}
-                {{ end }}
-                <span>{{ $t }}</span>
-            </div>
+                {{ transform.Emojify (index $emojis $type) }}
+                {{ transform.Emojify (index $sources $srcType) }}
+                {{ $t }}
         </summary>
         <article>
-            <div class="prelike">
-                <div class="codelike">
                     {{- $raw -}}
-                </div>
-            </div>
         </article>
     </details>
 {{ end }}

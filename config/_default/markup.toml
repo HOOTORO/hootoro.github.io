@@ -1,7 +1,7 @@
 defaultMarkdownHandler = 'goldmark'
 
 [tableOfContents]
-    startLevel = 2
+    startLevel = 1
     endLevel   = 4
 [highlight]
     noClasses = true
@@ -32,7 +32,7 @@ defaultMarkdownHandler = 'goldmark'
 [goldmark.parser]
     autoHeadingID                      = true
     autoHeadingIDType                  = 'github'
-    wrapStandAloneImageWithinParagraph = true
+    wrapStandAloneImageWithinParagraph = false
     [goldmark.parser.attribute]
         block = true
         title = true
