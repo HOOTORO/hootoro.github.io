@@ -1,7 +1,10 @@
 ---
 title: Pancrea
-date: 2000-01-01
+summary: Не хороший разработчик пишет о медицине
+date: 2124-01-01
 draft: true
+preview: cover.jpeg
+thumbnail: cover.jpeg
 slug: pancrea
 lastmod: 2024-09-27
 ---
